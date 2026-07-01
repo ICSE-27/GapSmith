@@ -1,0 +1,43 @@
+[Role]
+    You are an expert C/C++ fuzzer and compiler test generator with deep understanding of compiler mechanisms.
+    Please generate test programs that satisfy the given requirements, target the specified coverage targets,
+    and explore compiler paths beyond those explicitly described.
+    [Failures Case]
+    
+    [Target Requirements]
+    Target compiler file:
+    /data/mingxuanzhu/gcc-14.3.0/gcc/modulo-sched.cc
+    Coverage goal:
+    Trigger the modulo scheduling (SMS) pass to execute the `order_nodes_in_scc` function and its helper functions (`find_max_asap`, `find_max_hv_min_mob`, `find_max_dv_min_mob`) for a specific strongly connected component (SCC) within a loop's data dependence graph (DDG). The goal is to cover the uncovered basic blocks in these functions, which handle the selection of nodes for ordering based on ASAP, HEIGHT, DEPTH, and MOB (mobility) values, and the alternating TOPDOWN/BOTTOMUP traversal of the SCC.
+    The compilation options targeted by the generated test program structure:
+    -O3 -fmodulo-sched -fmodulo-sched-allow-regmoves
+    The basic blocks in /data/mingxuanzhu/gcc-14.3.0/gcc/modulo-sched.cc to be covered by the generated program structure:
+    `find_max_asap` (lines 2645-2662)
+- **Required program structure:** A loop that is a candidate for SMS and contains an SCC. The SCC must have at least one node. The `find_max_asap` function is called when the SCC has no predecessors or successors already ordered (line 2761). The loop structure must cause the `workset` to be empty initially, leading to the selection of a node from the SCC based on its ASAP value.
+- **Trigger condition:** The SCC must be such that `bitmap_and(tmp, predecessors, scc)` and `bitmap_and(tmp, successors, scc)` both return false (line 2746 and 2751). This means no node in the SCC has a predecessor or successor that is already in the `nodes_ordered` set. The loop should have a DDG where the SCC is isolated from the already-ordered nodes.
+
+`find_max_hv_min_mob` (lines 2666-2692)
+- **Required program structure:** A loop with an SCC that is being processed in the TOPDOWN direction (line 2774). The `workset` must contain at least one node. The function iterates over the `workset` to find the node with the maximum HEIGHT and, in case of a tie, the minimum MOB.
+- **Trigger condition:** The SCC must contain multiple nodes with different HEIGHT and MOB values. The TOPDOWN path is taken when the SCC has successors in the `nodes_ordered` set (line 2751). The loop structure must create a DDG where the HEIGHT and MOB attributes of nodes within the SCC vary, forcing the tie-breaking logic (line 2684) to be exercised.
+
+`find_max_dv_min_mob` (lines 2695-2721)
+- **Required program structure:** A loop with an SCC that is being processed in the BOTTOMUP direction (line 2790). The `workset` must contain at least one node. The function iterates over the `workset` to find the node with the maximum DEPTH and, in case of a tie, the minimum MOB.
+- **Trigger condition:** The SCC must have predecessors in the `nodes_ordered` set (line 2746). The loop structure must create a DDG where the DEPTH and MOB attributes of nodes within the SCC vary, forcing the tie-breaking logic (line 2713) to be exercised.
+
+`order_nodes_in_scc` main loop (lines 2767-2816)
+- **Required program structure:** A loop with an SCC that has a complex internal structure, causing the `while` loop (line 2767) to iterate multiple times, alternating between TOPDOWN and BOTTOMUP directions. The SCC must have both predecessors and successors in the `nodes_ordered` set at different stages of the ordering.
+- **Trigger condition:** The SCC must be large enough (e.g., 3 or more nodes) and have a structure where after processing all nodes in one direction, the other direction's `workset` is non-empty. This requires the SCC to have a "diamond" or more complex shape, where nodes have both incoming and outgoing edges to nodes outside the initial `workset`. The loop must be such that the `nodes_ordered` set grows incrementally, causing the `find_predecessors` and `find_successors` calls (lines 2792, 2813) to yield new nodes for the opposite direction.
+    [General Requirements]
+    Standards & Compliance: : ISO C99 compliant; self-contained and compilable with a standard gcc/llvm compiler; no undefined behavior or compiler extensions.
+    Program Structure: Include a main function and multiple helper functions; use non trivial control flow (e.g., nested conditionals, loops, and function calls).
+    Scale & Complexity: Approximately 80–120 lines of code; structurally complex enough to allow diverse compilation paths while remaining readable and well-formed.
+    Determinism & Inputs: No external inputs, system calls, or I/O dependencies; program behavior should be deterministic and reproducible.
+    [Instruction]
+    1. Generate test programs that match the given targeted requirements.
+    2.Avoid generating test programs that are structurally similar to given failure cases, based on reflection results.
+    3. Ensure the programs meet the general requirements and have a well-structured design.
+    4. Output complete, compilable C/C++ test program.
+    [Output]
+    Output a complete C/C++ test program only.
+    Do NOT include explanations or markdown fences.
+    

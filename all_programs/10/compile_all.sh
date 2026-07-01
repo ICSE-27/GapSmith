@@ -1,0 +1,5740 @@
+#!/bin/bash
+# Extracted compilation commands from main_family.log
+# Total: 5737 commands
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_001.c -o iteration_0_program_001.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_002.c -o iteration_0_program_002.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_003.c -o iteration_0_program_003.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_004.c -o iteration_0_program_004.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_005.c -o iteration_0_program_005.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_006.c -o iteration_0_program_006.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_007.c -o iteration_0_program_007.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_008.c -o iteration_0_program_008.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_009.c -o iteration_0_program_009.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_010.c -o iteration_0_program_010.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_011.c -o iteration_0_program_011.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_012.c -o iteration_0_program_012.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_013.c -o iteration_0_program_013.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_014.c -o iteration_0_program_014.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_015.c -o iteration_0_program_015.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_016.c -o iteration_0_program_016.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_017.c -o iteration_0_program_017.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_018.c -o iteration_0_program_018.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_019.c -o iteration_0_program_019.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_020.c -o iteration_0_program_020.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_021.c -o iteration_0_program_021.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_022.c -o iteration_0_program_022.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_023.c -o iteration_0_program_023.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_024.c -o iteration_0_program_024.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_025.c -o iteration_0_program_025.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_026.c -o iteration_0_program_026.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_027.c -o iteration_0_program_027.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_028.c -o iteration_0_program_028.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_029.c -o iteration_0_program_029.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_030.c -o iteration_0_program_030.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_031.c -o iteration_0_program_031.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_032.c -o iteration_0_program_032.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_033.c -o iteration_0_program_033.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_034.c -o iteration_0_program_034.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_035.c -o iteration_0_program_035.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_036.c -o iteration_0_program_036.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_037.c -o iteration_0_program_037.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_038.c -o iteration_0_program_038.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_039.c -o iteration_0_program_039.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_040.c -o iteration_0_program_040.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_041.c -o iteration_0_program_041.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_042.c -o iteration_0_program_042.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_043.c -o iteration_0_program_043.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_044.c -o iteration_0_program_044.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_045.c -o iteration_0_program_045.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_046.c -o iteration_0_program_046.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_047.c -o iteration_0_program_047.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_048.c -o iteration_0_program_048.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_049.c -o iteration_0_program_049.out
+gcc -O2 -fsanitize=address -fopenmp iteration_0_program_050.c -o iteration_0_program_050.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_001.c -o iteration_0_program_001.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_002.c -o iteration_0_program_002.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_003.c -o iteration_0_program_003.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_004.c -o iteration_0_program_004.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_005.c -o iteration_0_program_005.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_006.c -o iteration_0_program_006.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_007.c -o iteration_0_program_007.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_008.c -o iteration_0_program_008.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_009.c -o iteration_0_program_009.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_010.c -o iteration_0_program_010.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_011.c -o iteration_0_program_011.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_012.c -o iteration_0_program_012.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_013.c -o iteration_0_program_013.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_014.c -o iteration_0_program_014.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_015.c -o iteration_0_program_015.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_016.c -o iteration_0_program_016.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_017.c -o iteration_0_program_017.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_018.c -o iteration_0_program_018.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_019.c -o iteration_0_program_019.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_020.c -o iteration_0_program_020.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_021.c -o iteration_0_program_021.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_022.c -o iteration_0_program_022.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_023.c -o iteration_0_program_023.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_024.c -o iteration_0_program_024.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_025.c -o iteration_0_program_025.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_026.c -o iteration_0_program_026.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_027.c -o iteration_0_program_027.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_028.c -o iteration_0_program_028.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_029.c -o iteration_0_program_029.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_030.c -o iteration_0_program_030.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_031.c -o iteration_0_program_031.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_032.c -o iteration_0_program_032.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_033.c -o iteration_0_program_033.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_034.c -o iteration_0_program_034.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_035.c -o iteration_0_program_035.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_036.c -o iteration_0_program_036.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_037.c -o iteration_0_program_037.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_038.c -o iteration_0_program_038.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_039.c -o iteration_0_program_039.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_040.c -o iteration_0_program_040.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_041.c -o iteration_0_program_041.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_042.c -o iteration_0_program_042.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_043.c -o iteration_0_program_043.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_044.c -o iteration_0_program_044.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_045.c -o iteration_0_program_045.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_046.c -o iteration_0_program_046.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_047.c -o iteration_0_program_047.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_048.c -o iteration_0_program_048.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_049.c -o iteration_0_program_049.out
+gcc -O2 -fsanitize=kernel-hwaddress -fopenmp iteration_0_program_050.c -o iteration_0_program_050.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_001.c -o iteration_0_program_001.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_002.c -o iteration_0_program_002.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_003.c -o iteration_0_program_003.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_004.c -o iteration_0_program_004.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_005.c -o iteration_0_program_005.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_006.c -o iteration_0_program_006.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_007.c -o iteration_0_program_007.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_008.c -o iteration_0_program_008.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_009.c -o iteration_0_program_009.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_010.c -o iteration_0_program_010.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_011.c -o iteration_0_program_011.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_012.c -o iteration_0_program_012.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_013.c -o iteration_0_program_013.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_014.c -o iteration_0_program_014.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_015.c -o iteration_0_program_015.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_016.c -o iteration_0_program_016.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_017.c -o iteration_0_program_017.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_018.c -o iteration_0_program_018.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_019.c -o iteration_0_program_019.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_020.c -o iteration_0_program_020.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_021.c -o iteration_0_program_021.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_022.c -o iteration_0_program_022.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_023.c -o iteration_0_program_023.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_024.c -o iteration_0_program_024.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_025.c -o iteration_0_program_025.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_026.c -o iteration_0_program_026.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_027.c -o iteration_0_program_027.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_028.c -o iteration_0_program_028.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_029.c -o iteration_0_program_029.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_030.c -o iteration_0_program_030.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_031.c -o iteration_0_program_031.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_032.c -o iteration_0_program_032.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_033.c -o iteration_0_program_033.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_034.c -o iteration_0_program_034.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_035.c -o iteration_0_program_035.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_036.c -o iteration_0_program_036.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_037.c -o iteration_0_program_037.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_038.c -o iteration_0_program_038.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_039.c -o iteration_0_program_039.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_040.c -o iteration_0_program_040.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_041.c -o iteration_0_program_041.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_042.c -o iteration_0_program_042.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_043.c -o iteration_0_program_043.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_044.c -o iteration_0_program_044.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_045.c -o iteration_0_program_045.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_046.c -o iteration_0_program_046.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_047.c -o iteration_0_program_047.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_048.c -o iteration_0_program_048.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_049.c -o iteration_0_program_049.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_0_program_050.c -o iteration_0_program_050.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_001.c -o iteration_1_program_001.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_002.c -o iteration_1_program_002.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_003.c -o iteration_1_program_003.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_004.c -o iteration_1_program_004.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_005.c -o iteration_1_program_005.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_006.c -o iteration_1_program_006.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_007.c -o iteration_1_program_007.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_008.c -o iteration_1_program_008.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_009.c -o iteration_1_program_009.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_010.c -o iteration_1_program_010.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_011.c -o iteration_1_program_011.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_012.c -o iteration_1_program_012.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_013.c -o iteration_1_program_013.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_014.c -o iteration_1_program_014.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_015.c -o iteration_1_program_015.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_016.c -o iteration_1_program_016.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_017.c -o iteration_1_program_017.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_018.c -o iteration_1_program_018.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_019.c -o iteration_1_program_019.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_020.c -o iteration_1_program_020.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_021.c -o iteration_1_program_021.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_022.c -o iteration_1_program_022.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_023.c -o iteration_1_program_023.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_024.c -o iteration_1_program_024.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_025.c -o iteration_1_program_025.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_026.c -o iteration_1_program_026.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_027.c -o iteration_1_program_027.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_028.c -o iteration_1_program_028.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_029.c -o iteration_1_program_029.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_030.c -o iteration_1_program_030.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_031.c -o iteration_1_program_031.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_032.c -o iteration_1_program_032.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_033.c -o iteration_1_program_033.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_034.c -o iteration_1_program_034.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_035.c -o iteration_1_program_035.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_036.c -o iteration_1_program_036.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_037.c -o iteration_1_program_037.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_038.c -o iteration_1_program_038.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_039.c -o iteration_1_program_039.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_040.c -o iteration_1_program_040.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_041.c -o iteration_1_program_041.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_042.c -o iteration_1_program_042.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_043.c -o iteration_1_program_043.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_044.c -o iteration_1_program_044.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_045.c -o iteration_1_program_045.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_046.c -o iteration_1_program_046.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_047.c -o iteration_1_program_047.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_048.c -o iteration_1_program_048.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_049.c -o iteration_1_program_049.out
+gcc -c -I. This is secondary to the direct gengtype invocation. iteration_1_program_050.c -o iteration_1_program_050.out
+gcc -O3 iteration_2_program_001.c -o iteration_2_program_001.out
+gcc -O3 iteration_2_program_002.c -o iteration_2_program_002.out
+gcc -O3 iteration_2_program_003.c -o iteration_2_program_003.out
+gcc -O3 iteration_2_program_004.c -o iteration_2_program_004.out
+gcc -O3 iteration_2_program_005.c -o iteration_2_program_005.out
+gcc -O3 iteration_2_program_006.c -o iteration_2_program_006.out
+gcc -O3 iteration_2_program_007.c -o iteration_2_program_007.out
+gcc -O3 iteration_2_program_008.c -o iteration_2_program_008.out
+gcc -O3 iteration_2_program_009.c -o iteration_2_program_009.out
+gcc -O3 iteration_2_program_010.c -o iteration_2_program_010.out
+gcc -O3 iteration_2_program_011.c -o iteration_2_program_011.out
+gcc -O3 iteration_2_program_012.c -o iteration_2_program_012.out
+gcc -O3 iteration_2_program_013.c -o iteration_2_program_013.out
+gcc -O3 iteration_2_program_014.c -o iteration_2_program_014.out
+gcc -O3 iteration_2_program_015.c -o iteration_2_program_015.out
+gcc -O3 iteration_2_program_016.c -o iteration_2_program_016.out
+gcc -O3 iteration_2_program_017.c -o iteration_2_program_017.out
+gcc -O3 iteration_2_program_018.c -o iteration_2_program_018.out
+gcc -O3 iteration_2_program_019.c -o iteration_2_program_019.out
+gcc -O3 iteration_2_program_020.c -o iteration_2_program_020.out
+gcc -O3 iteration_2_program_021.c -o iteration_2_program_021.out
+gcc -O3 iteration_2_program_022.c -o iteration_2_program_022.out
+gcc -O3 iteration_2_program_023.c -o iteration_2_program_023.out
+gcc -O3 iteration_2_program_024.c -o iteration_2_program_024.out
+gcc -O3 iteration_2_program_025.c -o iteration_2_program_025.out
+gcc -O3 iteration_2_program_026.c -o iteration_2_program_026.out
+gcc -O3 iteration_2_program_027.c -o iteration_2_program_027.out
+gcc -O3 iteration_2_program_028.c -o iteration_2_program_028.out
+gcc -O3 iteration_2_program_029.c -o iteration_2_program_029.out
+gcc -O3 iteration_2_program_030.c -o iteration_2_program_030.out
+gcc -O3 iteration_2_program_031.c -o iteration_2_program_031.out
+gcc -O3 iteration_2_program_032.c -o iteration_2_program_032.out
+gcc -O3 iteration_2_program_033.c -o iteration_2_program_033.out
+gcc -O3 iteration_2_program_034.c -o iteration_2_program_034.out
+gcc -O3 iteration_2_program_035.c -o iteration_2_program_035.out
+gcc -O3 iteration_2_program_036.c -o iteration_2_program_036.out
+gcc -O3 iteration_2_program_037.c -o iteration_2_program_037.out
+gcc -O3 iteration_2_program_038.c -o iteration_2_program_038.out
+gcc -O3 iteration_2_program_039.c -o iteration_2_program_039.out
+gcc -O3 iteration_2_program_040.c -o iteration_2_program_040.out
+gcc -O3 iteration_2_program_041.c -o iteration_2_program_041.out
+gcc -O3 iteration_2_program_042.c -o iteration_2_program_042.out
+gcc -O3 iteration_2_program_043.c -o iteration_2_program_043.out
+gcc -O3 iteration_2_program_044.c -o iteration_2_program_044.out
+gcc -O3 iteration_2_program_045.c -o iteration_2_program_045.out
+gcc -O3 iteration_2_program_046.c -o iteration_2_program_046.out
+gcc -O3 iteration_2_program_047.c -o iteration_2_program_047.out
+gcc -O3 iteration_2_program_048.c -o iteration_2_program_048.out
+gcc -O3 iteration_2_program_049.c -o iteration_2_program_049.out
+gcc -O3 iteration_2_program_050.c -o iteration_2_program_050.out
+gcc -O3 iteration_3_program_001.c -o iteration_3_program_001.out
+gcc -O3 iteration_3_program_002.c -o iteration_3_program_002.out
+gcc -O3 iteration_3_program_003.c -o iteration_3_program_003.out
+gcc -O3 iteration_3_program_004.c -o iteration_3_program_004.out
+gcc -O3 iteration_3_program_005.c -o iteration_3_program_005.out
+gcc -O3 iteration_3_program_006.c -o iteration_3_program_006.out
+gcc -O3 iteration_3_program_007.c -o iteration_3_program_007.out
+gcc -O3 iteration_3_program_008.c -o iteration_3_program_008.out
+gcc -O3 iteration_3_program_009.c -o iteration_3_program_009.out
+gcc -O3 iteration_3_program_010.c -o iteration_3_program_010.out
+gcc -O3 iteration_3_program_011.c -o iteration_3_program_011.out
+gcc -O3 iteration_3_program_012.c -o iteration_3_program_012.out
+gcc -O3 iteration_3_program_013.c -o iteration_3_program_013.out
+gcc -O3 iteration_3_program_014.c -o iteration_3_program_014.out
+gcc -O3 iteration_3_program_015.c -o iteration_3_program_015.out
+gcc -O3 iteration_3_program_016.c -o iteration_3_program_016.out
+gcc -O3 iteration_3_program_017.c -o iteration_3_program_017.out
+gcc -O3 iteration_3_program_018.c -o iteration_3_program_018.out
+gcc -O3 iteration_3_program_019.c -o iteration_3_program_019.out
+gcc -O3 iteration_3_program_020.c -o iteration_3_program_020.out
+gcc -O3 iteration_3_program_021.c -o iteration_3_program_021.out
+gcc -O3 iteration_3_program_022.c -o iteration_3_program_022.out
+gcc -O3 iteration_3_program_023.c -o iteration_3_program_023.out
+gcc -O3 iteration_3_program_024.c -o iteration_3_program_024.out
+gcc -O3 iteration_3_program_025.c -o iteration_3_program_025.out
+gcc -O3 iteration_3_program_026.c -o iteration_3_program_026.out
+gcc -O3 iteration_3_program_027.c -o iteration_3_program_027.out
+gcc -O3 iteration_3_program_028.c -o iteration_3_program_028.out
+gcc -O3 iteration_3_program_029.c -o iteration_3_program_029.out
+gcc -O3 iteration_3_program_030.c -o iteration_3_program_030.out
+gcc -O3 iteration_3_program_031.c -o iteration_3_program_031.out
+gcc -O3 iteration_3_program_032.c -o iteration_3_program_032.out
+gcc -O3 iteration_3_program_033.c -o iteration_3_program_033.out
+gcc -O3 iteration_3_program_034.c -o iteration_3_program_034.out
+gcc -O3 iteration_3_program_035.c -o iteration_3_program_035.out
+gcc -O3 iteration_3_program_036.c -o iteration_3_program_036.out
+gcc -O3 iteration_3_program_037.c -o iteration_3_program_037.out
+gcc -O3 iteration_3_program_038.c -o iteration_3_program_038.out
+gcc -O3 iteration_3_program_039.c -o iteration_3_program_039.out
+gcc -O3 iteration_3_program_040.c -o iteration_3_program_040.out
+gcc -O3 iteration_3_program_041.c -o iteration_3_program_041.out
+gcc -O3 iteration_3_program_042.c -o iteration_3_program_042.out
+gcc -O3 iteration_3_program_043.c -o iteration_3_program_043.out
+gcc -O3 iteration_3_program_044.c -o iteration_3_program_044.out
+gcc -O3 iteration_3_program_045.c -o iteration_3_program_045.out
+gcc -O3 iteration_3_program_046.c -o iteration_3_program_046.out
+gcc -O3 iteration_3_program_047.c -o iteration_3_program_047.out
+gcc -O3 iteration_3_program_048.c -o iteration_3_program_048.out
+gcc -O3 iteration_3_program_049.c -o iteration_3_program_049.out
+gcc -O3 iteration_3_program_050.c -o iteration_3_program_050.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_001.c -o iteration_4_program_001.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_002.c -o iteration_4_program_002.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_003.c -o iteration_4_program_003.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_004.c -o iteration_4_program_004.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_005.c -o iteration_4_program_005.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_006.c -o iteration_4_program_006.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_007.c -o iteration_4_program_007.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_008.c -o iteration_4_program_008.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_009.c -o iteration_4_program_009.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_010.c -o iteration_4_program_010.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_011.c -o iteration_4_program_011.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_012.c -o iteration_4_program_012.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_013.c -o iteration_4_program_013.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_014.c -o iteration_4_program_014.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_015.c -o iteration_4_program_015.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_016.c -o iteration_4_program_016.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_017.c -o iteration_4_program_017.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_018.c -o iteration_4_program_018.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_019.c -o iteration_4_program_019.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_020.c -o iteration_4_program_020.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_021.c -o iteration_4_program_021.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_022.c -o iteration_4_program_022.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_023.c -o iteration_4_program_023.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_024.c -o iteration_4_program_024.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_025.c -o iteration_4_program_025.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_026.c -o iteration_4_program_026.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_027.c -o iteration_4_program_027.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_028.c -o iteration_4_program_028.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_029.c -o iteration_4_program_029.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_030.c -o iteration_4_program_030.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_031.c -o iteration_4_program_031.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_032.c -o iteration_4_program_032.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_033.c -o iteration_4_program_033.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_034.c -o iteration_4_program_034.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_035.c -o iteration_4_program_035.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_036.c -o iteration_4_program_036.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_037.c -o iteration_4_program_037.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_038.c -o iteration_4_program_038.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_039.c -o iteration_4_program_039.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_040.c -o iteration_4_program_040.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_041.c -o iteration_4_program_041.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_042.c -o iteration_4_program_042.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_043.c -o iteration_4_program_043.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_044.c -o iteration_4_program_044.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_045.c -o iteration_4_program_045.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_046.c -o iteration_4_program_046.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_047.c -o iteration_4_program_047.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_048.c -o iteration_4_program_048.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_049.c -o iteration_4_program_049.out
+gcc -O2 -g -gdwarf-5 -fdebug-types-section iteration_4_program_050.c -o iteration_4_program_050.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_001.c -o iteration_4_program_001.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_002.c -o iteration_4_program_002.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_003.c -o iteration_4_program_003.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_004.c -o iteration_4_program_004.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_005.c -o iteration_4_program_005.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_006.c -o iteration_4_program_006.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_007.c -o iteration_4_program_007.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_008.c -o iteration_4_program_008.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_009.c -o iteration_4_program_009.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_010.c -o iteration_4_program_010.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_011.c -o iteration_4_program_011.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_012.c -o iteration_4_program_012.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_013.c -o iteration_4_program_013.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_014.c -o iteration_4_program_014.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_015.c -o iteration_4_program_015.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_016.c -o iteration_4_program_016.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_017.c -o iteration_4_program_017.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_018.c -o iteration_4_program_018.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_019.c -o iteration_4_program_019.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_020.c -o iteration_4_program_020.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_021.c -o iteration_4_program_021.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_022.c -o iteration_4_program_022.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_023.c -o iteration_4_program_023.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_024.c -o iteration_4_program_024.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_025.c -o iteration_4_program_025.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_026.c -o iteration_4_program_026.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_027.c -o iteration_4_program_027.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_028.c -o iteration_4_program_028.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_029.c -o iteration_4_program_029.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_030.c -o iteration_4_program_030.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_031.c -o iteration_4_program_031.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_032.c -o iteration_4_program_032.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_033.c -o iteration_4_program_033.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_034.c -o iteration_4_program_034.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_035.c -o iteration_4_program_035.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_036.c -o iteration_4_program_036.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_037.c -o iteration_4_program_037.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_038.c -o iteration_4_program_038.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_039.c -o iteration_4_program_039.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_040.c -o iteration_4_program_040.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_041.c -o iteration_4_program_041.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_042.c -o iteration_4_program_042.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_043.c -o iteration_4_program_043.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_044.c -o iteration_4_program_044.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_045.c -o iteration_4_program_045.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_046.c -o iteration_4_program_046.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_047.c -o iteration_4_program_047.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_048.c -o iteration_4_program_048.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_049.c -o iteration_4_program_049.out
+gcc -O1 -g3 -gdwarf-5 -fsanitize=address iteration_4_program_050.c -o iteration_4_program_050.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_001.c -o iteration_4_program_001.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_002.c -o iteration_4_program_002.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_003.c -o iteration_4_program_003.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_004.c -o iteration_4_program_004.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_005.c -o iteration_4_program_005.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_006.c -o iteration_4_program_006.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_007.c -o iteration_4_program_007.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_008.c -o iteration_4_program_008.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_009.c -o iteration_4_program_009.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_010.c -o iteration_4_program_010.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_011.c -o iteration_4_program_011.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_012.c -o iteration_4_program_012.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_013.c -o iteration_4_program_013.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_014.c -o iteration_4_program_014.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_015.c -o iteration_4_program_015.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_016.c -o iteration_4_program_016.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_017.c -o iteration_4_program_017.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_018.c -o iteration_4_program_018.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_019.c -o iteration_4_program_019.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_020.c -o iteration_4_program_020.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_021.c -o iteration_4_program_021.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_022.c -o iteration_4_program_022.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_023.c -o iteration_4_program_023.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_024.c -o iteration_4_program_024.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_025.c -o iteration_4_program_025.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_026.c -o iteration_4_program_026.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_027.c -o iteration_4_program_027.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_028.c -o iteration_4_program_028.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_029.c -o iteration_4_program_029.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_030.c -o iteration_4_program_030.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_031.c -o iteration_4_program_031.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_032.c -o iteration_4_program_032.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_033.c -o iteration_4_program_033.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_034.c -o iteration_4_program_034.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_035.c -o iteration_4_program_035.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_036.c -o iteration_4_program_036.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_037.c -o iteration_4_program_037.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_038.c -o iteration_4_program_038.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_039.c -o iteration_4_program_039.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_040.c -o iteration_4_program_040.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_041.c -o iteration_4_program_041.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_042.c -o iteration_4_program_042.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_043.c -o iteration_4_program_043.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_044.c -o iteration_4_program_044.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_045.c -o iteration_4_program_045.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_046.c -o iteration_4_program_046.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_047.c -o iteration_4_program_047.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_048.c -o iteration_4_program_048.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_049.c -o iteration_4_program_049.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-eliminate-unused-debug-symbols -fvar-tracking -fopenmp iteration_4_program_050.c -o iteration_4_program_050.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_001.c -o iteration_5_program_001.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_002.c -o iteration_5_program_002.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_003.c -o iteration_5_program_003.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_004.c -o iteration_5_program_004.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_005.c -o iteration_5_program_005.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_006.c -o iteration_5_program_006.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_007.c -o iteration_5_program_007.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_008.c -o iteration_5_program_008.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_009.c -o iteration_5_program_009.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_010.c -o iteration_5_program_010.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_011.c -o iteration_5_program_011.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_012.c -o iteration_5_program_012.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_013.c -o iteration_5_program_013.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_014.c -o iteration_5_program_014.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_015.c -o iteration_5_program_015.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_016.c -o iteration_5_program_016.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_017.c -o iteration_5_program_017.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_018.c -o iteration_5_program_018.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_019.c -o iteration_5_program_019.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_020.c -o iteration_5_program_020.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_021.c -o iteration_5_program_021.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_022.c -o iteration_5_program_022.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_023.c -o iteration_5_program_023.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_024.c -o iteration_5_program_024.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_025.c -o iteration_5_program_025.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_026.c -o iteration_5_program_026.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_027.c -o iteration_5_program_027.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_028.c -o iteration_5_program_028.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_029.c -o iteration_5_program_029.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_030.c -o iteration_5_program_030.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_031.c -o iteration_5_program_031.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_032.c -o iteration_5_program_032.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_033.c -o iteration_5_program_033.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_034.c -o iteration_5_program_034.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_035.c -o iteration_5_program_035.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_036.c -o iteration_5_program_036.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_037.c -o iteration_5_program_037.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_038.c -o iteration_5_program_038.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_039.c -o iteration_5_program_039.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_040.c -o iteration_5_program_040.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_041.c -o iteration_5_program_041.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_042.c -o iteration_5_program_042.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_043.c -o iteration_5_program_043.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_044.c -o iteration_5_program_044.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_045.c -o iteration_5_program_045.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_046.c -o iteration_5_program_046.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_047.c -o iteration_5_program_047.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_048.c -o iteration_5_program_048.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_049.c -o iteration_5_program_049.out
+gcc -O2 -ffast-math -fno-math-errno iteration_5_program_050.c -o iteration_5_program_050.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_001.c -o iteration_5_program_001.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_002.c -o iteration_5_program_002.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_003.c -o iteration_5_program_003.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_004.c -o iteration_5_program_004.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_005.c -o iteration_5_program_005.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_006.c -o iteration_5_program_006.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_007.c -o iteration_5_program_007.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_008.c -o iteration_5_program_008.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_009.c -o iteration_5_program_009.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_010.c -o iteration_5_program_010.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_011.c -o iteration_5_program_011.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_012.c -o iteration_5_program_012.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_013.c -o iteration_5_program_013.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_014.c -o iteration_5_program_014.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_015.c -o iteration_5_program_015.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_016.c -o iteration_5_program_016.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_017.c -o iteration_5_program_017.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_018.c -o iteration_5_program_018.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_019.c -o iteration_5_program_019.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_020.c -o iteration_5_program_020.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_021.c -o iteration_5_program_021.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_022.c -o iteration_5_program_022.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_023.c -o iteration_5_program_023.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_024.c -o iteration_5_program_024.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_025.c -o iteration_5_program_025.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_026.c -o iteration_5_program_026.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_027.c -o iteration_5_program_027.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_028.c -o iteration_5_program_028.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_029.c -o iteration_5_program_029.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_030.c -o iteration_5_program_030.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_031.c -o iteration_5_program_031.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_032.c -o iteration_5_program_032.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_033.c -o iteration_5_program_033.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_034.c -o iteration_5_program_034.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_035.c -o iteration_5_program_035.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_036.c -o iteration_5_program_036.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_037.c -o iteration_5_program_037.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_038.c -o iteration_5_program_038.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_039.c -o iteration_5_program_039.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_040.c -o iteration_5_program_040.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_041.c -o iteration_5_program_041.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_042.c -o iteration_5_program_042.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_043.c -o iteration_5_program_043.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_044.c -o iteration_5_program_044.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_045.c -o iteration_5_program_045.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_046.c -o iteration_5_program_046.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_047.c -o iteration_5_program_047.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_048.c -o iteration_5_program_048.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_049.c -o iteration_5_program_049.out
+gcc -O3 -funsafe-math-optimizations -fdump-tree-original -fdump-tree-fold-const iteration_5_program_050.c -o iteration_5_program_050.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_001.c -o iteration_5_program_001.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_002.c -o iteration_5_program_002.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_003.c -o iteration_5_program_003.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_004.c -o iteration_5_program_004.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_005.c -o iteration_5_program_005.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_006.c -o iteration_5_program_006.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_007.c -o iteration_5_program_007.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_008.c -o iteration_5_program_008.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_009.c -o iteration_5_program_009.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_010.c -o iteration_5_program_010.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_011.c -o iteration_5_program_011.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_012.c -o iteration_5_program_012.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_013.c -o iteration_5_program_013.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_014.c -o iteration_5_program_014.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_015.c -o iteration_5_program_015.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_016.c -o iteration_5_program_016.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_017.c -o iteration_5_program_017.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_018.c -o iteration_5_program_018.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_019.c -o iteration_5_program_019.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_020.c -o iteration_5_program_020.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_021.c -o iteration_5_program_021.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_022.c -o iteration_5_program_022.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_023.c -o iteration_5_program_023.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_024.c -o iteration_5_program_024.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_025.c -o iteration_5_program_025.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_026.c -o iteration_5_program_026.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_027.c -o iteration_5_program_027.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_028.c -o iteration_5_program_028.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_029.c -o iteration_5_program_029.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_030.c -o iteration_5_program_030.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_031.c -o iteration_5_program_031.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_032.c -o iteration_5_program_032.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_033.c -o iteration_5_program_033.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_034.c -o iteration_5_program_034.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_035.c -o iteration_5_program_035.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_036.c -o iteration_5_program_036.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_037.c -o iteration_5_program_037.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_038.c -o iteration_5_program_038.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_039.c -o iteration_5_program_039.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_040.c -o iteration_5_program_040.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_041.c -o iteration_5_program_041.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_042.c -o iteration_5_program_042.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_043.c -o iteration_5_program_043.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_044.c -o iteration_5_program_044.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_045.c -o iteration_5_program_045.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_046.c -o iteration_5_program_046.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_047.c -o iteration_5_program_047.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_048.c -o iteration_5_program_048.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_049.c -o iteration_5_program_049.out
+gcc -O1 -fsanitize=undefined -fno-sanitize=float-divide-by-zero -fno-trapping-math iteration_5_program_050.c -o iteration_5_program_050.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_001.c -o iteration_6_program_001.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_002.c -o iteration_6_program_002.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_003.c -o iteration_6_program_003.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_004.c -o iteration_6_program_004.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_005.c -o iteration_6_program_005.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_006.c -o iteration_6_program_006.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_007.c -o iteration_6_program_007.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_008.c -o iteration_6_program_008.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_009.c -o iteration_6_program_009.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_010.c -o iteration_6_program_010.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_011.c -o iteration_6_program_011.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_012.c -o iteration_6_program_012.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_013.c -o iteration_6_program_013.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_014.c -o iteration_6_program_014.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_015.c -o iteration_6_program_015.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_016.c -o iteration_6_program_016.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_017.c -o iteration_6_program_017.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_018.c -o iteration_6_program_018.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_019.c -o iteration_6_program_019.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_020.c -o iteration_6_program_020.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_021.c -o iteration_6_program_021.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_022.c -o iteration_6_program_022.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_023.c -o iteration_6_program_023.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_024.c -o iteration_6_program_024.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_025.c -o iteration_6_program_025.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_026.c -o iteration_6_program_026.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_027.c -o iteration_6_program_027.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_028.c -o iteration_6_program_028.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_029.c -o iteration_6_program_029.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_030.c -o iteration_6_program_030.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_031.c -o iteration_6_program_031.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_032.c -o iteration_6_program_032.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_033.c -o iteration_6_program_033.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_034.c -o iteration_6_program_034.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_035.c -o iteration_6_program_035.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_036.c -o iteration_6_program_036.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_037.c -o iteration_6_program_037.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_038.c -o iteration_6_program_038.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_039.c -o iteration_6_program_039.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_040.c -o iteration_6_program_040.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_041.c -o iteration_6_program_041.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_042.c -o iteration_6_program_042.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_043.c -o iteration_6_program_043.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_044.c -o iteration_6_program_044.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_045.c -o iteration_6_program_045.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_046.c -o iteration_6_program_046.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_047.c -o iteration_6_program_047.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_048.c -o iteration_6_program_048.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_049.c -o iteration_6_program_049.out
+gcc -O2 -march=mips32 -mabi=32 -fdump-rtl-dfinish iteration_6_program_050.c -o iteration_6_program_050.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_001.c -o iteration_6_program_001.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_002.c -o iteration_6_program_002.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_003.c -o iteration_6_program_003.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_004.c -o iteration_6_program_004.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_005.c -o iteration_6_program_005.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_006.c -o iteration_6_program_006.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_007.c -o iteration_6_program_007.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_008.c -o iteration_6_program_008.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_009.c -o iteration_6_program_009.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_010.c -o iteration_6_program_010.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_011.c -o iteration_6_program_011.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_012.c -o iteration_6_program_012.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_013.c -o iteration_6_program_013.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_014.c -o iteration_6_program_014.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_015.c -o iteration_6_program_015.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_016.c -o iteration_6_program_016.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_017.c -o iteration_6_program_017.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_018.c -o iteration_6_program_018.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_019.c -o iteration_6_program_019.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_020.c -o iteration_6_program_020.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_021.c -o iteration_6_program_021.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_022.c -o iteration_6_program_022.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_023.c -o iteration_6_program_023.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_024.c -o iteration_6_program_024.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_025.c -o iteration_6_program_025.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_026.c -o iteration_6_program_026.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_027.c -o iteration_6_program_027.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_028.c -o iteration_6_program_028.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_029.c -o iteration_6_program_029.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_030.c -o iteration_6_program_030.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_031.c -o iteration_6_program_031.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_032.c -o iteration_6_program_032.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_033.c -o iteration_6_program_033.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_034.c -o iteration_6_program_034.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_035.c -o iteration_6_program_035.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_036.c -o iteration_6_program_036.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_037.c -o iteration_6_program_037.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_038.c -o iteration_6_program_038.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_039.c -o iteration_6_program_039.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_040.c -o iteration_6_program_040.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_041.c -o iteration_6_program_041.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_042.c -o iteration_6_program_042.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_043.c -o iteration_6_program_043.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_044.c -o iteration_6_program_044.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_045.c -o iteration_6_program_045.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_046.c -o iteration_6_program_046.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_047.c -o iteration_6_program_047.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_048.c -o iteration_6_program_048.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_049.c -o iteration_6_program_049.out
+gcc -O3 -mcpu=v9 -fdump-rtl-reorg -fno-schedule-insns -fno-schedule-insns2 iteration_6_program_050.c -o iteration_6_program_050.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_001.c -o iteration_6_program_001.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_002.c -o iteration_6_program_002.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_003.c -o iteration_6_program_003.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_004.c -o iteration_6_program_004.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_005.c -o iteration_6_program_005.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_006.c -o iteration_6_program_006.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_007.c -o iteration_6_program_007.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_008.c -o iteration_6_program_008.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_009.c -o iteration_6_program_009.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_010.c -o iteration_6_program_010.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_011.c -o iteration_6_program_011.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_012.c -o iteration_6_program_012.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_013.c -o iteration_6_program_013.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_014.c -o iteration_6_program_014.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_015.c -o iteration_6_program_015.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_016.c -o iteration_6_program_016.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_017.c -o iteration_6_program_017.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_018.c -o iteration_6_program_018.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_019.c -o iteration_6_program_019.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_020.c -o iteration_6_program_020.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_021.c -o iteration_6_program_021.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_022.c -o iteration_6_program_022.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_023.c -o iteration_6_program_023.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_024.c -o iteration_6_program_024.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_025.c -o iteration_6_program_025.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_026.c -o iteration_6_program_026.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_027.c -o iteration_6_program_027.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_028.c -o iteration_6_program_028.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_029.c -o iteration_6_program_029.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_030.c -o iteration_6_program_030.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_031.c -o iteration_6_program_031.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_032.c -o iteration_6_program_032.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_033.c -o iteration_6_program_033.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_034.c -o iteration_6_program_034.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_035.c -o iteration_6_program_035.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_036.c -o iteration_6_program_036.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_037.c -o iteration_6_program_037.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_038.c -o iteration_6_program_038.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_039.c -o iteration_6_program_039.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_040.c -o iteration_6_program_040.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_041.c -o iteration_6_program_041.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_042.c -o iteration_6_program_042.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_043.c -o iteration_6_program_043.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_044.c -o iteration_6_program_044.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_045.c -o iteration_6_program_045.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_046.c -o iteration_6_program_046.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_047.c -o iteration_6_program_047.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_048.c -o iteration_6_program_048.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_049.c -o iteration_6_program_049.out
+gcc -O2 -fdump-rtl-all -fno-gcse -fno-crossjumping iteration_6_program_050.c -o iteration_6_program_050.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_001.c -o iteration_7_program_001.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_002.c -o iteration_7_program_002.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_003.c -o iteration_7_program_003.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_004.c -o iteration_7_program_004.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_005.c -o iteration_7_program_005.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_006.c -o iteration_7_program_006.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_007.c -o iteration_7_program_007.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_008.c -o iteration_7_program_008.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_009.c -o iteration_7_program_009.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_010.c -o iteration_7_program_010.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_011.c -o iteration_7_program_011.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_012.c -o iteration_7_program_012.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_013.c -o iteration_7_program_013.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_014.c -o iteration_7_program_014.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_015.c -o iteration_7_program_015.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_016.c -o iteration_7_program_016.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_017.c -o iteration_7_program_017.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_018.c -o iteration_7_program_018.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_019.c -o iteration_7_program_019.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_020.c -o iteration_7_program_020.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_021.c -o iteration_7_program_021.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_022.c -o iteration_7_program_022.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_023.c -o iteration_7_program_023.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_024.c -o iteration_7_program_024.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_025.c -o iteration_7_program_025.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_026.c -o iteration_7_program_026.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_027.c -o iteration_7_program_027.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_028.c -o iteration_7_program_028.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_029.c -o iteration_7_program_029.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_030.c -o iteration_7_program_030.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_031.c -o iteration_7_program_031.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_032.c -o iteration_7_program_032.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_033.c -o iteration_7_program_033.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_034.c -o iteration_7_program_034.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_035.c -o iteration_7_program_035.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_036.c -o iteration_7_program_036.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_037.c -o iteration_7_program_037.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_038.c -o iteration_7_program_038.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_039.c -o iteration_7_program_039.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_040.c -o iteration_7_program_040.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_041.c -o iteration_7_program_041.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_042.c -o iteration_7_program_042.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_043.c -o iteration_7_program_043.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_044.c -o iteration_7_program_044.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_045.c -o iteration_7_program_045.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_046.c -o iteration_7_program_046.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_047.c -o iteration_7_program_047.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_048.c -o iteration_7_program_048.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_049.c -o iteration_7_program_049.out
+gcc -O2 -fauto-profile -fprofile-arcs -fdump-ipa-afdo iteration_7_program_050.c -o iteration_7_program_050.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_001.c -o iteration_7_program_001.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_002.c -o iteration_7_program_002.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_003.c -o iteration_7_program_003.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_004.c -o iteration_7_program_004.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_005.c -o iteration_7_program_005.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_006.c -o iteration_7_program_006.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_007.c -o iteration_7_program_007.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_008.c -o iteration_7_program_008.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_009.c -o iteration_7_program_009.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_010.c -o iteration_7_program_010.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_011.c -o iteration_7_program_011.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_012.c -o iteration_7_program_012.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_013.c -o iteration_7_program_013.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_014.c -o iteration_7_program_014.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_015.c -o iteration_7_program_015.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_016.c -o iteration_7_program_016.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_017.c -o iteration_7_program_017.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_018.c -o iteration_7_program_018.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_019.c -o iteration_7_program_019.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_020.c -o iteration_7_program_020.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_021.c -o iteration_7_program_021.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_022.c -o iteration_7_program_022.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_023.c -o iteration_7_program_023.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_024.c -o iteration_7_program_024.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_025.c -o iteration_7_program_025.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_026.c -o iteration_7_program_026.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_027.c -o iteration_7_program_027.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_028.c -o iteration_7_program_028.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_029.c -o iteration_7_program_029.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_030.c -o iteration_7_program_030.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_031.c -o iteration_7_program_031.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_032.c -o iteration_7_program_032.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_033.c -o iteration_7_program_033.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_034.c -o iteration_7_program_034.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_035.c -o iteration_7_program_035.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_036.c -o iteration_7_program_036.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_037.c -o iteration_7_program_037.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_038.c -o iteration_7_program_038.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_039.c -o iteration_7_program_039.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_040.c -o iteration_7_program_040.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_041.c -o iteration_7_program_041.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_042.c -o iteration_7_program_042.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_043.c -o iteration_7_program_043.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_044.c -o iteration_7_program_044.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_045.c -o iteration_7_program_045.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_046.c -o iteration_7_program_046.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_047.c -o iteration_7_program_047.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_048.c -o iteration_7_program_048.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_049.c -o iteration_7_program_049.out
+gcc -O2 -fdump-tree-all -fno-ssa-phiopt -fno-tree-ccp iteration_7_program_050.c -o iteration_7_program_050.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_001.c -o iteration_7_program_001.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_002.c -o iteration_7_program_002.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_003.c -o iteration_7_program_003.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_004.c -o iteration_7_program_004.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_005.c -o iteration_7_program_005.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_006.c -o iteration_7_program_006.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_007.c -o iteration_7_program_007.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_008.c -o iteration_7_program_008.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_009.c -o iteration_7_program_009.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_010.c -o iteration_7_program_010.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_011.c -o iteration_7_program_011.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_012.c -o iteration_7_program_012.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_013.c -o iteration_7_program_013.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_014.c -o iteration_7_program_014.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_015.c -o iteration_7_program_015.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_016.c -o iteration_7_program_016.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_017.c -o iteration_7_program_017.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_018.c -o iteration_7_program_018.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_019.c -o iteration_7_program_019.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_020.c -o iteration_7_program_020.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_021.c -o iteration_7_program_021.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_022.c -o iteration_7_program_022.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_023.c -o iteration_7_program_023.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_024.c -o iteration_7_program_024.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_025.c -o iteration_7_program_025.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_026.c -o iteration_7_program_026.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_027.c -o iteration_7_program_027.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_028.c -o iteration_7_program_028.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_029.c -o iteration_7_program_029.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_030.c -o iteration_7_program_030.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_031.c -o iteration_7_program_031.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_032.c -o iteration_7_program_032.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_033.c -o iteration_7_program_033.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_034.c -o iteration_7_program_034.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_035.c -o iteration_7_program_035.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_036.c -o iteration_7_program_036.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_037.c -o iteration_7_program_037.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_038.c -o iteration_7_program_038.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_039.c -o iteration_7_program_039.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_040.c -o iteration_7_program_040.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_041.c -o iteration_7_program_041.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_042.c -o iteration_7_program_042.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_043.c -o iteration_7_program_043.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_044.c -o iteration_7_program_044.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_045.c -o iteration_7_program_045.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_046.c -o iteration_7_program_046.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_047.c -o iteration_7_program_047.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_048.c -o iteration_7_program_048.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_049.c -o iteration_7_program_049.out
+gcc -O3 -fauto-profile -funroll-loops -fno-predictive-commoning iteration_7_program_050.c -o iteration_7_program_050.out
+gcc -O3 iteration_8_program_001.c -o iteration_8_program_001.out
+gcc -O3 iteration_8_program_002.c -o iteration_8_program_002.out
+gcc -O3 iteration_8_program_003.c -o iteration_8_program_003.out
+gcc -O3 iteration_8_program_004.c -o iteration_8_program_004.out
+gcc -O3 iteration_8_program_005.c -o iteration_8_program_005.out
+gcc -O3 iteration_8_program_006.c -o iteration_8_program_006.out
+gcc -O3 iteration_8_program_007.c -o iteration_8_program_007.out
+gcc -O3 iteration_8_program_008.c -o iteration_8_program_008.out
+gcc -O3 iteration_8_program_009.c -o iteration_8_program_009.out
+gcc -O3 iteration_8_program_010.c -o iteration_8_program_010.out
+gcc -O3 iteration_8_program_011.c -o iteration_8_program_011.out
+gcc -O3 iteration_8_program_012.c -o iteration_8_program_012.out
+gcc -O3 iteration_8_program_013.c -o iteration_8_program_013.out
+gcc -O3 iteration_8_program_014.c -o iteration_8_program_014.out
+gcc -O3 iteration_8_program_015.c -o iteration_8_program_015.out
+gcc -O3 iteration_8_program_016.c -o iteration_8_program_016.out
+gcc -O3 iteration_8_program_017.c -o iteration_8_program_017.out
+gcc -O3 iteration_8_program_018.c -o iteration_8_program_018.out
+gcc -O3 iteration_8_program_019.c -o iteration_8_program_019.out
+gcc -O3 iteration_8_program_020.c -o iteration_8_program_020.out
+gcc -O3 iteration_8_program_021.c -o iteration_8_program_021.out
+gcc -O3 iteration_8_program_022.c -o iteration_8_program_022.out
+gcc -O3 iteration_8_program_023.c -o iteration_8_program_023.out
+gcc -O3 iteration_8_program_024.c -o iteration_8_program_024.out
+gcc -O3 iteration_8_program_025.c -o iteration_8_program_025.out
+gcc -O3 iteration_8_program_026.c -o iteration_8_program_026.out
+gcc -O3 iteration_8_program_027.c -o iteration_8_program_027.out
+gcc -O3 iteration_8_program_028.c -o iteration_8_program_028.out
+gcc -O3 iteration_8_program_029.c -o iteration_8_program_029.out
+gcc -O3 iteration_8_program_030.c -o iteration_8_program_030.out
+gcc -O3 iteration_8_program_031.c -o iteration_8_program_031.out
+gcc -O3 iteration_8_program_032.c -o iteration_8_program_032.out
+gcc -O3 iteration_8_program_033.c -o iteration_8_program_033.out
+gcc -O3 iteration_8_program_034.c -o iteration_8_program_034.out
+gcc -O3 iteration_8_program_035.c -o iteration_8_program_035.out
+gcc -O3 iteration_8_program_036.c -o iteration_8_program_036.out
+gcc -O3 iteration_8_program_037.c -o iteration_8_program_037.out
+gcc -O3 iteration_8_program_038.c -o iteration_8_program_038.out
+gcc -O3 iteration_8_program_039.c -o iteration_8_program_039.out
+gcc -O3 iteration_8_program_040.c -o iteration_8_program_040.out
+gcc -O3 iteration_8_program_041.c -o iteration_8_program_041.out
+gcc -O3 iteration_8_program_042.c -o iteration_8_program_042.out
+gcc -O3 iteration_8_program_043.c -o iteration_8_program_043.out
+gcc -O3 iteration_8_program_044.c -o iteration_8_program_044.out
+gcc -O3 iteration_8_program_045.c -o iteration_8_program_045.out
+gcc -O3 iteration_8_program_046.c -o iteration_8_program_046.out
+gcc -O3 iteration_8_program_047.c -o iteration_8_program_047.out
+gcc -O3 iteration_8_program_048.c -o iteration_8_program_048.out
+gcc -O3 iteration_8_program_049.c -o iteration_8_program_049.out
+gcc -O3 iteration_8_program_050.c -o iteration_8_program_050.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_001.c -o iteration_9_program_001.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_002.c -o iteration_9_program_002.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_003.c -o iteration_9_program_003.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_004.c -o iteration_9_program_004.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_005.c -o iteration_9_program_005.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_006.c -o iteration_9_program_006.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_007.c -o iteration_9_program_007.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_008.c -o iteration_9_program_008.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_009.c -o iteration_9_program_009.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_010.c -o iteration_9_program_010.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_011.c -o iteration_9_program_011.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_012.c -o iteration_9_program_012.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_013.c -o iteration_9_program_013.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_014.c -o iteration_9_program_014.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_015.c -o iteration_9_program_015.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_016.c -o iteration_9_program_016.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_017.c -o iteration_9_program_017.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_018.c -o iteration_9_program_018.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_019.c -o iteration_9_program_019.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_020.c -o iteration_9_program_020.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_021.c -o iteration_9_program_021.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_022.c -o iteration_9_program_022.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_023.c -o iteration_9_program_023.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_024.c -o iteration_9_program_024.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_025.c -o iteration_9_program_025.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_026.c -o iteration_9_program_026.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_027.c -o iteration_9_program_027.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_028.c -o iteration_9_program_028.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_029.c -o iteration_9_program_029.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_030.c -o iteration_9_program_030.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_031.c -o iteration_9_program_031.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_032.c -o iteration_9_program_032.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_033.c -o iteration_9_program_033.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_034.c -o iteration_9_program_034.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_035.c -o iteration_9_program_035.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_036.c -o iteration_9_program_036.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_037.c -o iteration_9_program_037.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_038.c -o iteration_9_program_038.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_039.c -o iteration_9_program_039.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_040.c -o iteration_9_program_040.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_041.c -o iteration_9_program_041.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_042.c -o iteration_9_program_042.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_043.c -o iteration_9_program_043.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_044.c -o iteration_9_program_044.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_045.c -o iteration_9_program_045.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_046.c -o iteration_9_program_046.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_047.c -o iteration_9_program_047.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_048.c -o iteration_9_program_048.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_049.c -o iteration_9_program_049.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_050.c -o iteration_9_program_050.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_001.c -o iteration_9_program_001.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_002.c -o iteration_9_program_002.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_003.c -o iteration_9_program_003.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_004.c -o iteration_9_program_004.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_005.c -o iteration_9_program_005.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_006.c -o iteration_9_program_006.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_007.c -o iteration_9_program_007.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_008.c -o iteration_9_program_008.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_009.c -o iteration_9_program_009.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_010.c -o iteration_9_program_010.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_011.c -o iteration_9_program_011.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_012.c -o iteration_9_program_012.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_013.c -o iteration_9_program_013.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_014.c -o iteration_9_program_014.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_015.c -o iteration_9_program_015.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_016.c -o iteration_9_program_016.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_017.c -o iteration_9_program_017.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_018.c -o iteration_9_program_018.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_019.c -o iteration_9_program_019.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_020.c -o iteration_9_program_020.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_021.c -o iteration_9_program_021.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_022.c -o iteration_9_program_022.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_023.c -o iteration_9_program_023.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_024.c -o iteration_9_program_024.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_025.c -o iteration_9_program_025.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_026.c -o iteration_9_program_026.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_027.c -o iteration_9_program_027.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_028.c -o iteration_9_program_028.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_029.c -o iteration_9_program_029.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_030.c -o iteration_9_program_030.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_031.c -o iteration_9_program_031.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_032.c -o iteration_9_program_032.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_033.c -o iteration_9_program_033.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_034.c -o iteration_9_program_034.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_035.c -o iteration_9_program_035.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_036.c -o iteration_9_program_036.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_037.c -o iteration_9_program_037.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_038.c -o iteration_9_program_038.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_039.c -o iteration_9_program_039.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_040.c -o iteration_9_program_040.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_041.c -o iteration_9_program_041.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_042.c -o iteration_9_program_042.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_043.c -o iteration_9_program_043.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_044.c -o iteration_9_program_044.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_045.c -o iteration_9_program_045.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_046.c -o iteration_9_program_046.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_047.c -o iteration_9_program_047.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_048.c -o iteration_9_program_048.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_049.c -o iteration_9_program_049.out
+gcc -O0 -g -fno-eliminate-unused-debug-types -fprofile-arcs -ftest-coverage iteration_9_program_050.c -o iteration_9_program_050.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_001.c -o iteration_9_program_001.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_002.c -o iteration_9_program_002.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_003.c -o iteration_9_program_003.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_004.c -o iteration_9_program_004.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_005.c -o iteration_9_program_005.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_006.c -o iteration_9_program_006.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_007.c -o iteration_9_program_007.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_008.c -o iteration_9_program_008.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_009.c -o iteration_9_program_009.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_010.c -o iteration_9_program_010.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_011.c -o iteration_9_program_011.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_012.c -o iteration_9_program_012.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_013.c -o iteration_9_program_013.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_014.c -o iteration_9_program_014.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_015.c -o iteration_9_program_015.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_016.c -o iteration_9_program_016.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_017.c -o iteration_9_program_017.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_018.c -o iteration_9_program_018.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_019.c -o iteration_9_program_019.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_020.c -o iteration_9_program_020.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_021.c -o iteration_9_program_021.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_022.c -o iteration_9_program_022.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_023.c -o iteration_9_program_023.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_024.c -o iteration_9_program_024.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_025.c -o iteration_9_program_025.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_026.c -o iteration_9_program_026.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_027.c -o iteration_9_program_027.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_028.c -o iteration_9_program_028.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_029.c -o iteration_9_program_029.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_030.c -o iteration_9_program_030.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_031.c -o iteration_9_program_031.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_032.c -o iteration_9_program_032.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_033.c -o iteration_9_program_033.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_034.c -o iteration_9_program_034.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_035.c -o iteration_9_program_035.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_036.c -o iteration_9_program_036.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_037.c -o iteration_9_program_037.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_038.c -o iteration_9_program_038.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_039.c -o iteration_9_program_039.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_040.c -o iteration_9_program_040.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_041.c -o iteration_9_program_041.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_042.c -o iteration_9_program_042.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_043.c -o iteration_9_program_043.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_044.c -o iteration_9_program_044.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_045.c -o iteration_9_program_045.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_046.c -o iteration_9_program_046.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_047.c -o iteration_9_program_047.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_048.c -o iteration_9_program_048.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_049.c -o iteration_9_program_049.out
+gcc -O2 -g3 -fvar-tracking -fprofile-arcs -ftest-coverage iteration_9_program_050.c -o iteration_9_program_050.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_001.c -o iteration_9_program_001.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_002.c -o iteration_9_program_002.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_003.c -o iteration_9_program_003.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_004.c -o iteration_9_program_004.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_005.c -o iteration_9_program_005.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_006.c -o iteration_9_program_006.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_007.c -o iteration_9_program_007.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_008.c -o iteration_9_program_008.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_009.c -o iteration_9_program_009.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_010.c -o iteration_9_program_010.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_011.c -o iteration_9_program_011.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_012.c -o iteration_9_program_012.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_013.c -o iteration_9_program_013.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_014.c -o iteration_9_program_014.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_015.c -o iteration_9_program_015.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_016.c -o iteration_9_program_016.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_017.c -o iteration_9_program_017.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_018.c -o iteration_9_program_018.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_019.c -o iteration_9_program_019.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_020.c -o iteration_9_program_020.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_021.c -o iteration_9_program_021.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_022.c -o iteration_9_program_022.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_023.c -o iteration_9_program_023.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_024.c -o iteration_9_program_024.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_025.c -o iteration_9_program_025.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_026.c -o iteration_9_program_026.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_027.c -o iteration_9_program_027.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_028.c -o iteration_9_program_028.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_029.c -o iteration_9_program_029.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_030.c -o iteration_9_program_030.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_031.c -o iteration_9_program_031.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_032.c -o iteration_9_program_032.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_033.c -o iteration_9_program_033.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_034.c -o iteration_9_program_034.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_035.c -o iteration_9_program_035.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_036.c -o iteration_9_program_036.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_037.c -o iteration_9_program_037.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_038.c -o iteration_9_program_038.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_039.c -o iteration_9_program_039.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_040.c -o iteration_9_program_040.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_041.c -o iteration_9_program_041.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_042.c -o iteration_9_program_042.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_043.c -o iteration_9_program_043.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_044.c -o iteration_9_program_044.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_045.c -o iteration_9_program_045.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_046.c -o iteration_9_program_046.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_047.c -o iteration_9_program_047.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_048.c -o iteration_9_program_048.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_049.c -o iteration_9_program_049.out
+gcc -O0 -g -fprofile-arcs -ftest-coverage iteration_9_program_050.c -o iteration_9_program_050.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_001.c -o iteration_10_program_001.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_002.c -o iteration_10_program_002.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_003.c -o iteration_10_program_003.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_004.c -o iteration_10_program_004.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_005.c -o iteration_10_program_005.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_006.c -o iteration_10_program_006.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_007.c -o iteration_10_program_007.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_008.c -o iteration_10_program_008.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_009.c -o iteration_10_program_009.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_010.c -o iteration_10_program_010.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_011.c -o iteration_10_program_011.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_012.c -o iteration_10_program_012.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_013.c -o iteration_10_program_013.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_014.c -o iteration_10_program_014.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_015.c -o iteration_10_program_015.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_016.c -o iteration_10_program_016.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_017.c -o iteration_10_program_017.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_018.c -o iteration_10_program_018.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_019.c -o iteration_10_program_019.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_020.c -o iteration_10_program_020.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_021.c -o iteration_10_program_021.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_022.c -o iteration_10_program_022.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_023.c -o iteration_10_program_023.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_024.c -o iteration_10_program_024.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_025.c -o iteration_10_program_025.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_026.c -o iteration_10_program_026.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_027.c -o iteration_10_program_027.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_028.c -o iteration_10_program_028.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_029.c -o iteration_10_program_029.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_030.c -o iteration_10_program_030.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_031.c -o iteration_10_program_031.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_032.c -o iteration_10_program_032.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_033.c -o iteration_10_program_033.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_034.c -o iteration_10_program_034.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_035.c -o iteration_10_program_035.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_036.c -o iteration_10_program_036.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_037.c -o iteration_10_program_037.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_038.c -o iteration_10_program_038.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_039.c -o iteration_10_program_039.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_040.c -o iteration_10_program_040.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_041.c -o iteration_10_program_041.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_042.c -o iteration_10_program_042.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_043.c -o iteration_10_program_043.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_044.c -o iteration_10_program_044.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_045.c -o iteration_10_program_045.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_046.c -o iteration_10_program_046.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_047.c -o iteration_10_program_047.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_048.c -o iteration_10_program_048.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_049.c -o iteration_10_program_049.out
+gcc -O2 -fdump-rtl-loop2 -fdump-rtl-doloop iteration_10_program_050.c -o iteration_10_program_050.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_001.c -o iteration_10_program_001.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_002.c -o iteration_10_program_002.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_003.c -o iteration_10_program_003.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_004.c -o iteration_10_program_004.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_005.c -o iteration_10_program_005.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_006.c -o iteration_10_program_006.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_007.c -o iteration_10_program_007.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_008.c -o iteration_10_program_008.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_009.c -o iteration_10_program_009.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_010.c -o iteration_10_program_010.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_011.c -o iteration_10_program_011.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_012.c -o iteration_10_program_012.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_013.c -o iteration_10_program_013.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_014.c -o iteration_10_program_014.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_015.c -o iteration_10_program_015.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_016.c -o iteration_10_program_016.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_017.c -o iteration_10_program_017.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_018.c -o iteration_10_program_018.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_019.c -o iteration_10_program_019.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_020.c -o iteration_10_program_020.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_021.c -o iteration_10_program_021.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_022.c -o iteration_10_program_022.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_023.c -o iteration_10_program_023.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_024.c -o iteration_10_program_024.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_025.c -o iteration_10_program_025.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_026.c -o iteration_10_program_026.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_027.c -o iteration_10_program_027.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_028.c -o iteration_10_program_028.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_029.c -o iteration_10_program_029.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_030.c -o iteration_10_program_030.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_031.c -o iteration_10_program_031.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_032.c -o iteration_10_program_032.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_033.c -o iteration_10_program_033.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_034.c -o iteration_10_program_034.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_035.c -o iteration_10_program_035.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_036.c -o iteration_10_program_036.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_037.c -o iteration_10_program_037.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_038.c -o iteration_10_program_038.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_039.c -o iteration_10_program_039.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_040.c -o iteration_10_program_040.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_041.c -o iteration_10_program_041.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_042.c -o iteration_10_program_042.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_043.c -o iteration_10_program_043.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_044.c -o iteration_10_program_044.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_045.c -o iteration_10_program_045.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_046.c -o iteration_10_program_046.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_047.c -o iteration_10_program_047.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_048.c -o iteration_10_program_048.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_049.c -o iteration_10_program_049.out
+gcc -O2 -march=armv7-a -mtune=cortex-a8 iteration_10_program_050.c -o iteration_10_program_050.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_001.c -o iteration_10_program_001.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_002.c -o iteration_10_program_002.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_003.c -o iteration_10_program_003.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_004.c -o iteration_10_program_004.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_005.c -o iteration_10_program_005.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_006.c -o iteration_10_program_006.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_007.c -o iteration_10_program_007.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_008.c -o iteration_10_program_008.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_009.c -o iteration_10_program_009.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_010.c -o iteration_10_program_010.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_011.c -o iteration_10_program_011.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_012.c -o iteration_10_program_012.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_013.c -o iteration_10_program_013.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_014.c -o iteration_10_program_014.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_015.c -o iteration_10_program_015.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_016.c -o iteration_10_program_016.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_017.c -o iteration_10_program_017.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_018.c -o iteration_10_program_018.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_019.c -o iteration_10_program_019.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_020.c -o iteration_10_program_020.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_021.c -o iteration_10_program_021.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_022.c -o iteration_10_program_022.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_023.c -o iteration_10_program_023.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_024.c -o iteration_10_program_024.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_025.c -o iteration_10_program_025.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_026.c -o iteration_10_program_026.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_027.c -o iteration_10_program_027.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_028.c -o iteration_10_program_028.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_029.c -o iteration_10_program_029.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_030.c -o iteration_10_program_030.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_031.c -o iteration_10_program_031.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_032.c -o iteration_10_program_032.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_033.c -o iteration_10_program_033.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_034.c -o iteration_10_program_034.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_035.c -o iteration_10_program_035.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_036.c -o iteration_10_program_036.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_037.c -o iteration_10_program_037.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_038.c -o iteration_10_program_038.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_039.c -o iteration_10_program_039.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_040.c -o iteration_10_program_040.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_041.c -o iteration_10_program_041.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_042.c -o iteration_10_program_042.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_043.c -o iteration_10_program_043.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_044.c -o iteration_10_program_044.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_045.c -o iteration_10_program_045.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_046.c -o iteration_10_program_046.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_047.c -o iteration_10_program_047.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_048.c -o iteration_10_program_048.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_049.c -o iteration_10_program_049.out
+gcc -O3 -funroll-loops -fno-peel-loops iteration_10_program_050.c -o iteration_10_program_050.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_001.c -o iteration_11_program_001.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_002.c -o iteration_11_program_002.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_003.c -o iteration_11_program_003.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_004.c -o iteration_11_program_004.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_005.c -o iteration_11_program_005.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_006.c -o iteration_11_program_006.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_007.c -o iteration_11_program_007.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_008.c -o iteration_11_program_008.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_009.c -o iteration_11_program_009.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_010.c -o iteration_11_program_010.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_011.c -o iteration_11_program_011.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_012.c -o iteration_11_program_012.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_013.c -o iteration_11_program_013.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_014.c -o iteration_11_program_014.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_015.c -o iteration_11_program_015.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_016.c -o iteration_11_program_016.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_017.c -o iteration_11_program_017.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_018.c -o iteration_11_program_018.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_019.c -o iteration_11_program_019.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_020.c -o iteration_11_program_020.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_021.c -o iteration_11_program_021.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_022.c -o iteration_11_program_022.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_023.c -o iteration_11_program_023.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_024.c -o iteration_11_program_024.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_025.c -o iteration_11_program_025.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_026.c -o iteration_11_program_026.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_027.c -o iteration_11_program_027.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_028.c -o iteration_11_program_028.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_029.c -o iteration_11_program_029.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_030.c -o iteration_11_program_030.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_031.c -o iteration_11_program_031.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_032.c -o iteration_11_program_032.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_033.c -o iteration_11_program_033.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_034.c -o iteration_11_program_034.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_035.c -o iteration_11_program_035.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_036.c -o iteration_11_program_036.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_037.c -o iteration_11_program_037.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_038.c -o iteration_11_program_038.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_039.c -o iteration_11_program_039.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_040.c -o iteration_11_program_040.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_041.c -o iteration_11_program_041.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_042.c -o iteration_11_program_042.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_043.c -o iteration_11_program_043.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_044.c -o iteration_11_program_044.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_045.c -o iteration_11_program_045.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_046.c -o iteration_11_program_046.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_047.c -o iteration_11_program_047.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_048.c -o iteration_11_program_048.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_049.c -o iteration_11_program_049.out
+gcc -O2 -march=armv7-a -fdump-rtl-loop2 -fdump-rtl-doloop2 iteration_11_program_050.c -o iteration_11_program_050.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_001.c -o iteration_11_program_001.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_002.c -o iteration_11_program_002.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_003.c -o iteration_11_program_003.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_004.c -o iteration_11_program_004.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_005.c -o iteration_11_program_005.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_006.c -o iteration_11_program_006.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_007.c -o iteration_11_program_007.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_008.c -o iteration_11_program_008.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_009.c -o iteration_11_program_009.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_010.c -o iteration_11_program_010.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_011.c -o iteration_11_program_011.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_012.c -o iteration_11_program_012.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_013.c -o iteration_11_program_013.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_014.c -o iteration_11_program_014.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_015.c -o iteration_11_program_015.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_016.c -o iteration_11_program_016.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_017.c -o iteration_11_program_017.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_018.c -o iteration_11_program_018.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_019.c -o iteration_11_program_019.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_020.c -o iteration_11_program_020.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_021.c -o iteration_11_program_021.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_022.c -o iteration_11_program_022.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_023.c -o iteration_11_program_023.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_024.c -o iteration_11_program_024.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_025.c -o iteration_11_program_025.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_026.c -o iteration_11_program_026.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_027.c -o iteration_11_program_027.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_028.c -o iteration_11_program_028.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_029.c -o iteration_11_program_029.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_030.c -o iteration_11_program_030.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_031.c -o iteration_11_program_031.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_032.c -o iteration_11_program_032.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_033.c -o iteration_11_program_033.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_034.c -o iteration_11_program_034.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_035.c -o iteration_11_program_035.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_036.c -o iteration_11_program_036.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_037.c -o iteration_11_program_037.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_038.c -o iteration_11_program_038.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_039.c -o iteration_11_program_039.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_040.c -o iteration_11_program_040.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_041.c -o iteration_11_program_041.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_042.c -o iteration_11_program_042.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_043.c -o iteration_11_program_043.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_044.c -o iteration_11_program_044.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_045.c -o iteration_11_program_045.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_046.c -o iteration_11_program_046.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_047.c -o iteration_11_program_047.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_048.c -o iteration_11_program_048.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_049.c -o iteration_11_program_049.out
+gcc -O2 -mmcu=atmega328p -S -o- iteration_11_program_050.c -o iteration_11_program_050.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_001.c -o iteration_11_program_001.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_002.c -o iteration_11_program_002.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_003.c -o iteration_11_program_003.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_004.c -o iteration_11_program_004.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_005.c -o iteration_11_program_005.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_006.c -o iteration_11_program_006.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_007.c -o iteration_11_program_007.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_008.c -o iteration_11_program_008.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_009.c -o iteration_11_program_009.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_010.c -o iteration_11_program_010.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_011.c -o iteration_11_program_011.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_012.c -o iteration_11_program_012.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_013.c -o iteration_11_program_013.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_014.c -o iteration_11_program_014.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_015.c -o iteration_11_program_015.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_016.c -o iteration_11_program_016.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_017.c -o iteration_11_program_017.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_018.c -o iteration_11_program_018.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_019.c -o iteration_11_program_019.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_020.c -o iteration_11_program_020.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_021.c -o iteration_11_program_021.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_022.c -o iteration_11_program_022.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_023.c -o iteration_11_program_023.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_024.c -o iteration_11_program_024.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_025.c -o iteration_11_program_025.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_026.c -o iteration_11_program_026.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_027.c -o iteration_11_program_027.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_028.c -o iteration_11_program_028.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_029.c -o iteration_11_program_029.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_030.c -o iteration_11_program_030.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_031.c -o iteration_11_program_031.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_032.c -o iteration_11_program_032.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_033.c -o iteration_11_program_033.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_034.c -o iteration_11_program_034.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_035.c -o iteration_11_program_035.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_036.c -o iteration_11_program_036.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_037.c -o iteration_11_program_037.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_038.c -o iteration_11_program_038.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_039.c -o iteration_11_program_039.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_040.c -o iteration_11_program_040.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_041.c -o iteration_11_program_041.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_042.c -o iteration_11_program_042.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_043.c -o iteration_11_program_043.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_044.c -o iteration_11_program_044.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_045.c -o iteration_11_program_045.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_046.c -o iteration_11_program_046.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_047.c -o iteration_11_program_047.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_048.c -o iteration_11_program_048.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_049.c -o iteration_11_program_049.out
+gcc -O2 -fdump-rtl-all -da iteration_11_program_050.c -o iteration_11_program_050.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_001.c -o iteration_12_program_001.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_002.c -o iteration_12_program_002.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_003.c -o iteration_12_program_003.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_004.c -o iteration_12_program_004.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_005.c -o iteration_12_program_005.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_006.c -o iteration_12_program_006.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_007.c -o iteration_12_program_007.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_008.c -o iteration_12_program_008.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_009.c -o iteration_12_program_009.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_010.c -o iteration_12_program_010.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_011.c -o iteration_12_program_011.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_012.c -o iteration_12_program_012.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_013.c -o iteration_12_program_013.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_014.c -o iteration_12_program_014.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_015.c -o iteration_12_program_015.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_016.c -o iteration_12_program_016.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_017.c -o iteration_12_program_017.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_018.c -o iteration_12_program_018.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_019.c -o iteration_12_program_019.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_020.c -o iteration_12_program_020.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_021.c -o iteration_12_program_021.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_022.c -o iteration_12_program_022.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_023.c -o iteration_12_program_023.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_024.c -o iteration_12_program_024.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_025.c -o iteration_12_program_025.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_026.c -o iteration_12_program_026.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_027.c -o iteration_12_program_027.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_028.c -o iteration_12_program_028.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_029.c -o iteration_12_program_029.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_030.c -o iteration_12_program_030.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_031.c -o iteration_12_program_031.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_032.c -o iteration_12_program_032.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_033.c -o iteration_12_program_033.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_034.c -o iteration_12_program_034.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_035.c -o iteration_12_program_035.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_036.c -o iteration_12_program_036.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_037.c -o iteration_12_program_037.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_038.c -o iteration_12_program_038.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_039.c -o iteration_12_program_039.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_040.c -o iteration_12_program_040.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_041.c -o iteration_12_program_041.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_042.c -o iteration_12_program_042.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_043.c -o iteration_12_program_043.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_044.c -o iteration_12_program_044.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_045.c -o iteration_12_program_045.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_046.c -o iteration_12_program_046.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_047.c -o iteration_12_program_047.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_048.c -o iteration_12_program_048.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_049.c -o iteration_12_program_049.out
+gcc -O1 -fdump-rtl-expand -fdump-rtl-combine iteration_12_program_050.c -o iteration_12_program_050.out
+gcc -O2 -m32 -march=i686 iteration_12_program_001.c -o iteration_12_program_001.out
+gcc -O2 -m32 -march=i686 iteration_12_program_002.c -o iteration_12_program_002.out
+gcc -O2 -m32 -march=i686 iteration_12_program_003.c -o iteration_12_program_003.out
+gcc -O2 -m32 -march=i686 iteration_12_program_004.c -o iteration_12_program_004.out
+gcc -O2 -m32 -march=i686 iteration_12_program_005.c -o iteration_12_program_005.out
+gcc -O2 -m32 -march=i686 iteration_12_program_006.c -o iteration_12_program_006.out
+gcc -O2 -m32 -march=i686 iteration_12_program_007.c -o iteration_12_program_007.out
+gcc -O2 -m32 -march=i686 iteration_12_program_008.c -o iteration_12_program_008.out
+gcc -O2 -m32 -march=i686 iteration_12_program_009.c -o iteration_12_program_009.out
+gcc -O2 -m32 -march=i686 iteration_12_program_010.c -o iteration_12_program_010.out
+gcc -O2 -m32 -march=i686 iteration_12_program_011.c -o iteration_12_program_011.out
+gcc -O2 -m32 -march=i686 iteration_12_program_012.c -o iteration_12_program_012.out
+gcc -O2 -m32 -march=i686 iteration_12_program_013.c -o iteration_12_program_013.out
+gcc -O2 -m32 -march=i686 iteration_12_program_014.c -o iteration_12_program_014.out
+gcc -O2 -m32 -march=i686 iteration_12_program_015.c -o iteration_12_program_015.out
+gcc -O2 -m32 -march=i686 iteration_12_program_016.c -o iteration_12_program_016.out
+gcc -O2 -m32 -march=i686 iteration_12_program_017.c -o iteration_12_program_017.out
+gcc -O2 -m32 -march=i686 iteration_12_program_018.c -o iteration_12_program_018.out
+gcc -O2 -m32 -march=i686 iteration_12_program_019.c -o iteration_12_program_019.out
+gcc -O2 -m32 -march=i686 iteration_12_program_020.c -o iteration_12_program_020.out
+gcc -O2 -m32 -march=i686 iteration_12_program_021.c -o iteration_12_program_021.out
+gcc -O2 -m32 -march=i686 iteration_12_program_022.c -o iteration_12_program_022.out
+gcc -O2 -m32 -march=i686 iteration_12_program_023.c -o iteration_12_program_023.out
+gcc -O2 -m32 -march=i686 iteration_12_program_024.c -o iteration_12_program_024.out
+gcc -O2 -m32 -march=i686 iteration_12_program_025.c -o iteration_12_program_025.out
+gcc -O2 -m32 -march=i686 iteration_12_program_026.c -o iteration_12_program_026.out
+gcc -O2 -m32 -march=i686 iteration_12_program_027.c -o iteration_12_program_027.out
+gcc -O2 -m32 -march=i686 iteration_12_program_028.c -o iteration_12_program_028.out
+gcc -O2 -m32 -march=i686 iteration_12_program_029.c -o iteration_12_program_029.out
+gcc -O2 -m32 -march=i686 iteration_12_program_030.c -o iteration_12_program_030.out
+gcc -O2 -m32 -march=i686 iteration_12_program_031.c -o iteration_12_program_031.out
+gcc -O2 -m32 -march=i686 iteration_12_program_032.c -o iteration_12_program_032.out
+gcc -O2 -m32 -march=i686 iteration_12_program_033.c -o iteration_12_program_033.out
+gcc -O2 -m32 -march=i686 iteration_12_program_034.c -o iteration_12_program_034.out
+gcc -O2 -m32 -march=i686 iteration_12_program_035.c -o iteration_12_program_035.out
+gcc -O2 -m32 -march=i686 iteration_12_program_036.c -o iteration_12_program_036.out
+gcc -O2 -m32 -march=i686 iteration_12_program_037.c -o iteration_12_program_037.out
+gcc -O2 -m32 -march=i686 iteration_12_program_038.c -o iteration_12_program_038.out
+gcc -O2 -m32 -march=i686 iteration_12_program_039.c -o iteration_12_program_039.out
+gcc -O2 -m32 -march=i686 iteration_12_program_040.c -o iteration_12_program_040.out
+gcc -O2 -m32 -march=i686 iteration_12_program_041.c -o iteration_12_program_041.out
+gcc -O2 -m32 -march=i686 iteration_12_program_042.c -o iteration_12_program_042.out
+gcc -O2 -m32 -march=i686 iteration_12_program_043.c -o iteration_12_program_043.out
+gcc -O2 -m32 -march=i686 iteration_12_program_044.c -o iteration_12_program_044.out
+gcc -O2 -m32 -march=i686 iteration_12_program_045.c -o iteration_12_program_045.out
+gcc -O2 -m32 -march=i686 iteration_12_program_046.c -o iteration_12_program_046.out
+gcc -O2 -m32 -march=i686 iteration_12_program_047.c -o iteration_12_program_047.out
+gcc -O2 -m32 -march=i686 iteration_12_program_048.c -o iteration_12_program_048.out
+gcc -O2 -m32 -march=i686 iteration_12_program_049.c -o iteration_12_program_049.out
+gcc -O2 -m32 -march=i686 iteration_12_program_050.c -o iteration_12_program_050.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_001.c -o iteration_12_program_001.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_002.c -o iteration_12_program_002.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_003.c -o iteration_12_program_003.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_004.c -o iteration_12_program_004.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_005.c -o iteration_12_program_005.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_006.c -o iteration_12_program_006.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_007.c -o iteration_12_program_007.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_008.c -o iteration_12_program_008.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_009.c -o iteration_12_program_009.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_010.c -o iteration_12_program_010.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_011.c -o iteration_12_program_011.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_012.c -o iteration_12_program_012.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_013.c -o iteration_12_program_013.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_014.c -o iteration_12_program_014.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_015.c -o iteration_12_program_015.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_016.c -o iteration_12_program_016.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_017.c -o iteration_12_program_017.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_018.c -o iteration_12_program_018.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_019.c -o iteration_12_program_019.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_020.c -o iteration_12_program_020.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_021.c -o iteration_12_program_021.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_022.c -o iteration_12_program_022.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_023.c -o iteration_12_program_023.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_024.c -o iteration_12_program_024.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_025.c -o iteration_12_program_025.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_026.c -o iteration_12_program_026.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_027.c -o iteration_12_program_027.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_028.c -o iteration_12_program_028.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_029.c -o iteration_12_program_029.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_030.c -o iteration_12_program_030.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_031.c -o iteration_12_program_031.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_032.c -o iteration_12_program_032.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_033.c -o iteration_12_program_033.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_034.c -o iteration_12_program_034.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_035.c -o iteration_12_program_035.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_036.c -o iteration_12_program_036.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_037.c -o iteration_12_program_037.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_038.c -o iteration_12_program_038.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_039.c -o iteration_12_program_039.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_040.c -o iteration_12_program_040.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_041.c -o iteration_12_program_041.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_042.c -o iteration_12_program_042.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_043.c -o iteration_12_program_043.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_044.c -o iteration_12_program_044.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_045.c -o iteration_12_program_045.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_046.c -o iteration_12_program_046.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_047.c -o iteration_12_program_047.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_048.c -o iteration_12_program_048.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_049.c -o iteration_12_program_049.out
+gcc -O2 -fschedule-insns -fno-omit-frame-pointer iteration_12_program_050.c -o iteration_12_program_050.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_001.c -o iteration_13_program_001.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_002.c -o iteration_13_program_002.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_003.c -o iteration_13_program_003.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_004.c -o iteration_13_program_004.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_005.c -o iteration_13_program_005.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_006.c -o iteration_13_program_006.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_007.c -o iteration_13_program_007.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_008.c -o iteration_13_program_008.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_009.c -o iteration_13_program_009.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_010.c -o iteration_13_program_010.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_011.c -o iteration_13_program_011.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_012.c -o iteration_13_program_012.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_013.c -o iteration_13_program_013.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_014.c -o iteration_13_program_014.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_015.c -o iteration_13_program_015.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_016.c -o iteration_13_program_016.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_017.c -o iteration_13_program_017.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_018.c -o iteration_13_program_018.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_019.c -o iteration_13_program_019.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_020.c -o iteration_13_program_020.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_021.c -o iteration_13_program_021.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_022.c -o iteration_13_program_022.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_023.c -o iteration_13_program_023.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_024.c -o iteration_13_program_024.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_025.c -o iteration_13_program_025.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_026.c -o iteration_13_program_026.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_027.c -o iteration_13_program_027.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_028.c -o iteration_13_program_028.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_029.c -o iteration_13_program_029.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_030.c -o iteration_13_program_030.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_031.c -o iteration_13_program_031.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_032.c -o iteration_13_program_032.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_033.c -o iteration_13_program_033.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_034.c -o iteration_13_program_034.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_035.c -o iteration_13_program_035.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_036.c -o iteration_13_program_036.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_037.c -o iteration_13_program_037.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_038.c -o iteration_13_program_038.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_039.c -o iteration_13_program_039.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_040.c -o iteration_13_program_040.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_041.c -o iteration_13_program_041.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_042.c -o iteration_13_program_042.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_043.c -o iteration_13_program_043.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_044.c -o iteration_13_program_044.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_045.c -o iteration_13_program_045.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_046.c -o iteration_13_program_046.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_047.c -o iteration_13_program_047.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_048.c -o iteration_13_program_048.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_049.c -o iteration_13_program_049.out
+gcc -O1 -fschedule-insns -fno-omit-frame-pointer iteration_13_program_050.c -o iteration_13_program_050.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_001.c -o iteration_13_program_001.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_002.c -o iteration_13_program_002.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_003.c -o iteration_13_program_003.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_004.c -o iteration_13_program_004.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_005.c -o iteration_13_program_005.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_006.c -o iteration_13_program_006.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_007.c -o iteration_13_program_007.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_008.c -o iteration_13_program_008.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_009.c -o iteration_13_program_009.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_010.c -o iteration_13_program_010.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_011.c -o iteration_13_program_011.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_012.c -o iteration_13_program_012.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_013.c -o iteration_13_program_013.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_014.c -o iteration_13_program_014.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_015.c -o iteration_13_program_015.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_016.c -o iteration_13_program_016.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_017.c -o iteration_13_program_017.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_018.c -o iteration_13_program_018.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_019.c -o iteration_13_program_019.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_020.c -o iteration_13_program_020.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_021.c -o iteration_13_program_021.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_022.c -o iteration_13_program_022.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_023.c -o iteration_13_program_023.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_024.c -o iteration_13_program_024.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_025.c -o iteration_13_program_025.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_026.c -o iteration_13_program_026.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_027.c -o iteration_13_program_027.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_028.c -o iteration_13_program_028.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_029.c -o iteration_13_program_029.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_030.c -o iteration_13_program_030.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_031.c -o iteration_13_program_031.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_032.c -o iteration_13_program_032.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_033.c -o iteration_13_program_033.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_034.c -o iteration_13_program_034.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_035.c -o iteration_13_program_035.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_036.c -o iteration_13_program_036.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_037.c -o iteration_13_program_037.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_038.c -o iteration_13_program_038.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_039.c -o iteration_13_program_039.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_040.c -o iteration_13_program_040.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_041.c -o iteration_13_program_041.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_042.c -o iteration_13_program_042.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_043.c -o iteration_13_program_043.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_044.c -o iteration_13_program_044.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_045.c -o iteration_13_program_045.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_046.c -o iteration_13_program_046.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_047.c -o iteration_13_program_047.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_048.c -o iteration_13_program_048.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_049.c -o iteration_13_program_049.out
+gcc -O2 -m32 -march=i686 -fno-pic iteration_13_program_050.c -o iteration_13_program_050.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_001.c -o iteration_13_program_001.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_002.c -o iteration_13_program_002.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_003.c -o iteration_13_program_003.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_004.c -o iteration_13_program_004.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_005.c -o iteration_13_program_005.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_006.c -o iteration_13_program_006.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_007.c -o iteration_13_program_007.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_008.c -o iteration_13_program_008.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_009.c -o iteration_13_program_009.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_010.c -o iteration_13_program_010.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_011.c -o iteration_13_program_011.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_012.c -o iteration_13_program_012.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_013.c -o iteration_13_program_013.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_014.c -o iteration_13_program_014.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_015.c -o iteration_13_program_015.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_016.c -o iteration_13_program_016.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_017.c -o iteration_13_program_017.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_018.c -o iteration_13_program_018.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_019.c -o iteration_13_program_019.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_020.c -o iteration_13_program_020.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_021.c -o iteration_13_program_021.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_022.c -o iteration_13_program_022.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_023.c -o iteration_13_program_023.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_024.c -o iteration_13_program_024.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_025.c -o iteration_13_program_025.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_026.c -o iteration_13_program_026.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_027.c -o iteration_13_program_027.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_028.c -o iteration_13_program_028.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_029.c -o iteration_13_program_029.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_030.c -o iteration_13_program_030.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_031.c -o iteration_13_program_031.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_032.c -o iteration_13_program_032.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_033.c -o iteration_13_program_033.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_034.c -o iteration_13_program_034.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_035.c -o iteration_13_program_035.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_036.c -o iteration_13_program_036.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_037.c -o iteration_13_program_037.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_038.c -o iteration_13_program_038.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_039.c -o iteration_13_program_039.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_040.c -o iteration_13_program_040.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_041.c -o iteration_13_program_041.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_042.c -o iteration_13_program_042.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_043.c -o iteration_13_program_043.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_044.c -o iteration_13_program_044.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_045.c -o iteration_13_program_045.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_046.c -o iteration_13_program_046.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_047.c -o iteration_13_program_047.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_048.c -o iteration_13_program_048.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_049.c -o iteration_13_program_049.out
+gcc -O2 -fno-optimize-sibling-calls -fno-crossjumping iteration_13_program_050.c -o iteration_13_program_050.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_001.c -o iteration_14_program_001.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_002.c -o iteration_14_program_002.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_003.c -o iteration_14_program_003.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_004.c -o iteration_14_program_004.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_005.c -o iteration_14_program_005.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_006.c -o iteration_14_program_006.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_007.c -o iteration_14_program_007.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_008.c -o iteration_14_program_008.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_009.c -o iteration_14_program_009.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_010.c -o iteration_14_program_010.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_011.c -o iteration_14_program_011.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_012.c -o iteration_14_program_012.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_013.c -o iteration_14_program_013.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_014.c -o iteration_14_program_014.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_015.c -o iteration_14_program_015.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_016.c -o iteration_14_program_016.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_017.c -o iteration_14_program_017.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_018.c -o iteration_14_program_018.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_019.c -o iteration_14_program_019.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_020.c -o iteration_14_program_020.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_021.c -o iteration_14_program_021.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_022.c -o iteration_14_program_022.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_023.c -o iteration_14_program_023.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_024.c -o iteration_14_program_024.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_025.c -o iteration_14_program_025.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_026.c -o iteration_14_program_026.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_027.c -o iteration_14_program_027.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_028.c -o iteration_14_program_028.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_029.c -o iteration_14_program_029.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_030.c -o iteration_14_program_030.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_031.c -o iteration_14_program_031.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_032.c -o iteration_14_program_032.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_033.c -o iteration_14_program_033.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_034.c -o iteration_14_program_034.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_035.c -o iteration_14_program_035.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_036.c -o iteration_14_program_036.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_037.c -o iteration_14_program_037.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_038.c -o iteration_14_program_038.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_039.c -o iteration_14_program_039.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_040.c -o iteration_14_program_040.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_041.c -o iteration_14_program_041.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_042.c -o iteration_14_program_042.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_043.c -o iteration_14_program_043.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_044.c -o iteration_14_program_044.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_045.c -o iteration_14_program_045.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_046.c -o iteration_14_program_046.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_047.c -o iteration_14_program_047.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_048.c -o iteration_14_program_048.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_049.c -o iteration_14_program_049.out
+gcc -O2 -ftls-model=emulated -fno-common iteration_14_program_050.c -o iteration_14_program_050.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_001.c -o iteration_14_program_001.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_002.c -o iteration_14_program_002.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_003.c -o iteration_14_program_003.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_004.c -o iteration_14_program_004.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_005.c -o iteration_14_program_005.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_006.c -o iteration_14_program_006.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_007.c -o iteration_14_program_007.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_008.c -o iteration_14_program_008.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_009.c -o iteration_14_program_009.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_010.c -o iteration_14_program_010.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_011.c -o iteration_14_program_011.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_012.c -o iteration_14_program_012.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_013.c -o iteration_14_program_013.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_014.c -o iteration_14_program_014.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_015.c -o iteration_14_program_015.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_016.c -o iteration_14_program_016.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_017.c -o iteration_14_program_017.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_018.c -o iteration_14_program_018.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_019.c -o iteration_14_program_019.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_020.c -o iteration_14_program_020.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_021.c -o iteration_14_program_021.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_022.c -o iteration_14_program_022.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_023.c -o iteration_14_program_023.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_024.c -o iteration_14_program_024.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_025.c -o iteration_14_program_025.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_026.c -o iteration_14_program_026.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_027.c -o iteration_14_program_027.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_028.c -o iteration_14_program_028.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_029.c -o iteration_14_program_029.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_030.c -o iteration_14_program_030.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_031.c -o iteration_14_program_031.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_032.c -o iteration_14_program_032.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_033.c -o iteration_14_program_033.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_034.c -o iteration_14_program_034.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_035.c -o iteration_14_program_035.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_036.c -o iteration_14_program_036.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_037.c -o iteration_14_program_037.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_038.c -o iteration_14_program_038.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_039.c -o iteration_14_program_039.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_040.c -o iteration_14_program_040.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_041.c -o iteration_14_program_041.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_042.c -o iteration_14_program_042.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_043.c -o iteration_14_program_043.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_044.c -o iteration_14_program_044.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_045.c -o iteration_14_program_045.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_046.c -o iteration_14_program_046.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_047.c -o iteration_14_program_047.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_048.c -o iteration_14_program_048.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_049.c -o iteration_14_program_049.out
+gcc -O2 -flto -ftls-model=emulated iteration_14_program_050.c -o iteration_14_program_050.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_001.c -o iteration_14_program_001.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_002.c -o iteration_14_program_002.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_003.c -o iteration_14_program_003.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_004.c -o iteration_14_program_004.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_005.c -o iteration_14_program_005.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_006.c -o iteration_14_program_006.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_007.c -o iteration_14_program_007.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_008.c -o iteration_14_program_008.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_009.c -o iteration_14_program_009.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_010.c -o iteration_14_program_010.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_011.c -o iteration_14_program_011.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_012.c -o iteration_14_program_012.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_013.c -o iteration_14_program_013.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_014.c -o iteration_14_program_014.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_015.c -o iteration_14_program_015.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_016.c -o iteration_14_program_016.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_017.c -o iteration_14_program_017.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_018.c -o iteration_14_program_018.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_019.c -o iteration_14_program_019.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_020.c -o iteration_14_program_020.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_021.c -o iteration_14_program_021.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_022.c -o iteration_14_program_022.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_023.c -o iteration_14_program_023.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_024.c -o iteration_14_program_024.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_025.c -o iteration_14_program_025.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_026.c -o iteration_14_program_026.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_027.c -o iteration_14_program_027.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_028.c -o iteration_14_program_028.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_029.c -o iteration_14_program_029.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_030.c -o iteration_14_program_030.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_031.c -o iteration_14_program_031.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_032.c -o iteration_14_program_032.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_033.c -o iteration_14_program_033.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_034.c -o iteration_14_program_034.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_035.c -o iteration_14_program_035.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_036.c -o iteration_14_program_036.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_037.c -o iteration_14_program_037.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_038.c -o iteration_14_program_038.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_039.c -o iteration_14_program_039.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_040.c -o iteration_14_program_040.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_041.c -o iteration_14_program_041.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_042.c -o iteration_14_program_042.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_043.c -o iteration_14_program_043.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_044.c -o iteration_14_program_044.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_045.c -o iteration_14_program_045.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_046.c -o iteration_14_program_046.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_047.c -o iteration_14_program_047.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_048.c -o iteration_14_program_048.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_049.c -o iteration_14_program_049.out
+gcc -O1 -ftls-model=emulated -fvisibility=hidden iteration_14_program_050.c -o iteration_14_program_050.out
+gcc -O0 -fsyntax-only iteration_15_program_001.c -o iteration_15_program_001.out
+gcc -O0 -fsyntax-only iteration_15_program_002.c -o iteration_15_program_002.out
+gcc -O0 -fsyntax-only iteration_15_program_003.c -o iteration_15_program_003.out
+gcc -O0 -fsyntax-only iteration_15_program_004.c -o iteration_15_program_004.out
+gcc -O0 -fsyntax-only iteration_15_program_005.c -o iteration_15_program_005.out
+gcc -O0 -fsyntax-only iteration_15_program_006.c -o iteration_15_program_006.out
+gcc -O0 -fsyntax-only iteration_15_program_007.c -o iteration_15_program_007.out
+gcc -O0 -fsyntax-only iteration_15_program_008.c -o iteration_15_program_008.out
+gcc -O0 -fsyntax-only iteration_15_program_009.c -o iteration_15_program_009.out
+gcc -O0 -fsyntax-only iteration_15_program_010.c -o iteration_15_program_010.out
+gcc -O0 -fsyntax-only iteration_15_program_011.c -o iteration_15_program_011.out
+gcc -O0 -fsyntax-only iteration_15_program_012.c -o iteration_15_program_012.out
+gcc -O0 -fsyntax-only iteration_15_program_013.c -o iteration_15_program_013.out
+gcc -O0 -fsyntax-only iteration_15_program_014.c -o iteration_15_program_014.out
+gcc -O0 -fsyntax-only iteration_15_program_015.c -o iteration_15_program_015.out
+gcc -O0 -fsyntax-only iteration_15_program_016.c -o iteration_15_program_016.out
+gcc -O0 -fsyntax-only iteration_15_program_017.c -o iteration_15_program_017.out
+gcc -O0 -fsyntax-only iteration_15_program_018.c -o iteration_15_program_018.out
+gcc -O0 -fsyntax-only iteration_15_program_019.c -o iteration_15_program_019.out
+gcc -O0 -fsyntax-only iteration_15_program_020.c -o iteration_15_program_020.out
+gcc -O0 -fsyntax-only iteration_15_program_021.c -o iteration_15_program_021.out
+gcc -O0 -fsyntax-only iteration_15_program_022.c -o iteration_15_program_022.out
+gcc -O0 -fsyntax-only iteration_15_program_023.c -o iteration_15_program_023.out
+gcc -O0 -fsyntax-only iteration_15_program_024.c -o iteration_15_program_024.out
+gcc -O0 -fsyntax-only iteration_15_program_025.c -o iteration_15_program_025.out
+gcc -O0 -fsyntax-only iteration_15_program_026.c -o iteration_15_program_026.out
+gcc -O0 -fsyntax-only iteration_15_program_027.c -o iteration_15_program_027.out
+gcc -O0 -fsyntax-only iteration_15_program_028.c -o iteration_15_program_028.out
+gcc -O0 -fsyntax-only iteration_15_program_029.c -o iteration_15_program_029.out
+gcc -O0 -fsyntax-only iteration_15_program_030.c -o iteration_15_program_030.out
+gcc -O0 -fsyntax-only iteration_15_program_031.c -o iteration_15_program_031.out
+gcc -O0 -fsyntax-only iteration_15_program_032.c -o iteration_15_program_032.out
+gcc -O0 -fsyntax-only iteration_15_program_033.c -o iteration_15_program_033.out
+gcc -O0 -fsyntax-only iteration_15_program_034.c -o iteration_15_program_034.out
+gcc -O0 -fsyntax-only iteration_15_program_035.c -o iteration_15_program_035.out
+gcc -O0 -fsyntax-only iteration_15_program_036.c -o iteration_15_program_036.out
+gcc -O0 -fsyntax-only iteration_15_program_037.c -o iteration_15_program_037.out
+gcc -O0 -fsyntax-only iteration_15_program_038.c -o iteration_15_program_038.out
+gcc -O0 -fsyntax-only iteration_15_program_039.c -o iteration_15_program_039.out
+gcc -O0 -fsyntax-only iteration_15_program_040.c -o iteration_15_program_040.out
+gcc -O0 -fsyntax-only iteration_15_program_041.c -o iteration_15_program_041.out
+gcc -O0 -fsyntax-only iteration_15_program_042.c -o iteration_15_program_042.out
+gcc -O0 -fsyntax-only iteration_15_program_043.c -o iteration_15_program_043.out
+gcc -O0 -fsyntax-only iteration_15_program_044.c -o iteration_15_program_044.out
+gcc -O0 -fsyntax-only iteration_15_program_045.c -o iteration_15_program_045.out
+gcc -O0 -fsyntax-only iteration_15_program_046.c -o iteration_15_program_046.out
+gcc -O0 -fsyntax-only iteration_15_program_047.c -o iteration_15_program_047.out
+gcc -O0 -fsyntax-only iteration_15_program_048.c -o iteration_15_program_048.out
+gcc -O0 -fsyntax-only iteration_15_program_049.c -o iteration_15_program_049.out
+gcc -O0 -fsyntax-only iteration_15_program_050.c -o iteration_15_program_050.out
+gcc -O2 -fpermissive iteration_15_program_001.c -o iteration_15_program_001.out
+gcc -O2 -fpermissive iteration_15_program_002.c -o iteration_15_program_002.out
+gcc -O2 -fpermissive iteration_15_program_003.c -o iteration_15_program_003.out
+gcc -O2 -fpermissive iteration_15_program_004.c -o iteration_15_program_004.out
+gcc -O2 -fpermissive iteration_15_program_005.c -o iteration_15_program_005.out
+gcc -O2 -fpermissive iteration_15_program_006.c -o iteration_15_program_006.out
+gcc -O2 -fpermissive iteration_15_program_007.c -o iteration_15_program_007.out
+gcc -O2 -fpermissive iteration_15_program_008.c -o iteration_15_program_008.out
+gcc -O2 -fpermissive iteration_15_program_009.c -o iteration_15_program_009.out
+gcc -O2 -fpermissive iteration_15_program_010.c -o iteration_15_program_010.out
+gcc -O2 -fpermissive iteration_15_program_011.c -o iteration_15_program_011.out
+gcc -O2 -fpermissive iteration_15_program_012.c -o iteration_15_program_012.out
+gcc -O2 -fpermissive iteration_15_program_013.c -o iteration_15_program_013.out
+gcc -O2 -fpermissive iteration_15_program_014.c -o iteration_15_program_014.out
+gcc -O2 -fpermissive iteration_15_program_015.c -o iteration_15_program_015.out
+gcc -O2 -fpermissive iteration_15_program_016.c -o iteration_15_program_016.out
+gcc -O2 -fpermissive iteration_15_program_017.c -o iteration_15_program_017.out
+gcc -O2 -fpermissive iteration_15_program_018.c -o iteration_15_program_018.out
+gcc -O2 -fpermissive iteration_15_program_019.c -o iteration_15_program_019.out
+gcc -O2 -fpermissive iteration_15_program_020.c -o iteration_15_program_020.out
+gcc -O2 -fpermissive iteration_15_program_021.c -o iteration_15_program_021.out
+gcc -O2 -fpermissive iteration_15_program_022.c -o iteration_15_program_022.out
+gcc -O2 -fpermissive iteration_15_program_023.c -o iteration_15_program_023.out
+gcc -O2 -fpermissive iteration_15_program_024.c -o iteration_15_program_024.out
+gcc -O2 -fpermissive iteration_15_program_025.c -o iteration_15_program_025.out
+gcc -O2 -fpermissive iteration_15_program_026.c -o iteration_15_program_026.out
+gcc -O2 -fpermissive iteration_15_program_027.c -o iteration_15_program_027.out
+gcc -O2 -fpermissive iteration_15_program_028.c -o iteration_15_program_028.out
+gcc -O2 -fpermissive iteration_15_program_029.c -o iteration_15_program_029.out
+gcc -O2 -fpermissive iteration_15_program_030.c -o iteration_15_program_030.out
+gcc -O2 -fpermissive iteration_15_program_031.c -o iteration_15_program_031.out
+gcc -O2 -fpermissive iteration_15_program_032.c -o iteration_15_program_032.out
+gcc -O2 -fpermissive iteration_15_program_033.c -o iteration_15_program_033.out
+gcc -O2 -fpermissive iteration_15_program_034.c -o iteration_15_program_034.out
+gcc -O2 -fpermissive iteration_15_program_035.c -o iteration_15_program_035.out
+gcc -O2 -fpermissive iteration_15_program_036.c -o iteration_15_program_036.out
+gcc -O2 -fpermissive iteration_15_program_037.c -o iteration_15_program_037.out
+gcc -O2 -fpermissive iteration_15_program_038.c -o iteration_15_program_038.out
+gcc -O2 -fpermissive iteration_15_program_039.c -o iteration_15_program_039.out
+gcc -O2 -fpermissive iteration_15_program_040.c -o iteration_15_program_040.out
+gcc -O2 -fpermissive iteration_15_program_041.c -o iteration_15_program_041.out
+gcc -O2 -fpermissive iteration_15_program_042.c -o iteration_15_program_042.out
+gcc -O2 -fpermissive iteration_15_program_043.c -o iteration_15_program_043.out
+gcc -O2 -fpermissive iteration_15_program_044.c -o iteration_15_program_044.out
+gcc -O2 -fpermissive iteration_15_program_045.c -o iteration_15_program_045.out
+gcc -O2 -fpermissive iteration_15_program_046.c -o iteration_15_program_046.out
+gcc -O2 -fpermissive iteration_15_program_047.c -o iteration_15_program_047.out
+gcc -O2 -fpermissive iteration_15_program_048.c -o iteration_15_program_048.out
+gcc -O2 -fpermissive iteration_15_program_049.c -o iteration_15_program_049.out
+gcc -O2 -fpermissive iteration_15_program_050.c -o iteration_15_program_050.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_001.c -o iteration_16_program_001.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_002.c -o iteration_16_program_002.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_003.c -o iteration_16_program_003.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_004.c -o iteration_16_program_004.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_005.c -o iteration_16_program_005.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_006.c -o iteration_16_program_006.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_007.c -o iteration_16_program_007.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_008.c -o iteration_16_program_008.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_009.c -o iteration_16_program_009.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_010.c -o iteration_16_program_010.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_011.c -o iteration_16_program_011.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_012.c -o iteration_16_program_012.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_013.c -o iteration_16_program_013.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_014.c -o iteration_16_program_014.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_015.c -o iteration_16_program_015.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_016.c -o iteration_16_program_016.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_017.c -o iteration_16_program_017.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_018.c -o iteration_16_program_018.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_019.c -o iteration_16_program_019.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_020.c -o iteration_16_program_020.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_021.c -o iteration_16_program_021.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_022.c -o iteration_16_program_022.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_023.c -o iteration_16_program_023.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_024.c -o iteration_16_program_024.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_025.c -o iteration_16_program_025.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_026.c -o iteration_16_program_026.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_027.c -o iteration_16_program_027.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_028.c -o iteration_16_program_028.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_029.c -o iteration_16_program_029.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_030.c -o iteration_16_program_030.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_031.c -o iteration_16_program_031.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_032.c -o iteration_16_program_032.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_033.c -o iteration_16_program_033.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_034.c -o iteration_16_program_034.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_035.c -o iteration_16_program_035.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_036.c -o iteration_16_program_036.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_037.c -o iteration_16_program_037.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_038.c -o iteration_16_program_038.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_039.c -o iteration_16_program_039.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_040.c -o iteration_16_program_040.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_041.c -o iteration_16_program_041.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_042.c -o iteration_16_program_042.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_043.c -o iteration_16_program_043.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_044.c -o iteration_16_program_044.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_045.c -o iteration_16_program_045.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_046.c -o iteration_16_program_046.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_047.c -o iteration_16_program_047.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_048.c -o iteration_16_program_048.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_049.c -o iteration_16_program_049.out
+gcc -O2 -fauto-profile -fprofile-generate -fdump-ipa-afdo iteration_16_program_050.c -o iteration_16_program_050.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_001.c -o iteration_16_program_001.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_002.c -o iteration_16_program_002.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_003.c -o iteration_16_program_003.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_004.c -o iteration_16_program_004.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_005.c -o iteration_16_program_005.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_006.c -o iteration_16_program_006.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_007.c -o iteration_16_program_007.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_008.c -o iteration_16_program_008.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_009.c -o iteration_16_program_009.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_010.c -o iteration_16_program_010.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_011.c -o iteration_16_program_011.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_012.c -o iteration_16_program_012.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_013.c -o iteration_16_program_013.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_014.c -o iteration_16_program_014.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_015.c -o iteration_16_program_015.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_016.c -o iteration_16_program_016.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_017.c -o iteration_16_program_017.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_018.c -o iteration_16_program_018.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_019.c -o iteration_16_program_019.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_020.c -o iteration_16_program_020.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_021.c -o iteration_16_program_021.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_022.c -o iteration_16_program_022.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_023.c -o iteration_16_program_023.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_024.c -o iteration_16_program_024.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_025.c -o iteration_16_program_025.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_026.c -o iteration_16_program_026.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_027.c -o iteration_16_program_027.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_028.c -o iteration_16_program_028.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_029.c -o iteration_16_program_029.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_030.c -o iteration_16_program_030.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_031.c -o iteration_16_program_031.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_032.c -o iteration_16_program_032.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_033.c -o iteration_16_program_033.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_034.c -o iteration_16_program_034.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_035.c -o iteration_16_program_035.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_036.c -o iteration_16_program_036.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_037.c -o iteration_16_program_037.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_038.c -o iteration_16_program_038.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_039.c -o iteration_16_program_039.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_040.c -o iteration_16_program_040.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_041.c -o iteration_16_program_041.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_042.c -o iteration_16_program_042.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_043.c -o iteration_16_program_043.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_044.c -o iteration_16_program_044.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_045.c -o iteration_16_program_045.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_046.c -o iteration_16_program_046.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_047.c -o iteration_16_program_047.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_048.c -o iteration_16_program_048.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_049.c -o iteration_16_program_049.out
+gcc -O2 -fprofile-generate -fprofile-arcs -ftest-coverage iteration_16_program_050.c -o iteration_16_program_050.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_001.c -o iteration_16_program_001.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_002.c -o iteration_16_program_002.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_003.c -o iteration_16_program_003.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_004.c -o iteration_16_program_004.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_005.c -o iteration_16_program_005.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_006.c -o iteration_16_program_006.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_007.c -o iteration_16_program_007.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_008.c -o iteration_16_program_008.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_009.c -o iteration_16_program_009.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_010.c -o iteration_16_program_010.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_011.c -o iteration_16_program_011.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_012.c -o iteration_16_program_012.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_013.c -o iteration_16_program_013.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_014.c -o iteration_16_program_014.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_015.c -o iteration_16_program_015.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_016.c -o iteration_16_program_016.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_017.c -o iteration_16_program_017.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_018.c -o iteration_16_program_018.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_019.c -o iteration_16_program_019.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_020.c -o iteration_16_program_020.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_021.c -o iteration_16_program_021.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_022.c -o iteration_16_program_022.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_023.c -o iteration_16_program_023.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_024.c -o iteration_16_program_024.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_025.c -o iteration_16_program_025.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_026.c -o iteration_16_program_026.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_027.c -o iteration_16_program_027.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_028.c -o iteration_16_program_028.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_029.c -o iteration_16_program_029.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_030.c -o iteration_16_program_030.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_031.c -o iteration_16_program_031.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_032.c -o iteration_16_program_032.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_033.c -o iteration_16_program_033.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_034.c -o iteration_16_program_034.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_035.c -o iteration_16_program_035.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_036.c -o iteration_16_program_036.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_037.c -o iteration_16_program_037.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_038.c -o iteration_16_program_038.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_039.c -o iteration_16_program_039.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_040.c -o iteration_16_program_040.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_041.c -o iteration_16_program_041.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_042.c -o iteration_16_program_042.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_043.c -o iteration_16_program_043.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_044.c -o iteration_16_program_044.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_045.c -o iteration_16_program_045.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_046.c -o iteration_16_program_046.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_047.c -o iteration_16_program_047.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_048.c -o iteration_16_program_048.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_049.c -o iteration_16_program_049.out
+gcc -O3 -fauto-profile -funroll-loops -fno-omit-frame-pointer iteration_16_program_050.c -o iteration_16_program_050.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_001.c -o iteration_17_program_001.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_002.c -o iteration_17_program_002.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_003.c -o iteration_17_program_003.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_004.c -o iteration_17_program_004.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_005.c -o iteration_17_program_005.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_006.c -o iteration_17_program_006.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_007.c -o iteration_17_program_007.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_008.c -o iteration_17_program_008.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_009.c -o iteration_17_program_009.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_010.c -o iteration_17_program_010.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_011.c -o iteration_17_program_011.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_012.c -o iteration_17_program_012.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_013.c -o iteration_17_program_013.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_014.c -o iteration_17_program_014.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_015.c -o iteration_17_program_015.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_016.c -o iteration_17_program_016.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_017.c -o iteration_17_program_017.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_018.c -o iteration_17_program_018.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_019.c -o iteration_17_program_019.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_020.c -o iteration_17_program_020.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_021.c -o iteration_17_program_021.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_022.c -o iteration_17_program_022.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_023.c -o iteration_17_program_023.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_024.c -o iteration_17_program_024.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_025.c -o iteration_17_program_025.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_026.c -o iteration_17_program_026.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_027.c -o iteration_17_program_027.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_028.c -o iteration_17_program_028.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_029.c -o iteration_17_program_029.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_030.c -o iteration_17_program_030.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_031.c -o iteration_17_program_031.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_032.c -o iteration_17_program_032.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_033.c -o iteration_17_program_033.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_034.c -o iteration_17_program_034.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_035.c -o iteration_17_program_035.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_036.c -o iteration_17_program_036.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_037.c -o iteration_17_program_037.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_038.c -o iteration_17_program_038.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_039.c -o iteration_17_program_039.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_040.c -o iteration_17_program_040.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_041.c -o iteration_17_program_041.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_042.c -o iteration_17_program_042.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_043.c -o iteration_17_program_043.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_044.c -o iteration_17_program_044.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_045.c -o iteration_17_program_045.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_046.c -o iteration_17_program_046.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_047.c -o iteration_17_program_047.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_048.c -o iteration_17_program_048.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_049.c -o iteration_17_program_049.out
+gcc -O2 -fdump-tree-original -fdump-tree-gimple -c iteration_17_program_050.c -o iteration_17_program_050.out
+gcc -O2 -std=c iteration_17_program_001.c -o iteration_17_program_001.out
+gcc -O2 -std=c iteration_17_program_002.c -o iteration_17_program_002.out
+gcc -O2 -std=c iteration_17_program_003.c -o iteration_17_program_003.out
+gcc -O2 -std=c iteration_17_program_004.c -o iteration_17_program_004.out
+gcc -O2 -std=c iteration_17_program_005.c -o iteration_17_program_005.out
+gcc -O2 -std=c iteration_17_program_006.c -o iteration_17_program_006.out
+gcc -O2 -std=c iteration_17_program_007.c -o iteration_17_program_007.out
+gcc -O2 -std=c iteration_17_program_008.c -o iteration_17_program_008.out
+gcc -O2 -std=c iteration_17_program_009.c -o iteration_17_program_009.out
+gcc -O2 -std=c iteration_17_program_010.c -o iteration_17_program_010.out
+gcc -O2 -std=c iteration_17_program_011.c -o iteration_17_program_011.out
+gcc -O2 -std=c iteration_17_program_012.c -o iteration_17_program_012.out
+gcc -O2 -std=c iteration_17_program_013.c -o iteration_17_program_013.out
+gcc -O2 -std=c iteration_17_program_014.c -o iteration_17_program_014.out
+gcc -O2 -std=c iteration_17_program_015.c -o iteration_17_program_015.out
+gcc -O2 -std=c iteration_17_program_016.c -o iteration_17_program_016.out
+gcc -O2 -std=c iteration_17_program_017.c -o iteration_17_program_017.out
+gcc -O2 -std=c iteration_17_program_018.c -o iteration_17_program_018.out
+gcc -O2 -std=c iteration_17_program_019.c -o iteration_17_program_019.out
+gcc -O2 -std=c iteration_17_program_020.c -o iteration_17_program_020.out
+gcc -O2 -std=c iteration_17_program_021.c -o iteration_17_program_021.out
+gcc -O2 -std=c iteration_17_program_022.c -o iteration_17_program_022.out
+gcc -O2 -std=c iteration_17_program_023.c -o iteration_17_program_023.out
+gcc -O2 -std=c iteration_17_program_024.c -o iteration_17_program_024.out
+gcc -O2 -std=c iteration_17_program_025.c -o iteration_17_program_025.out
+gcc -O2 -std=c iteration_17_program_026.c -o iteration_17_program_026.out
+gcc -O2 -std=c iteration_17_program_027.c -o iteration_17_program_027.out
+gcc -O2 -std=c iteration_17_program_028.c -o iteration_17_program_028.out
+gcc -O2 -std=c iteration_17_program_029.c -o iteration_17_program_029.out
+gcc -O2 -std=c iteration_17_program_030.c -o iteration_17_program_030.out
+gcc -O2 -std=c iteration_17_program_031.c -o iteration_17_program_031.out
+gcc -O2 -std=c iteration_17_program_032.c -o iteration_17_program_032.out
+gcc -O2 -std=c iteration_17_program_033.c -o iteration_17_program_033.out
+gcc -O2 -std=c iteration_17_program_034.c -o iteration_17_program_034.out
+gcc -O2 -std=c iteration_17_program_035.c -o iteration_17_program_035.out
+gcc -O2 -std=c iteration_17_program_036.c -o iteration_17_program_036.out
+gcc -O2 -std=c iteration_17_program_037.c -o iteration_17_program_037.out
+gcc -O2 -std=c iteration_17_program_038.c -o iteration_17_program_038.out
+gcc -O2 -std=c iteration_17_program_039.c -o iteration_17_program_039.out
+gcc -O2 -std=c iteration_17_program_040.c -o iteration_17_program_040.out
+gcc -O2 -std=c iteration_17_program_041.c -o iteration_17_program_041.out
+gcc -O2 -std=c iteration_17_program_042.c -o iteration_17_program_042.out
+gcc -O2 -std=c iteration_17_program_043.c -o iteration_17_program_043.out
+gcc -O2 -std=c iteration_17_program_044.c -o iteration_17_program_044.out
+gcc -O2 -std=c iteration_17_program_045.c -o iteration_17_program_045.out
+gcc -O2 -std=c iteration_17_program_046.c -o iteration_17_program_046.out
+gcc -O2 -std=c iteration_17_program_047.c -o iteration_17_program_047.out
+gcc -O2 -std=c iteration_17_program_048.c -o iteration_17_program_048.out
+gcc -O2 -std=c iteration_17_program_049.c -o iteration_17_program_049.out
+gcc -O2 -std=c iteration_17_program_050.c -o iteration_17_program_050.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_001.c -o iteration_17_program_001.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_002.c -o iteration_17_program_002.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_003.c -o iteration_17_program_003.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_004.c -o iteration_17_program_004.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_005.c -o iteration_17_program_005.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_006.c -o iteration_17_program_006.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_007.c -o iteration_17_program_007.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_008.c -o iteration_17_program_008.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_009.c -o iteration_17_program_009.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_010.c -o iteration_17_program_010.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_011.c -o iteration_17_program_011.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_012.c -o iteration_17_program_012.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_013.c -o iteration_17_program_013.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_014.c -o iteration_17_program_014.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_015.c -o iteration_17_program_015.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_016.c -o iteration_17_program_016.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_017.c -o iteration_17_program_017.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_018.c -o iteration_17_program_018.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_019.c -o iteration_17_program_019.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_020.c -o iteration_17_program_020.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_021.c -o iteration_17_program_021.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_022.c -o iteration_17_program_022.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_023.c -o iteration_17_program_023.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_024.c -o iteration_17_program_024.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_025.c -o iteration_17_program_025.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_026.c -o iteration_17_program_026.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_027.c -o iteration_17_program_027.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_028.c -o iteration_17_program_028.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_029.c -o iteration_17_program_029.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_030.c -o iteration_17_program_030.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_031.c -o iteration_17_program_031.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_032.c -o iteration_17_program_032.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_033.c -o iteration_17_program_033.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_034.c -o iteration_17_program_034.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_035.c -o iteration_17_program_035.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_036.c -o iteration_17_program_036.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_037.c -o iteration_17_program_037.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_038.c -o iteration_17_program_038.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_039.c -o iteration_17_program_039.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_040.c -o iteration_17_program_040.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_041.c -o iteration_17_program_041.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_042.c -o iteration_17_program_042.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_043.c -o iteration_17_program_043.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_044.c -o iteration_17_program_044.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_045.c -o iteration_17_program_045.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_046.c -o iteration_17_program_046.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_047.c -o iteration_17_program_047.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_048.c -o iteration_17_program_048.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_049.c -o iteration_17_program_049.out
+gcc -O0 -g -fdump-translation-unit -fdump-class-hierarchy -c iteration_17_program_050.c -o iteration_17_program_050.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_001.c -o iteration_18_program_001.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_002.c -o iteration_18_program_002.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_003.c -o iteration_18_program_003.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_004.c -o iteration_18_program_004.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_005.c -o iteration_18_program_005.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_006.c -o iteration_18_program_006.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_007.c -o iteration_18_program_007.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_008.c -o iteration_18_program_008.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_009.c -o iteration_18_program_009.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_010.c -o iteration_18_program_010.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_011.c -o iteration_18_program_011.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_012.c -o iteration_18_program_012.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_013.c -o iteration_18_program_013.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_014.c -o iteration_18_program_014.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_015.c -o iteration_18_program_015.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_016.c -o iteration_18_program_016.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_017.c -o iteration_18_program_017.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_018.c -o iteration_18_program_018.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_019.c -o iteration_18_program_019.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_020.c -o iteration_18_program_020.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_021.c -o iteration_18_program_021.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_022.c -o iteration_18_program_022.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_023.c -o iteration_18_program_023.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_024.c -o iteration_18_program_024.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_025.c -o iteration_18_program_025.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_026.c -o iteration_18_program_026.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_027.c -o iteration_18_program_027.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_028.c -o iteration_18_program_028.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_029.c -o iteration_18_program_029.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_030.c -o iteration_18_program_030.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_031.c -o iteration_18_program_031.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_032.c -o iteration_18_program_032.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_033.c -o iteration_18_program_033.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_034.c -o iteration_18_program_034.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_035.c -o iteration_18_program_035.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_036.c -o iteration_18_program_036.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_037.c -o iteration_18_program_037.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_038.c -o iteration_18_program_038.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_039.c -o iteration_18_program_039.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_040.c -o iteration_18_program_040.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_041.c -o iteration_18_program_041.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_042.c -o iteration_18_program_042.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_043.c -o iteration_18_program_043.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_044.c -o iteration_18_program_044.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_045.c -o iteration_18_program_045.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_046.c -o iteration_18_program_046.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_047.c -o iteration_18_program_047.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_048.c -o iteration_18_program_048.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_049.c -o iteration_18_program_049.out
+gcc -O0 -fsyntax-only -Wall -Wextra iteration_18_program_050.c -o iteration_18_program_050.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_001.c -o iteration_18_program_001.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_002.c -o iteration_18_program_002.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_003.c -o iteration_18_program_003.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_004.c -o iteration_18_program_004.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_005.c -o iteration_18_program_005.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_006.c -o iteration_18_program_006.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_007.c -o iteration_18_program_007.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_008.c -o iteration_18_program_008.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_009.c -o iteration_18_program_009.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_010.c -o iteration_18_program_010.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_011.c -o iteration_18_program_011.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_012.c -o iteration_18_program_012.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_013.c -o iteration_18_program_013.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_014.c -o iteration_18_program_014.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_015.c -o iteration_18_program_015.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_016.c -o iteration_18_program_016.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_017.c -o iteration_18_program_017.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_018.c -o iteration_18_program_018.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_019.c -o iteration_18_program_019.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_020.c -o iteration_18_program_020.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_021.c -o iteration_18_program_021.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_022.c -o iteration_18_program_022.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_023.c -o iteration_18_program_023.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_024.c -o iteration_18_program_024.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_025.c -o iteration_18_program_025.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_026.c -o iteration_18_program_026.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_027.c -o iteration_18_program_027.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_028.c -o iteration_18_program_028.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_029.c -o iteration_18_program_029.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_030.c -o iteration_18_program_030.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_031.c -o iteration_18_program_031.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_032.c -o iteration_18_program_032.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_033.c -o iteration_18_program_033.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_034.c -o iteration_18_program_034.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_035.c -o iteration_18_program_035.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_036.c -o iteration_18_program_036.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_037.c -o iteration_18_program_037.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_038.c -o iteration_18_program_038.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_039.c -o iteration_18_program_039.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_040.c -o iteration_18_program_040.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_041.c -o iteration_18_program_041.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_042.c -o iteration_18_program_042.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_043.c -o iteration_18_program_043.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_044.c -o iteration_18_program_044.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_045.c -o iteration_18_program_045.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_046.c -o iteration_18_program_046.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_047.c -o iteration_18_program_047.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_048.c -o iteration_18_program_048.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_049.c -o iteration_18_program_049.out
+gcc -O0 -fdump-tree-original -c iteration_18_program_050.c -o iteration_18_program_050.out
+gcc -O0 -std=c iteration_18_program_001.c -o iteration_18_program_001.out
+gcc -O0 -std=c iteration_18_program_002.c -o iteration_18_program_002.out
+gcc -O0 -std=c iteration_18_program_003.c -o iteration_18_program_003.out
+gcc -O0 -std=c iteration_18_program_004.c -o iteration_18_program_004.out
+gcc -O0 -std=c iteration_18_program_005.c -o iteration_18_program_005.out
+gcc -O0 -std=c iteration_18_program_006.c -o iteration_18_program_006.out
+gcc -O0 -std=c iteration_18_program_007.c -o iteration_18_program_007.out
+gcc -O0 -std=c iteration_18_program_008.c -o iteration_18_program_008.out
+gcc -O0 -std=c iteration_18_program_009.c -o iteration_18_program_009.out
+gcc -O0 -std=c iteration_18_program_010.c -o iteration_18_program_010.out
+gcc -O0 -std=c iteration_18_program_011.c -o iteration_18_program_011.out
+gcc -O0 -std=c iteration_18_program_012.c -o iteration_18_program_012.out
+gcc -O0 -std=c iteration_18_program_013.c -o iteration_18_program_013.out
+gcc -O0 -std=c iteration_18_program_014.c -o iteration_18_program_014.out
+gcc -O0 -std=c iteration_18_program_015.c -o iteration_18_program_015.out
+gcc -O0 -std=c iteration_18_program_016.c -o iteration_18_program_016.out
+gcc -O0 -std=c iteration_18_program_017.c -o iteration_18_program_017.out
+gcc -O0 -std=c iteration_18_program_018.c -o iteration_18_program_018.out
+gcc -O0 -std=c iteration_18_program_019.c -o iteration_18_program_019.out
+gcc -O0 -std=c iteration_18_program_020.c -o iteration_18_program_020.out
+gcc -O0 -std=c iteration_18_program_021.c -o iteration_18_program_021.out
+gcc -O0 -std=c iteration_18_program_022.c -o iteration_18_program_022.out
+gcc -O0 -std=c iteration_18_program_023.c -o iteration_18_program_023.out
+gcc -O0 -std=c iteration_18_program_024.c -o iteration_18_program_024.out
+gcc -O0 -std=c iteration_18_program_025.c -o iteration_18_program_025.out
+gcc -O0 -std=c iteration_18_program_026.c -o iteration_18_program_026.out
+gcc -O0 -std=c iteration_18_program_027.c -o iteration_18_program_027.out
+gcc -O0 -std=c iteration_18_program_028.c -o iteration_18_program_028.out
+gcc -O0 -std=c iteration_18_program_029.c -o iteration_18_program_029.out
+gcc -O0 -std=c iteration_18_program_030.c -o iteration_18_program_030.out
+gcc -O0 -std=c iteration_18_program_031.c -o iteration_18_program_031.out
+gcc -O0 -std=c iteration_18_program_032.c -o iteration_18_program_032.out
+gcc -O0 -std=c iteration_18_program_033.c -o iteration_18_program_033.out
+gcc -O0 -std=c iteration_18_program_034.c -o iteration_18_program_034.out
+gcc -O0 -std=c iteration_18_program_035.c -o iteration_18_program_035.out
+gcc -O0 -std=c iteration_18_program_036.c -o iteration_18_program_036.out
+gcc -O0 -std=c iteration_18_program_037.c -o iteration_18_program_037.out
+gcc -O0 -std=c iteration_18_program_038.c -o iteration_18_program_038.out
+gcc -O0 -std=c iteration_18_program_039.c -o iteration_18_program_039.out
+gcc -O0 -std=c iteration_18_program_040.c -o iteration_18_program_040.out
+gcc -O0 -std=c iteration_18_program_041.c -o iteration_18_program_041.out
+gcc -O0 -std=c iteration_18_program_042.c -o iteration_18_program_042.out
+gcc -O0 -std=c iteration_18_program_043.c -o iteration_18_program_043.out
+gcc -O0 -std=c iteration_18_program_044.c -o iteration_18_program_044.out
+gcc -O0 -std=c iteration_18_program_045.c -o iteration_18_program_045.out
+gcc -O0 -std=c iteration_18_program_046.c -o iteration_18_program_046.out
+gcc -O0 -std=c iteration_18_program_047.c -o iteration_18_program_047.out
+gcc -O0 -std=c iteration_18_program_048.c -o iteration_18_program_048.out
+gcc -O0 -std=c iteration_18_program_049.c -o iteration_18_program_049.out
+gcc -O0 -std=c iteration_18_program_050.c -o iteration_18_program_050.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O2 -march=pentium3 -mtune=pentium3 -fdump-rtl-expand -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O3 -march=nocona -mtune=nocona -funroll-loops -fdump-tree-vect -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O2 -march=k8 -mtune=k8 -fprefetch-loop-arrays -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_001.c -o iteration_19_program_001.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_002.c -o iteration_19_program_002.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_003.c -o iteration_19_program_003.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_004.c -o iteration_19_program_004.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_005.c -o iteration_19_program_005.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_006.c -o iteration_19_program_006.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_007.c -o iteration_19_program_007.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_008.c -o iteration_19_program_008.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_009.c -o iteration_19_program_009.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_010.c -o iteration_19_program_010.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_011.c -o iteration_19_program_011.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_012.c -o iteration_19_program_012.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_013.c -o iteration_19_program_013.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_014.c -o iteration_19_program_014.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_015.c -o iteration_19_program_015.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_016.c -o iteration_19_program_016.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_017.c -o iteration_19_program_017.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_018.c -o iteration_19_program_018.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_019.c -o iteration_19_program_019.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_020.c -o iteration_19_program_020.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_021.c -o iteration_19_program_021.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_022.c -o iteration_19_program_022.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_023.c -o iteration_19_program_023.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_024.c -o iteration_19_program_024.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_025.c -o iteration_19_program_025.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_026.c -o iteration_19_program_026.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_027.c -o iteration_19_program_027.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_028.c -o iteration_19_program_028.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_029.c -o iteration_19_program_029.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_030.c -o iteration_19_program_030.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_031.c -o iteration_19_program_031.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_032.c -o iteration_19_program_032.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_033.c -o iteration_19_program_033.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_034.c -o iteration_19_program_034.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_035.c -o iteration_19_program_035.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_036.c -o iteration_19_program_036.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_037.c -o iteration_19_program_037.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_038.c -o iteration_19_program_038.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_039.c -o iteration_19_program_039.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_040.c -o iteration_19_program_040.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_041.c -o iteration_19_program_041.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_042.c -o iteration_19_program_042.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_043.c -o iteration_19_program_043.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_044.c -o iteration_19_program_044.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_045.c -o iteration_19_program_045.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_046.c -o iteration_19_program_046.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_047.c -o iteration_19_program_047.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_048.c -o iteration_19_program_048.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_049.c -o iteration_19_program_049.out
+gcc -O2 -march=x86-64 -mtune=generic -fcf-protection=none -c iteration_19_program_050.c -o iteration_19_program_050.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_001.c -o iteration_20_program_001.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_002.c -o iteration_20_program_002.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_003.c -o iteration_20_program_003.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_004.c -o iteration_20_program_004.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_005.c -o iteration_20_program_005.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_006.c -o iteration_20_program_006.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_007.c -o iteration_20_program_007.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_008.c -o iteration_20_program_008.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_009.c -o iteration_20_program_009.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_010.c -o iteration_20_program_010.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_011.c -o iteration_20_program_011.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_012.c -o iteration_20_program_012.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_013.c -o iteration_20_program_013.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_014.c -o iteration_20_program_014.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_015.c -o iteration_20_program_015.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_016.c -o iteration_20_program_016.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_017.c -o iteration_20_program_017.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_018.c -o iteration_20_program_018.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_019.c -o iteration_20_program_019.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_020.c -o iteration_20_program_020.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_021.c -o iteration_20_program_021.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_022.c -o iteration_20_program_022.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_023.c -o iteration_20_program_023.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_024.c -o iteration_20_program_024.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_025.c -o iteration_20_program_025.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_026.c -o iteration_20_program_026.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_027.c -o iteration_20_program_027.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_028.c -o iteration_20_program_028.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_029.c -o iteration_20_program_029.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_030.c -o iteration_20_program_030.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_031.c -o iteration_20_program_031.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_032.c -o iteration_20_program_032.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_033.c -o iteration_20_program_033.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_034.c -o iteration_20_program_034.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_035.c -o iteration_20_program_035.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_036.c -o iteration_20_program_036.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_037.c -o iteration_20_program_037.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_038.c -o iteration_20_program_038.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_039.c -o iteration_20_program_039.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_040.c -o iteration_20_program_040.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_041.c -o iteration_20_program_041.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_042.c -o iteration_20_program_042.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_043.c -o iteration_20_program_043.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_044.c -o iteration_20_program_044.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_045.c -o iteration_20_program_045.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_046.c -o iteration_20_program_046.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_047.c -o iteration_20_program_047.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_048.c -o iteration_20_program_048.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_049.c -o iteration_20_program_049.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_050.c -o iteration_20_program_050.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_001.c -o iteration_20_program_001.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_002.c -o iteration_20_program_002.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_003.c -o iteration_20_program_003.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_004.c -o iteration_20_program_004.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_005.c -o iteration_20_program_005.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_006.c -o iteration_20_program_006.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_007.c -o iteration_20_program_007.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_008.c -o iteration_20_program_008.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_009.c -o iteration_20_program_009.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_010.c -o iteration_20_program_010.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_011.c -o iteration_20_program_011.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_012.c -o iteration_20_program_012.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_013.c -o iteration_20_program_013.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_014.c -o iteration_20_program_014.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_015.c -o iteration_20_program_015.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_016.c -o iteration_20_program_016.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_017.c -o iteration_20_program_017.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_018.c -o iteration_20_program_018.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_019.c -o iteration_20_program_019.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_020.c -o iteration_20_program_020.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_021.c -o iteration_20_program_021.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_022.c -o iteration_20_program_022.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_023.c -o iteration_20_program_023.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_024.c -o iteration_20_program_024.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_025.c -o iteration_20_program_025.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_026.c -o iteration_20_program_026.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_027.c -o iteration_20_program_027.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_028.c -o iteration_20_program_028.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_029.c -o iteration_20_program_029.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_030.c -o iteration_20_program_030.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_031.c -o iteration_20_program_031.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_032.c -o iteration_20_program_032.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_033.c -o iteration_20_program_033.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_034.c -o iteration_20_program_034.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_035.c -o iteration_20_program_035.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_036.c -o iteration_20_program_036.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_037.c -o iteration_20_program_037.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_038.c -o iteration_20_program_038.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_039.c -o iteration_20_program_039.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_040.c -o iteration_20_program_040.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_041.c -o iteration_20_program_041.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_042.c -o iteration_20_program_042.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_043.c -o iteration_20_program_043.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_044.c -o iteration_20_program_044.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_045.c -o iteration_20_program_045.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_046.c -o iteration_20_program_046.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_047.c -o iteration_20_program_047.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_048.c -o iteration_20_program_048.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_049.c -o iteration_20_program_049.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_050.c -o iteration_20_program_050.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_001.c -o iteration_20_program_001.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_002.c -o iteration_20_program_002.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_003.c -o iteration_20_program_003.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_004.c -o iteration_20_program_004.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_005.c -o iteration_20_program_005.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_006.c -o iteration_20_program_006.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_007.c -o iteration_20_program_007.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_008.c -o iteration_20_program_008.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_009.c -o iteration_20_program_009.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_010.c -o iteration_20_program_010.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_011.c -o iteration_20_program_011.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_012.c -o iteration_20_program_012.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_013.c -o iteration_20_program_013.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_014.c -o iteration_20_program_014.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_015.c -o iteration_20_program_015.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_016.c -o iteration_20_program_016.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_017.c -o iteration_20_program_017.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_018.c -o iteration_20_program_018.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_019.c -o iteration_20_program_019.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_020.c -o iteration_20_program_020.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_021.c -o iteration_20_program_021.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_022.c -o iteration_20_program_022.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_023.c -o iteration_20_program_023.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_024.c -o iteration_20_program_024.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_025.c -o iteration_20_program_025.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_026.c -o iteration_20_program_026.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_027.c -o iteration_20_program_027.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_028.c -o iteration_20_program_028.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_029.c -o iteration_20_program_029.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_030.c -o iteration_20_program_030.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_031.c -o iteration_20_program_031.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_032.c -o iteration_20_program_032.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_033.c -o iteration_20_program_033.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_034.c -o iteration_20_program_034.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_035.c -o iteration_20_program_035.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_036.c -o iteration_20_program_036.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_037.c -o iteration_20_program_037.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_038.c -o iteration_20_program_038.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_039.c -o iteration_20_program_039.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_040.c -o iteration_20_program_040.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_041.c -o iteration_20_program_041.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_042.c -o iteration_20_program_042.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_043.c -o iteration_20_program_043.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_044.c -o iteration_20_program_044.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_045.c -o iteration_20_program_045.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_046.c -o iteration_20_program_046.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_047.c -o iteration_20_program_047.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_048.c -o iteration_20_program_048.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_049.c -o iteration_20_program_049.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_050.c -o iteration_20_program_050.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_001.c -o iteration_20_program_001.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_002.c -o iteration_20_program_002.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_003.c -o iteration_20_program_003.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_004.c -o iteration_20_program_004.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_005.c -o iteration_20_program_005.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_006.c -o iteration_20_program_006.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_007.c -o iteration_20_program_007.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_008.c -o iteration_20_program_008.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_009.c -o iteration_20_program_009.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_010.c -o iteration_20_program_010.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_011.c -o iteration_20_program_011.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_012.c -o iteration_20_program_012.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_013.c -o iteration_20_program_013.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_014.c -o iteration_20_program_014.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_015.c -o iteration_20_program_015.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_016.c -o iteration_20_program_016.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_017.c -o iteration_20_program_017.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_018.c -o iteration_20_program_018.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_019.c -o iteration_20_program_019.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_020.c -o iteration_20_program_020.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_021.c -o iteration_20_program_021.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_022.c -o iteration_20_program_022.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_023.c -o iteration_20_program_023.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_024.c -o iteration_20_program_024.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_025.c -o iteration_20_program_025.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_026.c -o iteration_20_program_026.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_027.c -o iteration_20_program_027.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_028.c -o iteration_20_program_028.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_029.c -o iteration_20_program_029.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_030.c -o iteration_20_program_030.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_031.c -o iteration_20_program_031.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_032.c -o iteration_20_program_032.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_033.c -o iteration_20_program_033.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_034.c -o iteration_20_program_034.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_035.c -o iteration_20_program_035.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_036.c -o iteration_20_program_036.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_037.c -o iteration_20_program_037.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_038.c -o iteration_20_program_038.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_039.c -o iteration_20_program_039.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_040.c -o iteration_20_program_040.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_041.c -o iteration_20_program_041.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_042.c -o iteration_20_program_042.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_043.c -o iteration_20_program_043.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_044.c -o iteration_20_program_044.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_045.c -o iteration_20_program_045.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_046.c -o iteration_20_program_046.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_047.c -o iteration_20_program_047.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_048.c -o iteration_20_program_048.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_049.c -o iteration_20_program_049.out
+gcc -O2 -fschedule-insns -fdump-ddg -c iteration_20_program_050.c -o iteration_20_program_050.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_001.c -o iteration_20_program_001.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_002.c -o iteration_20_program_002.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_003.c -o iteration_20_program_003.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_004.c -o iteration_20_program_004.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_005.c -o iteration_20_program_005.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_006.c -o iteration_20_program_006.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_007.c -o iteration_20_program_007.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_008.c -o iteration_20_program_008.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_009.c -o iteration_20_program_009.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_010.c -o iteration_20_program_010.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_011.c -o iteration_20_program_011.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_012.c -o iteration_20_program_012.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_013.c -o iteration_20_program_013.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_014.c -o iteration_20_program_014.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_015.c -o iteration_20_program_015.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_016.c -o iteration_20_program_016.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_017.c -o iteration_20_program_017.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_018.c -o iteration_20_program_018.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_019.c -o iteration_20_program_019.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_020.c -o iteration_20_program_020.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_021.c -o iteration_20_program_021.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_022.c -o iteration_20_program_022.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_023.c -o iteration_20_program_023.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_024.c -o iteration_20_program_024.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_025.c -o iteration_20_program_025.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_026.c -o iteration_20_program_026.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_027.c -o iteration_20_program_027.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_028.c -o iteration_20_program_028.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_029.c -o iteration_20_program_029.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_030.c -o iteration_20_program_030.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_031.c -o iteration_20_program_031.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_032.c -o iteration_20_program_032.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_033.c -o iteration_20_program_033.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_034.c -o iteration_20_program_034.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_035.c -o iteration_20_program_035.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_036.c -o iteration_20_program_036.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_037.c -o iteration_20_program_037.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_038.c -o iteration_20_program_038.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_039.c -o iteration_20_program_039.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_040.c -o iteration_20_program_040.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_041.c -o iteration_20_program_041.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_042.c -o iteration_20_program_042.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_043.c -o iteration_20_program_043.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_044.c -o iteration_20_program_044.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_045.c -o iteration_20_program_045.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_046.c -o iteration_20_program_046.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_047.c -o iteration_20_program_047.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_048.c -o iteration_20_program_048.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_049.c -o iteration_20_program_049.out
+gcc -O3 -fschedule-insns2 -fopt-info-dd -c iteration_20_program_050.c -o iteration_20_program_050.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_001.c -o iteration_20_program_001.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_002.c -o iteration_20_program_002.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_003.c -o iteration_20_program_003.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_004.c -o iteration_20_program_004.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_005.c -o iteration_20_program_005.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_006.c -o iteration_20_program_006.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_007.c -o iteration_20_program_007.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_008.c -o iteration_20_program_008.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_009.c -o iteration_20_program_009.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_010.c -o iteration_20_program_010.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_011.c -o iteration_20_program_011.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_012.c -o iteration_20_program_012.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_013.c -o iteration_20_program_013.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_014.c -o iteration_20_program_014.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_015.c -o iteration_20_program_015.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_016.c -o iteration_20_program_016.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_017.c -o iteration_20_program_017.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_018.c -o iteration_20_program_018.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_019.c -o iteration_20_program_019.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_020.c -o iteration_20_program_020.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_021.c -o iteration_20_program_021.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_022.c -o iteration_20_program_022.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_023.c -o iteration_20_program_023.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_024.c -o iteration_20_program_024.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_025.c -o iteration_20_program_025.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_026.c -o iteration_20_program_026.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_027.c -o iteration_20_program_027.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_028.c -o iteration_20_program_028.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_029.c -o iteration_20_program_029.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_030.c -o iteration_20_program_030.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_031.c -o iteration_20_program_031.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_032.c -o iteration_20_program_032.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_033.c -o iteration_20_program_033.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_034.c -o iteration_20_program_034.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_035.c -o iteration_20_program_035.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_036.c -o iteration_20_program_036.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_037.c -o iteration_20_program_037.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_038.c -o iteration_20_program_038.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_039.c -o iteration_20_program_039.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_040.c -o iteration_20_program_040.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_041.c -o iteration_20_program_041.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_042.c -o iteration_20_program_042.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_043.c -o iteration_20_program_043.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_044.c -o iteration_20_program_044.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_045.c -o iteration_20_program_045.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_046.c -o iteration_20_program_046.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_047.c -o iteration_20_program_047.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_048.c -o iteration_20_program_048.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_049.c -o iteration_20_program_049.out
+gcc -O2 -fdump-rtl-ddg -c iteration_20_program_050.c -o iteration_20_program_050.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_001.c -o iteration_21_program_001.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_002.c -o iteration_21_program_002.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_003.c -o iteration_21_program_003.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_004.c -o iteration_21_program_004.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_005.c -o iteration_21_program_005.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_006.c -o iteration_21_program_006.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_007.c -o iteration_21_program_007.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_008.c -o iteration_21_program_008.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_009.c -o iteration_21_program_009.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_010.c -o iteration_21_program_010.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_011.c -o iteration_21_program_011.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_012.c -o iteration_21_program_012.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_013.c -o iteration_21_program_013.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_014.c -o iteration_21_program_014.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_015.c -o iteration_21_program_015.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_016.c -o iteration_21_program_016.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_017.c -o iteration_21_program_017.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_018.c -o iteration_21_program_018.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_019.c -o iteration_21_program_019.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_020.c -o iteration_21_program_020.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_021.c -o iteration_21_program_021.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_022.c -o iteration_21_program_022.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_023.c -o iteration_21_program_023.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_024.c -o iteration_21_program_024.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_025.c -o iteration_21_program_025.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_026.c -o iteration_21_program_026.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_027.c -o iteration_21_program_027.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_028.c -o iteration_21_program_028.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_029.c -o iteration_21_program_029.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_030.c -o iteration_21_program_030.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_031.c -o iteration_21_program_031.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_032.c -o iteration_21_program_032.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_033.c -o iteration_21_program_033.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_034.c -o iteration_21_program_034.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_035.c -o iteration_21_program_035.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_036.c -o iteration_21_program_036.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_037.c -o iteration_21_program_037.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_038.c -o iteration_21_program_038.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_039.c -o iteration_21_program_039.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_040.c -o iteration_21_program_040.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_041.c -o iteration_21_program_041.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_042.c -o iteration_21_program_042.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_043.c -o iteration_21_program_043.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_044.c -o iteration_21_program_044.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_045.c -o iteration_21_program_045.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_046.c -o iteration_21_program_046.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_047.c -o iteration_21_program_047.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_048.c -o iteration_21_program_048.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_049.c -o iteration_21_program_049.out
+gcc -O1 -fopenmp -fdump-tree-original -fdump-tree-gimple -c iteration_21_program_050.c -o iteration_21_program_050.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_001.c -o iteration_21_program_001.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_002.c -o iteration_21_program_002.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_003.c -o iteration_21_program_003.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_004.c -o iteration_21_program_004.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_005.c -o iteration_21_program_005.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_006.c -o iteration_21_program_006.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_007.c -o iteration_21_program_007.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_008.c -o iteration_21_program_008.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_009.c -o iteration_21_program_009.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_010.c -o iteration_21_program_010.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_011.c -o iteration_21_program_011.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_012.c -o iteration_21_program_012.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_013.c -o iteration_21_program_013.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_014.c -o iteration_21_program_014.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_015.c -o iteration_21_program_015.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_016.c -o iteration_21_program_016.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_017.c -o iteration_21_program_017.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_018.c -o iteration_21_program_018.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_019.c -o iteration_21_program_019.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_020.c -o iteration_21_program_020.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_021.c -o iteration_21_program_021.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_022.c -o iteration_21_program_022.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_023.c -o iteration_21_program_023.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_024.c -o iteration_21_program_024.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_025.c -o iteration_21_program_025.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_026.c -o iteration_21_program_026.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_027.c -o iteration_21_program_027.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_028.c -o iteration_21_program_028.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_029.c -o iteration_21_program_029.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_030.c -o iteration_21_program_030.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_031.c -o iteration_21_program_031.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_032.c -o iteration_21_program_032.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_033.c -o iteration_21_program_033.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_034.c -o iteration_21_program_034.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_035.c -o iteration_21_program_035.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_036.c -o iteration_21_program_036.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_037.c -o iteration_21_program_037.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_038.c -o iteration_21_program_038.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_039.c -o iteration_21_program_039.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_040.c -o iteration_21_program_040.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_041.c -o iteration_21_program_041.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_042.c -o iteration_21_program_042.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_043.c -o iteration_21_program_043.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_044.c -o iteration_21_program_044.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_045.c -o iteration_21_program_045.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_046.c -o iteration_21_program_046.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_047.c -o iteration_21_program_047.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_048.c -o iteration_21_program_048.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_049.c -o iteration_21_program_049.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_050.c -o iteration_21_program_050.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_001.c -o iteration_21_program_001.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_002.c -o iteration_21_program_002.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_003.c -o iteration_21_program_003.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_004.c -o iteration_21_program_004.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_005.c -o iteration_21_program_005.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_006.c -o iteration_21_program_006.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_007.c -o iteration_21_program_007.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_008.c -o iteration_21_program_008.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_009.c -o iteration_21_program_009.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_010.c -o iteration_21_program_010.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_011.c -o iteration_21_program_011.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_012.c -o iteration_21_program_012.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_013.c -o iteration_21_program_013.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_014.c -o iteration_21_program_014.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_015.c -o iteration_21_program_015.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_016.c -o iteration_21_program_016.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_017.c -o iteration_21_program_017.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_018.c -o iteration_21_program_018.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_019.c -o iteration_21_program_019.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_020.c -o iteration_21_program_020.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_021.c -o iteration_21_program_021.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_022.c -o iteration_21_program_022.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_023.c -o iteration_21_program_023.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_024.c -o iteration_21_program_024.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_025.c -o iteration_21_program_025.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_026.c -o iteration_21_program_026.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_027.c -o iteration_21_program_027.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_028.c -o iteration_21_program_028.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_029.c -o iteration_21_program_029.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_030.c -o iteration_21_program_030.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_031.c -o iteration_21_program_031.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_032.c -o iteration_21_program_032.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_033.c -o iteration_21_program_033.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_034.c -o iteration_21_program_034.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_035.c -o iteration_21_program_035.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_036.c -o iteration_21_program_036.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_037.c -o iteration_21_program_037.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_038.c -o iteration_21_program_038.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_039.c -o iteration_21_program_039.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_040.c -o iteration_21_program_040.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_041.c -o iteration_21_program_041.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_042.c -o iteration_21_program_042.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_043.c -o iteration_21_program_043.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_044.c -o iteration_21_program_044.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_045.c -o iteration_21_program_045.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_046.c -o iteration_21_program_046.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_047.c -o iteration_21_program_047.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_048.c -o iteration_21_program_048.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_049.c -o iteration_21_program_049.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_050.c -o iteration_21_program_050.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_001.c -o iteration_21_program_001.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_002.c -o iteration_21_program_002.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_003.c -o iteration_21_program_003.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_004.c -o iteration_21_program_004.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_005.c -o iteration_21_program_005.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_006.c -o iteration_21_program_006.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_007.c -o iteration_21_program_007.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_008.c -o iteration_21_program_008.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_009.c -o iteration_21_program_009.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_010.c -o iteration_21_program_010.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_011.c -o iteration_21_program_011.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_012.c -o iteration_21_program_012.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_013.c -o iteration_21_program_013.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_014.c -o iteration_21_program_014.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_015.c -o iteration_21_program_015.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_016.c -o iteration_21_program_016.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_017.c -o iteration_21_program_017.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_018.c -o iteration_21_program_018.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_019.c -o iteration_21_program_019.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_020.c -o iteration_21_program_020.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_021.c -o iteration_21_program_021.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_022.c -o iteration_21_program_022.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_023.c -o iteration_21_program_023.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_024.c -o iteration_21_program_024.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_025.c -o iteration_21_program_025.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_026.c -o iteration_21_program_026.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_027.c -o iteration_21_program_027.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_028.c -o iteration_21_program_028.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_029.c -o iteration_21_program_029.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_030.c -o iteration_21_program_030.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_031.c -o iteration_21_program_031.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_032.c -o iteration_21_program_032.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_033.c -o iteration_21_program_033.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_034.c -o iteration_21_program_034.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_035.c -o iteration_21_program_035.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_036.c -o iteration_21_program_036.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_037.c -o iteration_21_program_037.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_038.c -o iteration_21_program_038.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_039.c -o iteration_21_program_039.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_040.c -o iteration_21_program_040.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_041.c -o iteration_21_program_041.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_042.c -o iteration_21_program_042.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_043.c -o iteration_21_program_043.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_044.c -o iteration_21_program_044.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_045.c -o iteration_21_program_045.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_046.c -o iteration_21_program_046.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_047.c -o iteration_21_program_047.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_048.c -o iteration_21_program_048.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_049.c -o iteration_21_program_049.out
+gcc -O2 -fopenmp -fdump-tree-omplower -fdump-tree-all -c iteration_21_program_050.c -o iteration_21_program_050.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_001.c -o iteration_21_program_001.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_002.c -o iteration_21_program_002.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_003.c -o iteration_21_program_003.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_004.c -o iteration_21_program_004.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_005.c -o iteration_21_program_005.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_006.c -o iteration_21_program_006.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_007.c -o iteration_21_program_007.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_008.c -o iteration_21_program_008.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_009.c -o iteration_21_program_009.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_010.c -o iteration_21_program_010.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_011.c -o iteration_21_program_011.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_012.c -o iteration_21_program_012.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_013.c -o iteration_21_program_013.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_014.c -o iteration_21_program_014.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_015.c -o iteration_21_program_015.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_016.c -o iteration_21_program_016.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_017.c -o iteration_21_program_017.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_018.c -o iteration_21_program_018.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_019.c -o iteration_21_program_019.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_020.c -o iteration_21_program_020.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_021.c -o iteration_21_program_021.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_022.c -o iteration_21_program_022.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_023.c -o iteration_21_program_023.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_024.c -o iteration_21_program_024.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_025.c -o iteration_21_program_025.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_026.c -o iteration_21_program_026.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_027.c -o iteration_21_program_027.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_028.c -o iteration_21_program_028.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_029.c -o iteration_21_program_029.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_030.c -o iteration_21_program_030.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_031.c -o iteration_21_program_031.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_032.c -o iteration_21_program_032.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_033.c -o iteration_21_program_033.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_034.c -o iteration_21_program_034.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_035.c -o iteration_21_program_035.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_036.c -o iteration_21_program_036.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_037.c -o iteration_21_program_037.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_038.c -o iteration_21_program_038.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_039.c -o iteration_21_program_039.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_040.c -o iteration_21_program_040.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_041.c -o iteration_21_program_041.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_042.c -o iteration_21_program_042.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_043.c -o iteration_21_program_043.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_044.c -o iteration_21_program_044.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_045.c -o iteration_21_program_045.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_046.c -o iteration_21_program_046.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_047.c -o iteration_21_program_047.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_048.c -o iteration_21_program_048.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_049.c -o iteration_21_program_049.out
+gcc -O2 -fopenmp -Wopenmp-parsing -c iteration_21_program_050.c -o iteration_21_program_050.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_001.c -o iteration_22_program_001.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_002.c -o iteration_22_program_002.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_003.c -o iteration_22_program_003.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_004.c -o iteration_22_program_004.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_005.c -o iteration_22_program_005.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_006.c -o iteration_22_program_006.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_007.c -o iteration_22_program_007.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_008.c -o iteration_22_program_008.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_009.c -o iteration_22_program_009.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_010.c -o iteration_22_program_010.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_011.c -o iteration_22_program_011.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_012.c -o iteration_22_program_012.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_013.c -o iteration_22_program_013.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_014.c -o iteration_22_program_014.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_015.c -o iteration_22_program_015.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_016.c -o iteration_22_program_016.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_017.c -o iteration_22_program_017.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_018.c -o iteration_22_program_018.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_019.c -o iteration_22_program_019.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_020.c -o iteration_22_program_020.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_021.c -o iteration_22_program_021.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_022.c -o iteration_22_program_022.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_023.c -o iteration_22_program_023.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_024.c -o iteration_22_program_024.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_025.c -o iteration_22_program_025.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_026.c -o iteration_22_program_026.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_027.c -o iteration_22_program_027.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_028.c -o iteration_22_program_028.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_029.c -o iteration_22_program_029.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_030.c -o iteration_22_program_030.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_031.c -o iteration_22_program_031.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_032.c -o iteration_22_program_032.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_033.c -o iteration_22_program_033.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_034.c -o iteration_22_program_034.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_035.c -o iteration_22_program_035.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_036.c -o iteration_22_program_036.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_037.c -o iteration_22_program_037.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_038.c -o iteration_22_program_038.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_039.c -o iteration_22_program_039.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_040.c -o iteration_22_program_040.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_041.c -o iteration_22_program_041.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_042.c -o iteration_22_program_042.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_043.c -o iteration_22_program_043.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_044.c -o iteration_22_program_044.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_045.c -o iteration_22_program_045.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_046.c -o iteration_22_program_046.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_047.c -o iteration_22_program_047.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_048.c -o iteration_22_program_048.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_049.c -o iteration_22_program_049.out
+gcc -O3 -ffast-math -ftree-vectorize -fdump-tree-vect-details -fdump-tree-vect -c iteration_22_program_050.c -o iteration_22_program_050.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_001.c -o iteration_22_program_001.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_002.c -o iteration_22_program_002.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_003.c -o iteration_22_program_003.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_004.c -o iteration_22_program_004.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_005.c -o iteration_22_program_005.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_006.c -o iteration_22_program_006.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_007.c -o iteration_22_program_007.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_008.c -o iteration_22_program_008.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_009.c -o iteration_22_program_009.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_010.c -o iteration_22_program_010.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_011.c -o iteration_22_program_011.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_012.c -o iteration_22_program_012.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_013.c -o iteration_22_program_013.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_014.c -o iteration_22_program_014.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_015.c -o iteration_22_program_015.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_016.c -o iteration_22_program_016.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_017.c -o iteration_22_program_017.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_018.c -o iteration_22_program_018.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_019.c -o iteration_22_program_019.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_020.c -o iteration_22_program_020.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_021.c -o iteration_22_program_021.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_022.c -o iteration_22_program_022.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_023.c -o iteration_22_program_023.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_024.c -o iteration_22_program_024.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_025.c -o iteration_22_program_025.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_026.c -o iteration_22_program_026.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_027.c -o iteration_22_program_027.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_028.c -o iteration_22_program_028.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_029.c -o iteration_22_program_029.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_030.c -o iteration_22_program_030.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_031.c -o iteration_22_program_031.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_032.c -o iteration_22_program_032.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_033.c -o iteration_22_program_033.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_034.c -o iteration_22_program_034.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_035.c -o iteration_22_program_035.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_036.c -o iteration_22_program_036.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_037.c -o iteration_22_program_037.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_038.c -o iteration_22_program_038.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_039.c -o iteration_22_program_039.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_040.c -o iteration_22_program_040.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_041.c -o iteration_22_program_041.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_042.c -o iteration_22_program_042.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_043.c -o iteration_22_program_043.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_044.c -o iteration_22_program_044.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_045.c -o iteration_22_program_045.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_046.c -o iteration_22_program_046.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_047.c -o iteration_22_program_047.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_048.c -o iteration_22_program_048.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_049.c -o iteration_22_program_049.out
+gcc -Ofast -march=native -fopt-info-vec-missed -fopt-info-vec-optimized -c iteration_22_program_050.c -o iteration_22_program_050.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_001.c -o iteration_22_program_001.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_002.c -o iteration_22_program_002.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_003.c -o iteration_22_program_003.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_004.c -o iteration_22_program_004.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_005.c -o iteration_22_program_005.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_006.c -o iteration_22_program_006.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_007.c -o iteration_22_program_007.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_008.c -o iteration_22_program_008.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_009.c -o iteration_22_program_009.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_010.c -o iteration_22_program_010.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_011.c -o iteration_22_program_011.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_012.c -o iteration_22_program_012.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_013.c -o iteration_22_program_013.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_014.c -o iteration_22_program_014.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_015.c -o iteration_22_program_015.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_016.c -o iteration_22_program_016.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_017.c -o iteration_22_program_017.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_018.c -o iteration_22_program_018.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_019.c -o iteration_22_program_019.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_020.c -o iteration_22_program_020.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_021.c -o iteration_22_program_021.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_022.c -o iteration_22_program_022.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_023.c -o iteration_22_program_023.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_024.c -o iteration_22_program_024.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_025.c -o iteration_22_program_025.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_026.c -o iteration_22_program_026.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_027.c -o iteration_22_program_027.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_028.c -o iteration_22_program_028.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_029.c -o iteration_22_program_029.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_030.c -o iteration_22_program_030.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_031.c -o iteration_22_program_031.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_032.c -o iteration_22_program_032.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_033.c -o iteration_22_program_033.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_034.c -o iteration_22_program_034.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_035.c -o iteration_22_program_035.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_036.c -o iteration_22_program_036.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_037.c -o iteration_22_program_037.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_038.c -o iteration_22_program_038.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_039.c -o iteration_22_program_039.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_040.c -o iteration_22_program_040.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_041.c -o iteration_22_program_041.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_042.c -o iteration_22_program_042.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_043.c -o iteration_22_program_043.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_044.c -o iteration_22_program_044.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_045.c -o iteration_22_program_045.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_046.c -o iteration_22_program_046.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_047.c -o iteration_22_program_047.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_048.c -o iteration_22_program_048.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_049.c -o iteration_22_program_049.out
+gcc -O3 -ffast-math -march=core-avx2 -m32 -fdump-tree-vect -c iteration_22_program_050.c -o iteration_22_program_050.out
+gcc -O0 -I iteration_23_program_001.c -o iteration_23_program_001.out
+gcc -O0 -I iteration_23_program_002.c -o iteration_23_program_002.out
+gcc -O0 -I iteration_23_program_003.c -o iteration_23_program_003.out
+gcc -O0 -I iteration_23_program_004.c -o iteration_23_program_004.out
+gcc -O0 -I iteration_23_program_005.c -o iteration_23_program_005.out
+gcc -O0 -I iteration_23_program_006.c -o iteration_23_program_006.out
+gcc -O0 -I iteration_23_program_007.c -o iteration_23_program_007.out
+gcc -O0 -I iteration_23_program_008.c -o iteration_23_program_008.out
+gcc -O0 -I iteration_23_program_009.c -o iteration_23_program_009.out
+gcc -O0 -I iteration_23_program_010.c -o iteration_23_program_010.out
+gcc -O0 -I iteration_23_program_011.c -o iteration_23_program_011.out
+gcc -O0 -I iteration_23_program_012.c -o iteration_23_program_012.out
+gcc -O0 -I iteration_23_program_013.c -o iteration_23_program_013.out
+gcc -O0 -I iteration_23_program_014.c -o iteration_23_program_014.out
+gcc -O0 -I iteration_23_program_015.c -o iteration_23_program_015.out
+gcc -O0 -I iteration_23_program_016.c -o iteration_23_program_016.out
+gcc -O0 -I iteration_23_program_017.c -o iteration_23_program_017.out
+gcc -O0 -I iteration_23_program_018.c -o iteration_23_program_018.out
+gcc -O0 -I iteration_23_program_019.c -o iteration_23_program_019.out
+gcc -O0 -I iteration_23_program_020.c -o iteration_23_program_020.out
+gcc -O0 -I iteration_23_program_021.c -o iteration_23_program_021.out
+gcc -O0 -I iteration_23_program_022.c -o iteration_23_program_022.out
+gcc -O0 -I iteration_23_program_023.c -o iteration_23_program_023.out
+gcc -O0 -I iteration_23_program_024.c -o iteration_23_program_024.out
+gcc -O0 -I iteration_23_program_025.c -o iteration_23_program_025.out
+gcc -O0 -I iteration_23_program_026.c -o iteration_23_program_026.out
+gcc -O0 -I iteration_23_program_027.c -o iteration_23_program_027.out
+gcc -O0 -I iteration_23_program_028.c -o iteration_23_program_028.out
+gcc -O0 -I iteration_23_program_029.c -o iteration_23_program_029.out
+gcc -O0 -I iteration_23_program_030.c -o iteration_23_program_030.out
+gcc -O0 -I iteration_23_program_031.c -o iteration_23_program_031.out
+gcc -O0 -I iteration_23_program_032.c -o iteration_23_program_032.out
+gcc -O0 -I iteration_23_program_033.c -o iteration_23_program_033.out
+gcc -O0 -I iteration_23_program_034.c -o iteration_23_program_034.out
+gcc -O0 -I iteration_23_program_035.c -o iteration_23_program_035.out
+gcc -O0 -I iteration_23_program_036.c -o iteration_23_program_036.out
+gcc -O0 -I iteration_23_program_037.c -o iteration_23_program_037.out
+gcc -O0 -I iteration_23_program_038.c -o iteration_23_program_038.out
+gcc -O0 -I iteration_23_program_039.c -o iteration_23_program_039.out
+gcc -O0 -I iteration_23_program_040.c -o iteration_23_program_040.out
+gcc -O0 -I iteration_23_program_041.c -o iteration_23_program_041.out
+gcc -O0 -I iteration_23_program_042.c -o iteration_23_program_042.out
+gcc -O0 -I iteration_23_program_043.c -o iteration_23_program_043.out
+gcc -O0 -I iteration_23_program_044.c -o iteration_23_program_044.out
+gcc -O0 -I iteration_23_program_045.c -o iteration_23_program_045.out
+gcc -O0 -I iteration_23_program_046.c -o iteration_23_program_046.out
+gcc -O0 -I iteration_23_program_047.c -o iteration_23_program_047.out
+gcc -O0 -I iteration_23_program_048.c -o iteration_23_program_048.out
+gcc -O0 -I iteration_23_program_049.c -o iteration_23_program_049.out
+gcc -O0 -I iteration_23_program_050.c -o iteration_23_program_050.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_001.c -o iteration_24_program_001.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_002.c -o iteration_24_program_002.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_003.c -o iteration_24_program_003.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_004.c -o iteration_24_program_004.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_005.c -o iteration_24_program_005.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_006.c -o iteration_24_program_006.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_007.c -o iteration_24_program_007.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_008.c -o iteration_24_program_008.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_009.c -o iteration_24_program_009.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_010.c -o iteration_24_program_010.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_011.c -o iteration_24_program_011.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_012.c -o iteration_24_program_012.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_013.c -o iteration_24_program_013.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_014.c -o iteration_24_program_014.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_015.c -o iteration_24_program_015.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_016.c -o iteration_24_program_016.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_017.c -o iteration_24_program_017.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_018.c -o iteration_24_program_018.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_019.c -o iteration_24_program_019.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_020.c -o iteration_24_program_020.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_021.c -o iteration_24_program_021.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_022.c -o iteration_24_program_022.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_023.c -o iteration_24_program_023.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_024.c -o iteration_24_program_024.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_025.c -o iteration_24_program_025.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_026.c -o iteration_24_program_026.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_027.c -o iteration_24_program_027.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_028.c -o iteration_24_program_028.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_029.c -o iteration_24_program_029.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_030.c -o iteration_24_program_030.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_031.c -o iteration_24_program_031.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_032.c -o iteration_24_program_032.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_033.c -o iteration_24_program_033.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_034.c -o iteration_24_program_034.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_035.c -o iteration_24_program_035.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_036.c -o iteration_24_program_036.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_037.c -o iteration_24_program_037.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_038.c -o iteration_24_program_038.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_039.c -o iteration_24_program_039.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_040.c -o iteration_24_program_040.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_041.c -o iteration_24_program_041.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_042.c -o iteration_24_program_042.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_043.c -o iteration_24_program_043.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_044.c -o iteration_24_program_044.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_045.c -o iteration_24_program_045.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_046.c -o iteration_24_program_046.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_047.c -o iteration_24_program_047.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_048.c -o iteration_24_program_048.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_049.c -o iteration_24_program_049.out
+gcc -O1 -fdump-tree-original -fopenmp iteration_24_program_050.c -o iteration_24_program_050.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_001.c -o iteration_24_program_001.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_002.c -o iteration_24_program_002.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_003.c -o iteration_24_program_003.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_004.c -o iteration_24_program_004.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_005.c -o iteration_24_program_005.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_006.c -o iteration_24_program_006.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_007.c -o iteration_24_program_007.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_008.c -o iteration_24_program_008.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_009.c -o iteration_24_program_009.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_010.c -o iteration_24_program_010.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_011.c -o iteration_24_program_011.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_012.c -o iteration_24_program_012.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_013.c -o iteration_24_program_013.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_014.c -o iteration_24_program_014.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_015.c -o iteration_24_program_015.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_016.c -o iteration_24_program_016.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_017.c -o iteration_24_program_017.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_018.c -o iteration_24_program_018.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_019.c -o iteration_24_program_019.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_020.c -o iteration_24_program_020.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_021.c -o iteration_24_program_021.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_022.c -o iteration_24_program_022.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_023.c -o iteration_24_program_023.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_024.c -o iteration_24_program_024.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_025.c -o iteration_24_program_025.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_026.c -o iteration_24_program_026.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_027.c -o iteration_24_program_027.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_028.c -o iteration_24_program_028.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_029.c -o iteration_24_program_029.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_030.c -o iteration_24_program_030.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_031.c -o iteration_24_program_031.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_032.c -o iteration_24_program_032.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_033.c -o iteration_24_program_033.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_034.c -o iteration_24_program_034.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_035.c -o iteration_24_program_035.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_036.c -o iteration_24_program_036.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_037.c -o iteration_24_program_037.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_038.c -o iteration_24_program_038.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_039.c -o iteration_24_program_039.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_040.c -o iteration_24_program_040.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_041.c -o iteration_24_program_041.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_042.c -o iteration_24_program_042.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_043.c -o iteration_24_program_043.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_044.c -o iteration_24_program_044.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_045.c -o iteration_24_program_045.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_046.c -o iteration_24_program_046.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_047.c -o iteration_24_program_047.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_048.c -o iteration_24_program_048.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_049.c -o iteration_24_program_049.out
+gcc -O2 -fdump-tree-ssa -fno-omit-frame-pointer iteration_24_program_050.c -o iteration_24_program_050.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_001.c -o iteration_24_program_001.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_002.c -o iteration_24_program_002.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_003.c -o iteration_24_program_003.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_004.c -o iteration_24_program_004.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_005.c -o iteration_24_program_005.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_006.c -o iteration_24_program_006.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_007.c -o iteration_24_program_007.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_008.c -o iteration_24_program_008.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_009.c -o iteration_24_program_009.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_010.c -o iteration_24_program_010.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_011.c -o iteration_24_program_011.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_012.c -o iteration_24_program_012.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_013.c -o iteration_24_program_013.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_014.c -o iteration_24_program_014.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_015.c -o iteration_24_program_015.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_016.c -o iteration_24_program_016.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_017.c -o iteration_24_program_017.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_018.c -o iteration_24_program_018.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_019.c -o iteration_24_program_019.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_020.c -o iteration_24_program_020.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_021.c -o iteration_24_program_021.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_022.c -o iteration_24_program_022.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_023.c -o iteration_24_program_023.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_024.c -o iteration_24_program_024.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_025.c -o iteration_24_program_025.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_026.c -o iteration_24_program_026.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_027.c -o iteration_24_program_027.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_028.c -o iteration_24_program_028.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_029.c -o iteration_24_program_029.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_030.c -o iteration_24_program_030.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_031.c -o iteration_24_program_031.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_032.c -o iteration_24_program_032.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_033.c -o iteration_24_program_033.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_034.c -o iteration_24_program_034.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_035.c -o iteration_24_program_035.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_036.c -o iteration_24_program_036.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_037.c -o iteration_24_program_037.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_038.c -o iteration_24_program_038.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_039.c -o iteration_24_program_039.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_040.c -o iteration_24_program_040.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_041.c -o iteration_24_program_041.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_042.c -o iteration_24_program_042.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_043.c -o iteration_24_program_043.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_044.c -o iteration_24_program_044.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_045.c -o iteration_24_program_045.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_046.c -o iteration_24_program_046.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_047.c -o iteration_24_program_047.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_048.c -o iteration_24_program_048.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_049.c -o iteration_24_program_049.out
+gcc -O2 -fdump-tree-all -fopenmp iteration_24_program_050.c -o iteration_24_program_050.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_001.c -o iteration_25_program_001.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_002.c -o iteration_25_program_002.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_003.c -o iteration_25_program_003.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_004.c -o iteration_25_program_004.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_005.c -o iteration_25_program_005.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_006.c -o iteration_25_program_006.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_007.c -o iteration_25_program_007.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_008.c -o iteration_25_program_008.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_009.c -o iteration_25_program_009.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_010.c -o iteration_25_program_010.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_011.c -o iteration_25_program_011.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_012.c -o iteration_25_program_012.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_013.c -o iteration_25_program_013.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_014.c -o iteration_25_program_014.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_015.c -o iteration_25_program_015.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_016.c -o iteration_25_program_016.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_017.c -o iteration_25_program_017.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_018.c -o iteration_25_program_018.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_019.c -o iteration_25_program_019.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_020.c -o iteration_25_program_020.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_021.c -o iteration_25_program_021.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_022.c -o iteration_25_program_022.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_023.c -o iteration_25_program_023.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_024.c -o iteration_25_program_024.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_025.c -o iteration_25_program_025.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_026.c -o iteration_25_program_026.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_027.c -o iteration_25_program_027.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_028.c -o iteration_25_program_028.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_029.c -o iteration_25_program_029.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_030.c -o iteration_25_program_030.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_031.c -o iteration_25_program_031.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_032.c -o iteration_25_program_032.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_033.c -o iteration_25_program_033.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_034.c -o iteration_25_program_034.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_035.c -o iteration_25_program_035.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_036.c -o iteration_25_program_036.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_037.c -o iteration_25_program_037.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_038.c -o iteration_25_program_038.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_039.c -o iteration_25_program_039.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_040.c -o iteration_25_program_040.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_041.c -o iteration_25_program_041.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_042.c -o iteration_25_program_042.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_043.c -o iteration_25_program_043.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_044.c -o iteration_25_program_044.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_045.c -o iteration_25_program_045.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_046.c -o iteration_25_program_046.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_047.c -o iteration_25_program_047.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_048.c -o iteration_25_program_048.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_049.c -o iteration_25_program_049.out
+gcc -O2 -fdump-rtl-auto_inc_dec -fno-omit-frame-pointer iteration_25_program_050.c -o iteration_25_program_050.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_001.c -o iteration_25_program_001.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_002.c -o iteration_25_program_002.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_003.c -o iteration_25_program_003.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_004.c -o iteration_25_program_004.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_005.c -o iteration_25_program_005.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_006.c -o iteration_25_program_006.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_007.c -o iteration_25_program_007.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_008.c -o iteration_25_program_008.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_009.c -o iteration_25_program_009.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_010.c -o iteration_25_program_010.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_011.c -o iteration_25_program_011.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_012.c -o iteration_25_program_012.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_013.c -o iteration_25_program_013.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_014.c -o iteration_25_program_014.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_015.c -o iteration_25_program_015.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_016.c -o iteration_25_program_016.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_017.c -o iteration_25_program_017.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_018.c -o iteration_25_program_018.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_019.c -o iteration_25_program_019.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_020.c -o iteration_25_program_020.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_021.c -o iteration_25_program_021.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_022.c -o iteration_25_program_022.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_023.c -o iteration_25_program_023.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_024.c -o iteration_25_program_024.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_025.c -o iteration_25_program_025.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_026.c -o iteration_25_program_026.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_027.c -o iteration_25_program_027.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_028.c -o iteration_25_program_028.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_029.c -o iteration_25_program_029.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_030.c -o iteration_25_program_030.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_031.c -o iteration_25_program_031.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_032.c -o iteration_25_program_032.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_033.c -o iteration_25_program_033.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_034.c -o iteration_25_program_034.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_035.c -o iteration_25_program_035.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_036.c -o iteration_25_program_036.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_037.c -o iteration_25_program_037.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_038.c -o iteration_25_program_038.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_039.c -o iteration_25_program_039.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_040.c -o iteration_25_program_040.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_041.c -o iteration_25_program_041.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_042.c -o iteration_25_program_042.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_043.c -o iteration_25_program_043.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_044.c -o iteration_25_program_044.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_045.c -o iteration_25_program_045.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_046.c -o iteration_25_program_046.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_047.c -o iteration_25_program_047.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_048.c -o iteration_25_program_048.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_049.c -o iteration_25_program_049.out
+gcc -O3 -da -fdump-rtl-all iteration_25_program_050.c -o iteration_25_program_050.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_001.c -o iteration_25_program_001.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_002.c -o iteration_25_program_002.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_003.c -o iteration_25_program_003.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_004.c -o iteration_25_program_004.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_005.c -o iteration_25_program_005.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_006.c -o iteration_25_program_006.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_007.c -o iteration_25_program_007.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_008.c -o iteration_25_program_008.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_009.c -o iteration_25_program_009.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_010.c -o iteration_25_program_010.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_011.c -o iteration_25_program_011.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_012.c -o iteration_25_program_012.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_013.c -o iteration_25_program_013.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_014.c -o iteration_25_program_014.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_015.c -o iteration_25_program_015.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_016.c -o iteration_25_program_016.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_017.c -o iteration_25_program_017.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_018.c -o iteration_25_program_018.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_019.c -o iteration_25_program_019.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_020.c -o iteration_25_program_020.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_021.c -o iteration_25_program_021.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_022.c -o iteration_25_program_022.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_023.c -o iteration_25_program_023.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_024.c -o iteration_25_program_024.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_025.c -o iteration_25_program_025.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_026.c -o iteration_25_program_026.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_027.c -o iteration_25_program_027.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_028.c -o iteration_25_program_028.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_029.c -o iteration_25_program_029.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_030.c -o iteration_25_program_030.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_031.c -o iteration_25_program_031.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_032.c -o iteration_25_program_032.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_033.c -o iteration_25_program_033.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_034.c -o iteration_25_program_034.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_035.c -o iteration_25_program_035.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_036.c -o iteration_25_program_036.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_037.c -o iteration_25_program_037.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_038.c -o iteration_25_program_038.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_039.c -o iteration_25_program_039.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_040.c -o iteration_25_program_040.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_041.c -o iteration_25_program_041.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_042.c -o iteration_25_program_042.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_043.c -o iteration_25_program_043.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_044.c -o iteration_25_program_044.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_045.c -o iteration_25_program_045.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_046.c -o iteration_25_program_046.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_047.c -o iteration_25_program_047.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_048.c -o iteration_25_program_048.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_049.c -o iteration_25_program_049.out
+gcc -O2 -mtune=generic -fverbose-asm iteration_25_program_050.c -o iteration_25_program_050.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_001.c -o iteration_26_program_001.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_002.c -o iteration_26_program_002.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_003.c -o iteration_26_program_003.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_004.c -o iteration_26_program_004.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_005.c -o iteration_26_program_005.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_006.c -o iteration_26_program_006.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_007.c -o iteration_26_program_007.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_008.c -o iteration_26_program_008.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_009.c -o iteration_26_program_009.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_010.c -o iteration_26_program_010.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_011.c -o iteration_26_program_011.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_012.c -o iteration_26_program_012.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_013.c -o iteration_26_program_013.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_014.c -o iteration_26_program_014.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_015.c -o iteration_26_program_015.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_016.c -o iteration_26_program_016.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_017.c -o iteration_26_program_017.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_018.c -o iteration_26_program_018.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_019.c -o iteration_26_program_019.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_020.c -o iteration_26_program_020.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_021.c -o iteration_26_program_021.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_022.c -o iteration_26_program_022.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_023.c -o iteration_26_program_023.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_024.c -o iteration_26_program_024.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_025.c -o iteration_26_program_025.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_026.c -o iteration_26_program_026.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_027.c -o iteration_26_program_027.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_028.c -o iteration_26_program_028.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_029.c -o iteration_26_program_029.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_030.c -o iteration_26_program_030.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_031.c -o iteration_26_program_031.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_032.c -o iteration_26_program_032.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_033.c -o iteration_26_program_033.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_034.c -o iteration_26_program_034.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_035.c -o iteration_26_program_035.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_036.c -o iteration_26_program_036.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_037.c -o iteration_26_program_037.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_038.c -o iteration_26_program_038.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_039.c -o iteration_26_program_039.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_040.c -o iteration_26_program_040.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_041.c -o iteration_26_program_041.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_042.c -o iteration_26_program_042.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_043.c -o iteration_26_program_043.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_044.c -o iteration_26_program_044.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_045.c -o iteration_26_program_045.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_046.c -o iteration_26_program_046.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_047.c -o iteration_26_program_047.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_048.c -o iteration_26_program_048.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_049.c -o iteration_26_program_049.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_050.c -o iteration_26_program_050.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_001.c -o iteration_26_program_001.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_002.c -o iteration_26_program_002.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_003.c -o iteration_26_program_003.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_004.c -o iteration_26_program_004.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_005.c -o iteration_26_program_005.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_006.c -o iteration_26_program_006.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_007.c -o iteration_26_program_007.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_008.c -o iteration_26_program_008.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_009.c -o iteration_26_program_009.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_010.c -o iteration_26_program_010.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_011.c -o iteration_26_program_011.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_012.c -o iteration_26_program_012.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_013.c -o iteration_26_program_013.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_014.c -o iteration_26_program_014.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_015.c -o iteration_26_program_015.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_016.c -o iteration_26_program_016.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_017.c -o iteration_26_program_017.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_018.c -o iteration_26_program_018.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_019.c -o iteration_26_program_019.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_020.c -o iteration_26_program_020.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_021.c -o iteration_26_program_021.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_022.c -o iteration_26_program_022.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_023.c -o iteration_26_program_023.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_024.c -o iteration_26_program_024.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_025.c -o iteration_26_program_025.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_026.c -o iteration_26_program_026.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_027.c -o iteration_26_program_027.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_028.c -o iteration_26_program_028.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_029.c -o iteration_26_program_029.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_030.c -o iteration_26_program_030.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_031.c -o iteration_26_program_031.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_032.c -o iteration_26_program_032.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_033.c -o iteration_26_program_033.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_034.c -o iteration_26_program_034.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_035.c -o iteration_26_program_035.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_036.c -o iteration_26_program_036.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_037.c -o iteration_26_program_037.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_038.c -o iteration_26_program_038.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_039.c -o iteration_26_program_039.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_040.c -o iteration_26_program_040.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_041.c -o iteration_26_program_041.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_042.c -o iteration_26_program_042.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_043.c -o iteration_26_program_043.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_044.c -o iteration_26_program_044.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_045.c -o iteration_26_program_045.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_046.c -o iteration_26_program_046.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_047.c -o iteration_26_program_047.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_048.c -o iteration_26_program_048.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_049.c -o iteration_26_program_049.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_050.c -o iteration_26_program_050.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_001.c -o iteration_26_program_001.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_002.c -o iteration_26_program_002.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_003.c -o iteration_26_program_003.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_004.c -o iteration_26_program_004.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_005.c -o iteration_26_program_005.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_006.c -o iteration_26_program_006.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_007.c -o iteration_26_program_007.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_008.c -o iteration_26_program_008.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_009.c -o iteration_26_program_009.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_010.c -o iteration_26_program_010.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_011.c -o iteration_26_program_011.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_012.c -o iteration_26_program_012.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_013.c -o iteration_26_program_013.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_014.c -o iteration_26_program_014.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_015.c -o iteration_26_program_015.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_016.c -o iteration_26_program_016.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_017.c -o iteration_26_program_017.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_018.c -o iteration_26_program_018.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_019.c -o iteration_26_program_019.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_020.c -o iteration_26_program_020.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_021.c -o iteration_26_program_021.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_022.c -o iteration_26_program_022.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_023.c -o iteration_26_program_023.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_024.c -o iteration_26_program_024.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_025.c -o iteration_26_program_025.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_026.c -o iteration_26_program_026.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_027.c -o iteration_26_program_027.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_028.c -o iteration_26_program_028.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_029.c -o iteration_26_program_029.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_030.c -o iteration_26_program_030.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_031.c -o iteration_26_program_031.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_032.c -o iteration_26_program_032.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_033.c -o iteration_26_program_033.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_034.c -o iteration_26_program_034.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_035.c -o iteration_26_program_035.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_036.c -o iteration_26_program_036.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_037.c -o iteration_26_program_037.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_038.c -o iteration_26_program_038.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_039.c -o iteration_26_program_039.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_040.c -o iteration_26_program_040.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_041.c -o iteration_26_program_041.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_042.c -o iteration_26_program_042.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_043.c -o iteration_26_program_043.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_044.c -o iteration_26_program_044.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_045.c -o iteration_26_program_045.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_046.c -o iteration_26_program_046.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_047.c -o iteration_26_program_047.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_048.c -o iteration_26_program_048.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_049.c -o iteration_26_program_049.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_050.c -o iteration_26_program_050.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_001.c -o iteration_26_program_001.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_002.c -o iteration_26_program_002.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_003.c -o iteration_26_program_003.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_004.c -o iteration_26_program_004.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_005.c -o iteration_26_program_005.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_006.c -o iteration_26_program_006.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_007.c -o iteration_26_program_007.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_008.c -o iteration_26_program_008.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_009.c -o iteration_26_program_009.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_010.c -o iteration_26_program_010.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_011.c -o iteration_26_program_011.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_012.c -o iteration_26_program_012.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_013.c -o iteration_26_program_013.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_014.c -o iteration_26_program_014.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_015.c -o iteration_26_program_015.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_016.c -o iteration_26_program_016.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_017.c -o iteration_26_program_017.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_018.c -o iteration_26_program_018.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_019.c -o iteration_26_program_019.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_020.c -o iteration_26_program_020.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_021.c -o iteration_26_program_021.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_022.c -o iteration_26_program_022.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_023.c -o iteration_26_program_023.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_024.c -o iteration_26_program_024.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_025.c -o iteration_26_program_025.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_026.c -o iteration_26_program_026.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_027.c -o iteration_26_program_027.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_028.c -o iteration_26_program_028.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_029.c -o iteration_26_program_029.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_030.c -o iteration_26_program_030.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_031.c -o iteration_26_program_031.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_032.c -o iteration_26_program_032.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_033.c -o iteration_26_program_033.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_034.c -o iteration_26_program_034.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_035.c -o iteration_26_program_035.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_036.c -o iteration_26_program_036.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_037.c -o iteration_26_program_037.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_038.c -o iteration_26_program_038.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_039.c -o iteration_26_program_039.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_040.c -o iteration_26_program_040.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_041.c -o iteration_26_program_041.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_042.c -o iteration_26_program_042.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_043.c -o iteration_26_program_043.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_044.c -o iteration_26_program_044.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_045.c -o iteration_26_program_045.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_046.c -o iteration_26_program_046.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_047.c -o iteration_26_program_047.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_048.c -o iteration_26_program_048.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_049.c -o iteration_26_program_049.out
+gcc -O3 -ftree-vectorize -fno-inline -fno-tree-slp-vectorize iteration_26_program_050.c -o iteration_26_program_050.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_001.c -o iteration_26_program_001.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_002.c -o iteration_26_program_002.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_003.c -o iteration_26_program_003.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_004.c -o iteration_26_program_004.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_005.c -o iteration_26_program_005.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_006.c -o iteration_26_program_006.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_007.c -o iteration_26_program_007.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_008.c -o iteration_26_program_008.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_009.c -o iteration_26_program_009.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_010.c -o iteration_26_program_010.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_011.c -o iteration_26_program_011.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_012.c -o iteration_26_program_012.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_013.c -o iteration_26_program_013.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_014.c -o iteration_26_program_014.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_015.c -o iteration_26_program_015.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_016.c -o iteration_26_program_016.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_017.c -o iteration_26_program_017.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_018.c -o iteration_26_program_018.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_019.c -o iteration_26_program_019.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_020.c -o iteration_26_program_020.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_021.c -o iteration_26_program_021.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_022.c -o iteration_26_program_022.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_023.c -o iteration_26_program_023.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_024.c -o iteration_26_program_024.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_025.c -o iteration_26_program_025.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_026.c -o iteration_26_program_026.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_027.c -o iteration_26_program_027.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_028.c -o iteration_26_program_028.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_029.c -o iteration_26_program_029.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_030.c -o iteration_26_program_030.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_031.c -o iteration_26_program_031.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_032.c -o iteration_26_program_032.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_033.c -o iteration_26_program_033.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_034.c -o iteration_26_program_034.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_035.c -o iteration_26_program_035.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_036.c -o iteration_26_program_036.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_037.c -o iteration_26_program_037.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_038.c -o iteration_26_program_038.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_039.c -o iteration_26_program_039.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_040.c -o iteration_26_program_040.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_041.c -o iteration_26_program_041.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_042.c -o iteration_26_program_042.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_043.c -o iteration_26_program_043.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_044.c -o iteration_26_program_044.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_045.c -o iteration_26_program_045.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_046.c -o iteration_26_program_046.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_047.c -o iteration_26_program_047.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_048.c -o iteration_26_program_048.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_049.c -o iteration_26_program_049.out
+gcc -O3 -ftree-vectorize -fopt-info-vec-missed -fno-inline iteration_26_program_050.c -o iteration_26_program_050.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_001.c -o iteration_26_program_001.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_002.c -o iteration_26_program_002.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_003.c -o iteration_26_program_003.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_004.c -o iteration_26_program_004.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_005.c -o iteration_26_program_005.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_006.c -o iteration_26_program_006.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_007.c -o iteration_26_program_007.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_008.c -o iteration_26_program_008.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_009.c -o iteration_26_program_009.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_010.c -o iteration_26_program_010.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_011.c -o iteration_26_program_011.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_012.c -o iteration_26_program_012.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_013.c -o iteration_26_program_013.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_014.c -o iteration_26_program_014.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_015.c -o iteration_26_program_015.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_016.c -o iteration_26_program_016.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_017.c -o iteration_26_program_017.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_018.c -o iteration_26_program_018.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_019.c -o iteration_26_program_019.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_020.c -o iteration_26_program_020.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_021.c -o iteration_26_program_021.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_022.c -o iteration_26_program_022.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_023.c -o iteration_26_program_023.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_024.c -o iteration_26_program_024.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_025.c -o iteration_26_program_025.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_026.c -o iteration_26_program_026.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_027.c -o iteration_26_program_027.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_028.c -o iteration_26_program_028.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_029.c -o iteration_26_program_029.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_030.c -o iteration_26_program_030.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_031.c -o iteration_26_program_031.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_032.c -o iteration_26_program_032.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_033.c -o iteration_26_program_033.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_034.c -o iteration_26_program_034.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_035.c -o iteration_26_program_035.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_036.c -o iteration_26_program_036.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_037.c -o iteration_26_program_037.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_038.c -o iteration_26_program_038.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_039.c -o iteration_26_program_039.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_040.c -o iteration_26_program_040.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_041.c -o iteration_26_program_041.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_042.c -o iteration_26_program_042.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_043.c -o iteration_26_program_043.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_044.c -o iteration_26_program_044.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_045.c -o iteration_26_program_045.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_046.c -o iteration_26_program_046.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_047.c -o iteration_26_program_047.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_048.c -o iteration_26_program_048.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_049.c -o iteration_26_program_049.out
+gcc -O3 -march=haswell -ftree-vectorize -fno-inline iteration_26_program_050.c -o iteration_26_program_050.out
+gcc -O3 iteration_27_program_001.c -o iteration_27_program_001.out
+gcc -O3 iteration_27_program_002.c -o iteration_27_program_002.out
+gcc -O3 iteration_27_program_003.c -o iteration_27_program_003.out
+gcc -O3 iteration_27_program_004.c -o iteration_27_program_004.out
+gcc -O3 iteration_27_program_005.c -o iteration_27_program_005.out
+gcc -O3 iteration_27_program_006.c -o iteration_27_program_006.out
+gcc -O3 iteration_27_program_007.c -o iteration_27_program_007.out
+gcc -O3 iteration_27_program_008.c -o iteration_27_program_008.out
+gcc -O3 iteration_27_program_009.c -o iteration_27_program_009.out
+gcc -O3 iteration_27_program_010.c -o iteration_27_program_010.out
+gcc -O3 iteration_27_program_011.c -o iteration_27_program_011.out
+gcc -O3 iteration_27_program_012.c -o iteration_27_program_012.out
+gcc -O3 iteration_27_program_013.c -o iteration_27_program_013.out
+gcc -O3 iteration_27_program_014.c -o iteration_27_program_014.out
+gcc -O3 iteration_27_program_015.c -o iteration_27_program_015.out
+gcc -O3 iteration_27_program_016.c -o iteration_27_program_016.out
+gcc -O3 iteration_27_program_017.c -o iteration_27_program_017.out
+gcc -O3 iteration_27_program_018.c -o iteration_27_program_018.out
+gcc -O3 iteration_27_program_019.c -o iteration_27_program_019.out
+gcc -O3 iteration_27_program_020.c -o iteration_27_program_020.out
+gcc -O3 iteration_27_program_021.c -o iteration_27_program_021.out
+gcc -O3 iteration_27_program_022.c -o iteration_27_program_022.out
+gcc -O3 iteration_27_program_023.c -o iteration_27_program_023.out
+gcc -O3 iteration_27_program_024.c -o iteration_27_program_024.out
+gcc -O3 iteration_27_program_025.c -o iteration_27_program_025.out
+gcc -O3 iteration_27_program_026.c -o iteration_27_program_026.out
+gcc -O3 iteration_27_program_027.c -o iteration_27_program_027.out
+gcc -O3 iteration_27_program_028.c -o iteration_27_program_028.out
+gcc -O3 iteration_27_program_029.c -o iteration_27_program_029.out
+gcc -O3 iteration_27_program_030.c -o iteration_27_program_030.out
+gcc -O3 iteration_27_program_031.c -o iteration_27_program_031.out
+gcc -O3 iteration_27_program_032.c -o iteration_27_program_032.out
+gcc -O3 iteration_27_program_033.c -o iteration_27_program_033.out
+gcc -O3 iteration_27_program_034.c -o iteration_27_program_034.out
+gcc -O3 iteration_27_program_035.c -o iteration_27_program_035.out
+gcc -O3 iteration_27_program_036.c -o iteration_27_program_036.out
+gcc -O3 iteration_27_program_037.c -o iteration_27_program_037.out
+gcc -O3 iteration_27_program_038.c -o iteration_27_program_038.out
+gcc -O3 iteration_27_program_039.c -o iteration_27_program_039.out
+gcc -O3 iteration_27_program_040.c -o iteration_27_program_040.out
+gcc -O3 iteration_27_program_041.c -o iteration_27_program_041.out
+gcc -O3 iteration_27_program_042.c -o iteration_27_program_042.out
+gcc -O3 iteration_27_program_043.c -o iteration_27_program_043.out
+gcc -O3 iteration_27_program_044.c -o iteration_27_program_044.out
+gcc -O3 iteration_27_program_045.c -o iteration_27_program_045.out
+gcc -O3 iteration_27_program_046.c -o iteration_27_program_046.out
+gcc -O3 iteration_27_program_047.c -o iteration_27_program_047.out
+gcc -O3 iteration_27_program_048.c -o iteration_27_program_048.out
+gcc -O3 iteration_27_program_049.c -o iteration_27_program_049.out
+gcc -O3 iteration_27_program_050.c -o iteration_27_program_050.out
+gcc -O3 iteration_28_program_001.c -o iteration_28_program_001.out
+gcc -O3 iteration_28_program_002.c -o iteration_28_program_002.out
+gcc -O3 iteration_28_program_003.c -o iteration_28_program_003.out
+gcc -O3 iteration_28_program_004.c -o iteration_28_program_004.out
+gcc -O3 iteration_28_program_005.c -o iteration_28_program_005.out
+gcc -O3 iteration_28_program_006.c -o iteration_28_program_006.out
+gcc -O3 iteration_28_program_007.c -o iteration_28_program_007.out
+gcc -O3 iteration_28_program_008.c -o iteration_28_program_008.out
+gcc -O3 iteration_28_program_009.c -o iteration_28_program_009.out
+gcc -O3 iteration_28_program_010.c -o iteration_28_program_010.out
+gcc -O3 iteration_28_program_011.c -o iteration_28_program_011.out
+gcc -O3 iteration_28_program_012.c -o iteration_28_program_012.out
+gcc -O3 iteration_28_program_013.c -o iteration_28_program_013.out
+gcc -O3 iteration_28_program_014.c -o iteration_28_program_014.out
+gcc -O3 iteration_28_program_015.c -o iteration_28_program_015.out
+gcc -O3 iteration_28_program_016.c -o iteration_28_program_016.out
+gcc -O3 iteration_28_program_017.c -o iteration_28_program_017.out
+gcc -O3 iteration_28_program_018.c -o iteration_28_program_018.out
+gcc -O3 iteration_28_program_019.c -o iteration_28_program_019.out
+gcc -O3 iteration_28_program_020.c -o iteration_28_program_020.out
+gcc -O3 iteration_28_program_021.c -o iteration_28_program_021.out
+gcc -O3 iteration_28_program_022.c -o iteration_28_program_022.out
+gcc -O3 iteration_28_program_023.c -o iteration_28_program_023.out
+gcc -O3 iteration_28_program_024.c -o iteration_28_program_024.out
+gcc -O3 iteration_28_program_025.c -o iteration_28_program_025.out
+gcc -O3 iteration_28_program_026.c -o iteration_28_program_026.out
+gcc -O3 iteration_28_program_027.c -o iteration_28_program_027.out
+gcc -O3 iteration_28_program_028.c -o iteration_28_program_028.out
+gcc -O3 iteration_28_program_029.c -o iteration_28_program_029.out
+gcc -O3 iteration_28_program_030.c -o iteration_28_program_030.out
+gcc -O3 iteration_28_program_031.c -o iteration_28_program_031.out
+gcc -O3 iteration_28_program_032.c -o iteration_28_program_032.out
+gcc -O3 iteration_28_program_033.c -o iteration_28_program_033.out
+gcc -O3 iteration_28_program_034.c -o iteration_28_program_034.out
+gcc -O3 iteration_28_program_035.c -o iteration_28_program_035.out
+gcc -O3 iteration_28_program_036.c -o iteration_28_program_036.out
+gcc -O3 iteration_28_program_037.c -o iteration_28_program_037.out
+gcc -O3 iteration_28_program_038.c -o iteration_28_program_038.out
+gcc -O3 iteration_28_program_039.c -o iteration_28_program_039.out
+gcc -O3 iteration_28_program_040.c -o iteration_28_program_040.out
+gcc -O3 iteration_28_program_041.c -o iteration_28_program_041.out
+gcc -O3 iteration_28_program_042.c -o iteration_28_program_042.out
+gcc -O3 iteration_28_program_043.c -o iteration_28_program_043.out
+gcc -O3 iteration_28_program_044.c -o iteration_28_program_044.out
+gcc -O3 iteration_28_program_045.c -o iteration_28_program_045.out
+gcc -O3 iteration_28_program_046.c -o iteration_28_program_046.out
+gcc -O3 iteration_28_program_047.c -o iteration_28_program_047.out
+gcc -O3 iteration_28_program_048.c -o iteration_28_program_048.out
+gcc -O3 iteration_28_program_049.c -o iteration_28_program_049.out
+gcc -O3 iteration_28_program_050.c -o iteration_28_program_050.out
+gcc -O3 iteration_29_program_001.c -o iteration_29_program_001.out
+gcc -O3 iteration_29_program_002.c -o iteration_29_program_002.out
+gcc -O3 iteration_29_program_003.c -o iteration_29_program_003.out
+gcc -O3 iteration_29_program_004.c -o iteration_29_program_004.out
+gcc -O3 iteration_29_program_005.c -o iteration_29_program_005.out
+gcc -O3 iteration_29_program_006.c -o iteration_29_program_006.out
+gcc -O3 iteration_29_program_007.c -o iteration_29_program_007.out
+gcc -O3 iteration_29_program_008.c -o iteration_29_program_008.out
+gcc -O3 iteration_29_program_009.c -o iteration_29_program_009.out
+gcc -O3 iteration_29_program_010.c -o iteration_29_program_010.out
+gcc -O3 iteration_29_program_011.c -o iteration_29_program_011.out
+gcc -O3 iteration_29_program_012.c -o iteration_29_program_012.out
+gcc -O3 iteration_29_program_013.c -o iteration_29_program_013.out
+gcc -O3 iteration_29_program_014.c -o iteration_29_program_014.out
+gcc -O3 iteration_29_program_015.c -o iteration_29_program_015.out
+gcc -O3 iteration_29_program_016.c -o iteration_29_program_016.out
+gcc -O3 iteration_29_program_017.c -o iteration_29_program_017.out
+gcc -O3 iteration_29_program_018.c -o iteration_29_program_018.out
+gcc -O3 iteration_29_program_019.c -o iteration_29_program_019.out
+gcc -O3 iteration_29_program_020.c -o iteration_29_program_020.out
+gcc -O3 iteration_29_program_021.c -o iteration_29_program_021.out
+gcc -O3 iteration_29_program_022.c -o iteration_29_program_022.out
+gcc -O3 iteration_29_program_023.c -o iteration_29_program_023.out
+gcc -O3 iteration_29_program_024.c -o iteration_29_program_024.out
+gcc -O3 iteration_29_program_025.c -o iteration_29_program_025.out
+gcc -O3 iteration_29_program_026.c -o iteration_29_program_026.out
+gcc -O3 iteration_29_program_027.c -o iteration_29_program_027.out
+gcc -O3 iteration_29_program_028.c -o iteration_29_program_028.out
+gcc -O3 iteration_29_program_029.c -o iteration_29_program_029.out
+gcc -O3 iteration_29_program_030.c -o iteration_29_program_030.out
+gcc -O3 iteration_29_program_031.c -o iteration_29_program_031.out
+gcc -O3 iteration_29_program_032.c -o iteration_29_program_032.out
+gcc -O3 iteration_29_program_033.c -o iteration_29_program_033.out
+gcc -O3 iteration_29_program_034.c -o iteration_29_program_034.out
+gcc -O3 iteration_29_program_035.c -o iteration_29_program_035.out
+gcc -O3 iteration_29_program_036.c -o iteration_29_program_036.out
+gcc -O3 iteration_29_program_037.c -o iteration_29_program_037.out
+gcc -O3 iteration_29_program_038.c -o iteration_29_program_038.out
+gcc -O3 iteration_29_program_039.c -o iteration_29_program_039.out
+gcc -O3 iteration_29_program_040.c -o iteration_29_program_040.out
+gcc -O3 iteration_29_program_041.c -o iteration_29_program_041.out
+gcc -O3 iteration_29_program_042.c -o iteration_29_program_042.out
+gcc -O3 iteration_29_program_043.c -o iteration_29_program_043.out
+gcc -O3 iteration_29_program_044.c -o iteration_29_program_044.out
+gcc -O3 iteration_29_program_045.c -o iteration_29_program_045.out
+gcc -O3 iteration_29_program_046.c -o iteration_29_program_046.out
+gcc -O3 iteration_29_program_047.c -o iteration_29_program_047.out
+gcc -O3 iteration_29_program_048.c -o iteration_29_program_048.out
+gcc -O3 iteration_29_program_049.c -o iteration_29_program_049.out
+gcc -O3 iteration_29_program_050.c -o iteration_29_program_050.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_001.c -o iteration_30_program_001.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_002.c -o iteration_30_program_002.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_003.c -o iteration_30_program_003.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_004.c -o iteration_30_program_004.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_005.c -o iteration_30_program_005.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_006.c -o iteration_30_program_006.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_007.c -o iteration_30_program_007.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_008.c -o iteration_30_program_008.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_009.c -o iteration_30_program_009.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_010.c -o iteration_30_program_010.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_011.c -o iteration_30_program_011.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_012.c -o iteration_30_program_012.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_013.c -o iteration_30_program_013.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_014.c -o iteration_30_program_014.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_015.c -o iteration_30_program_015.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_016.c -o iteration_30_program_016.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_017.c -o iteration_30_program_017.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_018.c -o iteration_30_program_018.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_019.c -o iteration_30_program_019.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_020.c -o iteration_30_program_020.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_021.c -o iteration_30_program_021.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_022.c -o iteration_30_program_022.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_023.c -o iteration_30_program_023.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_024.c -o iteration_30_program_024.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_025.c -o iteration_30_program_025.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_026.c -o iteration_30_program_026.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_027.c -o iteration_30_program_027.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_028.c -o iteration_30_program_028.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_029.c -o iteration_30_program_029.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_030.c -o iteration_30_program_030.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_031.c -o iteration_30_program_031.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_032.c -o iteration_30_program_032.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_033.c -o iteration_30_program_033.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_034.c -o iteration_30_program_034.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_035.c -o iteration_30_program_035.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_036.c -o iteration_30_program_036.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_037.c -o iteration_30_program_037.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_038.c -o iteration_30_program_038.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_039.c -o iteration_30_program_039.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_040.c -o iteration_30_program_040.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_041.c -o iteration_30_program_041.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_042.c -o iteration_30_program_042.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_043.c -o iteration_30_program_043.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_044.c -o iteration_30_program_044.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_045.c -o iteration_30_program_045.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_046.c -o iteration_30_program_046.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_047.c -o iteration_30_program_047.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_048.c -o iteration_30_program_048.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_049.c -o iteration_30_program_049.out
+gcc -O2 -march=x86-64 -fno-fast-math -S iteration_30_program_050.c -o iteration_30_program_050.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_001.c -o iteration_30_program_001.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_002.c -o iteration_30_program_002.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_003.c -o iteration_30_program_003.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_004.c -o iteration_30_program_004.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_005.c -o iteration_30_program_005.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_006.c -o iteration_30_program_006.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_007.c -o iteration_30_program_007.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_008.c -o iteration_30_program_008.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_009.c -o iteration_30_program_009.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_010.c -o iteration_30_program_010.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_011.c -o iteration_30_program_011.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_012.c -o iteration_30_program_012.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_013.c -o iteration_30_program_013.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_014.c -o iteration_30_program_014.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_015.c -o iteration_30_program_015.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_016.c -o iteration_30_program_016.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_017.c -o iteration_30_program_017.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_018.c -o iteration_30_program_018.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_019.c -o iteration_30_program_019.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_020.c -o iteration_30_program_020.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_021.c -o iteration_30_program_021.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_022.c -o iteration_30_program_022.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_023.c -o iteration_30_program_023.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_024.c -o iteration_30_program_024.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_025.c -o iteration_30_program_025.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_026.c -o iteration_30_program_026.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_027.c -o iteration_30_program_027.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_028.c -o iteration_30_program_028.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_029.c -o iteration_30_program_029.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_030.c -o iteration_30_program_030.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_031.c -o iteration_30_program_031.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_032.c -o iteration_30_program_032.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_033.c -o iteration_30_program_033.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_034.c -o iteration_30_program_034.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_035.c -o iteration_30_program_035.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_036.c -o iteration_30_program_036.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_037.c -o iteration_30_program_037.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_038.c -o iteration_30_program_038.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_039.c -o iteration_30_program_039.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_040.c -o iteration_30_program_040.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_041.c -o iteration_30_program_041.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_042.c -o iteration_30_program_042.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_043.c -o iteration_30_program_043.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_044.c -o iteration_30_program_044.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_045.c -o iteration_30_program_045.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_046.c -o iteration_30_program_046.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_047.c -o iteration_30_program_047.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_048.c -o iteration_30_program_048.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_049.c -o iteration_30_program_049.out
+gcc -O1 -m32 -ffloat-store -S -fno-fast-math iteration_30_program_050.c -o iteration_30_program_050.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_001.c -o iteration_30_program_001.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_002.c -o iteration_30_program_002.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_003.c -o iteration_30_program_003.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_004.c -o iteration_30_program_004.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_005.c -o iteration_30_program_005.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_006.c -o iteration_30_program_006.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_007.c -o iteration_30_program_007.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_008.c -o iteration_30_program_008.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_009.c -o iteration_30_program_009.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_010.c -o iteration_30_program_010.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_011.c -o iteration_30_program_011.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_012.c -o iteration_30_program_012.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_013.c -o iteration_30_program_013.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_014.c -o iteration_30_program_014.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_015.c -o iteration_30_program_015.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_016.c -o iteration_30_program_016.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_017.c -o iteration_30_program_017.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_018.c -o iteration_30_program_018.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_019.c -o iteration_30_program_019.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_020.c -o iteration_30_program_020.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_021.c -o iteration_30_program_021.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_022.c -o iteration_30_program_022.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_023.c -o iteration_30_program_023.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_024.c -o iteration_30_program_024.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_025.c -o iteration_30_program_025.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_026.c -o iteration_30_program_026.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_027.c -o iteration_30_program_027.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_028.c -o iteration_30_program_028.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_029.c -o iteration_30_program_029.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_030.c -o iteration_30_program_030.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_031.c -o iteration_30_program_031.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_032.c -o iteration_30_program_032.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_033.c -o iteration_30_program_033.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_034.c -o iteration_30_program_034.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_035.c -o iteration_30_program_035.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_036.c -o iteration_30_program_036.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_037.c -o iteration_30_program_037.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_038.c -o iteration_30_program_038.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_039.c -o iteration_30_program_039.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_040.c -o iteration_30_program_040.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_041.c -o iteration_30_program_041.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_042.c -o iteration_30_program_042.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_043.c -o iteration_30_program_043.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_044.c -o iteration_30_program_044.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_045.c -o iteration_30_program_045.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_046.c -o iteration_30_program_046.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_047.c -o iteration_30_program_047.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_048.c -o iteration_30_program_048.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_049.c -o iteration_30_program_049.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer  iteration_30_program_050.c -o iteration_30_program_050.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_001.c -o iteration_30_program_001.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_002.c -o iteration_30_program_002.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_003.c -o iteration_30_program_003.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_004.c -o iteration_30_program_004.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_005.c -o iteration_30_program_005.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_006.c -o iteration_30_program_006.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_007.c -o iteration_30_program_007.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_008.c -o iteration_30_program_008.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_009.c -o iteration_30_program_009.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_010.c -o iteration_30_program_010.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_011.c -o iteration_30_program_011.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_012.c -o iteration_30_program_012.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_013.c -o iteration_30_program_013.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_014.c -o iteration_30_program_014.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_015.c -o iteration_30_program_015.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_016.c -o iteration_30_program_016.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_017.c -o iteration_30_program_017.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_018.c -o iteration_30_program_018.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_019.c -o iteration_30_program_019.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_020.c -o iteration_30_program_020.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_021.c -o iteration_30_program_021.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_022.c -o iteration_30_program_022.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_023.c -o iteration_30_program_023.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_024.c -o iteration_30_program_024.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_025.c -o iteration_30_program_025.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_026.c -o iteration_30_program_026.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_027.c -o iteration_30_program_027.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_028.c -o iteration_30_program_028.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_029.c -o iteration_30_program_029.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_030.c -o iteration_30_program_030.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_031.c -o iteration_30_program_031.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_032.c -o iteration_30_program_032.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_033.c -o iteration_30_program_033.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_034.c -o iteration_30_program_034.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_035.c -o iteration_30_program_035.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_036.c -o iteration_30_program_036.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_037.c -o iteration_30_program_037.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_038.c -o iteration_30_program_038.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_039.c -o iteration_30_program_039.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_040.c -o iteration_30_program_040.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_041.c -o iteration_30_program_041.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_042.c -o iteration_30_program_042.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_043.c -o iteration_30_program_043.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_044.c -o iteration_30_program_044.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_045.c -o iteration_30_program_045.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_046.c -o iteration_30_program_046.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_047.c -o iteration_30_program_047.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_048.c -o iteration_30_program_048.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_049.c -o iteration_30_program_049.out
+gcc -O3 -fsanitize=address -fno-omit-frame-pointer iteration_30_program_050.c -o iteration_30_program_050.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_001.c -o iteration_31_program_001.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_002.c -o iteration_31_program_002.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_003.c -o iteration_31_program_003.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_004.c -o iteration_31_program_004.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_005.c -o iteration_31_program_005.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_006.c -o iteration_31_program_006.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_007.c -o iteration_31_program_007.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_008.c -o iteration_31_program_008.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_009.c -o iteration_31_program_009.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_010.c -o iteration_31_program_010.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_011.c -o iteration_31_program_011.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_012.c -o iteration_31_program_012.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_013.c -o iteration_31_program_013.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_014.c -o iteration_31_program_014.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_015.c -o iteration_31_program_015.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_016.c -o iteration_31_program_016.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_017.c -o iteration_31_program_017.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_018.c -o iteration_31_program_018.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_019.c -o iteration_31_program_019.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_020.c -o iteration_31_program_020.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_021.c -o iteration_31_program_021.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_022.c -o iteration_31_program_022.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_023.c -o iteration_31_program_023.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_024.c -o iteration_31_program_024.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_025.c -o iteration_31_program_025.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_026.c -o iteration_31_program_026.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_027.c -o iteration_31_program_027.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_028.c -o iteration_31_program_028.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_029.c -o iteration_31_program_029.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_030.c -o iteration_31_program_030.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_031.c -o iteration_31_program_031.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_032.c -o iteration_31_program_032.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_033.c -o iteration_31_program_033.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_034.c -o iteration_31_program_034.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_035.c -o iteration_31_program_035.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_036.c -o iteration_31_program_036.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_037.c -o iteration_31_program_037.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_038.c -o iteration_31_program_038.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_039.c -o iteration_31_program_039.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_040.c -o iteration_31_program_040.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_041.c -o iteration_31_program_041.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_042.c -o iteration_31_program_042.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_043.c -o iteration_31_program_043.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_044.c -o iteration_31_program_044.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_045.c -o iteration_31_program_045.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_046.c -o iteration_31_program_046.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_047.c -o iteration_31_program_047.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_048.c -o iteration_31_program_048.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_049.c -o iteration_31_program_049.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_050.c -o iteration_31_program_050.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_001.c -o iteration_31_program_001.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_002.c -o iteration_31_program_002.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_003.c -o iteration_31_program_003.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_004.c -o iteration_31_program_004.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_005.c -o iteration_31_program_005.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_006.c -o iteration_31_program_006.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_007.c -o iteration_31_program_007.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_008.c -o iteration_31_program_008.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_009.c -o iteration_31_program_009.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_010.c -o iteration_31_program_010.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_011.c -o iteration_31_program_011.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_012.c -o iteration_31_program_012.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_013.c -o iteration_31_program_013.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_014.c -o iteration_31_program_014.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_015.c -o iteration_31_program_015.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_016.c -o iteration_31_program_016.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_017.c -o iteration_31_program_017.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_018.c -o iteration_31_program_018.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_019.c -o iteration_31_program_019.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_020.c -o iteration_31_program_020.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_021.c -o iteration_31_program_021.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_022.c -o iteration_31_program_022.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_023.c -o iteration_31_program_023.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_024.c -o iteration_31_program_024.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_025.c -o iteration_31_program_025.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_026.c -o iteration_31_program_026.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_027.c -o iteration_31_program_027.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_028.c -o iteration_31_program_028.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_029.c -o iteration_31_program_029.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_030.c -o iteration_31_program_030.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_031.c -o iteration_31_program_031.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_032.c -o iteration_31_program_032.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_033.c -o iteration_31_program_033.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_034.c -o iteration_31_program_034.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_035.c -o iteration_31_program_035.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_036.c -o iteration_31_program_036.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_037.c -o iteration_31_program_037.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_038.c -o iteration_31_program_038.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_039.c -o iteration_31_program_039.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_040.c -o iteration_31_program_040.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_041.c -o iteration_31_program_041.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_042.c -o iteration_31_program_042.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_043.c -o iteration_31_program_043.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_044.c -o iteration_31_program_044.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_045.c -o iteration_31_program_045.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_046.c -o iteration_31_program_046.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_047.c -o iteration_31_program_047.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_048.c -o iteration_31_program_048.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_049.c -o iteration_31_program_049.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer  iteration_31_program_050.c -o iteration_31_program_050.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_001.c -o iteration_31_program_001.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_002.c -o iteration_31_program_002.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_003.c -o iteration_31_program_003.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_004.c -o iteration_31_program_004.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_005.c -o iteration_31_program_005.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_006.c -o iteration_31_program_006.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_007.c -o iteration_31_program_007.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_008.c -o iteration_31_program_008.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_009.c -o iteration_31_program_009.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_010.c -o iteration_31_program_010.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_011.c -o iteration_31_program_011.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_012.c -o iteration_31_program_012.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_013.c -o iteration_31_program_013.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_014.c -o iteration_31_program_014.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_015.c -o iteration_31_program_015.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_016.c -o iteration_31_program_016.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_017.c -o iteration_31_program_017.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_018.c -o iteration_31_program_018.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_019.c -o iteration_31_program_019.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_020.c -o iteration_31_program_020.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_021.c -o iteration_31_program_021.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_022.c -o iteration_31_program_022.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_023.c -o iteration_31_program_023.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_024.c -o iteration_31_program_024.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_025.c -o iteration_31_program_025.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_026.c -o iteration_31_program_026.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_027.c -o iteration_31_program_027.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_028.c -o iteration_31_program_028.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_029.c -o iteration_31_program_029.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_030.c -o iteration_31_program_030.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_031.c -o iteration_31_program_031.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_032.c -o iteration_31_program_032.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_033.c -o iteration_31_program_033.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_034.c -o iteration_31_program_034.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_035.c -o iteration_31_program_035.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_036.c -o iteration_31_program_036.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_037.c -o iteration_31_program_037.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_038.c -o iteration_31_program_038.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_039.c -o iteration_31_program_039.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_040.c -o iteration_31_program_040.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_041.c -o iteration_31_program_041.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_042.c -o iteration_31_program_042.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_043.c -o iteration_31_program_043.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_044.c -o iteration_31_program_044.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_045.c -o iteration_31_program_045.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_046.c -o iteration_31_program_046.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_047.c -o iteration_31_program_047.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_048.c -o iteration_31_program_048.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_049.c -o iteration_31_program_049.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_050.c -o iteration_31_program_050.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_001.c -o iteration_31_program_001.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_002.c -o iteration_31_program_002.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_003.c -o iteration_31_program_003.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_004.c -o iteration_31_program_004.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_005.c -o iteration_31_program_005.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_006.c -o iteration_31_program_006.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_007.c -o iteration_31_program_007.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_008.c -o iteration_31_program_008.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_009.c -o iteration_31_program_009.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_010.c -o iteration_31_program_010.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_011.c -o iteration_31_program_011.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_012.c -o iteration_31_program_012.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_013.c -o iteration_31_program_013.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_014.c -o iteration_31_program_014.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_015.c -o iteration_31_program_015.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_016.c -o iteration_31_program_016.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_017.c -o iteration_31_program_017.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_018.c -o iteration_31_program_018.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_019.c -o iteration_31_program_019.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_020.c -o iteration_31_program_020.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_021.c -o iteration_31_program_021.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_022.c -o iteration_31_program_022.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_023.c -o iteration_31_program_023.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_024.c -o iteration_31_program_024.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_025.c -o iteration_31_program_025.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_026.c -o iteration_31_program_026.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_027.c -o iteration_31_program_027.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_028.c -o iteration_31_program_028.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_029.c -o iteration_31_program_029.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_030.c -o iteration_31_program_030.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_031.c -o iteration_31_program_031.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_032.c -o iteration_31_program_032.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_033.c -o iteration_31_program_033.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_034.c -o iteration_31_program_034.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_035.c -o iteration_31_program_035.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_036.c -o iteration_31_program_036.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_037.c -o iteration_31_program_037.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_038.c -o iteration_31_program_038.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_039.c -o iteration_31_program_039.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_040.c -o iteration_31_program_040.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_041.c -o iteration_31_program_041.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_042.c -o iteration_31_program_042.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_043.c -o iteration_31_program_043.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_044.c -o iteration_31_program_044.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_045.c -o iteration_31_program_045.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_046.c -o iteration_31_program_046.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_047.c -o iteration_31_program_047.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_048.c -o iteration_31_program_048.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_049.c -o iteration_31_program_049.out
+gcc -O3 -march=skylake-avx512 -mavx512f -mavx512bw -S -dP iteration_31_program_050.c -o iteration_31_program_050.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_001.c -o iteration_31_program_001.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_002.c -o iteration_31_program_002.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_003.c -o iteration_31_program_003.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_004.c -o iteration_31_program_004.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_005.c -o iteration_31_program_005.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_006.c -o iteration_31_program_006.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_007.c -o iteration_31_program_007.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_008.c -o iteration_31_program_008.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_009.c -o iteration_31_program_009.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_010.c -o iteration_31_program_010.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_011.c -o iteration_31_program_011.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_012.c -o iteration_31_program_012.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_013.c -o iteration_31_program_013.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_014.c -o iteration_31_program_014.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_015.c -o iteration_31_program_015.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_016.c -o iteration_31_program_016.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_017.c -o iteration_31_program_017.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_018.c -o iteration_31_program_018.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_019.c -o iteration_31_program_019.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_020.c -o iteration_31_program_020.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_021.c -o iteration_31_program_021.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_022.c -o iteration_31_program_022.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_023.c -o iteration_31_program_023.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_024.c -o iteration_31_program_024.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_025.c -o iteration_31_program_025.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_026.c -o iteration_31_program_026.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_027.c -o iteration_31_program_027.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_028.c -o iteration_31_program_028.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_029.c -o iteration_31_program_029.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_030.c -o iteration_31_program_030.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_031.c -o iteration_31_program_031.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_032.c -o iteration_31_program_032.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_033.c -o iteration_31_program_033.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_034.c -o iteration_31_program_034.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_035.c -o iteration_31_program_035.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_036.c -o iteration_31_program_036.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_037.c -o iteration_31_program_037.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_038.c -o iteration_31_program_038.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_039.c -o iteration_31_program_039.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_040.c -o iteration_31_program_040.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_041.c -o iteration_31_program_041.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_042.c -o iteration_31_program_042.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_043.c -o iteration_31_program_043.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_044.c -o iteration_31_program_044.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_045.c -o iteration_31_program_045.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_046.c -o iteration_31_program_046.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_047.c -o iteration_31_program_047.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_048.c -o iteration_31_program_048.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_049.c -o iteration_31_program_049.out
+gcc -O2 -march=skylake-avx512 -fsanitize=address -fno-omit-frame-pointer iteration_31_program_050.c -o iteration_31_program_050.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_001.c -o iteration_31_program_001.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_002.c -o iteration_31_program_002.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_003.c -o iteration_31_program_003.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_004.c -o iteration_31_program_004.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_005.c -o iteration_31_program_005.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_006.c -o iteration_31_program_006.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_007.c -o iteration_31_program_007.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_008.c -o iteration_31_program_008.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_009.c -o iteration_31_program_009.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_010.c -o iteration_31_program_010.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_011.c -o iteration_31_program_011.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_012.c -o iteration_31_program_012.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_013.c -o iteration_31_program_013.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_014.c -o iteration_31_program_014.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_015.c -o iteration_31_program_015.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_016.c -o iteration_31_program_016.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_017.c -o iteration_31_program_017.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_018.c -o iteration_31_program_018.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_019.c -o iteration_31_program_019.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_020.c -o iteration_31_program_020.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_021.c -o iteration_31_program_021.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_022.c -o iteration_31_program_022.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_023.c -o iteration_31_program_023.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_024.c -o iteration_31_program_024.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_025.c -o iteration_31_program_025.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_026.c -o iteration_31_program_026.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_027.c -o iteration_31_program_027.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_028.c -o iteration_31_program_028.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_029.c -o iteration_31_program_029.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_030.c -o iteration_31_program_030.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_031.c -o iteration_31_program_031.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_032.c -o iteration_31_program_032.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_033.c -o iteration_31_program_033.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_034.c -o iteration_31_program_034.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_035.c -o iteration_31_program_035.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_036.c -o iteration_31_program_036.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_037.c -o iteration_31_program_037.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_038.c -o iteration_31_program_038.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_039.c -o iteration_31_program_039.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_040.c -o iteration_31_program_040.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_041.c -o iteration_31_program_041.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_042.c -o iteration_31_program_042.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_043.c -o iteration_31_program_043.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_044.c -o iteration_31_program_044.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_045.c -o iteration_31_program_045.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_046.c -o iteration_31_program_046.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_047.c -o iteration_31_program_047.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_048.c -o iteration_31_program_048.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_049.c -o iteration_31_program_049.out
+gcc -O3 -mavx512f -mavx512bw -c iteration_31_program_050.c -o iteration_31_program_050.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O2 -march=core2 -fverbose-asm -c  iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O2 -march=core2 -fverbose-asm -c iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O2 -march=nehalem -fverbose-asm -c iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O3 -march=native -mtune=generic -fdump-rtl-all -c iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_001.c -o iteration_32_program_001.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_002.c -o iteration_32_program_002.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_003.c -o iteration_32_program_003.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_004.c -o iteration_32_program_004.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_005.c -o iteration_32_program_005.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_006.c -o iteration_32_program_006.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_007.c -o iteration_32_program_007.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_008.c -o iteration_32_program_008.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_009.c -o iteration_32_program_009.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_010.c -o iteration_32_program_010.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_011.c -o iteration_32_program_011.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_012.c -o iteration_32_program_012.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_013.c -o iteration_32_program_013.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_014.c -o iteration_32_program_014.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_015.c -o iteration_32_program_015.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_016.c -o iteration_32_program_016.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_017.c -o iteration_32_program_017.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_018.c -o iteration_32_program_018.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_019.c -o iteration_32_program_019.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_020.c -o iteration_32_program_020.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_021.c -o iteration_32_program_021.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_022.c -o iteration_32_program_022.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_023.c -o iteration_32_program_023.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_024.c -o iteration_32_program_024.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_025.c -o iteration_32_program_025.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_026.c -o iteration_32_program_026.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_027.c -o iteration_32_program_027.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_028.c -o iteration_32_program_028.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_029.c -o iteration_32_program_029.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_030.c -o iteration_32_program_030.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_031.c -o iteration_32_program_031.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_032.c -o iteration_32_program_032.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_033.c -o iteration_32_program_033.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_034.c -o iteration_32_program_034.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_035.c -o iteration_32_program_035.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_036.c -o iteration_32_program_036.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_037.c -o iteration_32_program_037.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_038.c -o iteration_32_program_038.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_039.c -o iteration_32_program_039.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_040.c -o iteration_32_program_040.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_041.c -o iteration_32_program_041.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_042.c -o iteration_32_program_042.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_043.c -o iteration_32_program_043.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_044.c -o iteration_32_program_044.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_045.c -o iteration_32_program_045.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_046.c -o iteration_32_program_046.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_047.c -o iteration_32_program_047.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_048.c -o iteration_32_program_048.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_049.c -o iteration_32_program_049.out
+gcc -O1 -m32 -march=pentium4 -fno-inline -c iteration_32_program_050.c -o iteration_32_program_050.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_001.c -o iteration_33_program_001.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_002.c -o iteration_33_program_002.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_003.c -o iteration_33_program_003.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_004.c -o iteration_33_program_004.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_005.c -o iteration_33_program_005.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_006.c -o iteration_33_program_006.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_007.c -o iteration_33_program_007.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_008.c -o iteration_33_program_008.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_009.c -o iteration_33_program_009.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_010.c -o iteration_33_program_010.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_011.c -o iteration_33_program_011.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_012.c -o iteration_33_program_012.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_013.c -o iteration_33_program_013.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_014.c -o iteration_33_program_014.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_015.c -o iteration_33_program_015.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_016.c -o iteration_33_program_016.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_017.c -o iteration_33_program_017.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_018.c -o iteration_33_program_018.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_019.c -o iteration_33_program_019.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_020.c -o iteration_33_program_020.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_021.c -o iteration_33_program_021.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_022.c -o iteration_33_program_022.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_023.c -o iteration_33_program_023.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_024.c -o iteration_33_program_024.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_025.c -o iteration_33_program_025.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_026.c -o iteration_33_program_026.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_027.c -o iteration_33_program_027.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_028.c -o iteration_33_program_028.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_029.c -o iteration_33_program_029.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_030.c -o iteration_33_program_030.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_031.c -o iteration_33_program_031.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_032.c -o iteration_33_program_032.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_033.c -o iteration_33_program_033.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_034.c -o iteration_33_program_034.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_035.c -o iteration_33_program_035.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_036.c -o iteration_33_program_036.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_037.c -o iteration_33_program_037.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_038.c -o iteration_33_program_038.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_039.c -o iteration_33_program_039.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_040.c -o iteration_33_program_040.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_041.c -o iteration_33_program_041.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_042.c -o iteration_33_program_042.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_043.c -o iteration_33_program_043.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_044.c -o iteration_33_program_044.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_045.c -o iteration_33_program_045.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_046.c -o iteration_33_program_046.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_047.c -o iteration_33_program_047.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_048.c -o iteration_33_program_048.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_049.c -o iteration_33_program_049.out
+gcc -O0 -dumpdir ./test_dumps -dumpbase cleanup_test -save-temps -c iteration_33_program_050.c -o iteration_33_program_050.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_001.c -o iteration_33_program_001.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_002.c -o iteration_33_program_002.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_003.c -o iteration_33_program_003.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_004.c -o iteration_33_program_004.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_005.c -o iteration_33_program_005.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_006.c -o iteration_33_program_006.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_007.c -o iteration_33_program_007.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_008.c -o iteration_33_program_008.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_009.c -o iteration_33_program_009.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_010.c -o iteration_33_program_010.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_011.c -o iteration_33_program_011.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_012.c -o iteration_33_program_012.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_013.c -o iteration_33_program_013.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_014.c -o iteration_33_program_014.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_015.c -o iteration_33_program_015.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_016.c -o iteration_33_program_016.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_017.c -o iteration_33_program_017.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_018.c -o iteration_33_program_018.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_019.c -o iteration_33_program_019.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_020.c -o iteration_33_program_020.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_021.c -o iteration_33_program_021.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_022.c -o iteration_33_program_022.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_023.c -o iteration_33_program_023.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_024.c -o iteration_33_program_024.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_025.c -o iteration_33_program_025.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_026.c -o iteration_33_program_026.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_027.c -o iteration_33_program_027.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_028.c -o iteration_33_program_028.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_029.c -o iteration_33_program_029.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_030.c -o iteration_33_program_030.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_031.c -o iteration_33_program_031.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_032.c -o iteration_33_program_032.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_033.c -o iteration_33_program_033.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_034.c -o iteration_33_program_034.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_035.c -o iteration_33_program_035.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_036.c -o iteration_33_program_036.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_037.c -o iteration_33_program_037.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_038.c -o iteration_33_program_038.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_039.c -o iteration_33_program_039.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_040.c -o iteration_33_program_040.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_041.c -o iteration_33_program_041.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_042.c -o iteration_33_program_042.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_043.c -o iteration_33_program_043.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_044.c -o iteration_33_program_044.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_045.c -o iteration_33_program_045.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_046.c -o iteration_33_program_046.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_047.c -o iteration_33_program_047.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_048.c -o iteration_33_program_048.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_049.c -o iteration_33_program_049.out
+gcc -O1 -dumpbase phase1 -c  iteration_33_program_050.c -o iteration_33_program_050.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_001.c -o iteration_33_program_001.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_002.c -o iteration_33_program_002.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_003.c -o iteration_33_program_003.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_004.c -o iteration_33_program_004.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_005.c -o iteration_33_program_005.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_006.c -o iteration_33_program_006.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_007.c -o iteration_33_program_007.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_008.c -o iteration_33_program_008.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_009.c -o iteration_33_program_009.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_010.c -o iteration_33_program_010.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_011.c -o iteration_33_program_011.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_012.c -o iteration_33_program_012.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_013.c -o iteration_33_program_013.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_014.c -o iteration_33_program_014.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_015.c -o iteration_33_program_015.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_016.c -o iteration_33_program_016.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_017.c -o iteration_33_program_017.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_018.c -o iteration_33_program_018.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_019.c -o iteration_33_program_019.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_020.c -o iteration_33_program_020.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_021.c -o iteration_33_program_021.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_022.c -o iteration_33_program_022.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_023.c -o iteration_33_program_023.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_024.c -o iteration_33_program_024.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_025.c -o iteration_33_program_025.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_026.c -o iteration_33_program_026.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_027.c -o iteration_33_program_027.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_028.c -o iteration_33_program_028.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_029.c -o iteration_33_program_029.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_030.c -o iteration_33_program_030.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_031.c -o iteration_33_program_031.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_032.c -o iteration_33_program_032.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_033.c -o iteration_33_program_033.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_034.c -o iteration_33_program_034.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_035.c -o iteration_33_program_035.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_036.c -o iteration_33_program_036.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_037.c -o iteration_33_program_037.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_038.c -o iteration_33_program_038.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_039.c -o iteration_33_program_039.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_040.c -o iteration_33_program_040.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_041.c -o iteration_33_program_041.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_042.c -o iteration_33_program_042.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_043.c -o iteration_33_program_043.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_044.c -o iteration_33_program_044.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_045.c -o iteration_33_program_045.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_046.c -o iteration_33_program_046.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_047.c -o iteration_33_program_047.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_048.c -o iteration_33_program_048.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_049.c -o iteration_33_program_049.out
+gcc -v -dumpdir ./verbose_dump -dumpbase verbose -save-temps=obj -c  iteration_33_program_050.c -o iteration_33_program_050.out
+gcc -O0 -dumpdir iteration_33_program_001.c -o iteration_33_program_001.out
+gcc -O0 -dumpdir iteration_33_program_002.c -o iteration_33_program_002.out
+gcc -O0 -dumpdir iteration_33_program_003.c -o iteration_33_program_003.out
+gcc -O0 -dumpdir iteration_33_program_004.c -o iteration_33_program_004.out
+gcc -O0 -dumpdir iteration_33_program_005.c -o iteration_33_program_005.out
+gcc -O0 -dumpdir iteration_33_program_006.c -o iteration_33_program_006.out
+gcc -O0 -dumpdir iteration_33_program_007.c -o iteration_33_program_007.out
+gcc -O0 -dumpdir iteration_33_program_008.c -o iteration_33_program_008.out
+gcc -O0 -dumpdir iteration_33_program_009.c -o iteration_33_program_009.out
+gcc -O0 -dumpdir iteration_33_program_010.c -o iteration_33_program_010.out
+gcc -O0 -dumpdir iteration_33_program_011.c -o iteration_33_program_011.out
+gcc -O0 -dumpdir iteration_33_program_012.c -o iteration_33_program_012.out
+gcc -O0 -dumpdir iteration_33_program_013.c -o iteration_33_program_013.out
+gcc -O0 -dumpdir iteration_33_program_014.c -o iteration_33_program_014.out
+gcc -O0 -dumpdir iteration_33_program_015.c -o iteration_33_program_015.out
+gcc -O0 -dumpdir iteration_33_program_016.c -o iteration_33_program_016.out
+gcc -O0 -dumpdir iteration_33_program_017.c -o iteration_33_program_017.out
+gcc -O0 -dumpdir iteration_33_program_018.c -o iteration_33_program_018.out
+gcc -O0 -dumpdir iteration_33_program_019.c -o iteration_33_program_019.out
+gcc -O0 -dumpdir iteration_33_program_020.c -o iteration_33_program_020.out
+gcc -O0 -dumpdir iteration_33_program_021.c -o iteration_33_program_021.out
+gcc -O0 -dumpdir iteration_33_program_022.c -o iteration_33_program_022.out
+gcc -O0 -dumpdir iteration_33_program_023.c -o iteration_33_program_023.out
+gcc -O0 -dumpdir iteration_33_program_024.c -o iteration_33_program_024.out
+gcc -O0 -dumpdir iteration_33_program_025.c -o iteration_33_program_025.out
+gcc -O0 -dumpdir iteration_33_program_026.c -o iteration_33_program_026.out
+gcc -O0 -dumpdir iteration_33_program_027.c -o iteration_33_program_027.out
+gcc -O0 -dumpdir iteration_33_program_028.c -o iteration_33_program_028.out
+gcc -O0 -dumpdir iteration_33_program_029.c -o iteration_33_program_029.out
+gcc -O0 -dumpdir iteration_33_program_030.c -o iteration_33_program_030.out
+gcc -O0 -dumpdir iteration_33_program_031.c -o iteration_33_program_031.out
+gcc -O0 -dumpdir iteration_33_program_032.c -o iteration_33_program_032.out
+gcc -O0 -dumpdir iteration_33_program_033.c -o iteration_33_program_033.out
+gcc -O0 -dumpdir iteration_33_program_034.c -o iteration_33_program_034.out
+gcc -O0 -dumpdir iteration_33_program_035.c -o iteration_33_program_035.out
+gcc -O0 -dumpdir iteration_33_program_036.c -o iteration_33_program_036.out
+gcc -O0 -dumpdir iteration_33_program_037.c -o iteration_33_program_037.out
+gcc -O0 -dumpdir iteration_33_program_038.c -o iteration_33_program_038.out
+gcc -O0 -dumpdir iteration_33_program_039.c -o iteration_33_program_039.out
+gcc -O0 -dumpdir iteration_33_program_040.c -o iteration_33_program_040.out
+gcc -O0 -dumpdir iteration_33_program_041.c -o iteration_33_program_041.out
+gcc -O0 -dumpdir iteration_33_program_042.c -o iteration_33_program_042.out
+gcc -O0 -dumpdir iteration_33_program_043.c -o iteration_33_program_043.out
+gcc -O0 -dumpdir iteration_33_program_044.c -o iteration_33_program_044.out
+gcc -O0 -dumpdir iteration_33_program_045.c -o iteration_33_program_045.out
+gcc -O0 -dumpdir iteration_33_program_046.c -o iteration_33_program_046.out
+gcc -O0 -dumpdir iteration_33_program_047.c -o iteration_33_program_047.out
+gcc -O0 -dumpdir iteration_33_program_048.c -o iteration_33_program_048.out
+gcc -O0 -dumpdir iteration_33_program_049.c -o iteration_33_program_049.out
+gcc -O0 -dumpdir iteration_33_program_050.c -o iteration_33_program_050.out
+gcc -O1 -dumpbase iteration_33_program_001.c -o iteration_33_program_001.out
+gcc -O1 -dumpbase iteration_33_program_002.c -o iteration_33_program_002.out
+gcc -O1 -dumpbase iteration_33_program_003.c -o iteration_33_program_003.out
+gcc -O1 -dumpbase iteration_33_program_004.c -o iteration_33_program_004.out
+gcc -O1 -dumpbase iteration_33_program_005.c -o iteration_33_program_005.out
+gcc -O1 -dumpbase iteration_33_program_006.c -o iteration_33_program_006.out
+gcc -O1 -dumpbase iteration_33_program_007.c -o iteration_33_program_007.out
+gcc -O1 -dumpbase iteration_33_program_008.c -o iteration_33_program_008.out
+gcc -O1 -dumpbase iteration_33_program_009.c -o iteration_33_program_009.out
+gcc -O1 -dumpbase iteration_33_program_010.c -o iteration_33_program_010.out
+gcc -O1 -dumpbase iteration_33_program_011.c -o iteration_33_program_011.out
+gcc -O1 -dumpbase iteration_33_program_012.c -o iteration_33_program_012.out
+gcc -O1 -dumpbase iteration_33_program_013.c -o iteration_33_program_013.out
+gcc -O1 -dumpbase iteration_33_program_014.c -o iteration_33_program_014.out
+gcc -O1 -dumpbase iteration_33_program_015.c -o iteration_33_program_015.out
+gcc -O1 -dumpbase iteration_33_program_016.c -o iteration_33_program_016.out
+gcc -O1 -dumpbase iteration_33_program_017.c -o iteration_33_program_017.out
+gcc -O1 -dumpbase iteration_33_program_018.c -o iteration_33_program_018.out
+gcc -O1 -dumpbase iteration_33_program_019.c -o iteration_33_program_019.out
+gcc -O1 -dumpbase iteration_33_program_020.c -o iteration_33_program_020.out
+gcc -O1 -dumpbase iteration_33_program_021.c -o iteration_33_program_021.out
+gcc -O1 -dumpbase iteration_33_program_022.c -o iteration_33_program_022.out
+gcc -O1 -dumpbase iteration_33_program_023.c -o iteration_33_program_023.out
+gcc -O1 -dumpbase iteration_33_program_024.c -o iteration_33_program_024.out
+gcc -O1 -dumpbase iteration_33_program_025.c -o iteration_33_program_025.out
+gcc -O1 -dumpbase iteration_33_program_026.c -o iteration_33_program_026.out
+gcc -O1 -dumpbase iteration_33_program_027.c -o iteration_33_program_027.out
+gcc -O1 -dumpbase iteration_33_program_028.c -o iteration_33_program_028.out
+gcc -O1 -dumpbase iteration_33_program_029.c -o iteration_33_program_029.out
+gcc -O1 -dumpbase iteration_33_program_030.c -o iteration_33_program_030.out
+gcc -O1 -dumpbase iteration_33_program_031.c -o iteration_33_program_031.out
+gcc -O1 -dumpbase iteration_33_program_032.c -o iteration_33_program_032.out
+gcc -O1 -dumpbase iteration_33_program_033.c -o iteration_33_program_033.out
+gcc -O1 -dumpbase iteration_33_program_034.c -o iteration_33_program_034.out
+gcc -O1 -dumpbase iteration_33_program_035.c -o iteration_33_program_035.out
+gcc -O1 -dumpbase iteration_33_program_036.c -o iteration_33_program_036.out
+gcc -O1 -dumpbase iteration_33_program_037.c -o iteration_33_program_037.out
+gcc -O1 -dumpbase iteration_33_program_038.c -o iteration_33_program_038.out
+gcc -O1 -dumpbase iteration_33_program_039.c -o iteration_33_program_039.out
+gcc -O1 -dumpbase iteration_33_program_040.c -o iteration_33_program_040.out
+gcc -O1 -dumpbase iteration_33_program_041.c -o iteration_33_program_041.out
+gcc -O1 -dumpbase iteration_33_program_042.c -o iteration_33_program_042.out
+gcc -O1 -dumpbase iteration_33_program_043.c -o iteration_33_program_043.out
+gcc -O1 -dumpbase iteration_33_program_044.c -o iteration_33_program_044.out
+gcc -O1 -dumpbase iteration_33_program_045.c -o iteration_33_program_045.out
+gcc -O1 -dumpbase iteration_33_program_046.c -o iteration_33_program_046.out
+gcc -O1 -dumpbase iteration_33_program_047.c -o iteration_33_program_047.out
+gcc -O1 -dumpbase iteration_33_program_048.c -o iteration_33_program_048.out
+gcc -O1 -dumpbase iteration_33_program_049.c -o iteration_33_program_049.out
+gcc -O1 -dumpbase iteration_33_program_050.c -o iteration_33_program_050.out
+gcc -O1 -dumpdir iteration_33_program_001.c -o iteration_33_program_001.out
+gcc -O1 -dumpdir iteration_33_program_002.c -o iteration_33_program_002.out
+gcc -O1 -dumpdir iteration_33_program_003.c -o iteration_33_program_003.out
+gcc -O1 -dumpdir iteration_33_program_004.c -o iteration_33_program_004.out
+gcc -O1 -dumpdir iteration_33_program_005.c -o iteration_33_program_005.out
+gcc -O1 -dumpdir iteration_33_program_006.c -o iteration_33_program_006.out
+gcc -O1 -dumpdir iteration_33_program_007.c -o iteration_33_program_007.out
+gcc -O1 -dumpdir iteration_33_program_008.c -o iteration_33_program_008.out
+gcc -O1 -dumpdir iteration_33_program_009.c -o iteration_33_program_009.out
+gcc -O1 -dumpdir iteration_33_program_010.c -o iteration_33_program_010.out
+gcc -O1 -dumpdir iteration_33_program_011.c -o iteration_33_program_011.out
+gcc -O1 -dumpdir iteration_33_program_012.c -o iteration_33_program_012.out
+gcc -O1 -dumpdir iteration_33_program_013.c -o iteration_33_program_013.out
+gcc -O1 -dumpdir iteration_33_program_014.c -o iteration_33_program_014.out
+gcc -O1 -dumpdir iteration_33_program_015.c -o iteration_33_program_015.out
+gcc -O1 -dumpdir iteration_33_program_016.c -o iteration_33_program_016.out
+gcc -O1 -dumpdir iteration_33_program_017.c -o iteration_33_program_017.out
+gcc -O1 -dumpdir iteration_33_program_018.c -o iteration_33_program_018.out
+gcc -O1 -dumpdir iteration_33_program_019.c -o iteration_33_program_019.out
+gcc -O1 -dumpdir iteration_33_program_020.c -o iteration_33_program_020.out
+gcc -O1 -dumpdir iteration_33_program_021.c -o iteration_33_program_021.out
+gcc -O1 -dumpdir iteration_33_program_022.c -o iteration_33_program_022.out
+gcc -O1 -dumpdir iteration_33_program_023.c -o iteration_33_program_023.out
+gcc -O1 -dumpdir iteration_33_program_024.c -o iteration_33_program_024.out
+gcc -O1 -dumpdir iteration_33_program_025.c -o iteration_33_program_025.out
+gcc -O1 -dumpdir iteration_33_program_026.c -o iteration_33_program_026.out
+gcc -O1 -dumpdir iteration_33_program_027.c -o iteration_33_program_027.out
+gcc -O1 -dumpdir iteration_33_program_028.c -o iteration_33_program_028.out
+gcc -O1 -dumpdir iteration_33_program_029.c -o iteration_33_program_029.out
+gcc -O1 -dumpdir iteration_33_program_030.c -o iteration_33_program_030.out
+gcc -O1 -dumpdir iteration_33_program_031.c -o iteration_33_program_031.out
+gcc -O1 -dumpdir iteration_33_program_032.c -o iteration_33_program_032.out
+gcc -O1 -dumpdir iteration_33_program_033.c -o iteration_33_program_033.out
+gcc -O1 -dumpdir iteration_33_program_034.c -o iteration_33_program_034.out
+gcc -O1 -dumpdir iteration_33_program_035.c -o iteration_33_program_035.out
+gcc -O1 -dumpdir iteration_33_program_036.c -o iteration_33_program_036.out
+gcc -O1 -dumpdir iteration_33_program_037.c -o iteration_33_program_037.out
+gcc -O1 -dumpdir iteration_33_program_038.c -o iteration_33_program_038.out
+gcc -O1 -dumpdir iteration_33_program_039.c -o iteration_33_program_039.out
+gcc -O1 -dumpdir iteration_33_program_040.c -o iteration_33_program_040.out
+gcc -O1 -dumpdir iteration_33_program_041.c -o iteration_33_program_041.out
+gcc -O1 -dumpdir iteration_33_program_042.c -o iteration_33_program_042.out
+gcc -O1 -dumpdir iteration_33_program_043.c -o iteration_33_program_043.out
+gcc -O1 -dumpdir iteration_33_program_044.c -o iteration_33_program_044.out
+gcc -O1 -dumpdir iteration_33_program_045.c -o iteration_33_program_045.out
+gcc -O1 -dumpdir iteration_33_program_046.c -o iteration_33_program_046.out
+gcc -O1 -dumpdir iteration_33_program_047.c -o iteration_33_program_047.out
+gcc -O1 -dumpdir iteration_33_program_048.c -o iteration_33_program_048.out
+gcc -O1 -dumpdir iteration_33_program_049.c -o iteration_33_program_049.out
+gcc -O1 -dumpdir iteration_33_program_050.c -o iteration_33_program_050.out
+gcc -O3 iteration_34_program_001.c -o iteration_34_program_001.out
+gcc -O3 iteration_34_program_002.c -o iteration_34_program_002.out
+gcc -O3 iteration_34_program_003.c -o iteration_34_program_003.out
+gcc -O3 iteration_34_program_004.c -o iteration_34_program_004.out
+gcc -O3 iteration_34_program_005.c -o iteration_34_program_005.out
+gcc -O3 iteration_34_program_006.c -o iteration_34_program_006.out
+gcc -O3 iteration_34_program_007.c -o iteration_34_program_007.out
+gcc -O3 iteration_34_program_008.c -o iteration_34_program_008.out
+gcc -O3 iteration_34_program_009.c -o iteration_34_program_009.out
+gcc -O3 iteration_34_program_010.c -o iteration_34_program_010.out
+gcc -O3 iteration_34_program_011.c -o iteration_34_program_011.out
+gcc -O3 iteration_34_program_012.c -o iteration_34_program_012.out
+gcc -O3 iteration_34_program_013.c -o iteration_34_program_013.out
+gcc -O3 iteration_34_program_014.c -o iteration_34_program_014.out
+gcc -O3 iteration_34_program_015.c -o iteration_34_program_015.out
+gcc -O3 iteration_34_program_016.c -o iteration_34_program_016.out
+gcc -O3 iteration_34_program_017.c -o iteration_34_program_017.out
+gcc -O3 iteration_34_program_018.c -o iteration_34_program_018.out
+gcc -O3 iteration_34_program_019.c -o iteration_34_program_019.out
+gcc -O3 iteration_34_program_020.c -o iteration_34_program_020.out
+gcc -O3 iteration_34_program_021.c -o iteration_34_program_021.out
+gcc -O3 iteration_34_program_022.c -o iteration_34_program_022.out
+gcc -O3 iteration_34_program_023.c -o iteration_34_program_023.out
+gcc -O3 iteration_34_program_024.c -o iteration_34_program_024.out
+gcc -O3 iteration_34_program_025.c -o iteration_34_program_025.out
+gcc -O3 iteration_34_program_026.c -o iteration_34_program_026.out
+gcc -O3 iteration_34_program_027.c -o iteration_34_program_027.out
+gcc -O3 iteration_34_program_028.c -o iteration_34_program_028.out
+gcc -O3 iteration_34_program_029.c -o iteration_34_program_029.out
+gcc -O3 iteration_34_program_030.c -o iteration_34_program_030.out
+gcc -O3 iteration_34_program_031.c -o iteration_34_program_031.out
+gcc -O3 iteration_34_program_032.c -o iteration_34_program_032.out
+gcc -O3 iteration_34_program_033.c -o iteration_34_program_033.out
+gcc -O3 iteration_34_program_034.c -o iteration_34_program_034.out
+gcc -O3 iteration_34_program_035.c -o iteration_34_program_035.out
+gcc -O3 iteration_34_program_036.c -o iteration_34_program_036.out
+gcc -O3 iteration_34_program_037.c -o iteration_34_program_037.out
+gcc -O3 iteration_34_program_038.c -o iteration_34_program_038.out
+gcc -O3 iteration_34_program_039.c -o iteration_34_program_039.out
+gcc -O3 iteration_34_program_040.c -o iteration_34_program_040.out
+gcc -O3 iteration_34_program_041.c -o iteration_34_program_041.out
+gcc -O3 iteration_34_program_042.c -o iteration_34_program_042.out
+gcc -O3 iteration_34_program_043.c -o iteration_34_program_043.out
+gcc -O3 iteration_34_program_044.c -o iteration_34_program_044.out
+gcc -O3 iteration_34_program_045.c -o iteration_34_program_045.out
+gcc -O3 iteration_34_program_046.c -o iteration_34_program_046.out
+gcc -O3 iteration_34_program_047.c -o iteration_34_program_047.out
+gcc -O3 iteration_34_program_048.c -o iteration_34_program_048.out
+gcc -O3 iteration_34_program_049.c -o iteration_34_program_049.out
+gcc -O3 iteration_34_program_050.c -o iteration_34_program_050.out
+gcc -O3 iteration_35_program_001.c -o iteration_35_program_001.out
+gcc -O3 iteration_35_program_002.c -o iteration_35_program_002.out
+gcc -O3 iteration_35_program_003.c -o iteration_35_program_003.out
+gcc -O3 iteration_35_program_004.c -o iteration_35_program_004.out
+gcc -O3 iteration_35_program_005.c -o iteration_35_program_005.out
+gcc -O3 iteration_35_program_006.c -o iteration_35_program_006.out
+gcc -O3 iteration_35_program_007.c -o iteration_35_program_007.out
+gcc -O3 iteration_35_program_008.c -o iteration_35_program_008.out
+gcc -O3 iteration_35_program_009.c -o iteration_35_program_009.out
+gcc -O3 iteration_35_program_010.c -o iteration_35_program_010.out
+gcc -O3 iteration_35_program_011.c -o iteration_35_program_011.out
+gcc -O3 iteration_35_program_012.c -o iteration_35_program_012.out
+gcc -O3 iteration_35_program_013.c -o iteration_35_program_013.out
+gcc -O3 iteration_35_program_014.c -o iteration_35_program_014.out
+gcc -O3 iteration_35_program_015.c -o iteration_35_program_015.out
+gcc -O3 iteration_35_program_016.c -o iteration_35_program_016.out
+gcc -O3 iteration_35_program_017.c -o iteration_35_program_017.out
+gcc -O3 iteration_35_program_018.c -o iteration_35_program_018.out
+gcc -O3 iteration_35_program_019.c -o iteration_35_program_019.out
+gcc -O3 iteration_35_program_020.c -o iteration_35_program_020.out
+gcc -O3 iteration_35_program_021.c -o iteration_35_program_021.out
+gcc -O3 iteration_35_program_022.c -o iteration_35_program_022.out
+gcc -O3 iteration_35_program_023.c -o iteration_35_program_023.out
+gcc -O3 iteration_35_program_024.c -o iteration_35_program_024.out
+gcc -O3 iteration_35_program_025.c -o iteration_35_program_025.out
+gcc -O3 iteration_35_program_026.c -o iteration_35_program_026.out
+gcc -O3 iteration_35_program_027.c -o iteration_35_program_027.out
+gcc -O3 iteration_35_program_028.c -o iteration_35_program_028.out
+gcc -O3 iteration_35_program_029.c -o iteration_35_program_029.out
+gcc -O3 iteration_35_program_030.c -o iteration_35_program_030.out
+gcc -O3 iteration_35_program_031.c -o iteration_35_program_031.out
+gcc -O3 iteration_35_program_032.c -o iteration_35_program_032.out
+gcc -O3 iteration_35_program_033.c -o iteration_35_program_033.out
+gcc -O3 iteration_35_program_034.c -o iteration_35_program_034.out
+gcc -O3 iteration_35_program_035.c -o iteration_35_program_035.out
+gcc -O3 iteration_35_program_036.c -o iteration_35_program_036.out
+gcc -O3 iteration_35_program_037.c -o iteration_35_program_037.out
+gcc -O3 iteration_35_program_038.c -o iteration_35_program_038.out
+gcc -O3 iteration_35_program_039.c -o iteration_35_program_039.out
+gcc -O3 iteration_35_program_040.c -o iteration_35_program_040.out
+gcc -O3 iteration_35_program_041.c -o iteration_35_program_041.out
+gcc -O3 iteration_35_program_042.c -o iteration_35_program_042.out
+gcc -O3 iteration_35_program_043.c -o iteration_35_program_043.out
+gcc -O3 iteration_35_program_044.c -o iteration_35_program_044.out
+gcc -O3 iteration_35_program_045.c -o iteration_35_program_045.out
+gcc -O3 iteration_35_program_046.c -o iteration_35_program_046.out
+gcc -O3 iteration_35_program_047.c -o iteration_35_program_047.out
+gcc -O3 iteration_35_program_048.c -o iteration_35_program_048.out
+gcc -O3 iteration_35_program_049.c -o iteration_35_program_049.out
+gcc -O3 iteration_35_program_050.c -o iteration_35_program_050.out
+gcc -O3 iteration_36_program_001.c -o iteration_36_program_001.out
+gcc -O3 iteration_36_program_002.c -o iteration_36_program_002.out
+gcc -O3 iteration_36_program_003.c -o iteration_36_program_003.out
+gcc -O3 iteration_36_program_004.c -o iteration_36_program_004.out
+gcc -O3 iteration_36_program_005.c -o iteration_36_program_005.out
+gcc -O3 iteration_36_program_006.c -o iteration_36_program_006.out
+gcc -O3 iteration_36_program_007.c -o iteration_36_program_007.out
+gcc -O3 iteration_36_program_008.c -o iteration_36_program_008.out
+gcc -O3 iteration_36_program_009.c -o iteration_36_program_009.out
+gcc -O3 iteration_36_program_010.c -o iteration_36_program_010.out
+gcc -O3 iteration_36_program_011.c -o iteration_36_program_011.out
+gcc -O3 iteration_36_program_012.c -o iteration_36_program_012.out
+gcc -O3 iteration_36_program_013.c -o iteration_36_program_013.out
+gcc -O3 iteration_36_program_014.c -o iteration_36_program_014.out
+gcc -O3 iteration_36_program_015.c -o iteration_36_program_015.out
+gcc -O3 iteration_36_program_016.c -o iteration_36_program_016.out
+gcc -O3 iteration_36_program_017.c -o iteration_36_program_017.out
+gcc -O3 iteration_36_program_018.c -o iteration_36_program_018.out
+gcc -O3 iteration_36_program_019.c -o iteration_36_program_019.out
+gcc -O3 iteration_36_program_020.c -o iteration_36_program_020.out
+gcc -O3 iteration_36_program_021.c -o iteration_36_program_021.out
+gcc -O3 iteration_36_program_022.c -o iteration_36_program_022.out
+gcc -O3 iteration_36_program_023.c -o iteration_36_program_023.out
+gcc -O3 iteration_36_program_024.c -o iteration_36_program_024.out
+gcc -O3 iteration_36_program_025.c -o iteration_36_program_025.out
+gcc -O3 iteration_36_program_026.c -o iteration_36_program_026.out
+gcc -O3 iteration_36_program_027.c -o iteration_36_program_027.out
+gcc -O3 iteration_36_program_028.c -o iteration_36_program_028.out
+gcc -O3 iteration_36_program_029.c -o iteration_36_program_029.out
+gcc -O3 iteration_36_program_030.c -o iteration_36_program_030.out
+gcc -O3 iteration_36_program_031.c -o iteration_36_program_031.out
+gcc -O3 iteration_36_program_032.c -o iteration_36_program_032.out
+gcc -O3 iteration_36_program_033.c -o iteration_36_program_033.out
+gcc -O3 iteration_36_program_034.c -o iteration_36_program_034.out
+gcc -O3 iteration_36_program_035.c -o iteration_36_program_035.out
+gcc -O3 iteration_36_program_036.c -o iteration_36_program_036.out
+gcc -O3 iteration_36_program_037.c -o iteration_36_program_037.out
+gcc -O3 iteration_36_program_038.c -o iteration_36_program_038.out
+gcc -O3 iteration_36_program_039.c -o iteration_36_program_039.out
+gcc -O3 iteration_36_program_040.c -o iteration_36_program_040.out
+gcc -O3 iteration_36_program_041.c -o iteration_36_program_041.out
+gcc -O3 iteration_36_program_042.c -o iteration_36_program_042.out
+gcc -O3 iteration_36_program_043.c -o iteration_36_program_043.out
+gcc -O3 iteration_36_program_044.c -o iteration_36_program_044.out
+gcc -O3 iteration_36_program_045.c -o iteration_36_program_045.out
+gcc -O3 iteration_36_program_046.c -o iteration_36_program_046.out
+gcc -O3 iteration_36_program_047.c -o iteration_36_program_047.out
+gcc -O3 iteration_36_program_048.c -o iteration_36_program_048.out
+gcc -O3 iteration_36_program_049.c -o iteration_36_program_049.out
+gcc -O3 iteration_36_program_050.c -o iteration_36_program_050.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_001.c -o iteration_37_program_001.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_002.c -o iteration_37_program_002.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_003.c -o iteration_37_program_003.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_004.c -o iteration_37_program_004.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_005.c -o iteration_37_program_005.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_006.c -o iteration_37_program_006.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_007.c -o iteration_37_program_007.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_008.c -o iteration_37_program_008.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_009.c -o iteration_37_program_009.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_010.c -o iteration_37_program_010.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_011.c -o iteration_37_program_011.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_012.c -o iteration_37_program_012.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_013.c -o iteration_37_program_013.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_014.c -o iteration_37_program_014.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_015.c -o iteration_37_program_015.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_016.c -o iteration_37_program_016.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_017.c -o iteration_37_program_017.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_018.c -o iteration_37_program_018.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_019.c -o iteration_37_program_019.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_020.c -o iteration_37_program_020.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_021.c -o iteration_37_program_021.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_022.c -o iteration_37_program_022.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_023.c -o iteration_37_program_023.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_024.c -o iteration_37_program_024.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_025.c -o iteration_37_program_025.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_026.c -o iteration_37_program_026.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_027.c -o iteration_37_program_027.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_028.c -o iteration_37_program_028.out
+gcc -O0 -g3 -gdwarf-5 -fno-eliminate-unused-debug-types -fno-inline iteration_37_program_029.c -o iteration_37_program_029.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_001.c -o iteration_37_program_001.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_002.c -o iteration_37_program_002.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_003.c -o iteration_37_program_003.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_004.c -o iteration_37_program_004.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_005.c -o iteration_37_program_005.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_006.c -o iteration_37_program_006.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_007.c -o iteration_37_program_007.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_008.c -o iteration_37_program_008.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_009.c -o iteration_37_program_009.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_010.c -o iteration_37_program_010.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_011.c -o iteration_37_program_011.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_012.c -o iteration_37_program_012.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_013.c -o iteration_37_program_013.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_014.c -o iteration_37_program_014.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_015.c -o iteration_37_program_015.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_016.c -o iteration_37_program_016.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_017.c -o iteration_37_program_017.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_018.c -o iteration_37_program_018.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_019.c -o iteration_37_program_019.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_020.c -o iteration_37_program_020.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_021.c -o iteration_37_program_021.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_022.c -o iteration_37_program_022.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_023.c -o iteration_37_program_023.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_024.c -o iteration_37_program_024.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_025.c -o iteration_37_program_025.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_026.c -o iteration_37_program_026.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_027.c -o iteration_37_program_027.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_028.c -o iteration_37_program_028.out
+gcc -O2 -g -fsanitize=bounds -fopenmp iteration_37_program_029.c -o iteration_37_program_029.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_001.c -o iteration_37_program_001.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_002.c -o iteration_37_program_002.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_003.c -o iteration_37_program_003.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_004.c -o iteration_37_program_004.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_005.c -o iteration_37_program_005.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_006.c -o iteration_37_program_006.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_007.c -o iteration_37_program_007.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_008.c -o iteration_37_program_008.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_009.c -o iteration_37_program_009.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_010.c -o iteration_37_program_010.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_011.c -o iteration_37_program_011.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_012.c -o iteration_37_program_012.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_013.c -o iteration_37_program_013.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_014.c -o iteration_37_program_014.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_015.c -o iteration_37_program_015.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_016.c -o iteration_37_program_016.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_017.c -o iteration_37_program_017.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_018.c -o iteration_37_program_018.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_019.c -o iteration_37_program_019.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_020.c -o iteration_37_program_020.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_021.c -o iteration_37_program_021.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_022.c -o iteration_37_program_022.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_023.c -o iteration_37_program_023.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_024.c -o iteration_37_program_024.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_025.c -o iteration_37_program_025.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_026.c -o iteration_37_program_026.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_027.c -o iteration_37_program_027.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_028.c -o iteration_37_program_028.out
+gcc -O0 -g3 -fno-omit-frame-pointer iteration_37_program_029.c -o iteration_37_program_029.out

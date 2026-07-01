@@ -1,0 +1,87 @@
+[Coverage Goal] - Trigger the `calculate_elim_costs_all_insns` function to execute the code path where a pseudo register has a `REG_EQUIV` equivalence to an invariant, the defining insn (`reg_equiv_init`) exists, and the calculated cost is non-zero, leading to a call to `ira_adjust_equiv_reg_cost`. Also, trigger the code path in `eliminate_regs_1` where a pseudo register with an invariant equivalence is encountered and `may_use_invariant` is false (or the insn is not a debug insn), causing the equivalence to be broken (`reg_equiv_init` set to NULL) and `alter_reg` to be called.
+
+[Compile Options] - `-O2` (or any optimization level that enables register allocation and reload, e.g., `-O1`, `-O2`, `-O3`, `-Os`). The target backend should support register elimination (e.g., x86, ARM, AArch64). No specific `-march` is strictly required, but using a common target like `x86_64` is recommended.
+
+[Basic Block 1] - Cover the main loop in `calculate_elim_costs_all_insns` (lines 1562-1610) and the subsequent loop (lines 1611-1633) that calls `ira_adjust_equiv_reg_cost` with a non-zero cost.
+- **Required program structure**: A function that uses a global or static variable (or a constant address) to initialize a local variable. The compiler must decide to keep this variable as a pseudo register with a `REG_EQUIV` note pointing to the invariant. The variable must be used in a way that the cost of loading from the stack (if spilled) is non-zero.
+- **Example**: A function that takes a pointer argument, dereferences it, and uses the result to initialize a local variable. The compiler may create an equivalence for the local variable.
+```c
+int global_var;
+int foo(int *p) {
+    int local_var = *p; // Potential REG_EQUIV to memory
+    return local_var + global_var;
+}
+```
+A more direct way to trigger an invariant equivalence is to use a constant:
+```c
+int bar(void) {
+    int local_var = 42; // Potential REG_EQUIV to constant
+    return local_var + 1;
+}
+```
+
+[Basic Block 2] - Cover the code path in `eliminate_regs_1` (lines 2561-2573) where a pseudo register with a `reg_equiv_invariant` is encountered, but `may_use_invariant` is false and the insn is not a debug insn.
+- **Required program structure**: A function where a pseudo register has a `REG_EQUIV` equivalence to an invariant (e.g., a constant or a global variable address), and this pseudo register is used in a context where the elimination cannot use the invariant directly. This typically happens when the pseudo is used as an operand in a non-move instruction (e.g., an arithmetic operation) or as a destination.
+- **Example**: A function where a variable is initialized with a constant, and then that variable is used in a non-trivial expression.
+```c
+int baz(void) {
+    int a = 100; // REG_EQUIV to constant 100
+    int b = a * 2; // 'a' is used in a MULT, not a simple move
+    return b;
+}
+```
+
+[Basic Block 3] - Cover the code path in `find_reg` (lines 1807-1942) where `ira_conflicts_p` is true (line 1861), leading to the call to `ira_better_spill_reload_regno_p`.
+- **Required program structure**: A function with register pressure high enough to cause spilling, compiled with IRA enabled (which is the default for most modern targets at `-O2` and above). The function should have multiple live pseudo registers that compete for the same hard registers.
+- **Example**: A function with many local variables and operations that force register spilling.
+```c
+void heavy_usage(int a, int b, int c, int d, int e, int f) {
+    int x1 = a + b;
+    int x2 = c + d;
+    int x3 = e + f;
+    int x4 = x1 * x2;
+    int x5 = x3 + x4;
+    int x6 = x5 - a;
+    int x7 = x6 * b;
+    int x8 = x7 + c;
+    int x9 = x8 - d;
+    int x10 = x9 * e;
+    volatile int sink = x10; // Prevent dead code elimination
+}
+```
+
+[Basic Block 4] - Cover the code path in `alter_reg` (lines 2113-2281) where `from_reg` is not -1 and `spill_stack_slot[from_reg]` exists and is large enough (line 2211-2217), leading to reuse of a stack slot.
+- **Required program structure**: A function where two or more pseudo registers are spilled from the same hard register (`from_reg`). This requires that a hard register is assigned to a pseudo, then the pseudo is spilled, and later another pseudo is assigned to the same hard register and also spilled. This is a complex scenario that depends on the register allocator's decisions.
+- **Example**: A function with a loop that causes register pressure and spilling, where the same hard register is used for different pseudos across iterations.
+```c
+void loop_spill(int *arr, int n) {
+    for (int i = 0; i < n; i++) {
+        int a = arr[i] + 1;
+        int b = arr[i] * 2;
+        int c = a + b;
+        int d = c - i;
+        int e = d * 3;
+        int f = e / 2;
+        arr[i] = f;
+    }
+}
+```
+
+[Basic Block 5] - Cover the code path in `set_label_offsets` (lines 2320-2460) where a `JUMP_TABLE_DATA` is encountered (line 2375-2377).
+- **Required program structure**: A function that uses a `switch` statement with a sufficient number of cases that the compiler generates a jump table (e.g., a dense set of case values).
+- **Example**:
+```c
+void switch_jump_table(int x, int *out) {
+    switch (x) {
+        case 0: *out = 10; break;
+        case 1: *out = 20; break;
+        case 2: *out = 30; break;
+        case 3: *out = 40; break;
+        case 4: *out = 50; break;
+        case 5: *out = 60; break;
+        case 6: *out = 70; break;
+        case 7: *out = 80; break;
+        default: *out = 0; break;
+    }
+}
+```
