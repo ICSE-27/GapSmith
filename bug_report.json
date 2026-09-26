@@ -1,80 +1,4 @@
 {
- "GCC": {
-  "Crash": [
-   {
-    "id": "gcc-crash-1",
-    "type": "Compiler crash (segmentation fault in nested-function lowering)",
-    "language": "C",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test1.c",
-    "explanation": "Two nested functions inside one function, the first carrying a section attribute, crash GCC 14.3.0 during nested-function lowering at -O1/-O2; -O0 compiles cleanly.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xgcc -B gcc-14-build/gcc -O1 -c test1.c",
-     "expected": "The file compiles successfully (as it does at -O0).",
-     "observed": "internal compiler error: Segmentation fault\nThe crash happens while lowering the nested functions (tree-nested.cc). The same crash occurs at -O2."
-    },
-    "report": ""
-   },
-   {
-    "id": "gcc-crash-2",
-    "type": "Compiler crash (internal error in the C front end)",
-    "language": "C",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test2.c",
-    "explanation": "A ternary expression mixing a _Float16 value with an integer logical negation aborts the C front end at any optimization level.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xgcc -B gcc-14-build/gcc -c test2.c",
-     "expected": "The file compiles successfully.",
-     "observed": "internal compiler error: in build_conditional_expr, at c/c-typeck.cc:5720\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
-    },
-    "report": ""
-   },
-   {
-    "id": "gcc-crash-3",
-    "type": "Compiler crash (internal error in constant folding, C++ front end)",
-    "language": "C++",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test3.cpp",
-    "explanation": "A pointer conversion inside a constexpr context aborts the C++ front end during constant folding, at any optimization level.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xg++ -B gcc-14-build/gcc -O0 -c test3.cpp",
-     "expected": "The file compiles successfully.",
-     "observed": "internal compiler error: in fold_convert_loc, at fold-const.cc:2757\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
-    },
-    "report": ""
-   },
-   {
-    "id": "gcc-crash-4",
-    "type": "Compiler crash (internal error during C++ template instantiation)",
-    "language": "C++",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test4.cpp",
-    "explanation": "Nested local structs whose default member initializer uses sizeof of a function-local static constexpr array crash GCC 14.3.0 while the enclosing template is instantiated, at -O0 and -O2.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xg++ -B gcc-14-build/gcc -c test4.cpp",
-     "expected": "The file compiles successfully.",
-     "observed": "internal compiler error: in enclosing_instantiation_of, at cp/pt.cc:15184\nReproduces at -O0 and -O2."
-    },
-    "report": ""
-   }
-  ],
-  "Miscompilation": [
-   {
-    "id": "gcc-miscompilation-1",
-    "type": "Miscompilation (wrong control-flow merge; the generated binary crashes at runtime)",
-    "language": "C++",
-    "program": "results/bug_programs_gapsmith/gcc/miscompilation/test5.cpp",
-    "explanation": "With asm goto + a thread_local memory input + a noreturn branch, GCC 14.3.0 -O1/-O2 emits code whose labels merge before the prologue; the binary segfaults, while -O0 is correct and the source is UBSan-clean.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu)",
-     "command": "xg++ -B gcc-14-build/gcc -O1 -std=c++20 test5.cpp -o a.out && ./a.out",
-     "expected": "The program runs to completion: the \"abort path\" call returns false and main exits 0 (observed with -O0, and with other compilers).",
-     "observed": "With -O1 or -O2 the generated binary segfaults on the second call: the abort label is emitted merged with the early-return label before the prologue, so `ret` pops a local variable instead of the return address."
-    },
-    "report": ""
-   }
-  ]
- },
  "LLVM": {
   "Crash": [
    {
@@ -180,6 +104,82 @@
      "observed": "The -O2/-O3 builds print \"acc=1 (expected 9)\". No crash — the value is silently wrong."
     },
     "report": "https://github.com/llvm/llvm-project/issues/226696"
+   }
+  ]
+ },
+ "GCC": {
+  "Crash": [
+   {
+    "id": "gcc-crash-1",
+    "type": "Compiler crash (segmentation fault in nested-function lowering)",
+    "language": "C",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test1.c",
+    "explanation": "Two nested functions inside one function, the first carrying a section attribute, crash GCC 14.3.0 during nested-function lowering at -O1/-O2; -O0 compiles cleanly.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xgcc -B gcc-14-build/gcc -O1 -c test1.c",
+     "expected": "The file compiles successfully (as it does at -O0).",
+     "observed": "internal compiler error: Segmentation fault\nThe crash happens while lowering the nested functions (tree-nested.cc). The same crash occurs at -O2."
+    },
+    "report": "Wait for account"
+   },
+   {
+    "id": "gcc-crash-2",
+    "type": "Compiler crash (internal error in the C front end)",
+    "language": "C",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test2.c",
+    "explanation": "A ternary expression mixing a _Float16 value with an integer logical negation aborts the C front end at any optimization level.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xgcc -B gcc-14-build/gcc -c test2.c",
+     "expected": "The file compiles successfully.",
+     "observed": "internal compiler error: in build_conditional_expr, at c/c-typeck.cc:5720\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
+    },
+    "report": "Wait for account"
+   },
+   {
+    "id": "gcc-crash-3",
+    "type": "Compiler crash (internal error in constant folding, C++ front end)",
+    "language": "C++",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test3.cpp",
+    "explanation": "A pointer conversion inside a constexpr context aborts the C++ front end during constant folding, at any optimization level.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xg++ -B gcc-14-build/gcc -O0 -c test3.cpp",
+     "expected": "The file compiles successfully.",
+     "observed": "internal compiler error: in fold_convert_loc, at fold-const.cc:2757\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
+    },
+    "report": "Wait for account"
+   },
+   {
+    "id": "gcc-crash-4",
+    "type": "Compiler crash (internal error during C++ template instantiation)",
+    "language": "C++",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test4.cpp",
+    "explanation": "Nested local structs whose default member initializer uses sizeof of a function-local static constexpr array crash GCC 14.3.0 while the enclosing template is instantiated, at -O0 and -O2.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xg++ -B gcc-14-build/gcc -c test4.cpp",
+     "expected": "The file compiles successfully.",
+     "observed": "internal compiler error: in enclosing_instantiation_of, at cp/pt.cc:15184\nReproduces at -O0 and -O2."
+    },
+    "report": ""
+   }
+  ],
+  "Miscompilation": [
+   {
+    "id": "gcc-miscompilation-1",
+    "type": "Miscompilation (wrong control-flow merge; the generated binary crashes at runtime)",
+    "language": "C++",
+    "program": "results/bug_programs_gapsmith/gcc/miscompilation/test5.cpp",
+    "explanation": "With asm goto + a thread_local memory input + a noreturn branch, GCC 14.3.0 -O1/-O2 emits code whose labels merge before the prologue; the binary segfaults, while -O0 is correct and the source is UBSan-clean.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu)",
+     "command": "xg++ -B gcc-14-build/gcc -O1 -std=c++20 test5.cpp -o a.out && ./a.out",
+     "expected": "The program runs to completion: the \"abort path\" call returns false and main exits 0 (observed with -O0, and with other compilers).",
+     "observed": "With -O1 or -O2 the generated binary segfaults on the second call: the abort label is emitted merged with the early-return label before the prologue, so `ret` pops a local variable instead of the return address."
+    },
+    "report": "Wait for account"
    }
   ]
  }
