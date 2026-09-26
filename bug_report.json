@@ -1,1 +1,2701 @@
-
+{
+ "meta": {
+  "title": "GapSmith rebuttal: verified 2026 public compiler bug collection",
+  "generated": "2026-09-26",
+  "window": {
+   "created_after": "2026-01-01",
+   "created_before": "2026-09-25",
+   "field": "creation_time / created_at (first-created, not updated)"
+  },
+  "compilers": {
+   "gcc": {
+    "version": "14.3.0",
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "checking": "--enable-checking"
+   },
+   "llvm": {
+    "version": "19.1.0",
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "tools": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "assertions": "OFF",
+    "commit": "a4bf6cd7cfb1a1421ba92bca9d017b49936c55e4"
+   },
+   "reference_only_never_attributed": {
+    "clang": "/usr/bin/clang-19 (19.1.7)",
+    "gcc": "13.1.0"
+   }
+  },
+  "paper_targets": {
+   "GCC": {
+    "crash": 4,
+    "miscompilation": 1
+   },
+   "LLVM": {
+    "crash": 4,
+    "miscompilation": 3
+   }
+  },
+  "counts": {
+   "gcc_crash_core": 5,
+   "gcc_crash_extended": 31,
+   "gcc_miscompilation_core": 1,
+   "gcc_miscompilation_extended": 14,
+   "llvm_crash_core": 6,
+   "llvm_crash_extended": 16,
+   "llvm_miscompilation_core": 4,
+   "llvm_miscompilation_extended": 1
+  },
+  "evidence_files": {
+   "report": "bug_collection_2026/REPORT.md",
+   "verified_bugs": "bug_collection_2026/VERIFIED_BUGS.md",
+   "snapshots_dir": "bug_collection_2026/sources/ (130 official API snapshots with comments)",
+   "repro_dir": "bug_collection_2026/repro/ (reproducers + run_core_repro.sh + results_*.json)",
+   "search_pools": "bug_collection_2026/search/ (gcc 1312 + llvm 2188 in-window triage)",
+   "paper_cases": "bug_collection_2026/paper_cases/README.md"
+  },
+  "methodology_notes": [
+   "crash = compiler process fails (ICE/segfault/fatal/verify); generated-program crash under one opt level with clean -O0 UBSan = miscompilation",
+   "miscompilation oracle: UBSan-clean at -O0 + divergence matching the report + reference compiler/manual ground truth",
+   "closed != fixed and open != unfixed were resolved per-issue via comments/timelines",
+   "assertion-only LLVM crashes do not reproduce on the paper build and are excluded from counts"
+  ]
+ },
+ "verified_bugs": [
+  {
+   "id": "gcc:123354",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123354",
+   "title": "[14/15 Regression] ICE with nested structures and sizeof of constexpr variable since r14-8981",
+   "created": "2026-01-01",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xg++ -B $GCCDIR -c repro/pr123354.cpp  # -O0/-O2"
+    ],
+    "observed": "ICE in enclosing_instantiation_of, cp/pt.cc:15184"
+   },
+   "upstream": [
+    "fixed-trunk:4652ca53fcbf01e236faa544688be25c63aefa06 (also fixes PR123663)",
+    "still NEW: not backported to 14 (retargeted 14.5)"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123354.json",
+   "reproducer": "repro/pr123354.cpp"
+  },
+  {
+   "id": "gcc:123368",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123368",
+   "title": "[14/15/16/17 Regression] ICE: mark_addressable with multiple nested functions and section attribute",
+   "created": "2026-01-02",
+   "kind": "crash",
+   "language": "c",
+   "set": "core",
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xgcc -B $GCCDIR -O1|-O2 -c repro/pr123368.c  # -O0 clean"
+    ],
+    "observed": "ICE Segmentation fault in tree-nested lowering (mark_addressable)"
+   },
+   "upstream": [
+    "open/unfixed"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123368.json",
+   "reproducer": "repro/pr123368.c"
+  },
+  {
+   "id": "gcc:123370",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123370",
+   "title": "ICE: in build_conditional_expr, at c/c-typeck.cc with _Float16 and ternary operator and !",
+   "created": "2026-01-02",
+   "kind": "crash",
+   "language": "c",
+   "set": "core",
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xgcc -B $GCCDIR -c repro/pr123370.c  # any -O"
+    ],
+    "observed": "ICE in build_conditional_expr, c/c-typeck.cc:5720"
+   },
+   "upstream": [
+    "open/unfixed",
+    "duplicate-of-record: PR123462"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123370.json",
+   "reproducer": "repro/pr123370.c"
+  },
+  {
+   "id": "gcc:123537",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123537",
+   "title": "[14 Regression] ICE: verify_gimple failed: conversion of register to a different size in 'view_convert_expr' at -O2",
+   "created": "2026-01-11",
+   "kind": "crash",
+   "language": "c",
+   "set": "core",
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xgcc -B $GCCDIR -O2 -c repro/pr123537-testcase.c  # -O1 clean"
+    ],
+    "observed": "verify_gimple ICE (view_convert_expr size mismatch) during pass fre"
+   },
+   "upstream": [
+    "fixed-trunk:6868526bb79051895864a006c757ee5aee8e9574",
+    "fixed-gcc14-backport:c07c3adea84960c82b38f93af4b9363b5707aedf (r14-12441 -> 14.4.0)"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123537.json",
+   "reproducer": "repro/pr123537-testcase.c"
+  },
+  {
+   "id": "gcc:123575",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123575",
+   "title": "[14 Regression] internal compiler error: in prepare_cmp_insn, at optabs.cc:4589",
+   "created": "2026-01-13",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xg++ -B $GCCDIR -O1|-O2 -c repro/pr123575-reduced.cpp"
+    ],
+    "observed": "ICE in prepare_cmp_insn, optabs.cc:4638 (vector ABSU_EXPR)"
+   },
+   "upstream": [
+    "fixed-trunk:26723879292eda8a9b606b3c2b968941ec4fd9ef",
+    "fixed-gcc14-backport:fd1b8c3b9f4c458e7b50f533eff996ff361bd4c8 (r14-12442 -> 14.4.0)"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123575.json",
+   "reproducer": "repro/pr123575-reduced.cpp"
+  },
+  {
+   "id": "gcc:123636",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123636",
+   "title": "[14 Regression] miscompile at -O1",
+   "created": "2026-01-16",
+   "kind": "miscompilation",
+   "language": "c",
+   "set": "core",
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xgcc -B $GCCDIR -O0|-O2|-O3 repro/pr123636.c && ./a.out  # prints 0x0 (correct)",
+     "xgcc -B $GCCDIR -O1 repro/pr123636.c && ./a.out         # prints 0x2 (WRONG)",
+     "xgcc -B $GCCDIR -O1 repro/pr123636-reduced.c && ./a.out # aborts"
+    ],
+    "observed": "miscompile at -O1 (LIM store motion); UBSan+ASan clean at -O0; gcc-13.1 correct"
+   },
+   "upstream": [
+    "fixed-trunk:e48704694d686de1aaaaf934c04a2eda1a6033cb",
+    "fixed-gcc14-backport:fc781ee44fb09dd1c35c6145e4deb8a4f4d5cad8 (r14-12541 -> 14.4.0)",
+    "dedup: same root cause as PR123061 (2025-12-08, out of window); counted once"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123636.json",
+   "reproducer": "repro/pr123636.c"
+  },
+  {
+   "id": "llvm:174301",
+   "url": "https://github.com/llvm/llvm-project/issues/174301",
+   "title": "clang crash due to missing typename for dependent type (valid C++20)",
+   "created": "2026-01-04",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang++ -std=c++20 -c repro/llvm174301.cpp"
+    ],
+    "observed": "crash with stack dump in ASTContext::getTypeInfoImpl (assertions-off build)"
+   },
+   "upstream": [
+    "open",
+    "confirmed",
+    "crash-on-valid",
+    "regression:16"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-174301.json",
+   "reproducer": "repro/llvm174301.cpp"
+  },
+  {
+   "id": "llvm:174953",
+   "url": "https://github.com/llvm/llvm-project/issues/174953",
+   "title": "Assertion failure in clang::Type::isConstantSizeType (template with reference to local static)",
+   "created": "2026-01-08",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang++ -c repro/llvm174953.cpp"
+    ],
+    "observed": "SIGSEGV exit=139"
+   },
+   "upstream": [
+    "open",
+    "confirmed",
+    "crash-on-valid",
+    "since clang-16"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-174953.json",
+   "reproducer": "repro/llvm174953.cpp"
+  },
+  {
+   "id": "llvm:175427",
+   "url": "https://github.com/llvm/llvm-project/issues/175427",
+   "title": "Clang crashed: error in backend: Broken module found (statement-expression in new)",
+   "created": "2026-01-11",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang++ -c repro/llvm175427.cpp  # also -O0"
+    ],
+    "observed": "SIGSEGV in llvm::isInlineViable (null IndirectBrInst)"
+   },
+   "upstream": [
+    "open",
+    "confirmed",
+    "crash-on-valid",
+    "regression:15"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-175427.json",
+   "reproducer": "repro/llvm175427.cpp"
+  },
+  {
+   "id": "llvm:194986",
+   "url": "https://github.com/llvm/llvm-project/issues/194986",
+   "title": "Assertion hasSameType: implicit initialization for the wrong type (CTAD)",
+   "created": "2026-04-30",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang++ -std=c++20 -c repro/llvm194986.cpp"
+    ],
+    "observed": "SIGSEGV in DeduceTemplateSpecializationFromInitializer (SemaInit.cpp:9937)"
+   },
+   "upstream": [
+    "closed-fixed",
+    "fix: PR#203715",
+    "confirmed",
+    "crash-on-valid",
+    "regression:18"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-194986.json",
+   "reproducer": "repro/llvm194986.cpp"
+  },
+  {
+   "id": "llvm:218323",
+   "url": "https://github.com/llvm/llvm-project/issues/218323",
+   "title": "Clang crashes on certain uses of trailing return type since Clang 18",
+   "created": "2026-08-24",
+   "kind": "crash",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang++ -std=c++20 -pedantic-errors -c repro/llvm218323.cpp"
+    ],
+    "observed": "SIGSEGV in QualType::getTypePtr under DeduceAutoType"
+   },
+   "upstream": [
+    "open/unfixed",
+    "confirmed",
+    "crash-on-valid",
+    "regression:18"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-218323.json",
+   "reproducer": "repro/llvm218323.cpp"
+  },
+  {
+   "id": "llvm:222852",
+   "url": "https://github.com/llvm/llvm-project/issues/222852",
+   "title": "Runtime loop unrolling hits a MemorySSA assertion",
+   "created": "2026-09-11",
+   "kind": "crash",
+   "language": "ll",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "commands": [
+     "opt -passes=loop-unroll -unroll-runtime -unroll-count=4 -S repro/llvm222852.ll"
+    ],
+    "observed": "SIGSEGV in MemorySSA clobber walker"
+   },
+   "upstream": [
+    "open",
+    "confirmed",
+    "crash-on-valid",
+    "regression:19",
+    "annotation: IR/opt-level reproducer"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-222852.json",
+   "reproducer": "repro/llvm222852.ll"
+  },
+  {
+   "id": "llvm:202028",
+   "url": "https://github.com/llvm/llvm-project/issues/202028",
+   "title": "Wrong code at -Os since clang-15 (SIGFPE)",
+   "created": "2026-06-06",
+   "kind": "miscompilation",
+   "language": "c",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang -Os repro/llvm202028.c && ./a.out  # SIGFPE exit=136",
+     "clang -O0/-O1/-O2 ... && ./a.out       # clean; UBSan clean"
+    ],
+    "observed": "miscompile: SCEVExpander UDiv with possibly-poison divisor"
+   },
+   "upstream": [
+    "closed-fixed",
+    "fix: PR#202378 merge 0f6f15a59f3f774a7f055f9754fe97c088390c4e",
+    "confirmed"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-202028.json",
+   "reproducer": "repro/llvm202028.c"
+  },
+  {
+   "id": "llvm:213979",
+   "url": "https://github.com/llvm/llvm-project/issues/213979",
+   "title": "Wrong code at -O1 on x86_64-linux_gnu (SIGSEGV)",
+   "created": "2026-08-04",
+   "kind": "miscompilation",
+   "language": "c",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang -O1 repro/llvm213979.c && ./a.out  # SIGSEGV exit=139",
+     "clang -O0/-O2/-O3 ... && ./a.out        # clean; UBSan clean"
+    ],
+    "observed": "miscompile at -O1 (backend issue per dtcxzyw)"
+   },
+   "upstream": [
+    "open/unfixed",
+    "confirmed",
+    "regression:18",
+    "bisected-to:d218092543b3f9ba2204d7c8fe5ac70befa3d772"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-213979.json",
+   "reproducer": "repro/llvm213979.c"
+  },
+  {
+   "id": "llvm:220542",
+   "url": "https://github.com/llvm/llvm-project/issues/220542",
+   "title": "[X86] shift+mask comparison folded to rotate without checking S divides W",
+   "created": "2026-09-02",
+   "kind": "miscompilation",
+   "language": "ll",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "commands": [
+     "llc -mtriple=x86_64-linux-gnu -filetype=obj repro/llvm220542.ll && link drv220542.c && run  # wrong a=2,5",
+     "clang -O1/-O2 repro/llvm220542.c && ./a.out  # RESULT: wrong (C23 _BitInt level)"
+    ],
+    "observed": "miscompile: X86 shift+mask folded to rotate when S does not divide W; UBSan clean"
+   },
+   "upstream": [
+    "closed-fixed",
+    "fix: PR#220743 commit 0d33b21962dc4c8071a0cdecb3f50795d179071b",
+    "confirmed"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-220542.json",
+   "reproducer": "repro/llvm220542.ll"
+  },
+  {
+   "id": "llvm:221240",
+   "url": "https://github.com/llvm/llvm-project/issues/221240",
+   "title": "[SLP] unsigned short >= short compare miscompiled at -O2",
+   "created": "2026-09-04",
+   "kind": "miscompilation",
+   "language": "c++",
+   "set": "core",
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "clang++ -std=c++11 -O2|-O3 repro/llvm221240.cpp && ./a.out  # acc=1 (WRONG)",
+     "clang++ -std=c++11 -O0|-O1 ... && ./a.out                  # acc=9 (correct)"
+    ],
+    "observed": "miscompile: SLP narrows unsigned-short>=short compare to signed i16"
+   },
+   "upstream": [
+    "closed-fixed",
+    "fix: PR#221336 commit b84b2d76abc2",
+    "confirmed",
+    "regression:19"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-221240.json",
+   "reproducer": "repro/llvm221240.cpp"
+  },
+  {
+   "id": "gcc:123597",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123597",
+   "title": "[14 Regression][OpenMP] Local variable wrongly hoisted (and shared) with templates and collapse(2)",
+   "created": "2026-01-15",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-fopenmp -O0 (run x10)",
+     "-fopenmp -O1 (run x3)",
+     "-fopenmp -O2 (run x25)",
+     "-fopenmp -O2 -fdump-tree-gimple"
+    ],
+    "observed": "Attachment 63349 full testcase (matrix multiply, template vs serial). gcc-14.3 -O0: template omp target teams distribute parallel for collapse(2) result != serial result, 10/10 runs (exit 1). -O2 gimple dump confirms the structural miscompile: 'double sum;' hoisted out of the loop body and '#pragma omp parallel shared(sum)' in the template function (non-template version keeps sum private inside th"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "1ae53b20c2474c28da13835719cceeee0702c966 (r16-6989)",
+     "786def4bda52096c50b4294d402c33bc41da9807 (r15-10729)"
+    ],
+    "gcc14_backport": "5880c65b25d1e00f706a8228e34b029c5b101a19 (r14-12393, 2026-03-15; not in 14.3.0)"
+   },
+   "annotations": [
+    "Runtime detection is race-dependent; -O0 reproduces reliably. Data-race wrong code; no maintainer UB dispute (jakub: 'in that case it is wrong-code')."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123597.json",
+   "reproducer": "bug_collection_2026/repro/pr123597.c|cpp"
+  },
+  {
+   "id": "gcc:123607",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123607",
+   "title": "[14 Regression] incorrect masked store vmovsh instruction emitted",
+   "created": "2026-01-15",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O2 -std=c++26 -march=graniterapids -c",
+     "-O2 -std=c++23 -mavx512fp16 -c",
+     "-O2 -std=c++23 -mavx512fp16 -S"
+    ],
+    "observed": "Attachment 63352 (reduced). gcc-14.3 emits the invalid store form 'vmovsh %xmm0, -8(%rsp){%k1}{z}' in -S output at -O2 -mavx512fp16 (also with -march=graniterapids): VMOVSH m16{k1}, xmm1 has no {z} form per Intel SDM. Compile-only check: local binutils 2.38 gas does NOT reject the insn (the 'unsupported masking' enforcement is absent in 2.38), so the build does not fail here; reproduction confirme"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "f779d064b968b594ed978a82a9d2cce4dea9a748 (r16-6816)",
+     "1c2461e8657f3de78a25905186bcdb3ea56d563a (r15-10699)"
+    ],
+    "gcc14_backport": "c7de075586e658e43d1c968e2cc61ac4b6b29909 (r14-12390, 2026-03-15; not in 14.3.0)"
+   },
+   "annotations": [
+    "Kind recorded as wrong-code (invalid instruction emitted); the reported symptom (gas error) is binutils-version dependent."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123607.json",
+   "reproducer": "bug_collection_2026/repro/pr123607.c|cpp"
+  },
+  {
+   "id": "gcc:126483",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126483",
+   "title": "[13/14/15 Regression] Wrong active union member in constant evaluation of variable template initializers since r13-6422",
+   "created": "2026-07-29",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++17 -c",
+     "-std=c++20 -c"
+    ],
+    "observed": "Standalone reduction by ppalka (comment 2). gcc-14.3 rejects valid code with: error: accessing 'data_type::m_data' member instead of initialized 'data_type::m_double_first_limb' member in constant expression (+ non-constant condition for static assertion), at both -std=c++17 and -std=c++20. clang accepts; same body outside a lambda/variable-template context compiles. Not an ICE -- this bug manifes"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "b3bca9f73eb6b29bddf5fec92e929f32675b8d20 (r17-3304)",
+     "9b0341a7a6a38912e667982003bcbfebdfb86335 (r17-3303, tests)"
+    ],
+    "gcc14_backport": "5bab245259140a5d0fd001dedbec0c326ab653c5 (r14-12854, 2026-09-03; not in 14.3.0)"
+   },
+   "annotations": [
+    "Used ppalka's comment-2 reduction instead of the Boost-based attachment 65168."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-126483.json",
+   "reproducer": "bug_collection_2026/repro/pr126483.c|cpp"
+  },
+  {
+   "id": "gcc:123484",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123484",
+   "title": "[14/15/16 Regression] ICE: in expand_mult, at expmed.cc:3633 with -Ofast -march=graniterapids-d since r14-3032",
+   "created": "2026-01-08",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 -m32 -mavx512vl -mavx512fp16 -c",
+     "-O2 -m32 -mavx512vl -mavx512fp16 -c",
+     "-Ofast -m32 -mavx512vl -mavx512fp16 -c"
+    ],
+    "observed": "ICE at -Ofast -m32 -mavx512vl -mavx512fp16: 'internal compiler error: in expand_mult, at expmed.cc:3613' (trunk reported :3633). Not at -O0/-O2 (the div->reciprocal-mult match.pd fold needs -freciprocal-math from -Ofast). Used jakub's comment-4 improved testcase (avoids multiply-by-Inf UB). -m32 compile works despite --disable-multilib; compile-only test (machine has no AVX512FP16 CPU, not run)."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "808fc71d15a458cc627f187449fac4f2b6d6cb3f (r16-6729)",
+     "90c718dec540095c4eab0bfbde60d3d09d7e2012 (r15-10666)"
+    ],
+    "gcc14_backport": "2aaf39e21c87d6644cf378280393f0bd5021a932 (r14-12237, 2026-01-13; not in 14.3.0)"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-123484.json",
+   "reproducer": "bug_collection_2026/repro/pr123484.c|cpp"
+  },
+  {
+   "id": "gcc:123667",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123667",
+   "title": "[14 Regression] ICE in finish_decltype_type when using decltype on a structured binding inside a generic lambda since r14-9258",
+   "created": "2026-01-18",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 -c",
+     "-O1 -c",
+     "-O2 -c",
+     "-O3 -c"
+    ],
+    "observed": "ICE at all -O levels: 'internal compiler error: in finish_decltype_type, at cp/semantics.cc:11977'. Used jakub's header-free reduction (comment 2)."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "34a47a8b14e2a74d35a65ccc2bd2a166106b9b96 (r16-7012)",
+     "108d4c4ee0e5a2d6258e6900ddd50f99e082dc4c (r15-10886)"
+    ],
+    "gcc14_backport": "36849881f44079e013c3f1f46d1e0fdc111553fc (r14-12396, 2026-03-15; not in 14.3.0)"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-123667.json",
+   "reproducer": "bug_collection_2026/repro/pr123667.c|cpp"
+  },
+  {
+   "id": "gcc:123676",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123676",
+   "title": "[13/14 Regression] ICE in tsubst_pack_expansion with lambda template parameter pack in trailing return type decltype of a concept",
+   "created": "2026-01-19",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -O0 -c",
+     "-std=c++20 -O1 -c",
+     "-std=c++20 -O2 -c",
+     "-std=c++20 -O3 -c"
+    ],
+    "observed": "ICE at all -O levels with -std=c++20: 'internal compiler error: in tsubst_pack_expansion, at cp/pt.cc:13704' (trunk: :14149). Testcase from comment 0."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "22f51c0f5e62a4e05bccbd0dfb23762ef2eeeff8 (r16-7056)",
+     "3f5a4b71b7bdc921e52d9ea65586119847834963 (r15-10736)"
+    ],
+    "gcc14_backport": "5f1146eb484597efb7401e654de2303e763f0246 (r14-12270, 2026-01-27; not in 14.3.0)"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-123676.json",
+   "reproducer": "bug_collection_2026/repro/pr123676.c|cpp"
+  },
+  {
+   "id": "gcc:123684",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123684",
+   "title": "[14 Regression] ICE in check_abi_tag_args (tree check: expected tree_list, have error_mark) with empty abi_tag on namespace",
+   "created": "2026-01-19",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 -c",
+     "-O1 -c",
+     "-O2 -c",
+     "-O3 -c"
+    ],
+    "observed": "ICE at all -O levels: 'internal compiler error: tree check: expected tree_list, have error_mark in check_abi_tag_args, at cp/tree.cc:5294'. One-line testcase from comment 0. (Build has full --enable-checking, so the tree check fires.)"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "7d30e58e45c7fe0ccd22305567f0100176cc1294 (r16-7011)",
+     "c7d1a91cf4c15171c3f14e14903575385fe2c742 (r15-10885)"
+    ],
+    "gcc14_backport": "6ba44f05a911065f9a0b1dd281c75e14c6d8b59b (r14-12395, 2026-03-15; not in 14.3.0)"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-123684.json",
+   "reproducer": "bug_collection_2026/repro/pr123684.c|cpp"
+  },
+  {
+   "id": "gcc:123814",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123814",
+   "title": "[13/14 Regression] ICE in constraint satisfaction for fold expression (possibly memory corruption)",
+   "created": "2026-01-25",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 -std=c++23 -Wall -c",
+     "-std=c++23 -Wall --param ggc-min-expand=0 --param ggc-min-heapsize=0 -c",
+     "-O2 -std=c++23 -Wall --param ggc-min-expand=0 --param ggc-min-heapsize=0 -c",
+     "-O0 -std=c++20 -Wall --param ggc-min-expand=0 --param ggc-min-heapsize=0 -c"
+    ],
+    "observed": "ICE 'internal compiler error: error reporting routines re-entered.' (cp/error.cc:494) with -Wall plus the ggc-min-expand=0/ggc-min-heapsize=0 params, at -O0/-O2 and both -std=c++20/-std=c++23. Without the GC-forcing params at -O0 it compiles cleanly (GC-timing dependent, matching the 'possibly memory corruption' note in the title). Testcase from comment 0."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "9cb5c879e722bb63d5ff5621cd77f402cb94a316 (r16-7055)",
+     "1a4b58635ab1df834a4d0deb2dfcd4fae311b475 (r15-10735)"
+    ],
+    "gcc14_backport": "6222df121a952870868ebc3e9a02845935532d3b (r14-12269, 2026-01-27; not in 14.3.0)"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-123814.json",
+   "reproducer": "bug_collection_2026/repro/pr123814.c|cpp"
+  },
+  {
+   "id": "gcc:124477",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124477",
+   "title": "[14/15/16 Regression] ICE in nonnull_arg_p in call to memset via std module with -D_FORTIFY_SOURCE=1",
+   "created": "2026-03-13",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-fmodules-ts -O0 -c (a+b)",
+     "-fmodules-ts -O1 -c (a+b)",
+     "-fmodules-ts -O2 -c (a+b)",
+     "-fmodules-ts -O3 -c (a+b)"
+    ],
+    "observed": "ICE in the importer TU (b.cpp): 'internal compiler error: in nonnull_arg_p, at tree.cc:14584' at -O1/-O2/-O3 with -fmodules-ts; -O0 clean (matches report). Used pinskia's reduced module source (attachment 63928, fortified memset body inlined so glibc version does not matter) + importer from comment 1. gcc-14 uses -fmodules-ts spelling."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "abf92b5506f14ce5df48349075aaae0114c5245c (r16-8434)",
+     "645658c78cd9283468849ef7bc29ca2081e8cf1c (r15-11033)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "nshead explicitly decided not to backport to gcc-14 ('not worth backporting to 14 though I don't think'); regression since r14-8196. Files: repro/pr124477-a.cpp, repro/pr124477-b.cpp."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124477.json",
+   "reproducer": "bug_collection_2026/repro/pr124477.c|cpp"
+  },
+  {
+   "id": "gcc:125043",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125043",
+   "title": "[14/15 Regression] ICE in passing invalid constant template argument",
+   "created": "2026-04-27",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -O0 -c",
+     "-std=c++20 -O2 -c"
+    ],
+    "observed": "ICE on this checking build at -O0 and -O2: 'internal compiler error: in invalid_tparm_referent_p, at cp/pt.cc:7288'. ice-on-invalid-code: the testcase is ill-formed and a non-checking 14.3 rejects it with a normal error (which is why the reporter wrote 'gcc 14.3 and 15.2 reject it as expected'); the gcc_assert only fires with checking enabled. Our build is configured with full --enable-checking."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "90ec6eeca09f5a411fd7878e2532a7ac2f2e3d71 (r17-416)",
+     "547f09d1ea1ac4538b998d5d15aac0b9f08cbcbb (r16-8898)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "mpolacek: 'Probably won't backport further since it's ice-checking, ice-on-invalid-code.'"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125043.json",
+   "reproducer": "bug_collection_2026/repro/pr125043.c|cpp"
+  },
+  {
+   "id": "gcc:125674",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125674",
+   "title": "[13/14/15 Regression] ICE in cxx_eval_constant_expression with invalid bit-field width in template",
+   "created": "2026-06-08",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 -c",
+     "-O2 -c"
+    ],
+    "observed": "ICE at -O0 and -O2 (default gnu++17): 'internal compiler error: in cxx_eval_constant_expression, at cp/constexpr.cc:8198'. Used example 2 from comment 0 (no CTAD; ICEs since GCC 10.5 on assertion builds). ice-on-invalid-code."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "50ba4a8ca7a51a72514aae55d9fb81732ef7a3bd (r17-1522)",
+     "57c193084178997a1e65b865b2a2b93915436c86 (r15-11375)"
+    ],
+    "gcc14_backport": "a11b76ce4db284c4071901a3fe283be655bc74b5 (r14-12743, 2026-07-16; not in 14.3.0)"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-125674.json",
+   "reproducer": "bug_collection_2026/repro/pr125674.c|cpp"
+  },
+  {
+   "id": "gcc:126066",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126066",
+   "title": "[14/15 Regression] ice in lvalue_kind, at cp/tree.cc:285 with -Wall",
+   "created": "2026-07-01",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -Wall -O0 -c",
+     "-std=c++20 -Wall -O2 -c"
+    ],
+    "observed": "ICE with -std=c++20 -Wall at -O0 and -O2: 'internal compiler error: in lvalue_kind, at cp/tree.cc:283' (trunk: :285). gcc_assert(processing_template_decl) in lvalue_kind/MODOP_EXPR, reached via -Wsequence-point walking the requires-expression. (-std=c++20 needed; default gnu++17 rejects requires-syntax with a plain error.)"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "ec2b5122e1f52409f7207539cc821424fa209ad7 (r17-2361)",
+     "6d87c68f9904bab176c26359cdbb4a9001247cff (r16-9275)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "No gcc-14 backport at snapshot time (trunk + gcc-16 only). Regression since r14-4111."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-126066.json",
+   "reproducer": "bug_collection_2026/repro/pr126066.c|cpp"
+  },
+  {
+   "id": "gcc:126446",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126446",
+   "title": "[13/14/15 Regression] X86-64: ICE at -O1 -mavx2 during RTL pass: vregs since r12-2085",
+   "created": "2026-07-28",
+   "kind": "crash",
+   "subtype": "ice",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O1 -mavx2 -c",
+     "-O2 -mavx2 -c"
+    ],
+    "observed": "ICE at -O1 -mavx2: 'internal compiler error: in extract_insn, at recog.cc:2812' preceded by 'unrecognizable insn' (vec_merge:V4QI with const_int 8796093022208 mask) during RTL pass vregs. -O2 -mavx2 compiles clean on 14.3 (other passes remove the stmt first). Used jakub's comment-1 testcase (C, header-free)."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "1bc2fdc4f4cbe1b68237f49f211473c56d8a44a3 (r17-2778)",
+     "a7ba10ac1e027349a655ee4572abf34c1b9c1db1 (r17-2796)"
+    ],
+    "gcc14_backport": "68baea6ab2800cea75f9fce3021734a489404a5c (r14-12784) + b750098281a54d88207f31b648dd644c32371642 (r14-12785), 2026-08-01; not in 14.3.0"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-126446.json",
+   "reproducer": "bug_collection_2026/repro/pr126446.c|cpp"
+  },
+  {
+   "id": "gcc:123887",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123887",
+   "title": "[14/15 Regression] wrong-code with COND_EXPR folding on GENERIC",
+   "created": "2026-01-30",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O1 (run)",
+     "-O2 (run)",
+     "-O3 (run)"
+    ],
+    "observed": "SIGSEGV at runtime at ALL opt levels including -O0 (exit 139) -- the C FE folds '1 + (cond ? p->s : 0)' into 'cond * p->s + 1' via c_fully_fold_internal/digest_init, dereferencing null global p unconditionally. Correct behavior: return 1 (system gcc 13.1 note below). No UB in the test (guarded deref)."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "c1fa15791ae458e1bd8db6842dfc021230521a65 (r16-7198)",
+     "cd6c3d19f6370810a20a2b84dad639200affa4fa (r16-7215)"
+    ],
+    "gcc14_backport": "ed5f89a2062002f5dfb69aac8cb36c629d091105 (r14-12292, 2026-02-02; not in 14.3.0)"
+   },
+   "annotations": [
+    "Sanity: system gcc 13.1.0 -O2 ALSO segfaults, so on this machine the fold predates gcc-14 (report claims 'crashes since GCC 14'); 14.3.0 confirmed buggy either way. Only the first match.pd pattern's fix was backported to gcc-14 (r14-12292)."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123887.json",
+   "reproducer": "bug_collection_2026/repro/pr123887.c|cpp"
+  },
+  {
+   "id": "gcc:125501",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125501",
+   "title": "[14/15/16 Regression] wrong code at -O3 that crashes at runtime",
+   "created": "2026-05-29",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O1 (run)",
+     "-O2 (run)",
+     "-O3 (run)",
+     "-O2 -funswitch-loops (run)"
+    ],
+    "observed": "SIGSEGV at -O3 and at -O2 -funswitch-loops (exit 139); -O0/-O1/-O2 exit 0. Exactly as reported: unswitch+DOM derive a bogus global non-null range for a5, elide the 'if (ob6 || f11_c17) return' guard and hit '*(_Bool*)4 = 0'. Testcase from comment 0."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "eeaf2211377a55b1126b04ebf27b46535e79c771 (r17-1381)",
+     "9d2e42c7e15702cf074dbd4dda923377fd4c2e2b (r15-11284)",
+     "399a004250d6ad463d157155f011bfa7a4e879d0 (r16-9123)"
+    ],
+    "gcc14_backport": "82ad3601ad592542d53aa7979244bebc049a0ed3 (r14-12673, 2026-06-17; not in 14.3.0)"
+   },
+   "annotations": [
+    "System gcc 13.1.0 -O3 also segfaults (pinskia's note: gimple variant fails on GCC 13 too)."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125501.json",
+   "reproducer": "bug_collection_2026/repro/pr125501.c|cpp"
+  },
+  {
+   "id": "gcc:125683",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125683",
+   "title": "[13/14/15/16 Regression] wrong code due to ce1 combining 2 loads of different incompatible aliasing sets",
+   "created": "2026-06-09",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O2 (run)",
+     "-O2 -fno-tree-pre -fno-code-hoisting (run)",
+     "-O3 -fno-tree-pre -fno-code-hoisting (run)"
+    ],
+    "observed": "amonakov's comment-1 testcase + driver (f(1,&x,&x) must return 0). gcc-14.3: returns 42 (stale) at -O2 and -O3 with -fno-tree-pre -fno-code-hoisting (exit 1); plain -O2 and -O0 correct on x86-64 (tree PRE/code-hoisting factor the loads before RTL ce1, hiding the bug -- matches the fix-commit message which says the test disables those passes 'so the if-conversion path is exercised on every affected"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "542d7eaf767057fbd224d44dbc1772dea3e41891 (r17-3250)",
+     "91b8af1769ec459569479087d2017b0fb94d3b88 (r16-9635)"
+    ],
+    "gcc14_backport": "d345e9c631a0127ba47cb6e0ef73d6c871eefbbb (r14-12858, 2026-09-06; not in 14.3.0)"
+   },
+   "annotations": [
+    "Original dumps were aarch64; on x86-64 the -fno-tree-pre -fno-code-hoisting flags from comment 2 are needed to expose ce1. 'Live wrong-code at -O2 on the 13/14/15/16 branches' per fix commit."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125683.json",
+   "reproducer": "bug_collection_2026/repro/pr125683.c|cpp"
+  },
+  {
+   "id": "gcc:126464",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126464",
+   "title": "[13/14/15 Regression] wrong code with FP ranges since r13-3926",
+   "created": "2026-07-29",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O1 (run)",
+     "-O2 (run)",
+     "-O3 (run)"
+    ],
+    "observed": "repro/pr126464.c combines both testcases. Exit code 8 at -O1/-O2/-O3 (and exit 0 at -O0): the r13-3926 part-2 testcase (gcc.dg/torture/pr126464.c, foo2: from x+y==-inf with y in [-1e304,-1e300] the ranger wrongly infers x==-inf) is miscompiled; foo2(-1.797693134862e308,-1e303) returns x instead of x*0.5. Part 1 (narrowing-cast reverse op, regression from trunk-only r16-1108) passes on 14.3 as expe"
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "3754582630fa1eeff44a39f656ba0c7db6e58d0d (r17-2814)",
+     "6f32166346de2d1c0f6253e4fe37e8a6edac655d (r17-2843)",
+     "b5b0203b8c3b7cee4e65a09e4443f948dee434b4 (r17-2959, test fixup)"
+    ],
+    "gcc14_backport": "dec926dc5ce424249afc21f2ef9b6f356cee6b6f (r14-12788) + db8b415de6b3eb6ebcad50c8f8d4e386ccc09ef7 (r14-12790), 2026-08-01; not in 14.3.0"
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/gcc-126464.json",
+   "reproducer": "bug_collection_2026/repro/pr126464.c|cpp"
+  },
+  {
+   "id": "gcc:126531",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126531",
+   "title": "[13/14/15/16/17 Regression] Wrong code with ranger and exception handling",
+   "created": "2026-07-31",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c++",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O1 (run)",
+     "-O2 (run)",
+     "-O3 (run)",
+     "-Os (run)"
+    ],
+    "observed": "__builtin_abort at -O1/-O2/-O3/-Os (exit 134), correct at -O0 -- exactly as reported (report said aarch64; reproduces on x86-64 too). ranger applies p!=0 inferred from the EH-throwing store '*p = h(k)' to the catch block, folding 'p == 0' to false so f(0,1) returns 2 instead of 12. Testcase from comment 0."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "de2d80d1101e1921d719918d57589ea2668dcc1f (r17-3205)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "Trunk-only fix at snapshot time; pinskia: 'bug in the old VRP too' (system gcc 13.1 -O2 also aborts)."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-126531.json",
+   "reproducer": "bug_collection_2026/repro/pr126531.c|cpp"
+  },
+  {
+   "id": "gcc:126534",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126534",
+   "title": "[14/15 Regression] Wrong code with ranger and sqrt",
+   "created": "2026-07-31",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O1 (run)",
+     "-O2 (run)",
+     "-O3 (run)"
+    ],
+    "observed": "__builtin_abort at -O1/-O2/-O3 (exit 134), correct at -O0 (report said -O2 on aarch64; on x86-64 it already fails at -O1). cfn_sqrt::op1_range squares the result bound without the half-ulp that correct rounding absorbs: from sqrt(x)<=5.0 it wrongly concludes x<=25.0. Testcase from comment 0."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "500d82452bdba0de71dae1056ccf366fa07147e9 (r17-3142)",
+     "01f0a097dc3376dae8cb6cda45e4a7e58965891f (r16-9549)"
+    ],
+    "gcc14_backport": "7dc65468ed71b7e34d255e83e6087279f8431dcd (r14-12842, 2026-08-27; not in 14.3.0)"
+   },
+   "annotations": [
+    "System gcc 13.1 -O2 also aborts."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-126534.json",
+   "reproducer": "bug_collection_2026/repro/pr126534.c|cpp"
+  },
+  {
+   "id": "gcc:126564",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=126564",
+   "title": "[13/14/15 Regression] Wrong code with spaceship_replacement since r12-964",
+   "created": "2026-08-01",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0 (run)",
+     "-O1 (run)",
+     "-O2 (run)",
+     "-O2 -fno-tree-vrp (run)",
+     "-O3 -fno-tree-vrp (run)"
+    ],
+    "observed": "jakub's comment-2 variant for older GCCs (c=2, return c==1; fails back to r12-964). gcc-14.3: __builtin_abort at -O1, and at -O2/-O3 with -fno-tree-vrp (exit 134); plain -O2 and -O0 correct -- exactly matching the report ('at -O2 and above ranger folds the redundant x<=y before phiopt runs, so add -fno-tree-vrp there'). phiopt spaceship_replacement rewrites 'c == 1' into a comparison unrelated to "
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "5e9087929abff340ff8b132da837372875c584aa (r17-2925)",
+     "24699eedf51ad307dd9463fa6c0a10222fdd56a2 (r16-9503)"
+    ],
+    "gcc14_backport": "d1f3749fcb0f65299d2b93353d59b43f9a33aed6 (r14-12838, 2026-08-27; not in 14.3.0)"
+   },
+   "annotations": [
+    "System gcc 13.1 -O1 also aborts."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-126564.json",
+   "reproducer": "bug_collection_2026/repro/pr126564.c|cpp"
+  },
+  {
+   "id": "gcc:123360",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123360",
+   "title": "[14/15/16/17 Regression] ICE: tree check: expected class ‘type’, have ‘declaration’ (function_decl) in cp_type_quals, at cp/typeck.cc during reshape_init with n",
+   "created": "2026-01-01",
+   "kind": "crash",
+   "subtype": "ICE (on-invalid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "Comment-0 testcase. ICE 'tree check: expected class 'type', have 'declaration' (function_decl) in cp_type_quals, at cp/typeck.cc:11951' at all of -O0/-O1/-O2/-O3 (exit 1). ice-on-invalid-code (compound literal defining anonymous type inside C++ braced init); needs checking build, ours has it."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; keywords ice-checking/ice-on-invalid-code/ice-on-invalid-fuzzy; input invalid -> weaker crash."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123360.json",
+   "reproducer": "bug_collection_2026/repro/pr123360.c|cpp"
+  },
+  {
+   "id": "gcc:123398",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123398",
+   "title": "[14/15/16/17 Regression] ICE: Segmentation fault in tsubst_expr",
+   "created": "2026-01-05",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "pinskia's reduced testcase (comment #1). ICE 'Segmentation fault' in tsubst_expr at all -O levels (exit 1). Report: only with --enable-checking; matches our build."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; needs-bisection; regression since 12.1 w/ checking."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123398.json",
+   "reproducer": "bug_collection_2026/repro/pr123398.c|cpp"
+  },
+  {
+   "id": "gcc:123399",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123399",
+   "title": "[14/15/16/17 Regression] ICE: 'verify_gimple' failed with __sync_val_compare_and_swap and \"large\" integer cast from pointer since r9-20",
+   "created": "2026-01-05",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "Comment-0 testcase (s/__int128_t/__int128/). ICE ''verify_gimple' failed' in main at all -O levels. Report bisected to r9-20-gbde84d51205c49 (missing cast between pointer and __int128 in legacy __sync builtin)."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; started r9-20."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123399.json",
+   "reproducer": "bug_collection_2026/repro/pr123399.c|cpp"
+  },
+  {
+   "id": "gcc:123413",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123413",
+   "title": "[14/15/16/17 Regression] ICE: in gimplify_var_or_parm_decl, at gimplify.cc with statement expression inside a template assigned to a decltype(auto)",
+   "created": "2026-01-06",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3",
+     "+/-std=c++14"
+    ],
+    "observed": "jakub's reduced testcase (comment #4). ICE 'in gimplify_var_or_parm_decl, at gimplify.cc:3309' at all -O levels, plain and -std=c++14. jakub: ICE in tsubst since r0-122795, then in gimplify since r5-1060."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; stmt-expr + decltype(auto) in template."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123413.json",
+   "reproducer": "bug_collection_2026/repro/pr123413.c|cpp"
+  },
+  {
+   "id": "gcc:123466",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123466",
+   "title": "[14/15/16/17 Regression] ICE in get_unwidened after redeclared error",
+   "created": "2026-01-07",
+   "kind": "crash",
+   "subtype": "ICE (on-invalid, checking)",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "pinskia's shorter testcase (comment #1). First a redeclaration error ('void ll()' vs 'unsigned ll'), then ICE 'tree check: expected class 'type', have 'exceptional' (error_mark)' at all -O levels (get_unwidened path per report). ice-on-invalid-code (fuzzer-generated)."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; error-recovery + ice-on-invalid-code."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123466.json",
+   "reproducer": "bug_collection_2026/repro/pr123466.c|cpp"
+  },
+  {
+   "id": "gcc:123495",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123495",
+   "title": "[14/15/16 Regression] ICE: unexpected expression ‘(int (*)())(0)’ of kind cast_expr in cxx_eval_constant_expression within template during nodiscard check since",
+   "created": "2026-01-09",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "jakub's minimal testcase (comment #2): 'template <int N> void foo () { ((int (*) ()) nullptr) (); }'. ICE 'unexpected expression '(int (*)())(nullptr)' of kind cast_expr' in cxx_eval_constant_expression at all -O levels. Started r14-4793 (NON_DEPENDENT_EXPR removal)."
+   },
+   "upstream": {
+    "status": "ASSIGNED",
+    "fix_trunk_and_branches": [
+     "0e74517b70d06105bd40c8caa6dc192b4af3ccff (r17-3301, master)",
+     "0c8300a9e0481130961415b4a5d7e647dec3ba66 (r16-9627, gcc-16)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "ASSIGNED; fixed master+16 only; still broken on 14.3.0 as expected."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123495.json",
+   "reproducer": "bug_collection_2026/repro/pr123495.c|cpp"
+  },
+  {
+   "id": "gcc:123585",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123585",
+   "title": "[14/15 Regression] X86 avx2: ICE at -O1 during RTL pass: combine",
+   "created": "2026-01-14",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O1 -mavx2",
+     "-O2 -mavx2",
+     "-O3 -mavx2"
+    ],
+    "observed": "Comment-0 backsmith testcase. ICE 'in simplify_binary_operation_1, at simplify-rtx.cc:4487' during RTL pass combine at -O1/-O2/-O3 with -mavx2 (report: -O1 -mavx2, simplify-rtx.cc:5011). Clean at -O0 and without -mavx2 at all levels."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [
+     "73bf30c8c9fc8a2cfe4720160c3dfbf99b4b5f58 (r16-6923, master)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW w/ patch; fixed on master only -> still live on 14.3.0; wrong gcc_assert on vec_select-of-vec_select."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123585.json",
+   "reproducer": "bug_collection_2026/repro/pr123585.c|cpp"
+  },
+  {
+   "id": "gcc:123658",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123658",
+   "title": "[14/15/16/17 Regression] ICE in tsubst_expr (at cp/pt.cc) when lambda in template accesses member of local constexpr struct without capture",
+   "created": "2026-01-18",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "pinskia's reduced testcase (comment #1). ICE 'in tsubst_expr, at cp/pt.cc:21942' at all -O levels (lambda reading member of local constexpr struct without capture). Started r14-4793 per ppalka."
+   },
+   "upstream": {
+    "status": "ASSIGNED",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "ASSIGNED."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123658.json",
+   "reproducer": "bug_collection_2026/repro/pr123658.c|cpp"
+  },
+  {
+   "id": "gcc:123664",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123664",
+   "title": "[14/15/16/17 Regression] ICE in fold_convert_loc, at fold-const.cc when constexpr-initializing pointer-to-member-function in a template instantiation since r8-6",
+   "created": "2026-01-18",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "pinskia's C++11 reduced testcase (comment #2, attachment 63383). ICE 'in fold_convert_loc, at fold-const.cc:2757' at all -O levels (constexpr pointer-to-member-function init in template). x86-specific; bisected to r8-6320-g7c719d08494168."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; reproducer used: attachment 63383 (maintainer-reduced)."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123664.json",
+   "reproducer": "bug_collection_2026/repro/pr123664.c|cpp"
+  },
+  {
+   "id": "gcc:123668",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123668",
+   "title": "[14/15/16/17 Regression] ICE in convert_nontype_argument when passing a lambda as an explicit template argument to a member function template since r14-9938",
+   "created": "2026-01-18",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -O0/-O1/-O2/-O3"
+    ],
+    "observed": "Comment-0 testcase. With -std=c++20: ICE 'in convert_nontype_argument, at cp/pt.cc:7882' at all -O levels (lambda as explicit template arg). Without the std flag: plain 'error: lambda-expression in template-argument only available with -std=c++20' (not an ICE). Started r14-9938; ppalka notes pre-r14-9938 always rejected; a simpler always-ICE case exists since r9-4045."
+   },
+   "upstream": {
+    "status": "ASSIGNED",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "ASSIGNED."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123668.json",
+   "reproducer": "bug_collection_2026/repro/pr123668.c|cpp"
+  },
+  {
+   "id": "gcc:123669",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123669",
+   "title": "[14/15/16/17 Regression] ICE in write_expression (mangle.cc) with requires expression in lambda trailing return type since r14-6064",
+   "created": "2026-01-18",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++23 -O0/-O1/-O2/-O3"
+    ],
+    "observed": "jakub's std-free testcase (comment #1). With -std=c++23: ICE 'in write_expression, at cp/mangle.cc:3427' (mangling requires_expr in lambda trailing return type) at all -O levels. Changed from sorry to ICE in r14-6064-gc3f281a0c1ca. Without the flag: plain errors, no ICE."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; reproducer used: comment #1 (std-free)."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123669.json",
+   "reproducer": "bug_collection_2026/repro/pr123669.c|cpp"
+  },
+  {
+   "id": "gcc:123670",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123670",
+   "title": "[14/15/16/17 Regression] ICE (Segmentation fault) in constraints_satisfied_p with lambda requires clause referencing captured local lambda since r13-980",
+   "created": "2026-01-18",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -O0/-O1/-O2/-O3"
+    ],
+    "observed": "Comment-0 testcase. With -std=c++20: ICE 'Segmentation fault' in constraints_satisfied_p at all -O levels (lambda requires-clause referencing captured local lambda). Without flag: 'error: 'requires' only available with -std=c++20'. Started r13-980-gdf4f95dbd476."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; also rejects-valid aspect per pinskia comment #2."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123670.json",
+   "reproducer": "bug_collection_2026/repro/pr123670.c|cpp"
+  },
+  {
+   "id": "gcc:123685",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123685",
+   "title": "[14/15/16/17 Regression] ICE (Segfault) in dependent_local_decl_p with local function call inside nested generic lambdas",
+   "created": "2026-01-19",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "Comment-0 testcase. ICE 'Segmentation fault' in dependent_local_decl_p at all -O levels (local function call inside nested generic lambdas). Goes back to 12.1."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123685.json",
+   "reproducer": "bug_collection_2026/repro/pr123685.c|cpp"
+  },
+  {
+   "id": "gcc:123700",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123700",
+   "title": "[14 Regression] ICE in tsubst_lambda_expr with generic lambdas in template non-type parameter since r14-2170-g4cf64d9cc2faf4 (C++20)",
+   "created": "2026-01-19",
+   "kind": "crash",
+   "subtype": "ICE (on-valid)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -O0/-O1/-O2/-O3"
+    ],
+    "observed": "Comment-0 testcase. With -std=c++20: ICE 'Segmentation fault' (tsubst_lambda_expr via template_parms_to_args) at all -O levels. Bisected to r14-2170-g4cf64d9cc2faf4. Fixed master r16-8504 and gcc-15 r15-11053, NOT gcc-14 -> still live on 14.3.0."
+   },
+   "upstream": {
+    "status": "ASSIGNED",
+    "fix_trunk_and_branches": [
+     "d063d7dd7d460ccc426579cc792013fe657f7b89 (r16-8504, master)",
+     "6f26d3acb65fe91d28dd00ab428f1a3b442737f0 (r15-11053, gcc-15)"
+    ],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "ASSIGNED; retargeted to 14.5."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123700.json",
+   "reproducer": "bug_collection_2026/repro/pr123700.c|cpp"
+  },
+  {
+   "id": "gcc:123843",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=123843",
+   "title": "[14/15/16/17 Regression] during GIMPLE pass: forwprop ICE: verify_gimple failed: statement marked for throw, but doesn't with -O -ftrapv -finstrument-functions ",
+   "created": "2026-01-27",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O1 -ftrapv -finstrument-functions -fnon-call-exceptions",
+     "same at -O2/-O3"
+    ],
+    "observed": "zsojka's reduced testcase (comment #0, attachment 63501). With -ftrapv -finstrument-functions -fnon-call-exceptions: 'error: statement marked for throw, but doesn't' + ICE 'verify_gimple failed' during GIMPLE pass forwprop at -O1/-O2/-O3; clean without flags. Root cause: __atomic_fetch_sub -> __atomic_sub_fetch rewrite keeps stale EH edge (r12-6577 exposed)."
+   },
+   "upstream": {
+    "status": "ASSIGNED",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "ASSIGNED; reproducer used: attachment 63501."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-123843.json",
+   "reproducer": "bug_collection_2026/repro/pr123843.c|cpp"
+  },
+  {
+   "id": "gcc:124270",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124270",
+   "title": "[14/15/16/17 Regression] constexpr routine into wrong value with -O1 -Wall",
+   "created": "2026-02-26",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0/-O1/-O2/-O3 +/- -Wall, run"
+    ],
+    "observed": "Comment-0 testcase + separate driver TU defining panic() as _exit(42). Correct behavior: exit 0. On 14.3.0: -O1/-O2/-O3 exit 42 (spurious panic) with and without -Wall; -O0 exits 42 only with -Wall, 0 without. Matches report (-O1 -Wall; pinskia: trunk needs -Wall; rguenth sees call panic on trunk x86-64 too). Front-end constexpr issue since ~GCC 7.1."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; reproducer split into pr124270-a.cpp + pr124270-b.cpp."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124270.json",
+   "reproducer": "bug_collection_2026/repro/pr124270.c|cpp"
+  },
+  {
+   "id": "gcc:124499",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124499",
+   "title": "[14/15/16/17 Regression] ICE tree check: expected record_type or union_type or qual_union_type, have template_type_parm in lookup_using_decl, at cp/name-lookup.",
+   "created": "2026-03-14",
+   "kind": "crash",
+   "subtype": "ICE (on-invalid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-std=c++20 -O0/-O1/-O2/-O3"
+    ],
+    "observed": "'using decltype(auto)::a' (fuzzer). With -std=c++20: ICE 'tree check: expected record_type or union_type or qual_union_type, have template_type_parm in lookup_using_decl, at cp/name-lookup.cc' at all -O levels. Without the flag: plain 'error: using-declaration for member at non-class scope'. pinskia explicitly confirmed ICE on GCC 14.3.0 + checking + -std=c++20."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; ice-on-invalid-code."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124499.json",
+   "reproducer": "bug_collection_2026/repro/pr124499.c|cpp"
+  },
+  {
+   "id": "gcc:124516",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124516",
+   "title": "[14/15/16/17 Regression] ICE: tree check: expected tree that contains ‘decl minimal’ structure, have ‘template_id_expr’ in dump_decl, at cp/error.cc:1636",
+   "created": "2026-03-15",
+   "kind": "crash",
+   "subtype": "ICE (on-invalid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "'template <typename a, union a ::a < class a ::a <' (fuzzer). After parse errors, tree check failure: 'expected tree that contains 'decl minimal' structure, have 'template_id_expr' in dump_decl, at cp/error.cc:1448' at all -O levels (exit 1). Report: dump_decl at cp/error.cc:1636 on trunk; same check on 14.3.0 at :1448."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; ice-on-invalid-code; goes back to 12.1."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124516.json",
+   "reproducer": "bug_collection_2026/repro/pr124516.c|cpp"
+  },
+  {
+   "id": "gcc:124517",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124517",
+   "title": "[14/15/16/17 Regression] ICE: in update_binding, at cp/name-lookup.cc:3099",
+   "created": "2026-03-15",
+   "kind": "crash",
+   "subtype": "ICE (on-invalid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "Comment-0 fuzzer testcase ('namespace a { class a; enum, a, } enum a::a {'). ICE 'in update_binding, at cp/name-lookup.cc:3000' at all -O levels. Report: :3082 on trunk. Goes back to 11.1."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; ice-on-invalid-code; maybe related to PR124502."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124517.json",
+   "reproducer": "bug_collection_2026/repro/pr124517.c|cpp"
+  },
+  {
+   "id": "gcc:124691",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124691",
+   "title": "[14/15/16/17 Regression] ICE in duplicate_decls with friend function redeclaration in class template",
+   "created": "2026-03-30",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "Both variants ICE 'in duplicate_decls, at cp/decl.cc:2846' at all -O levels: (a) comment-0 testcase (friend redefinition diagnosed, then ICE on second instantiation); (b) pinskia's fully valid variant (comment #2, pr124691-valid.cpp) with explicit instantiation of A<0>/B<0>/B<1>. Report: cp/decl.c:2593 on trunk; :2846 on 14.3.0. Since 11.4 (assertions)."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; PR125676 is a duplicate."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124691.json",
+   "reproducer": "bug_collection_2026/repro/pr124691.c|cpp"
+  },
+  {
+   "id": "gcc:124820",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=124820",
+   "title": "[14/15/16/17 Regression] fma gives incorrect result w.r.t. sign of zero",
+   "created": "2026-04-08",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0..-O3 -mfma / -mno-fma, run '0 0 -0'"
+    ],
+    "observed": "Both comment-0 programs. Program 1: './a.out 0 0 -0' prints second line '0.000000' (should be '-0.000000') at -O2 and -O3 with -mfma; correct at -O0/-O1 and at all levels with -mno-fma. Program 2 (fma()): same divergence at -O2 -mfma. Host CPU has FMA; binaries run natively. Exactly the reported sign-of-zero miscompile (-(a1*a2+a3) -> fnmsub)."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW; match.pd negated-FMA -> FNMSUB rule incorrect w.r.t. signed zeros; amonakov/rguenth confirmed; easyhack."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-124820.json",
+   "reproducer": "bug_collection_2026/repro/pr124820.c|cpp"
+  },
+  {
+   "id": "gcc:125039",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125039",
+   "title": "[14 regression] internal compiler error: in lower_bound, at value-range.h:636 since r14-4153",
+   "created": "2026-04-27",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3"
+    ],
+    "observed": "Comment-0 testcase ('void a() { double b = b, c; ... }'). ICE 'in lower_bound, at value-range.h:555' during GIMPLE pass dom at -O1/-O2/-O3; clean at -O0. Since r14-4153. Fix went to gcc-14 as r14-12652 (14.4.0), after 14.3.0 -> still live here as expected."
+   },
+   "upstream": {
+    "status": "RESOLVED/FIXED",
+    "fix_trunk_and_branches": [
+     "62d5880b9599c3bdbc22b80d522b0bea14f4beaf (r17-124, master)",
+     "dcb4e10e72e8af54fbdb4d1a6145b1b0d0cd9aac (r16-8832, gcc-16)",
+     "d4b40362327691b903fee90c01fe9586d2b60ecf (r15-11225, gcc-15)",
+     "2ba96ef0c0cf0b7b4b511ca337f570e3fa442bf3 (r14-12652, gcc-14)"
+    ],
+    "gcc14_backport": "r14-12652"
+   },
+   "annotations": [
+    "RESOLVED FIXED; 14.3.0 predates the 14-branch fix."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125039.json",
+   "reproducer": "bug_collection_2026/repro/pr125039.c|cpp"
+  },
+  {
+   "id": "gcc:125090",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125090",
+   "title": "[14/15/16/17 Regression] internal compiler error: 'verify_gimple' failed with global structured bindings and references",
+   "created": "2026-04-29",
+   "kind": "crash",
+   "subtype": "ICE (on-valid, checking)",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0",
+     "-O1",
+     "-O2",
+     "-O3",
+     "+/-std=c++17"
+    ],
+    "observed": "Comment-0 testcase (global structured bindings + reference). 'error: address taken but 'TREE_ADDRESSABLE' bit not set' + ICE ''verify_gimple' failed' in f at all -O levels, default std and -std=c++17. Since 11.4."
+   },
+   "upstream": {
+    "status": "NEW",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "NEW."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125090.json",
+   "reproducer": "bug_collection_2026/repro/pr125090.c|cpp"
+  },
+  {
+   "id": "gcc:125202",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125202",
+   "title": "[14/15/16/17 Regression] wrong code at -O1",
+   "created": "2026-05-06",
+   "kind": "miscompilation",
+   "subtype": "wrong-code",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "-O0/-O1/-O2/-O3, run (10s timeout)"
+    ],
+    "observed": "Comment-0 testcase: hangs (10s timeout, exit 124) at -O1, exits 0 at -O0/-O2/-O3 -- exactly as reported. pinskia's trapping variant (attachment 64389, needs -std=c23 for 'false'): SIGILL/exit 132 at -O1, -O2 and -O3; exit 0 at -O0. Wrong niter ('Loop 1 never loops') after r14-4153-era ch changes; first bad commit f2d6beb7a4dd (unloop loops in tree-ssa-loop-ch)."
+   },
+   "upstream": {
+    "status": "ASSIGNED",
+    "fix_trunk_and_branches": [],
+    "gcc14_backport": null
+   },
+   "annotations": [
+    "ASSIGNED; reproducer used: comment 0 + attachment 64389."
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125202.json",
+   "reproducer": "bug_collection_2026/repro/pr125202.c|cpp"
+  },
+  {
+   "id": "gcc:125526",
+   "url": "https://gcc.gnu.org/bugzilla/show_bug.cgi?id=125526",
+   "title": "[16/17 Regression] asm goto + thread_local \"m\" input + noreturn branch (wrong code on 14.x)",
+   "created": "2026-05-31",
+   "kind": "miscompilation",
+   "language": "c++",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "gcc-14.3.0",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/gcc-14-build/gcc/xgcc|xg++ -B /data/mingxuanzhu/gcc-14-build/gcc",
+    "commands": [
+     "xg++ -B $GCCDIR -O1|-O2 -std=c++20 paper_cases/pr125526-repro.c && ./a.out  # SIGSEGV",
+     "-O0 and gcc-13.1 -O1: correct; UBSan clean"
+    ],
+    "observed": "generated binary SIGSEGV at -O1/-O2 (faulty label merge before prologue)"
+   },
+   "upstream": {
+    "status": "NEW",
+    "notes": "ICE form (calc_dfs_tree) is [16/17]-only; on 14.3.0 it is wrong code"
+   },
+   "annotations": [
+    "theme-relative of the paper reload.cc case study (paper_cases/README.md)"
+   ],
+   "snapshot": "bug_collection_2026/sources/gcc-125526.json",
+   "reproducer": "bug_collection_2026/paper_cases/pr125526-repro.c"
+  },
+  {
+   "id": "llvm:176397",
+   "url": "https://github.com/llvm/llvm-project/issues/176397",
+   "title": "[Clang] Assertion `DD && \"queried property of class with no definition\"` failed.",
+   "created": "2026-01-16",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "-c (default std)",
+     "-std=c++20 -c"
+    ],
+    "observed": "SIGSEGV in clang::TreeTransform::TransformCXXTypeidExpr (TreeTransform.h:13180) while instantiating generic lambda with typeid of incomplete S. Stack dump + 'PLEASE submit a bug report'; driver rc=1 (frontend exit 139). Report's assertion (CXXRecordDecl::data `DD`) stripped -> real null-deref crash. Both default and -std=c++20."
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "clang:frontend",
+     "confirmed",
+     "crash",
+     "lambda",
+     "regression:19",
+     "generated by fuzzer"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/llvm-176397.json",
+   "reproducer": "bug_collection_2026/repro/llvm176397.*"
+  },
+  {
+   "id": "llvm:190517",
+   "url": "https://github.com/llvm/llvm-project/issues/190517",
+   "title": "[clang] Assertion `FReturnType && \"expected to see a return type\"' failed.",
+   "created": "2026-04-05",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "-std=c++20 -c"
+    ],
+    "observed": "SIGSEGV in Sema::DeclareImplicitDeductionGuides (SemaTemplateDeductionGuide.cpp:1346) via TemplateSpecializationType::template_arguments (Type.h:6546) on alias-template deduction-guide code. Stack dump; driver rc=1. Assertion `FReturnType` stripped -> segfault."
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "clang:frontend",
+     "confirmed",
+     "crash",
+     "regression:19",
+     "generated by fuzzer"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/llvm-190517.json",
+   "reproducer": "bug_collection_2026/repro/llvm190517.*"
+  },
+  {
+   "id": "llvm:206994",
+   "url": "https://github.com/llvm/llvm-project/issues/206994",
+   "title": "[clang][Sema] ICE in ASTContext::getSubstTemplateTypeParmType during constraint satisfaction for lambda-in-requires concept",
+   "created": "2026-07-01",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "-std=c++23 -fPIC -c"
+    ],
+    "observed": "Report's reproducer is LLM/cvise-garbled text (not the original valid code), but compiling it as-is still SIGSEGVs: 19 parse errors then 'clang frontend command failed with exit code 139' with stack dump while parsing namespace 'detail'. Driver rc=1. Crash-on-invalid; original SIGSEGV was in getSubstTemplateTypeParmType during constraint satisfaction (clang-22 reporter)."
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "clang:frontend",
+     "confirmed",
+     "crash",
+     "regression:19",
+     "generated by fuzzer"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/llvm-206994.json",
+   "reproducer": "bug_collection_2026/repro/llvm206994.*"
+  },
+  {
+   "id": "llvm:202764",
+   "url": "https://github.com/llvm/llvm-project/issues/202764",
+   "title": "Crash in ASTContext::getTypeInfoImpl with uninitialised C23 auto variable and GNU asm register label",
+   "created": "2026-06-09",
+   "kind": "crash",
+   "language": "c",
+   "set": "extended",
+   "tier": 1,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": [
+     "-std=gnu23 -fsyntax-only"
+    ],
+    "observed": "SIGSEGV in clang::ASTContext::getTypeInfoImpl (ASTContext.cpp:2348) via Sema::CheckAsmLabel on `auto register i asm(\"esp\");` at -std=gnu23. Stack dump; driver rc=1. Exactly as report predicts: with assertions stripped the undeduced-auto assertion is skipped and the frontend segfaults. Label regression:18."
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "c23",
+     "clang:frontend",
+     "confirmed",
+     "crash",
+     "regression:18"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [],
+   "snapshot": "bug_collection_2026/sources/llvm-202764.json",
+   "reproducer": "bug_collection_2026/repro/llvm202764.*"
+  },
+  {
+   "id": "llvm:175423",
+   "url": "https://github.com/llvm/llvm-project/issues/175423",
+   "title": "[Clang] Assertion `!isValueDependent() && \"Expression evaluator can't be called on a dependent expression.\"` failed sinc",
+   "created": "2026-01-11",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-O0,-O2",
+    "observed": "crash with stack dump at default and -O2 (ExprEvaluator path; report assertion \"Expression evaluator can't be called on a dependent expression\")"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "clang:frontend",
+     "confirmed",
+     "crash-on-valid",
+     "generated by fuzzer",
+     "regression:17"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "regression:17"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-175423.json",
+   "reproducer": "bug_collection_2026/repro/llvm175423.*"
+  },
+  {
+   "id": "llvm:176405",
+   "url": "https://github.com/llvm/llvm-project/issues/176405",
+   "title": "[Clang] Assertion `Param->hasDefaultArg() && \"can't build nonexistent default arg\"` failed.",
+   "created": "2026-01-16",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-O0,-O2",
+    "observed": "crash with stack dump at -O0/-O2 (ExprWithCleanups; report assertion Param->hasDefaultArg)"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "clang:frontend",
+     "confirmed",
+     "crash",
+     "generated by fuzzer",
+     "regression:17"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "regression:17"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-176405.json",
+   "reproducer": "bug_collection_2026/repro/llvm176405.*"
+  },
+  {
+   "id": "llvm:176271",
+   "url": "https://github.com/llvm/llvm-project/issues/176271",
+   "title": "[clang][bytecode] SIGSEGV where shift count is negative",
+   "created": "2026-01-15",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-fexperimental-new-constant-interpreter -std=c++23",
+    "observed": "SIGSEGV exit=139 with -fexperimental-new-constant-interpreter -std=c++23 (bytecode interpreter, negative shift count)"
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "crash",
+     "regression:19",
+     "clang:bytecode"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "needs new-const-interpreter flag; regression:19"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-176271.json",
+   "reproducer": "bug_collection_2026/repro/llvm176271.*"
+  },
+  {
+   "id": "llvm:177133",
+   "url": "https://github.com/llvm/llvm-project/issues/177133",
+   "title": "[clang][bytecode] UNREACHABLE executed in llvm/tools/clang/lib/AST/ByteCode/Pointer.h",
+   "created": "2026-01-21",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-fexperimental-new-constant-interpreter",
+    "observed": "crash with stack dump with -fexperimental-new-constant-interpreter (bytecode UNREACHABLE)"
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "regression",
+     "crash-on-valid",
+     "clang:bytecode"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "needs flag; regression"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-177133.json",
+   "reproducer": "bug_collection_2026/repro/llvm177133.*"
+  },
+  {
+   "id": "llvm:186760",
+   "url": "https://github.com/llvm/llvm-project/issues/186760",
+   "title": "Crash for using deduction guide in template class with parameter pack",
+   "created": "2026-03-16",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-O0,-O2",
+    "observed": "crash with stack dump at -O0/-O2 (deduction guide with parameter pack, TypeLocBuilder)"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "clang:frontend",
+     "crash-on-valid",
+     "regression:18"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "regression:18"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-186760.json",
+   "reproducer": "bug_collection_2026/repro/llvm186760.*"
+  },
+  {
+   "id": "llvm:195133",
+   "url": "https://github.com/llvm/llvm-project/issues/195133",
+   "title": "[19 regression] crash if template-id used to name base class of dependent member of the current instantiation",
+   "created": "2026-04-30",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-O0,-O2",
+    "observed": "crash with stack dump at -O0/-O2 (template-id naming base of dependent member; LazyOffsetPtr)"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "c++",
+     "clang:frontend",
+     "crash-on-valid",
+     "regression:19"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "regression:19"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-195133.json",
+   "reproducer": "bug_collection_2026/repro/llvm195133.*"
+  },
+  {
+   "id": "llvm:200987",
+   "url": "https://github.com/llvm/llvm-project/issues/200987",
+   "title": "Clang crashed at -O1 and above with asm goto",
+   "created": "2026-06-02",
+   "kind": "crash",
+   "language": "c",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-O1",
+    "observed": "crash with stack dump at -O1 (asm goto)"
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "llvm:SCEV",
+     "confirmed",
+     "crash-on-valid",
+     "inline-asm",
+     "regression:17"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "regression:17"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-200987.json",
+   "reproducer": "bug_collection_2026/repro/llvm200987.*"
+  },
+  {
+   "id": "llvm:202052",
+   "url": "https://github.com/llvm/llvm-project/issues/202052",
+   "title": "[clang] `UNREACHABLE executed at /root/llvm-project/llvm/tools/clang/lib/Sema/SemaTemplateInstantiateDecl.cpp:7202!`  us",
+   "created": "2026-06-06",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "-O0,-O2,-std=c++17/c++26",
+    "observed": "crash with stack dump at all stds tested (Sema UNREACHABLE; getTypeDeclType)"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "clang:frontend",
+     "confirmed",
+     "crash",
+     "regression:16",
+     "generated by fuzzer"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "regression:16"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-202052.json",
+   "reproducer": "bug_collection_2026/repro/llvm202052.*"
+  },
+  {
+   "id": "llvm:176823",
+   "url": "https://github.com/llvm/llvm-project/issues/176823",
+   "title": "[X86] TTI crashes on scalable vectors in getVectorInstrCost()",
+   "created": "2026-01-19",
+   "kind": "crash",
+   "language": "ll",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "commands": "opt -passes=default<O2>",
+    "observed": "SIGABRT exit=134 at opt -passes=default<O2> (X86 TTI getVectorInstrCost scalable vectors)"
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "backend:X86",
+     "crash-on-valid",
+     "generated by fuzzer",
+     "regression:17"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "IR/opt-level; regression:17"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-176823.json",
+   "reproducer": "bug_collection_2026/repro/llvm176823.*"
+  },
+  {
+   "id": "llvm:191975",
+   "url": "https://github.com/llvm/llvm-project/issues/191975",
+   "title": "[opt] -passes=\"place-safepoints\" causes Assertion `F && \"gc.safepoint_poll function is missing\"'",
+   "created": "2026-04-14",
+   "kind": "crash",
+   "language": "ll",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "commands": "opt place-safepoints",
+    "observed": "SIGSEGV exit=139 at opt -passes=cgscc(function(place-safepoints))"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "good first issue",
+     "confirmed",
+     "crash-on-valid",
+     "llvm:transforms",
+     "generated by fuzzer",
+     "regression:14"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "IR/opt-level; regression:14"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-191975.json",
+   "reproducer": "bug_collection_2026/repro/llvm191975.*"
+  },
+  {
+   "id": "llvm:182759",
+   "url": "https://github.com/llvm/llvm-project/issues/182759",
+   "title": "SafeStack crashes on dynamic alloca with scalable vector type due to TypeSize implicit conversion",
+   "created": "2026-02-22",
+   "kind": "crash",
+   "language": "ll",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "commands": "llc",
+    "observed": "SIGABRT exit=134 in llc (SafeStack dynamic alloca with scalable vector, TypeSize)"
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "llvm:codegen",
+     "crash",
+     "regression:13"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "IR/llc-level; regression:13"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-182759.json",
+   "reproducer": "bug_collection_2026/repro/llvm182759.*"
+  },
+  {
+   "id": "llvm:218569",
+   "url": "https://github.com/llvm/llvm-project/issues/218569",
+   "title": "[ConstraintEliminationPass] miscompile - Value mismatch on alive2",
+   "created": "2026-08-25",
+   "kind": "miscompilation",
+   "language": "ll",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/opt|llc",
+    "commands": "opt -passes=constraint-elimination",
+    "observed": "opt -passes=constraint-elimination folds icmp slt i64 %x,0 to ret true (WRONG; x=0 counterexample). C-level masked by InstCombine (see paper_cases/README.md)"
+   },
+   "upstream": {
+    "state": "closed",
+    "labels": [
+     "miscompilation",
+     "confirmed",
+     "llvm:transforms"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "ConstraintElimination; closed-fixed"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-218569.json",
+   "reproducer": "bug_collection_2026/paper_cases/ce218569.ll"
+  },
+  {
+   "id": "llvm:208488",
+   "url": "https://github.com/llvm/llvm-project/issues/208488",
+   "title": "[clang] Crash (in ASTContext::getTypeInfoImpl) with deleted function in call-chain",
+   "created": "2026-07-09",
+   "kind": "crash",
+   "language": "cpp",
+   "set": "extended",
+   "tier": 2,
+   "verified_on": "llvm-19.1.0 (assertions OFF)",
+   "reproduction": {
+    "driver": "/data/mingxuanzhu/llvm-build/bin/clang|clang++",
+    "commands": "",
+    "observed": "correct error (call to deleted function) followed by crash with stack dump at all stds on asserts-off 19.1.0 — matches report (getTypeInfoImpl on undeduced auto)"
+   },
+   "upstream": {
+    "state": "open",
+    "labels": [
+     "clang:frontend",
+     "crash",
+     "regression:16"
+    ],
+    "fix_refs": []
+   },
+   "annotations": [
+    "crash-on-invalid (input is invalid C++); regression:16"
+   ],
+   "snapshot": "bug_collection_2026/sources/llvm-208488.json",
+   "reproducer": "bug_collection_2026/repro/llvm208488.*"
+  }
+ ],
+ "not_counted": [
+  {
+   "id": "llvm:175934",
+   "reason": "assertion-only on the paper assertions-off 19.1.0 build (compiles clean); fixed on trunk by PR#208012 (merge aaa4ebd2ad17); issue reopened pending regression test"
+  },
+  {
+   "id": "llvm:190340",
+   "reason": "EXCLUDED: -fshort-wchar vs libc ABI/UB dispute per maintainer (efriedma-quic); evidence standard not met"
+  },
+  {
+   "id": "gcc:123061",
+   "reason": "out of window (created 2025-12-08); same root cause as gcc:123636 — dedup reference only"
+  },
+  {
+   "id": "llvm:176395",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion `!isa<CXXDestructorDecl>(D)` in GlobalDecl::Init (TBAA/mangling) at -O2. On 19.1.0 no-assert build: compiles cleanly (rc=0) at -O2 and -O0. Assertion stripped; no segfault."
+  },
+  {
+   "id": "llvm:195416",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion `!isa<TagDecl>(this) || !isCompleteDefinition()` in Decl::setInvalidDecl on invalid nested-struct code. On 19.1.0 no-assert: clean diagnostics (rc=1, 'non-friend class member cannot "
+  },
+  {
+   "id": "llvm:198257",
+   "verdict": "not-reproduced",
+   "reason": "Report is against trunk 23.0.0git and explicitly states 'works: 22.1.0 and earlier' (post-22 regression). On 19.1.0: compiles cleanly at -O2/-O3 (rc=0), no stack dump. Regression introduced after 19.x"
+  },
+  {
+   "id": "llvm:199526",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion in CXXRecordDecl::defaultedDestructorIsDeleted on vectorcall virtual dtor override. On 19.1.0 no-assert: clean error (rc=1, 'virtual function ~SS has different calling convention att"
+  },
+  {
+   "id": "llvm:203701",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion `Name.isIdentifier()` in NamedDecl::getName with explicit-object lambda. On 19.1.0 no-assert: clean diagnostic (rc=1, static_assert fails '1 == 42'), no stack dump."
+  },
+  {
+   "id": "llvm:204178",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion `ParmDepth < Depth` in ItaniumMangle FunctionTypeDepthState for concepts + abi_tag namespace (since clang-18). On 19.1.0 no-assert: compiles cleanly (rc=0) at -std=c++20; mangling pr"
+  },
+  {
+   "id": "llvm:215251",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion `isSCEVable(V->getType())` in ScalarEvolution during LoopStrengthReduce at -O3 (trunk 24, label regression:18). On 19.1.0 no-assert: compiles cleanly at -O3 (rc=0), no stack dump."
+  },
+  {
+   "id": "llvm:220302",
+   "verdict": "assertion-only",
+   "reason": "Report: Assertion `(TrackSubRegLiveness || V.RedefVNI)` in RegisterCoalescer::JoinVals::analyzeValue at -O2 (label regression:18). On 19.1.0 no-assert: compiles cleanly at -O2 (rc=0), no stack dump."
+  },
+  {
+   "id": "llvm:174667",
+   "verdict": "assertion-only",
+   "reason": "Report: 'Should not have a NULL template argument' UNREACHABLE in TemplateBase.cpp:265 at -std=c++20. On 19.1.0 no-assert (llvm_unreachable compiled out): clean error (rc=1, 'atomic constraint must be"
+  },
+  {
+   "id": "llvm:175296",
+   "verdict": "assertion-only",
+   "reason": "Report itself says 'Clang assertions trunk crashed but trunk is fine'. Assertion in Sema::BuildMemberReferenceExpr on nested lambdas + union with non-trivial members. On 19.1.0 no-assert: clean error "
+  },
+  {
+   "id": "llvm:175426",
+   "verdict": "assertion-only",
+   "reason": "Report: assertion in Sema::IsAtLeastAsConstrained after a missing-<compare> error at -std=c++20. On 19.1.0 no-assert: same frontend error ('cannot default operator<=> ... include <compare>'), rc=1, no"
+  },
+  {
+   "id": "llvm:215166",
+   "verdict": "unknown",
+   "reason": "No inline reproducer in issue body (only godbolt link https://godbolt.org/z/q5E3aE9eY and pasted compiler stderr). Snapshot has 0 comments. Cannot test. Report claims failure on Clang 19.1.0 and 22.1."
+  },
+  {
+   "id": "llvm:225040",
+   "verdict": "assertion-only",
+   "reason": "Report: expected error 'inline assembly requires more registers than available' followed by RegAllocFast assertion `!MO.isTied()`. On 19.1.0 no-assert: only the correct error is printed (rc=1), no sta"
+  },
+  {
+   "id": "llvm:182735",
+   "verdict": "not-reproduced",
+   "reason": "Report: GlobalISel RegBankSelect LLT assertion on `void foo(char*){}` at -O1 -fglobal-isel on trunk; body states 'does not crash with clang-21' (post-21 regression). On 19.1.0: compiles cleanly at -O1"
+  },
+  {
+   "id": "llvm:189233",
+   "verdict": "not-reproduced",
+   "reason": "Report: VPlan vs legacy cost-model disagreement assertion at -O3 on trunk 23; explicitly 'works: 22.1.0 and earlier'. On 19.1.0: compiles cleanly at -O3 -w (rc=0, 4.6KB test case as provided). Regress"
+  },
+  {
+   "id": "llvm:194618",
+   "verdict": "not-reproduced",
+   "reason": "Report: ilist_iterator `!NodePtr->isKnownSentinel()` assertion in vectorizer at -O3 on trunk 23; 'works: 22.1.0 and earlier'. On 19.1.0: compiles cleanly at -O3 (rc=0). Regression introduced after 19."
+  },
+  {
+   "id": "llvm:200602",
+   "verdict": "unknown",
+   "reason": "Crash report targets `clangd --check` (assertion `isArray()` in ExprConstant extractSubobject); clangd is not present in this 19.1.0 build. Plain clang++ -fsyntax-only at c++20/c++2b gives 20 template"
+  },
+  {
+   "id": "llvm:176402",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean diagnostic at tested stds (assertion ExprRequirement stripped)"
+  },
+  {
+   "id": "llvm:178647",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean with -fexperimental-new-constant-interpreter"
+  },
+  {
+   "id": "llvm:179015",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean with -fexperimental-new-constant-interpreter"
+  },
+  {
+   "id": "llvm:180307",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at -O0/-O2"
+  },
+  {
+   "id": "llvm:181410",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean diagnostic at -std=c++20"
+  },
+  {
+   "id": "llvm:191332",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: opt -O3 clean (DomTree assertion stripped)"
+  },
+  {
+   "id": "llvm:192776",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at -O0/-O2"
+  },
+  {
+   "id": "llvm:196730",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean diagnostic"
+  },
+  {
+   "id": "llvm:199407",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean diagnostic/warning only"
+  },
+  {
+   "id": "llvm:206013",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at c++17/20/23"
+  },
+  {
+   "id": "llvm:206860",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at c++17/20/23"
+  },
+  {
+   "id": "llvm:207266",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at c++17/20/23"
+  },
+  {
+   "id": "llvm:207610",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at c++17/20/23"
+  },
+  {
+   "id": "llvm:202106",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at c++17/20/23"
+  },
+  {
+   "id": "llvm:186718",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at -O3 (VPlan assertion stripped)"
+  },
+  {
+   "id": "llvm:190585",
+   "verdict": "assertion-only",
+   "reason": "report is Assertion failure; compiles clean on assertions-off 19.1.0: clean at -O3 (GVN assertion stripped)"
+  },
+  {
+   "id": "llvm:179448",
+   "verdict": "not-reproduced",
+   "reason": "regression introduced by a52177421743 (PR#177578), post-19; 19.1.0 prints expected 0xff00 at all -O levels; also needs UBSan to manifest"
+  },
+  {
+   "id": "llvm:195288",
+   "verdict": "not-reproduced",
+   "reason": "\"fails: trunk; works: 22.1.0 and earlier\" per report; clean at -O0..-O3 on 19.1.0"
+  },
+  {
+   "id": "llvm:186457",
+   "verdict": "unknown",
+   "reason": "no cleanly extractable inline reproducer (body blocks are log+code interleaved)"
+  },
+  {
+   "id": "llvm:198133",
+   "verdict": "unknown",
+   "reason": "modules issue; no cleanly extractable single-TU reproducer"
+  },
+  {
+   "id": "llvm:200665",
+   "verdict": "assertion-only",
+   "reason": "reconstructed reproducer (_BitInt(512) ext_vector_type compare) compiles clean at all stds on asserts-off 19.1.0; report assertion in GetSignedVectorType is stripped"
+  },
+  {
+   "id": "llvm:192019",
+   "verdict": "not-reproduced",
+   "reason": "reproducer IR recovered from godbolt shortlink via WebFetch; opt 19.1.0 with the report's exact pass pipeline exits 0 (no crash) on assertions-off build"
+  },
+  {
+   "id": "gcc:123548",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "NOT TESTABLE on x86-64 build: __pldx/__builtin_aarch64_pldx requires aarch64 target (arm_acle.h). Report fixed via arm_acle.h const args."
+  },
+  {
+   "id": "gcc:123784",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "NOT TESTABLE on x86-64 build: aarch64-only RTL pass early_ra ICE (-O2 -fno-tree-dse -fno-tree-dce -mbig-endian -g; aarch64-early-ra.cc). Attachment 63468 fetched but requires aarch64 target."
+  },
+  {
+   "id": "gcc:123950",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "NOT TESTABLE on x86-64 build: aarch64 wrong-code at -O3 (-fwrapv -fsigned-char -static), result -1 instead of 0 under qemu-aarch64; '-mno-early-ldp-fusion fixes it' (early ldp fusion, similar to PR121"
+  },
+  {
+   "id": "gcc:124142",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "Attachment 63703 built and run on x86-64 at -O0..-O3 and -O3 -mavx2: program exits normally (no trap) at every level. The miscompile (vectorized integer modulo producing a modulo-by-0) only traps wher"
+  },
+  {
+   "id": "gcc:124266",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "NOT TESTABLE on x86-64 build: aarch64-specific dwarf2cfi ICE (maybe_record_trace_start, dwarf2cfi.cc:2591) with vector math functions / aarch64_vector_pcs; simple reproducer uses __attribute__((aarch6"
+  },
+  {
+   "id": "gcc:124454",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "zsojka's reduced testcase (attachment 63896) with the report's custom flags (dropping aarch64-only -mno-outline-atomics): compiles cleanly at all -O levels on x86-64. Original ICE is in sched2 on aarc"
+  },
+  {
+   "id": "gcc:124530",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "NOT TESTABLE on x86-64 build: ICE in redirect_jump (jump.cc:1495) during bbro only when cross-compiling libbacktrace/mmap.c for vax--netbsdelf. Reporter notes GCC 14.3 behaves similarly."
+  },
+  {
+   "id": "gcc:124673",
+   "verdict": "not-reproduced-on-14.3.0-or-untestable",
+   "reason": "NOT TESTABLE on x86-64 build: unrecognizable insn (extract_insn, recog.cc:2892) for __sync_bool_compare_and_swap on __int128 with -mbig-endian on aarch64. Problem in aarch64_expand_compare_and_swap (T"
+  }
+ ]
+}
