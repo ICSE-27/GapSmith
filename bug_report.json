@@ -89,7 +89,7 @@
      "expected": "The file compiles successfully (it is valid C++17).",
      "observed": "The compiler crashes with a stack dump while generating IR for the instantiated function (DenseMap<Type const*, TypeInfo> lookup on an undeduced type)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226688"
+    "report": ""
    },
    {
     "id": "llvm-crash-2",
@@ -117,7 +117,7 @@
      "expected": "The file compiles successfully.",
      "observed": "Segmentation fault: expression classification (ClassifyInternal) dereferences an invalid state while instantiating the constant wrapper in the trailing return type."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226692"
+    "report": ""
    },
    {
     "id": "llvm-crash-4",
@@ -131,7 +131,7 @@
      "expected": "The file compiles successfully.",
      "observed": "The compiler crashes with a stack dump while instantiating the inner class template's deduction guide (at any optimization level, -O0 through -O3)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226693"
+    "report": ""
    }
   ],
   "Miscompilation": [
@@ -147,7 +147,7 @@
      "expected": "Correct behavior: the program simply returns (exit 0). This is what the -O0, -O2 and -O3 builds do, and the source is free of undefined behavior.",
      "observed": "Only the -O1 build is affected: the resulting binary dies with SIGSEGV right at start (exit 139)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226694"
+    "report": ""
    },
    {
     "id": "llvm-miscompilation-2",
@@ -161,7 +161,7 @@
      "expected": "Every input a in 0..8191 must match the reference computed in 64-bit arithmetic (the -O0 build prints \"RESULT: correct\").",
      "observed": "-O1/-O2 builds print \"a=2730 got=3 exp=1\" and \"a=5461 got=3 exp=1\", then \"RESULT: wrong 2\". The generated code compares X against rotl(X, 2) instead of evaluating (X << 2) == (X & -4) on the 13-bit value. The llc-compiled IR reproducer mismatches on exactly the same two inputs."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226695",
+    "report": "",
     "extra_programs": [
      "results/bug_programs_gapsmith/llvm/miscompilation/test11.ll",
      "results/bug_programs_gapsmith/llvm/miscompilation/test11_driver.c"
@@ -179,7 +179,7 @@
      "expected": "The program prints \"acc=12 (expected 12)\" (as the -O0 and -O1 builds do).",
      "observed": "The -O2/-O3 builds print \"acc=0 (expected 12)\". No crash \u2014 the value is silently wrong."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226696"
+    "report": ""
    }
   ]
  }
