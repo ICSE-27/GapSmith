@@ -1,0 +1,888 @@
+{"name": "t12c_1", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_26838e11'"}
+{"name": "t12c_6", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b5603416'"}
+{"name": "t12c_0", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_abb3abe1'"}
+{"name": "t12c_7", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_03bcf358'"}
+{"name": "t12c_2", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_27bb7922'"}
+{"name": "t12c_4", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_39982b1d'"}
+{"name": "t12c_5", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_da134eda'"}
+{"name": "t12c_3", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4016b61d'"}
+{"name": "t12c_8", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4a292e43'"}
+{"name": "t12c_9", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_71fa86a0'"}
+{"name": "t12c_0", "status": "MISCOMPILE", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=1 out=acc=1 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_0.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_2", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_2.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_5", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_5.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_3", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_3.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_1", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_1.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_4", "status": "MISCOMPILE", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=1 out=acc=0 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_4.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_7", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_7.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_10", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f7b0d600'"}
+{"name": "t12c_6", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_6.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_11", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_57d67505'"}
+{"name": "t12c_9", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_9.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_10", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_10.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_12", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cac93464'"}
+{"name": "t12c_13", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4aac4675'"}
+{"name": "t12c_8", "status": "MISCOMPILE", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=1 out=acc=0 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_8.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_14", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c4eb72cd'"}
+{"name": "t12c_15", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2a7a0728'"}
+{"name": "t12c_16", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7ef3fd2a'"}
+{"name": "t12c_11", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_11.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_17", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fc542ea6'"}
+{"name": "t12c_13", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_13.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_12", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_12.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_14", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_14.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_15", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_15.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_16", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_16.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_20", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_bfe7997c'"}
+{"name": "t12c_17", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_17.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_22", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0bfc6e97'"}
+{"name": "t12c_18", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_18.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_20", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_20.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_19", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_19.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_18", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_03cacf9c'"}
+{"name": "t12c_23", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0654d576'"}
+{"name": "t12c_19", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b6763602'"}
+{"name": "t12c_24", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b68276a7'"}
+{"name": "t12c_25", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2e59643d'"}
+{"name": "t12c_21", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_21.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_21", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d1473dd0'"}
+{"name": "t12c_26", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ebab33b4'"}
+{"name": "t12c_22", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_22.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_27", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_44cc1681'"}
+{"name": "t12c_28", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e8f709df'"}
+{"name": "t12c_23", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_23.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_29", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1a6ea14a'"}
+{"name": "t12c_24", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=128592 ref=128592 err=; -O3:exit=0 out=acc=128592 ref=128592 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_24.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_25", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_25.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_26", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294903 ref=294903 err=; -O3:exit=0 out=acc=294903 ref=294903 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_26.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_32", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f2a56671'"}
+{"name": "t12c_31", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c8f15a52'"}
+{"name": "t12c_27", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=900 ref=900 err=; -O2:exit=0 out=acc=900 ref=900 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_27.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_29", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_29.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_28", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_28.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_33", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b4cb46de'"}
+{"name": "t12c_34", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f1c1e860'"}
+{"name": "t12c_35", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3a54e4dc'"}
+{"name": "t12c_30", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_30.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_30", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5ec95a72'"}
+{"name": "t12c_32", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_32.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_31", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_31.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_37", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7ad101d2'"}
+{"name": "t12c_38", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9701b857'"}
+{"name": "t12c_33", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_33.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_34", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_34.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_39", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1798b19e'"}
+{"name": "t12c_35", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_35.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_40", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_916552a9'"}
+{"name": "t12c_36", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=549315 ref=549315 err=; -O3:exit=0 out=acc=549315 ref=549315 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_36.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_41", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_49727859'"}
+{"name": "t12c_37", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_37.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_36", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_bc7da9f0'"}
+{"name": "t12c_38", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294912 ref=294912 err=; -O3:exit=0 out=acc=294912 ref=294912 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_38.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_42", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_903d1f45'"}
+{"name": "t12c_39", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_39.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_45", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_84c08a9e'"}
+{"name": "t12c_40", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_40.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_41", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_41.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_46", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b6e5663c'"}
+{"name": "t12c_42", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_42.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_48", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8a4f030c'"}
+{"name": "t12c_43", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_43.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_43", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_38ae9ed1'"}
+{"name": "t12c_44", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_44.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_44", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ed0d9ff6'"}
+{"name": "t12c_45", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_45.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_49", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_42a01b5b'"}
+{"name": "t12c_46", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_46.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_50", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c1d400f1'"}
+{"name": "t12c_51", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8b58f10f'"}
+{"name": "t12c_47", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_47.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_48", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=549315 ref=549315 err=; -O3:exit=0 out=acc=549315 ref=549315 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_48.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_52", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_55071053'"}
+{"name": "t12c_47", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_530704ac'"}
+{"name": "t12c_49", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_49.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_53", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cc0935db'"}
+{"name": "t12c_54", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a4e91247'"}
+{"name": "t12c_55", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_419a1a5d'"}
+{"name": "t12c_50", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294912 ref=294912 err=; -O3:exit=0 out=acc=294912 ref=294912 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_50.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_51", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_51.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_56", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_546c7eab'"}
+{"name": "t12c_52", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_52.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_57", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_22432b79'"}
+{"name": "t12c_53", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_53.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_54", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_54.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_58", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_227ba961'"}
+{"name": "t12c_59", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b35eac9a'"}
+{"name": "t12c_55", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_55.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_60", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1071992d'"}
+{"name": "t12c_61", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8d664a01'"}
+{"name": "t12c_56", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_56.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_57", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_57.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_62", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_77c1eaf1'"}
+{"name": "t12c_63", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ba09c416'"}
+{"name": "t12c_64", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0c19de40'"}
+{"name": "t12c_58", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_58.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_59", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_59.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_60", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_60.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_65", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a45f6d14'"}
+{"name": "t12c_61", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_61.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_66", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_adb441fe'"}
+{"name": "t12c_62", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_62.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_67", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5226058c'"}
+{"name": "t12c_63", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_63.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_68", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f862ce0a'"}
+{"name": "t12c_64", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_64.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_65", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_65.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_69", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_934c5690'"}
+{"name": "t12c_70", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_415025df'"}
+{"name": "t12c_66", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_66.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_67", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_67.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_72", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_24ef4760'"}
+{"name": "t12c_73", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d25012af'"}
+{"name": "t12c_68", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_68.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_74", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_549658cc'"}
+{"name": "t12c_69", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_69.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_76", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_306ef1a9'"}
+{"name": "t12c_75", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4352a3f6'"}
+{"name": "t12c_71", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_70", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_70.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_71", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_76", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_306ef1a9'"}
+{"name": "t12c_72", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_72.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_77", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_19e9b8f0'"}
+{"name": "t12c_73", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_73.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_74", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_74.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_78", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_072f1c34'"}
+{"name": "t12c_79", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ea1e7af1'"}
+{"name": "t12c_75", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_75.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_80", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_db90b4f8'"}
+{"name": "t12c_81", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a1b7a6c2'"}
+{"name": "t12c_82", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f1dd260e'"}
+{"name": "t12c_77", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_77.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_83", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_34f1179a'"}
+{"name": "t12c_78", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_78.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_79", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_79.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_84", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_681f4881'"}
+{"name": "t12c_85", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c4dd6f33'"}
+{"name": "t12c_80", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_80.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_82", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_82.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_86", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4d27aef2'"}
+{"name": "t12c_81", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_81.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_87", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a28cac22'"}
+{"name": "t12c_83", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_83.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_88", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_81acb499'"}
+{"name": "t12c_85", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_85.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_84", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_84.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_89", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d8cf3ccf'"}
+{"name": "t12c_90", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_58c0797b'"}
+{"name": "t12c_86", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_86.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_87", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_87.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_92", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9f477f60'"}
+{"name": "t12c_91", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f59fd17c'"}
+{"name": "t12c_88", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_88.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_90", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_90.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_89", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_89.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_95", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_845fb49e'"}
+{"name": "t12c_94", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_933eb400'"}
+{"name": "t12c_96", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_48709446'"}
+{"name": "t12c_91", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_91.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_92", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_92.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_94", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_94.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_93", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_93.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_93", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6a55bc3d'"}
+{"name": "t12c_98", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_177cf05a'"}
+{"name": "t12c_99", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8933f1ff'"}
+{"name": "t12c_95", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_95.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_100", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3273679c'"}
+{"name": "t12c_96", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_96.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_101", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_439b66e7'"}
+{"name": "t12c_97", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_97.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_97", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7bf3b05e'"}
+{"name": "t12c_98", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_98.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_99", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_99.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_103", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1fcb72d2'"}
+{"name": "t12c_102", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_052569ee'"}
+{"name": "t12c_104", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b42f6a11'"}
+{"name": "t12c_100", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_100.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_105", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_87f38b6b'"}
+{"name": "t12c_101", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_101.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_106", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fa513b64'"}
+{"name": "t12c_107", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_716b616d'"}
+{"name": "t12c_108", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4f4f7844'"}
+{"name": "t12c_102", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_102.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_105", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_105.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_109", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_09080fa7'"}
+{"name": "t12c_104", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_104.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_103", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_103.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_106", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_106.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_111", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_198e2621'"}
+{"name": "t12c_108", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=128592 ref=128592 err=; -O3:exit=0 out=acc=128592 ref=128592 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_108.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_112", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d5290b71'"}
+{"name": "t12c_113", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1eb04e6d'"}
+{"name": "t12c_107", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_107.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_109", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_109.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_114", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a6e8dc2a'"}
+{"name": "t12c_110", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294903 ref=294903 err=; -O3:exit=0 out=acc=294903 ref=294903 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_110.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_110", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294903 ref=294903 err=; -O3:exit=0 out=acc=294903 ref=294903 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_110.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_115", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d1ec1a85'"}
+{"name": "t12c_111", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=900 ref=900 err=; -O2:exit=0 out=acc=900 ref=900 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_111.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_116", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_142f541e'"}
+{"name": "t12c_112", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_112.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_113", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_113.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_118", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e1b09bfe'"}
+{"name": "t12c_120", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6f12c93a'"}
+{"name": "t12c_114", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_114.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_115", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_115.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_119", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e23a6baa'"}
+{"name": "t12c_116", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_116.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_122", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e258a42c'"}
+{"name": "t12c_117", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_117.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_117", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_117.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_119", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_119.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_123", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e3ce14fd'"}
+{"name": "t12c_120", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=549315 ref=549315 err=; -O3:exit=0 out=acc=549315 ref=549315 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_120.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_121", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_121.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_124", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_34d59370'"}
+{"name": "t12c_118", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_118.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_121", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7d0fa495'"}
+{"name": "t12c_125", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_03a64be7'"}
+{"name": "t12c_126", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_1e0a0bb0'"}
+{"name": "t12c_126", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1e0a0bb0'"}
+{"name": "t12c_122", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294912 ref=294912 err=; -O3:exit=0 out=acc=294912 ref=294912 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_122.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_127", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5ffbd0a6'"}
+{"name": "t12c_123", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_123.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_125", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_125.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_128", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_99333673'"}
+{"name": "t12c_129", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_82275c47'"}
+{"name": "t12c_124", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_124.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_132", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_38827a7c'"}
+{"name": "t12c_127", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_127.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_133", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_84ad1f6c'"}
+{"name": "t12c_134", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_315a0965'"}
+{"name": "t12c_128", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_128.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_129", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_129.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_130", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_130.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_131", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_131.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_135", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f732e74b'"}
+{"name": "t12c_130", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_989c52fa'"}
+{"name": "t12c_132", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=549315 ref=549315 err=; -O3:exit=0 out=acc=549315 ref=549315 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_132.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_131", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_99f65596'"}
+{"name": "t12c_136", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_18703d89'"}
+{"name": "t12c_133", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_133.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_134", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294912 ref=294912 err=; -O3:exit=0 out=acc=294912 ref=294912 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_134.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_137", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b4ec9538'"}
+{"name": "t12c_138", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7284794d'"}
+{"name": "t12c_135", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_135.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_136", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_136.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_140", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f2a02910'"}
+{"name": "t12c_139", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_bfb3a1aa'"}
+{"name": "t12c_141", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5972db76'"}
+{"name": "t12c_142", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2b338916'"}
+{"name": "t12c_143", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0fd70989'"}
+{"name": "t12c_137", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_137.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_138", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_138.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_144", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7a74ac8e'"}
+{"name": "t12c_139", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_139.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_145", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3fce28ac'"}
+{"name": "t12c_140", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_140.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_146", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3410af83'"}
+{"name": "t12c_141", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_141.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_143", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_143.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_142", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_142.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_144", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_144.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_149", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_abf2836a'"}
+{"name": "t12c_148", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4a59abc2'"}
+{"name": "t12c_145", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_145.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_150", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5fe93ece'"}
+{"name": "t12c_151", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e9cbcd60'"}
+{"name": "t12c_146", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_146.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_152", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_da55594f'"}
+{"name": "t12c_153", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_aacff702'"}
+{"name": "t12c_147", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_147.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_147", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_147.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_153", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_aacff702'"}
+{"name": "t12c_149", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_149.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_148", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_148.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_154", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_65b45cc5'"}
+{"name": "t12c_150", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_150.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_155", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a84afa3b'"}
+{"name": "t12c_151", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_151.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_152", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_152.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_157", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a9ee876f'"}
+{"name": "t12c_158", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3c8fb252'"}
+{"name": "t12c_159", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_55d1fd35'"}
+{"name": "t12c_154", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_154.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_160", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6140c35a'"}
+{"name": "t12c_155", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_155.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_161", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_87ed50d1'"}
+{"name": "t12c_162", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_62ac895e'"}
+{"name": "t12c_157", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_157.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_156", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_156", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0733d9c0'"}
+{"name": "t12c_163", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4f33bb70'"}
+{"name": "t12c_158", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_158.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_159", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_159.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_164", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8fd735c6'"}
+{"name": "t12c_160", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_160.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_165", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3099e4be'"}
+{"name": "t12c_161", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_161.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_162", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_162.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_167", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4bc57531'"}
+{"name": "t12c_163", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_163.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_168", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9ddf90d8'"}
+{"name": "t12c_169", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c7c5631e'"}
+{"name": "t12c_164", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_164.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_170", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_741820bd'"}
+{"name": "t12c_171", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5ba3b4b9'"}
+{"name": "t12c_165", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_165.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_166", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_166", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e1c930ec'"}
+{"name": "t12c_172", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c2d88a1b'"}
+{"name": "t12c_167", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_167.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_168", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_168.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_173", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_180b4cf2'"}
+{"name": "t12c_169", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_169.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_174", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e664e829'"}
+{"name": "t12c_170", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_170.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_171", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_171.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_175", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_667664e4'"}
+{"name": "t12c_176", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a972870d'"}
+{"name": "t12c_172", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_172.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_177", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_00a333f7'"}
+{"name": "t12c_173", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_173.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_179", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ff967ee3'"}
+{"name": "t12c_174", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_174.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_180", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_31c42c7a'"}
+{"name": "t12c_175", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_175.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_181", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_aff6ba00'"}
+{"name": "t12c_176", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_176.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_182", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_71e99d65'"}
+{"name": "t12c_178", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_178.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_177", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_177.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_178", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_178.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_183", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_785babac'"}
+{"name": "t12c_179", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_179.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_180", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_180.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_184", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9c3da53b'"}
+{"name": "t12c_185", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4663a776'"}
+{"name": "t12c_181", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_181.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_186", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a470ce22'"}
+{"name": "t12c_182", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_182.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_183", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_183.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_187", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2fac33fe'"}
+{"name": "t12c_188", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a6764181'"}
+{"name": "t12c_184", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_184.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_189", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_211b4bca'"}
+{"name": "t12c_185", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_185.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_191", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_37bf784d'"}
+{"name": "t12c_186", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_186.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_192", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_192", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_643fc916'"}
+{"name": "t12c_188", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_188.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_189", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_189.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_187", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_187.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_194", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c5c3e4d5'"}
+{"name": "t12c_190", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_190.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_190", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_190.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_195", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7b9d5643'"}
+{"name": "t12c_191", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_191.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_196", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0402d76c'"}
+{"name": "t12c_194", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O3:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_194.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_193", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_193.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_193", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_559e428a'"}
+{"name": "t12c_197", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_10f82c74'"}
+{"name": "t12c_195", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=900 ref=900 err=; -O2:exit=0 out=acc=900 ref=900 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_195.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_199", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_860de682'"}
+{"name": "t12c_200", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_200", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_15d9c251'"}
+{"name": "t12c_196", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294966720 ref=4294966720 err=; -O3:exit=0 out=acc=4294966720 ref=4294966720 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_196.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_201", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5c6a9be8'"}
+{"name": "t12c_197", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_197.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_203", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_97784a24'"}
+{"name": "t12c_202", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_47b463ab'"}
+{"name": "t12c_198", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O3:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_198.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_199", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_199.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_198", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e9ed6f57'"}
+{"name": "t12c_204", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_664c6290'"}
+{"name": "t12c_205", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f4dc33f6'"}
+{"name": "t12c_201", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_201.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_202", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O3:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_202.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_207", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f89fdffb'"}
+{"name": "t12c_203", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_203.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_204", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=963 ref=963 err=; -O3:exit=0 out=acc=963 ref=963 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_204.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_209", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8f93002e'"}
+{"name": "t12c_208", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6cfc0d16'"}
+{"name": "t12c_205", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2295 ref=2295 err=; -O2:exit=0 out=acc=2295 ref=2295 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_205.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_210", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e2426545'"}
+{"name": "t12c_207", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_207.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_211", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_206", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_206.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_206", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d866bd54'"}
+{"name": "t12c_211", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0445fa4c'"}
+{"name": "t12c_208", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1284 ref=1284 err=; -O3:exit=0 out=acc=1284 ref=1284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_208.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_210", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_210.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_213", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0e8658c7'"}
+{"name": "t12c_209", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=3060 ref=3060 err=; -O2:exit=0 out=acc=3060 ref=3060 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_209.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_214", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fa8909a0'"}
+{"name": "t12c_215", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e151ae83'"}
+{"name": "t12c_218", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_e37d3883'"}
+{"name": "t12c_217", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c3b7ca7e'"}
+{"name": "t12c_212", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1284 ref=1284 err=; -O3:exit=0 out=acc=1284 ref=1284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_212.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_212", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1284 ref=1284 err=; -O3:exit=0 out=acc=1284 ref=1284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_212.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_213", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=3060 ref=3060 err=; -O2:exit=0 out=acc=3060 ref=3060 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_213.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_218", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e37d3883'"}
+{"name": "t12c_219", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_219", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_220", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_158fac81'"}
+{"name": "t12c_214", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_214.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_215", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_215.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_221", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_feebfaad'"}
+{"name": "t12c_217", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2295 ref=2295 err=; -O2:exit=0 out=acc=2295 ref=2295 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_217.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_221", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_feebfaad'"}
+{"name": "t12c_216", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=963 ref=963 err=; -O3:exit=0 out=acc=963 ref=963 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_216.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_222", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1a219a51'"}
+{"name": "t12c_216", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e7579577'"}
+{"name": "t12c_224", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d24f4065'"}
+{"name": "t12c_220", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1284 ref=1284 err=; -O3:exit=0 out=acc=1284 ref=1284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_220.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_225", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f497ec26'"}
+{"name": "t12c_226", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f774fc00'"}
+{"name": "t12c_227", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_963b6182'"}
+{"name": "t12c_227", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_963b6182'"}
+{"name": "t12c_228", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_63b91605'"}
+{"name": "t12c_222", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_222.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_229", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_46f83f78'"}
+{"name": "t12c_223", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_223", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_12d42653'"}
+{"name": "t12c_225", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=3060 ref=3060 err=; -O2:exit=0 out=acc=3060 ref=3060 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_225.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_224", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1284 ref=1284 err=; -O3:exit=0 out=acc=1284 ref=1284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_224.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_230", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_485b31c0'"}
+{"name": "t12c_226", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_226.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_231", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c5296b8b'"}
+{"name": "t12c_232", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_c110a1a0'"}
+{"name": "t12c_232", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c110a1a0'"}
+{"name": "t12c_228", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_228.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_229", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_229.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_233", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2e48dd63'"}
+{"name": "t12c_234", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_39337aec'"}
+{"name": "t12c_230", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_230.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_235", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_363c7f2e'"}
+{"name": "t12c_236", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_046034c2'"}
+{"name": "t12c_231", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_231.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_237", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_dc985110'"}
+{"name": "t12c_238", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_1ed79156'"}
+{"name": "t12c_238", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1ed79156'"}
+{"name": "t12c_233", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_233.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_240", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9b38130e'"}
+{"name": "t12c_239", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d3622a5e'"}
+{"name": "t12c_234", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_234.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_236", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_236.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_235", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_235.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_237", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_237.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_241", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f58a2b79'"}
+{"name": "t12c_242", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_813c2611'"}
+{"name": "t12c_243", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_61efc958'"}
+{"name": "t12c_244", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_415b28b1'"}
+{"name": "t12c_239", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_239.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_240", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_240.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_245", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d8420cf1'"}
+{"name": "t12c_241", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_241.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_246", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_06790426'"}
+{"name": "t12c_247", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4b9b9d38'"}
+{"name": "t12c_242", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_242.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_248", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e8a74441'"}
+{"name": "t12c_243", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_243.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_244", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_244.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_250", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c16f6a97'"}
+{"name": "t12c_245", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_245.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_248", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_248.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_246", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_246.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_251", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_41d1e3fa'"}
+{"name": "t12c_252", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_87f82ae0'"}
+{"name": "t12c_247", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_247.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_253", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_44e07796'"}
+{"name": "t12c_249", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_249.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_254", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8825f637'"}
+{"name": "t12c_249", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_249.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_250", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_250.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_251", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_251.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_252", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_252.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_255", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2e38bd24'"}
+{"name": "t12c_256", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c59445cc'"}
+{"name": "t12c_258", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_526e07d7'"}
+{"name": "t12c_253", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_253.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_257", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_84192b62'"}
+{"name": "t12c_254", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_254.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_259", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f3c6f204'"}
+{"name": "t12c_260", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_085fef64'"}
+{"name": "t12c_255", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_255.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_262", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6d8dce82'"}
+{"name": "t12c_256", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_256.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_257", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_257.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_261", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_63e0bf2e'"}
+{"name": "t12c_258", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_258.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_264", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fbb0bf14'"}
+{"name": "t12c_259", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_259.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_260", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_260.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_265", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3118f44d'"}
+{"name": "t12c_262", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_262.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_266", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_637c6fcc'"}
+{"name": "t12c_267", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_caf820cc'"}
+{"name": "t12c_261", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_261.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_268", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_57481a86'"}
+{"name": "t12c_264", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_264.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_263", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_263.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_263", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6228c1db'"}
+{"name": "t12c_269", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f04a5e91'"}
+{"name": "t12c_265", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_265.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_270", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_09aa46cf'"}
+{"name": "t12c_266", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_266.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_268", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_268.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_272", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e2bb9e22'"}
+{"name": "t12c_271", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b799d283'"}
+{"name": "t12c_267", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_267.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_273", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ae6f333e'"}
+{"name": "t12c_274", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_aac8a7dd'"}
+{"name": "t12c_269", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_269.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_275", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_35b2b38f'"}
+{"name": "t12c_270", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_270.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_271", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_271.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_276", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fc37653a'"}
+{"name": "t12c_277", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a8576f94'"}
+{"name": "t12c_272", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_272.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_273", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_273.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_278", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_972a03cd'"}
+{"name": "t12c_274", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_274.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_279", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b9d503b6'"}
+{"name": "t12c_280", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_3aea0aaa'"}
+{"name": "t12c_275", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_275.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_280", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3aea0aaa'"}
+{"name": "t12c_276", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294926787 ref=4294926787 err=; -O3:exit=0 out=acc=4294926787 ref=4294926787 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_276.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_281", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_052d78bf'"}
+{"name": "t12c_283", "status": "HARNESS_FAIL", "signature": "[Errno 13] Permission denied: '/tmp/vh_run_1108094_ad86c00a'"}
+{"name": "t12c_277", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_277.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_278", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294672384 ref=4294672384 err=; -O3:exit=0 out=acc=4294672384 ref=4294672384 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_278.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_282", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_168fef7f'"}
+{"name": "t12c_279", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=900 ref=900 err=; -O2:exit=0 out=acc=900 ref=900 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_279.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_284", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9e2caca2'"}
+{"name": "t12c_283", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ad86c00a'"}
+{"name": "t12c_285", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3c98658b'"}
+{"name": "t12c_286", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_44b696f0'"}
+{"name": "t12c_281", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_281.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_282", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294574080 ref=4294574080 err=; -O3:exit=0 out=acc=4294574080 ref=4294574080 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_282.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_287", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cb0b891c'"}
+{"name": "t12c_288", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_542fc049'"}
+{"name": "t12c_289", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b7143beb'"}
+{"name": "t12c_284", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294913284 ref=4294913284 err=; -O3:exit=0 out=acc=4294913284 ref=4294913284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_284.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_285", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_285.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_291", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_09fd3b5b'"}
+{"name": "t12c_286", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294574080 ref=4294574080 err=; -O3:exit=0 out=acc=4294574080 ref=4294574080 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_286.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_287", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_287.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_292", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_574aea06'"}
+{"name": "t12c_293", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b61002e4'"}
+{"name": "t12c_288", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=128592 ref=128592 err=; -O3:exit=0 out=acc=128592 ref=128592 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_288.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_294", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e15d84a5'"}
+{"name": "t12c_289", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_289.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_295", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5519196e'"}
+{"name": "t12c_290", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294903 ref=294903 err=; -O3:exit=0 out=acc=294903 ref=294903 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_290.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_290", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fcd10219'"}
+{"name": "t12c_291", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_291.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_296", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b51e9390'"}
+{"name": "t12c_292", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_292.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_297", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1c42b8f7'"}
+{"name": "t12c_293", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_293.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_298", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6fe21458'"}
+{"name": "t12c_294", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_294.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_299", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e66f0f17'"}
+{"name": "t12c_295", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_295.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_300", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e850b122'"}
+{"name": "t12c_301", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_98f5dce0'"}
+{"name": "t12c_296", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_296.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_302", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8209c795'"}
+{"name": "t12c_297", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_297.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_303", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a960d57e'"}
+{"name": "t12c_301", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_301.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_304", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5eca419e'"}
+{"name": "t12c_299", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_299.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_298", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_298.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_306", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_29048656'"}
+{"name": "t12c_305", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b33b1813'"}
+{"name": "t12c_300", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_300.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_302", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_302.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_303", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_303.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_307", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4c0d0e5d'"}
+{"name": "t12c_308", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_14f0ad3d'"}
+{"name": "t12c_310", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c55bd45d'"}
+{"name": "t12c_305", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_305.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_311", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_48b2b319'"}
+{"name": "t12c_304", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_304.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_309", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_eac6d581'"}
+{"name": "t12c_306", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_306.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_307", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_307.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_312", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7869122b'"}
+{"name": "t12c_308", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_308.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_316", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_00c6e8de'"}
+{"name": "t12c_309", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_309.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_310", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_310.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_312", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_312.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_315", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d1bf62a1'"}
+{"name": "t12c_311", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_311.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_317", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b70a3fdc'"}
+{"name": "t12c_318", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_410430ce'"}
+{"name": "t12c_314", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_314.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_313", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_313.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_313", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d2481311'"}
+{"name": "t12c_316", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_316.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_319", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_69c7b865'"}
+{"name": "t12c_315", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_315.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_317", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_317.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_320", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5a955974'"}
+{"name": "t12c_321", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_41e99a10'"}
+{"name": "t12c_314", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_314.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_318", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_318.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_322", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e39bef8c'"}
+{"name": "t12c_323", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_45369d27'"}
+{"name": "t12c_320", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_320.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_324", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_67786bb8'"}
+{"name": "t12c_319", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_319.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_325", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c9a39d88'"}
+{"name": "t12c_326", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_496592fe'"}
+{"name": "t12c_321", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_321.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_322", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_322.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_327", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cfbd9413'"}
+{"name": "t12c_328", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_27ed22a4'"}
+{"name": "t12c_324", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294926787 ref=4294926787 err=; -O3:exit=0 out=acc=4294926787 ref=4294926787 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_324.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_323", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_323.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_329", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1e4468a1'"}
+{"name": "t12c_326", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294672384 ref=4294672384 err=; -O3:exit=0 out=acc=4294672384 ref=4294672384 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_326.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_330", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6e455f7b'"}
+{"name": "t12c_325", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_325.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_331", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a2de97de'"}
+{"name": "t12c_328", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294913284 ref=4294913284 err=; -O3:exit=0 out=acc=4294913284 ref=4294913284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_328.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_332", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ce33d32e'"}
+{"name": "t12c_327", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_327.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_329", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_329.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_334", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_77f5d8a7'"}
+{"name": "t12c_330", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294574080 ref=4294574080 err=; -O3:exit=0 out=acc=4294574080 ref=4294574080 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_330.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_335", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c895a969'"}
+{"name": "t12c_336", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8e6b1812'"}
+{"name": "t12c_337", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b1cf6655'"}
+{"name": "t12c_338", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_eacc7dd5'"}
+{"name": "t12c_331", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_331.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_333", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_333.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_332", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294913284 ref=4294913284 err=; -O3:exit=0 out=acc=4294913284 ref=4294913284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_332.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_333", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_333.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_334", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294574080 ref=4294574080 err=; -O3:exit=0 out=acc=4294574080 ref=4294574080 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_334.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_339", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fcc8adbf'"}
+{"name": "t12c_335", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_335.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_340", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_85a3fbd4'"}
+{"name": "t12c_336", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_336.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_338", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_338.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_337", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_337.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_343", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c99aa03d'"}
+{"name": "t12c_341", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2164064c'"}
+{"name": "t12c_344", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_68567328'"}
+{"name": "t12c_339", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_339.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_340", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_340.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_345", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_048104c5'"}
+{"name": "t12c_347", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_83027989'"}
+{"name": "t12c_342", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_342.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_342", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_12192775'"}
+{"name": "t12c_343", "status": "CLEAN", "signature": "-O1:exit=1 out=acc=4294967293 ref=4294967269 err=; -O2:exit=1 out=acc=4294967293 ref=4294967269 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_343.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_341", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_341.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_348", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_27ef8ca0'"}
+{"name": "t12c_344", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_344.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_349", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_114585e3'"}
+{"name": "t12c_345", "status": "CLEAN", "signature": "-O1:exit=1 out=acc=0 ref=4294967260 err=; -O2:exit=1 out=acc=0 ref=4294967260 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_345.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_346", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_346.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_350", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ccfff3f6'"}
+{"name": "t12c_346", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4f6ad2dc'"}
+{"name": "t12c_347", "status": "CLEAN", "signature": "-O1:exit=1 out=acc=0 ref=4294967260 err=; -O2:exit=1 out=acc=0 ref=4294967260 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_347.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_351", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b23477fb'"}
+{"name": "t12c_352", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_54348fbe'"}
+{"name": "t12c_348", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_348.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_353", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8ae0f6fa'"}
+{"name": "t12c_349", "status": "CLEAN", "signature": "-O1:exit=1 out=acc=4294967294 ref=4294967278 err=; -O2:exit=1 out=acc=4294967294 ref=4294967278 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_349.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_354", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_13479a39'"}
+{"name": "t12c_350", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_350.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_355", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9f8aa9ed'"}
+{"name": "t12c_356", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_70d89ae5'"}
+{"name": "t12c_351", "status": "CLEAN", "signature": "-O1:exit=1 out=acc=0 ref=4294967272 err=; -O2:exit=1 out=acc=0 ref=4294967272 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_351.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_352", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_352.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_357", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b36d1ec4'"}
+{"name": "t12c_353", "status": "CLEAN", "signature": "-O1:exit=1 out=acc=0 ref=4294967272 err=; -O2:exit=1 out=acc=0 ref=4294967272 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_353.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_358", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6f8dcf15'"}
+{"name": "t12c_354", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_354.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_359", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e3e37852'"}
+{"name": "t12c_355", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_355.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_360", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_42e61429'"}
+{"name": "t12c_356", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_356.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_361", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5211b63c'"}
+{"name": "t12c_357", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_357.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_362", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_94bc2319'"}
+{"name": "t12c_358", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_358.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_363", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8a8b111e'"}
+{"name": "t12c_364", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_75e2e71c'"}
+{"name": "t12c_359", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_359.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_365", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0bc1741b'"}
+{"name": "t12c_360", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_360.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_361", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_361.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_366", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0377cf99'"}
+{"name": "t12c_362", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_362.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_363", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_363.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_367", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e431cff6'"}
+{"name": "t12c_369", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c4badc0c'"}
+{"name": "t12c_365", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_365.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_364", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_364.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_366", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_366.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_370", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_92dc854c'"}
+{"name": "t12c_371", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_dca5f73a'"}
+{"name": "t12c_367", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_367.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_372", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_c61c6442'"}
+{"name": "t12c_368", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_368.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_368", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_791fcf76'"}
+{"name": "t12c_369", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_369.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_370", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_370.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_375", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_6886dea8'"}
+{"name": "t12c_371", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_371.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_372", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_372.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_376", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_91d22c06'"}
+{"name": "t12c_378", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_dbe5bc2e'"}
+{"name": "t12c_377", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_482a417e'"}
+{"name": "t12c_373", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_373.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_373", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8c442c90'"}
+{"name": "t12c_379", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4fd806d7'"}
+{"name": "t12c_374", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_374", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2a64d89d'"}
+{"name": "t12c_375", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_375.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_376", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_376.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_380", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a11c4cec'"}
+{"name": "t12c_381", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_041810d6'"}
+{"name": "t12c_377", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_377.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_378", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_378.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_383", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5a595f80'"}
+{"name": "t12c_379", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_379.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_384", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8e163f07'"}
+{"name": "t12c_385", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_b004c646'"}
+{"name": "t12c_380", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_380.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_386", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0ffe5453'"}
+{"name": "t12c_381", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_381.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_382", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_387", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8f4e27aa'"}
+{"name": "t12c_382", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_383", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_383.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_384", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=128592 ref=128592 err=; -O3:exit=0 out=acc=128592 ref=128592 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_384.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_388", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_57902582'"}
+{"name": "t12c_389", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3db3fe3f'"}
+{"name": "t12c_385", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_385.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_386", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294903 ref=294903 err=; -O3:exit=0 out=acc=294903 ref=294903 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_386.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_390", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e35b859e'"}
+{"name": "t12c_391", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7c0ca97b'"}
+{"name": "t12c_387", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=900 ref=900 err=; -O2:exit=0 out=acc=900 ref=900 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_387.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_388", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_388.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_393", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d00d0bd3'"}
+{"name": "t12c_394", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_eb026252'"}
+{"name": "t12c_389", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_389.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_395", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_06189243'"}
+{"name": "t12c_390", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_390.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_391", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_391.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_396", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_70025929'"}
+{"name": "t12c_397", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_57bff5d0'"}
+{"name": "t12c_392", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_392.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_392", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=171456 ref=171456 err=; -O3:exit=0 out=acc=171456 ref=171456 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_392.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_393", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_393.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_398", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_fef9a5c6'"}
+{"name": "t12c_394", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393204 ref=393204 err=; -O3:exit=0 out=acc=393204 ref=393204 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_394.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_399", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8fc62a25'"}
+{"name": "t12c_395", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1200 ref=1200 err=; -O2:exit=0 out=acc=1200 ref=1200 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_395.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_400", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f687544e'"}
+{"name": "t12c_396", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=549315 ref=549315 err=; -O3:exit=0 out=acc=549315 ref=549315 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_396.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_397", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967287 ref=4294967287 err=; -O2:exit=0 out=acc=4294967287 ref=4294967287 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_397.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_401", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_35c02c8b'"}
+{"name": "t12c_403", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_0369c78c'"}
+{"name": "t12c_402", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7a388b53'"}
+{"name": "t12c_398", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294912 ref=294912 err=; -O3:exit=0 out=acc=294912 ref=294912 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_398.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_399", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_399.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_404", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_634d406a'"}
+{"name": "t12c_400", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_400.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_401", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_401.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_406", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4bf151d1'"}
+{"name": "t12c_407", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f195183f'"}
+{"name": "t12c_403", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_403.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_408", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cfb78745'"}
+{"name": "t12c_402", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_402.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_404", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_404.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_409", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_53a6eff3'"}
+{"name": "t12c_405", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_405.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_405", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=4294967284 ref=4294967284 err=; -O2:exit=0 out=acc=4294967284 ref=4294967284 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_405.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_410", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8c11353a'"}
+{"name": "t12c_406", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_406.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_411", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9067673d'"}
+{"name": "t12c_407", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_407.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_408", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=549315 ref=549315 err=; -O3:exit=0 out=acc=549315 ref=549315 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_408.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_412", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_7405c0d5'"}
+{"name": "t12c_409", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_409.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_414", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_f52ec2fb'"}
+{"name": "t12c_410", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=294912 ref=294912 err=; -O3:exit=0 out=acc=294912 ref=294912 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_410.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_411", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=1800 ref=1800 err=; -O2:exit=0 out=acc=1800 ref=1800 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_411.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_412", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_412.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_417", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a32576b7'"}
+{"name": "t12c_413", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_413.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_418", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_03ad986d'"}
+{"name": "t12c_413", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4be819c6'"}
+{"name": "t12c_414", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_414.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_419", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d2caec0a'"}
+{"name": "t12c_415", "status": "HARNESS_FAIL", "signature": "'utf-8' codec can't decode byte 0xf0 in position 1: invalid continuation byte"}
+{"name": "t12c_415", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_99b5584b'"}
+{"name": "t12c_416", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=732420 ref=732420 err=; -O3:exit=0 out=acc=732420 ref=732420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_416.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_416", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_311e6c8f'"}
+{"name": "t12c_417", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_417.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_420", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_36786641'"}
+{"name": "t12c_418", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=393216 ref=393216 err=; -O3:exit=0 out=acc=393216 ref=393216 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_418.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_421", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d0a4d1c2'"}
+{"name": "t12c_422", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_de4fe2b5'"}
+{"name": "t12c_419", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=2400 ref=2400 err=; -O2:exit=0 out=acc=2400 ref=2400 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_419.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_423", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8868eb63'"}
+{"name": "t12c_420", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_420.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_424", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cb29a7b4'"}
+{"name": "t12c_425", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a838c8e9'"}
+{"name": "t12c_426", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_2b4c872a'"}
+{"name": "t12c_421", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_421.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_422", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O3:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_422.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_427", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8ece0118'"}
+{"name": "t12c_423", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=9 ref=9 err=; -O2:exit=0 out=acc=9 ref=9 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_423.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_424", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_424.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_429", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_8d84545c'"}
+{"name": "t12c_430", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4c855552'"}
+{"name": "t12c_425", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_425.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_426", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_426.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_427", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_427.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_431", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_377f6abb'"}
+{"name": "t12c_428", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_428.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_433", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_4ec80d9e'"}
+{"name": "t12c_432", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e4a954a2'"}
+{"name": "t12c_428", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a6c76301'"}
+{"name": "t12c_429", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_429.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_434", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_1d19431f'"}
+{"name": "t12c_430", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O3:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_430.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_435", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_ef09a6e7'"}
+{"name": "t12c_436", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_d4a4956b'"}
+{"name": "t12c_431", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=12 ref=12 err=; -O2:exit=0 out=acc=12 ref=12 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_431.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_432", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_432.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_437", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_5af5196a'"}
+{"name": "t12c_433", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=589815 ref=589815 err=; -O2:exit=0 out=acc=589815 ref=589815 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_433.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_438", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_3fa6320f'"}
+{"name": "t12c_439", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_cb6dc580'"}
+{"name": "t12c_434", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_434.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_440", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_e8cd58b0'"}
+{"name": "t12c_435", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_435.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_436", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_436.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_437", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_437.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_442", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_9426ee6d'"}
+{"name": "t12c_438", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_438.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_443", "status": "HARNESS_FAIL", "signature": "[Errno 2] No such file or directory: '/tmp/vh_run_1108094_a629d724'"}
+{"name": "t12c_439", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_439.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_440", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_440.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_441", "status": "MISCOMPILE", "signature": "-O1:COMPILE_FAIL:/usr/bin/ld: /lib/x86_64-linux-gnu/Scrt1.o: in function `_start':\n(.text+0x1b): undefined reference to `main'\nclang++: e; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_441.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_441", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=786420 ref=786420 err=; -O2:exit=0 out=acc=786420 ref=786420 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_441.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}
+{"name": "t12c_443", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O2:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_443.cpp", "flags": ["-std=c++11"], "tag": "clangxx"}
+{"name": "t12c_442", "status": "CLEAN", "signature": "-O1:exit=0 out=acc=0 ref=0 err=; -O3:exit=0 out=acc=0 ref=0 err=", "file": "/data/mingxuanzhu/GapSmith/variant_hunt/variants/t12c_slp3/t12c_442.cpp", "flags": ["-std=c++11", "-mavx2"], "tag": "clangxx"}

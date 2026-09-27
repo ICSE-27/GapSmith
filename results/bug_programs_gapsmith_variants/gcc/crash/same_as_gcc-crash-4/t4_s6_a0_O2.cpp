@@ -1,0 +1,13 @@
+template<typename T>
+struct wrap {
+    void foo() {
+        static constexpr char string[] = "mew";
+        struct s1_t {
+            struct s2_t {
+                int dummy { 0 };
+                char* ptr { static_cast<char*>(::operator new(sizeof(string)))};
+            } s2;
+        } object;
+    }
+};
+int main() { wrap<int> w; w.foo(); }
