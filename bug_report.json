@@ -163,7 +163,7 @@
      "expected": "The file compiles successfully.",
      "observed": "internal compiler error: in enclosing_instantiation_of, at cp/pt.cc:15184\nReproduces at -O0 and -O2."
     },
-    "report": ""
+    "report": "Wait for account"
    }
   ],
   "Miscompilation": [
