@@ -5,7 +5,7 @@ struct outer {
         inner(Args...) { }
     };
 
-    inner(Args...) -> inner<int>; 
+    inner(Args...) -> inner<decltype(sizeof...(Args))>;
 };
 
 int main() {

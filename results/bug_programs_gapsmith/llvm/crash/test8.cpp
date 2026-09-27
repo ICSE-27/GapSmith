@@ -8,11 +8,11 @@ struct ConstantWrapper {
   }
 };
 
-struct Plus {
+struct Times {
   template <class T, class U>
-  constexpr auto operator()(T&& t, U&& u) const -> decltype(static_cast<T&&>(t) + static_cast<U&&>(u)) {
-    return static_cast<T&&>(t) + static_cast<U&&>(u);
+  constexpr auto operator()(T&& t, U&& u) const -> decltype(static_cast<T&&>(t) * static_cast<U&&>(u)) {
+    return static_cast<T&&>(t) * static_cast<U&&>(u);
   }
 };
 
-constexpr auto cwv = ConstantWrapper<Plus{}>{}(ConstantWrapper<42>{}, ConstantWrapper<17>{});
+constexpr auto cwv = ConstantWrapper<Times{}>{}(ConstantWrapper<42>{}, ConstantWrapper<17>{});

@@ -1,9 +1,6 @@
-typedef _Float16 TFtype;
-
+typedef _Float16 FT;
 int main() {
-    TFtype x = (TFtype)3.14;
-    TFtype y = (TFtype)1.0;
+    FT x = (FT)3.14, y = (FT)1.0, m = (FT)0.5;
     int n = 0;
-
-    return (y == x) ? (y + n) : !(x - y);
+    return (int)((x < y) ? !(m + 1) : (x * y));
 }

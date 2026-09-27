@@ -1,17 +1,16 @@
-#include <iostream>
 template<int& T>
-void FuncTemplate() {
-    std::cout << "Template instantiated with reference to int: " << T << std::endl;
-}
+void FuncTemplate() { (void)T; }
 
 template<int i> class A {};
 template<int i> void g(A<i> &) {
-    static int InternalVar = 43;
-    FuncTemplate<InternalVar>();
+    []()
+    {
+        static int InternalVar = 43;
+        FuncTemplate<InternalVar>();
+    }();
 }
 
-int main()
-{
+int main() {
   A<1> a;
   g(a);
 }

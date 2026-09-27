@@ -4,11 +4,9 @@ void foo() {
     struct s1_t {
         struct s2_t {
             int dummy { 0 };
-            char* ptr { static_cast<char*>(::operator new(sizeof(string)))};
+            void method() requires (sizeof(string) > 1) {}
         } s2;
     } object;
+    object.s2.method();
 };
-
-int main() {
-    foo<void>();
-}
+int main() { foo<void>(); }

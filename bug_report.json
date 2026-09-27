@@ -1,61 +1,137 @@
 {
+ "GCC": {
+  "Crash": [
+   {
+    "id": "gcc-crash-1",
+    "type": "Compiler crash (internal error in IPA mod-ref analysis, ealias pass)",
+    "language": "C",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test1.c",
+    "explanation": "Three nested functions inside one function, the first carrying a section attribute and called by the third, trip a gcc_checking_assert in gimple_call_static_chain_flags (gimple.cc:1683, 'nested functions should always bind to current def') during the ealias pass at -O1 and above; -O0 compiles cleanly. This is a different failure site than a nested-function lowering crash in tree-nested.cc: the compiler survives lowering and fails later in IPA mod-ref analysis. Program is GNU C (nested functions); clang rejects the extension by design, GCC-only construct.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xgcc -B gcc-14-build/gcc -O1 -c test1.c",
+     "expected": "The file compiles successfully (as it does at -O0).",
+     "observed": "internal compiler error: in gimple_call_static_chain_flags, at gimple.cc:1683\nReproduces at -O1/-O2/-O3/-Os (not -O0/-Og)."
+    },
+    "report": ""
+   },
+   {
+    "id": "gcc-crash-2",
+    "type": "Compiler crash (internal error in the C front end)",
+    "language": "C",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test2.c",
+    "explanation": "A conditional expression whose second operand applies logical negation to a _Float16 expression (!(m + 1)) while the third operand mixes _Float16 arithmetic trips the operand-1 gcc_assert in build_conditional_expr, at c/c-typeck.cc:5714. This is the sibling assertion of the previously seen operand-2 failure at line 5720 (same excess-precision handling, opposite operand position), reached at every optimization level. The program is valid: clang-19.1.7 accepts it cleanly (-std=c23, -fsyntax-only).",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xgcc -B gcc-14-build/gcc -c test2.c",
+     "expected": "The file compiles successfully.",
+     "observed": "internal compiler error: in build_conditional_expr, at c/c-typeck.cc:5714\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
+    },
+    "report": ""
+   },
+   {
+    "id": "gcc-crash-3",
+    "type": "Compiler crash (internal error in constant folding, C++ front end)",
+    "language": "C++",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test3.cpp",
+    "explanation": "A constexpr aggregate initialized with a pointer-to-member-function converted across virtual inheritance (static_cast<fn_t>(&Derived::doit) with 'struct Derived : virtual Base') aborts the C++ front end in fold_convert_loc (fold-const.cc:2757) at any optimization level. Same failure site as the non-virtual-inheritance case, reached through a different conversion shape. clang++-19 rejects the program (stricter constexpr member-pointer rules); for GCC it is at minimum a crash-on-invalid robustness failure \u2014 the compiler should diagnose, not ICE.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xg++ -B gcc-14-build/gcc -O0 -c test3.cpp",
+     "expected": "The file compiles successfully.",
+     "observed": "internal compiler error: in fold_convert_loc, at fold-const.cc:2757\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
+    },
+    "report": ""
+   },
+   {
+    "id": "gcc-crash-4",
+    "type": "Compiler crash (internal error in C++ name mangling)",
+    "language": "C++ (C++20)",
+    "program": "results/bug_programs_gapsmith/gcc/crash/test4.cpp",
+    "explanation": "A requires-clause on a member function of a nested local struct inside a template, referencing sizeof of a function-local static constexpr array, crashes GCC 14.3.0 in the name mangler: discriminator_for_local_entity (cp/mangle.cc:2264) hits gcc_checking_assert(DECL_ARTIFICIAL(entity)) on an entity with no lang-specific data. Reproduces at every optimization level with -std=c++20. (The same function has a known sibling report PR123529 at line 2316, which is RESOLVED; this line-2264 assertion survives that fix.) The program is valid C++20: clang++-19 accepts it cleanly; the ICE is in name mangling, not instantiation.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
+     "command": "xg++ -B gcc-14-build/gcc -std=c++20 -c test4.cpp",
+     "expected": "The file compiles successfully.",
+     "observed": "internal compiler error: in discriminator_for_local_entity, at cp/mangle.cc:2264\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
+    },
+    "report": ""
+   }
+  ],
+  "Miscompilation": [
+   {
+    "id": "gcc-miscompilation-1",
+    "type": "Miscompilation (asm goto with memory output operands; silent wrong value)",
+    "language": "C++",
+    "program": "results/bug_programs_gapsmith/gcc/miscompilation/test5.cpp",
+    "explanation": "asm goto with '+m' output operands and a thread_local memory input is miscompiled by GCC 14.3.0 on the label path: test(1) must return saved-1 = -1, but the generated code returns 0 at -O0/-O1 and 1 at -O2/-O3. No crash \u2014 a silent wrong value whose value itself depends on the optimization level, while clang 19.1.0 compiles the same source correctly at every level and the source is UBSan-clean. (Also reproduces on GCC 13.1: a longstanding asm-goto output-operand issue, i.e. a different manifestation than the -O1-only control-flow-merge crash family.) UBSan-clean (clang-19.1.7 -fsanitize=undefined -O0): no runtime errors; the miscompile is confirmed against clang as reference.",
+    "reproduce": {
+     "environment": "GCC 14.3.0 (x86-64-linux-gnu)",
+     "command": "xg++ -B gcc-14-build/gcc -O2 -std=c++20 test5.cpp -o a.out && ./a.out",
+     "expected": "The program prints \"normal=1\" then \"abort=-1\" (as clang 19.1.0 does at every optimization level).",
+     "observed": "-O0 and -O1 builds print \"abort=0\"; -O2 and -O3 builds print \"abort=1\"; none prints the correct -1."
+    },
+    "report": ""
+   }
+  ]
+ },
  "LLVM": {
   "Crash": [
    {
     "id": "llvm-crash-1",
     "type": "Compiler crash (Clang front end, during IR generation)",
-    "language": "C++ (C++20)",
+    "language": "C++ (C++17)",
     "program": "results/bug_programs_gapsmith/llvm/crash/test6.cpp",
-    "explanation": "Omitting typename on a dependent nested alias used as a return type crashes Clang 19.1.0 while instantiating the function, even on an assertions-off build.",
+    "explanation": "A class template that additionally declares an alias template over its nested dependent type (template<class U> using Alias = typename Inner::T2;) crashes Clang 19.1.0 when a function whose return type is the dependent nested alias without typename is instantiated: ASTContext::getTypeInfoImpl reaches an undeduced type. Crashes even on an assertions-off build. Alternative reproducer of the same getTypeInfoImpl failure. The program is valid: g++-13 accepts it cleanly; Clang crashes instead of compiling it.",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu, release build without assertions)",
-     "command": "clang++ -std=c++20 -c test6.cpp",
-     "expected": "The file compiles successfully (it is valid C++20).",
-     "observed": "The compiler crashes with a stack dump while generating IR for the instantiated function (ASTContext::getTypeInfoImpl reaches an undeduced auto type)."
+     "command": "clang++ -std=c++17 -c test6.cpp",
+     "expected": "The file compiles successfully (it is valid C++17).",
+     "observed": "The compiler crashes with a stack dump while generating IR for the instantiated function (DenseMap<Type const*, TypeInfo> lookup on an undeduced type)."
     },
-    "report": "Waiting"
+    "report": "https://github.com/llvm/llvm-project/issues/226688"
    },
    {
     "id": "llvm-crash-2",
-    "type": "Compiler crash (Clang front end, segmentation fault)",
+    "type": "Compiler crash (Clang CodeGen, DenseMap corruption)",
     "language": "C++",
     "program": "results/bug_programs_gapsmith/llvm/crash/test7.cpp",
-    "explanation": "A function-local static variable bound to a reference non-type template parameter segfaults Clang 19.1.0 during instantiation.",
+    "explanation": "A function-local static declared inside a lambda nested in a template function, bound to a reference non-type template parameter, crashes Clang 19.1.0 in code generation: the Expr-to-Value DenseMap corrupts (DenseMap<const clang::Expr*, llvm::Value*>::moveFromOldBuckets via CrashRecoveryContext). The same pattern without the intervening lambda crashes earlier in Sema instantiation instead \u2014 the lambda reroutes the failure into CodeGen, a different crash site. The program is valid: g++-13 accepts it cleanly; Clang crashes in CodeGen.",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu, release build without assertions)",
      "command": "clang++ -c test7.cpp",
      "expected": "The file compiles successfully.",
-     "observed": "Segmentation fault (the front end queries constant-size-type info on a dependent type)."
+     "observed": "The compiler crashes with a stack dump whose top frames are in llvm::DenseMapBase<... clang::Expr const*, llvm::Value* ...>::moveFromOldBuckets during CodeGen (caught by the crash recovery handler)."
     },
-    "report": "Waiting"
+    "report": ""
    },
    {
     "id": "llvm-crash-3",
-    "type": "Compiler crash (Clang front end, segmentation fault in return-type deduction)",
+    "type": "Compiler crash (Clang front end, expression classification)",
     "language": "C++ (C++20)",
     "program": "results/bug_programs_gapsmith/llvm/crash/test8.cpp",
-    "explanation": "A trailing return type that instantiates a constant-wrapper template segfaults Clang 19.1.0 in auto return-type deduction.",
+    "explanation": "A trailing return type that instantiates a constant-wrapper template whose stored callable is a multiplication functor crashes Clang 19.1.0 in ClassifyInternal (clang/lib/AST/ExprClassification.cpp:339) during auto return-type deduction. Same classification failure as the addition-functor case, reached with a different callable. The program is valid: g++-13 accepts it cleanly.",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu, release build without assertions)",
-     "command": "clang++ -std=c++20 -pedantic-errors -c test8.cpp",
+     "command": "clang++ -std=c++20 -c test8.cpp",
      "expected": "The file compiles successfully.",
-     "observed": "Segmentation fault: return-type deduction (DeduceAutoType) dereferences a null type pointer while instantiating the constant wrapper in the trailing return type."
+     "observed": "Segmentation fault: expression classification (ClassifyInternal) dereferences an invalid state while instantiating the constant wrapper in the trailing return type."
     },
-    "report": "Waiting"
+    "report": "https://github.com/llvm/llvm-project/issues/226692"
    },
    {
     "id": "llvm-crash-4",
     "type": "Compiler crash (Clang front end, deduction-guide instantiation)",
-    "language": "C++",
+    "language": "C++ (C++20)",
     "program": "results/bug_programs_gapsmith/llvm/crash/test9.cpp",
-    "explanation": "A deduction guide on an inner class template with a parameter-pack outer template crashes Clang 19.1.0 during instantiation, at any optimization level.",
+    "explanation": "A deduction guide on an inner class template whose target is decltype(sizeof...(Args)) of the outer parameter pack crashes Clang 19.1.0 while the guide is instantiated (TemplateInstantiator::TransformType), at any optimization level. g++-13 rejects the deduction-guide form (stricter front end); the Clang crash is at minimum a robustness failure (should diagnose, not crash).",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu, release build without assertions)",
-     "command": "clang++ -c test9.cpp",
+     "command": "clang++ -std=c++20 -c test9.cpp",
      "expected": "The file compiles successfully.",
-     "observed": "The compiler crashes with a stack dump while instantiating the inner class template’s deduction guide (at any optimization level, -O0 through -O3)."
+     "observed": "The compiler crashes with a stack dump while instantiating the inner class template's deduction guide (at any optimization level, -O0 through -O3)."
     },
-    "report": "Waiting"
+    "report": "https://github.com/llvm/llvm-project/issues/226693"
    }
   ],
   "Miscompilation": [
@@ -64,28 +140,28 @@
     "type": "Miscompilation (generated program crashes at runtime, -O1 only)",
     "language": "C",
     "program": "results/bug_programs_gapsmith/llvm/miscompilation/test10.c",
-    "explanation": "Clang 19.1.0 -O1 mis-compiles this switch/loop program so the binary segfaults; -O0/-O2/-O3 are correct and the source is UBSan-clean.",
+    "explanation": "Clang 19.1.0 -O1 mis-compiles this switch/loop program (7-element array, cases 0/3 in the infinite-loop guard switch) so the binary segfaults; -O0/-O2/-O3 are correct and the source is UBSan-clean (clang-19.1.7 -fsanitize=undefined at -O0). Same -O1-only runtime-crash family, different program constants and control-flow values. UBSan-clean (clang-19.1.7 -fsanitize=undefined -O0).",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu, release build without assertions)",
      "command": "clang -O1 test10.c -o a.out && ./a.out",
-     "expected": "Correct behavior: the program simply returns (exit 0). This is what the -O0, -O2 and -O3 builds do, and the source is free of undefined behavior (UBSan-clean at -O0).",
+     "expected": "Correct behavior: the program simply returns (exit 0). This is what the -O0, -O2 and -O3 builds do, and the source is free of undefined behavior.",
      "observed": "Only the -O1 build is affected: the resulting binary dies with SIGSEGV right at start (exit 139)."
     },
-    "report": "Waiting"
+    "report": "https://github.com/llvm/llvm-project/issues/226694"
    },
    {
     "id": "llvm-miscompilation-2",
-    "type": "Miscompilation (x86-64 backend: shift+mask equality compiled as a non-equivalent rotate)",
+    "type": "Miscompilation (x86-64 backend: shift+mask equality compiled as a non-equivalent rotate, _BitInt(13))",
     "language": "C (C23 _BitInt) / LLVM IR",
     "program": "results/bug_programs_gapsmith/llvm/miscompilation/test11.c",
-    "explanation": "Clang 19.1.0 for x86-64 compiles (x << 2) == (x & -4) on a 3-bit integer as a rotate comparison, giving wrong answers for 2 of 8 inputs at -O1/-O2 (-O0 is correct); an IR-level reproducer is included.",
+    "explanation": "Clang 19.1.0 for x86-64 compiles (v << 2) == (v & -4) on a 13-bit integer as a rotate comparison, giving wrong answers for inputs a=2730 and a=5461 at -O1/-O2 (-O0 is correct; UBSan-clean). The 3-bit case generalizes: the wrong fold fires whenever the shift amount does not divide the bit width. An i13 IR-level reproducer is included; the same wrong fold is visible when test11.ll is compiled with llc for x86-64. Also reproduces on clang 19.1.7. UBSan-clean; the same wrong fold reproduces on clang 19.1.7, and the i13 IR-level reproducer mismatches under llc on exactly the same two inputs.",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu); llc 19.1.0 for the IR-level reproducer",
      "command": "clang -O1 test11.c -o a.out && ./a.out   # also -O2; IR level: llc -mtriple=x86_64-linux-gnu -filetype=obj test11.ll && link test11_driver.c",
-     "expected": "Every input a in 0..7 must yield f(a<<8) per the reference table {1,3,1,3,3,1,3,1} (the -O0 build prints \"RESULT: correct\").",
-     "observed": "-O1/-O2 builds print \"RESULT: wrong\": inputs a=2 and a=5 return 3 instead of 1. The generated code compares X against rotl(X, 2) instead of evaluating (X << 2) == (X & -4) on the 3-bit value; the two forms differ whenever the shift amount does not divide the bit width. The same wrong fold is visible when test11.ll is compiled with llc for x86-64."
+     "expected": "Every input a in 0..8191 must match the reference computed in 64-bit arithmetic (the -O0 build prints \"RESULT: correct\").",
+     "observed": "-O1/-O2 builds print \"a=2730 got=3 exp=1\" and \"a=5461 got=3 exp=1\", then \"RESULT: wrong 2\". The generated code compares X against rotl(X, 2) instead of evaluating (X << 2) == (X & -4) on the 13-bit value. The llc-compiled IR reproducer mismatches on exactly the same two inputs."
     },
-    "report": "Waiting",
+    "report": "https://github.com/llvm/llvm-project/issues/226695",
     "extra_programs": [
      "results/bug_programs_gapsmith/llvm/miscompilation/test11.ll",
      "results/bug_programs_gapsmith/llvm/miscompilation/test11_driver.c"
@@ -96,90 +172,14 @@
     "type": "Miscompilation (SLP vectorizer narrows a comparison; silent wrong value)",
     "language": "C++",
     "program": "results/bug_programs_gapsmith/llvm/miscompilation/test12.cpp",
-    "explanation": "Clang 19.1.0 -O2/-O3 SLP-vectorizes an unsigned-short comparison as a signed 16-bit compare, silently printing acc=1 instead of acc=9; -O0/-O1 are correct.",
+    "explanation": "Stride variant of the SLP-narrowing miscompile: with loop strides i += 3, j += 1 over the 6x6 array, Clang 19.1.0 -O2/-O3 SLP-vectorizes the unsigned-short comparison as a signed 16-bit compare and prints acc=0 instead of acc=12; -O0/-O1 are correct, GCC 13.1 -O2 is correct, and the source is UBSan-clean. UBSan-clean; GCC 13.1 -O2 computes the correct value (12).",
     "reproduce": {
      "environment": "Clang 19.1.0 (x86-64-unknown-linux-gnu, release build without assertions)",
      "command": "clang++ -std=c++11 -O2 test12.cpp -o a.out && ./a.out",
-     "expected": "The program prints \"acc=9 (expected 9)\" (as the -O0 and -O1 builds do).",
-     "observed": "The -O2/-O3 builds print \"acc=1 (expected 9)\". No crash — the value is silently wrong."
+     "expected": "The program prints \"acc=12 (expected 12)\" (as the -O0 and -O1 builds do).",
+     "observed": "The -O2/-O3 builds print \"acc=0 (expected 12)\". No crash \u2014 the value is silently wrong."
     },
-    "report": "Waiting"
-   }
-  ]
- },
- "GCC": {
-  "Crash": [
-   {
-    "id": "gcc-crash-1",
-    "type": "Compiler crash (segmentation fault in nested-function lowering)",
-    "language": "C",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test1.c",
-    "explanation": "Two nested functions inside one function, the first carrying a section attribute, crash GCC 14.3.0 during nested-function lowering at -O1/-O2; -O0 compiles cleanly.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xgcc -B gcc-14-build/gcc -O1 -c test1.c",
-     "expected": "The file compiles successfully (as it does at -O0).",
-     "observed": "internal compiler error: Segmentation fault\nThe crash happens while lowering the nested functions (tree-nested.cc). The same crash occurs at -O2."
-    },
-    "report": "Wait for account"
-   },
-   {
-    "id": "gcc-crash-2",
-    "type": "Compiler crash (internal error in the C front end)",
-    "language": "C",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test2.c",
-    "explanation": "A ternary expression mixing a _Float16 value with an integer logical negation aborts the C front end at any optimization level.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xgcc -B gcc-14-build/gcc -c test2.c",
-     "expected": "The file compiles successfully.",
-     "observed": "internal compiler error: in build_conditional_expr, at c/c-typeck.cc:5720\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
-    },
-    "report": "Wait for account"
-   },
-   {
-    "id": "gcc-crash-3",
-    "type": "Compiler crash (internal error in constant folding, C++ front end)",
-    "language": "C++",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test3.cpp",
-    "explanation": "A pointer conversion inside a constexpr context aborts the C++ front end during constant folding, at any optimization level.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xg++ -B gcc-14-build/gcc -O0 -c test3.cpp",
-     "expected": "The file compiles successfully.",
-     "observed": "internal compiler error: in fold_convert_loc, at fold-const.cc:2757\nReproduces at every optimization level (-O0/-O1/-O2/-O3)."
-    },
-    "report": "Wait for account"
-   },
-   {
-    "id": "gcc-crash-4",
-    "type": "Compiler crash (internal error during C++ template instantiation)",
-    "language": "C++",
-    "program": "results/bug_programs_gapsmith/gcc/crash/test4.cpp",
-    "explanation": "Nested local structs whose default member initializer uses sizeof of a function-local static constexpr array crash GCC 14.3.0 while the enclosing template is instantiated, at -O0 and -O2.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu, --enable-checking build)",
-     "command": "xg++ -B gcc-14-build/gcc -c test4.cpp",
-     "expected": "The file compiles successfully.",
-     "observed": "internal compiler error: in enclosing_instantiation_of, at cp/pt.cc:15184\nReproduces at -O0 and -O2."
-    },
-    "report": "Wait for account"
-   }
-  ],
-  "Miscompilation": [
-   {
-    "id": "gcc-miscompilation-1",
-    "type": "Miscompilation (wrong control-flow merge; the generated binary crashes at runtime)",
-    "language": "C++",
-    "program": "results/bug_programs_gapsmith/gcc/miscompilation/test5.cpp",
-    "explanation": "With asm goto + a thread_local memory input + a noreturn branch, GCC 14.3.0 -O1/-O2 emits code whose labels merge before the prologue; the binary segfaults, while -O0 is correct and the source is UBSan-clean.",
-    "reproduce": {
-     "environment": "GCC 14.3.0 (x86-64-linux-gnu)",
-     "command": "xg++ -B gcc-14-build/gcc -O1 -std=c++20 test5.cpp -o a.out && ./a.out",
-     "expected": "The program runs to completion: the \"abort path\" call returns false and main exits 0 (observed with -O0, and with other compilers).",
-     "observed": "With -O1 or -O2 the generated binary segfaults on the second call: the abort label is emitted merged with the early-return label before the prologue, so `ret` pops a local variable instead of the return address."
-    },
-    "report": "Wait for account"
+    "report": "https://github.com/llvm/llvm-project/issues/226696"
    }
   ]
  }

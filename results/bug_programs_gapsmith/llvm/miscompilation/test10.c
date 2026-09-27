@@ -1,16 +1,16 @@
-int a, d, f;
-long long c[5];
+int a = 0, d = 0, f = 0;
+long long c[7];
 int g(short h) {
   long e = h & 1048575;
   switch (e)
-  case 4:
-  case 6:
+  case 0:
+  case 3:
     for (;;)
       ;
   return 0;
 }
 long i(long long *h, long j) {
-  for (int k = 0; k < 5; k++) {
+  for (int k = 0; k < 7; k++) {
     int b = h[k] ^ j;
     switch ((b + a - 50) % 6u) {
     case 3:
@@ -31,4 +31,4 @@ long i(long long *h, long j) {
   }
   return d + j + d + ((char)(d + 7) + d - 3) + f;
 }
-int main() { i(c, -976002); }
+int main() { i(c, -976002); return 0; }
