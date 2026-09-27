@@ -13,7 +13,7 @@
      "expected": "The file compiles successfully (it is valid C++20).",
      "observed": "The compiler crashes with a stack dump while generating IR for the instantiated function (ASTContext::getTypeInfoImpl reaches an undeduced auto type)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226688"
+    "report": "Waiting"
    },
    {
     "id": "llvm-crash-2",
@@ -27,7 +27,7 @@
      "expected": "The file compiles successfully.",
      "observed": "Segmentation fault (the front end queries constant-size-type info on a dependent type)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226690"
+    "report": "Waiting"
    },
    {
     "id": "llvm-crash-3",
@@ -41,7 +41,7 @@
      "expected": "The file compiles successfully.",
      "observed": "Segmentation fault: return-type deduction (DeduceAutoType) dereferences a null type pointer while instantiating the constant wrapper in the trailing return type."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226692"
+    "report": "Waiting"
    },
    {
     "id": "llvm-crash-4",
@@ -55,7 +55,7 @@
      "expected": "The file compiles successfully.",
      "observed": "The compiler crashes with a stack dump while instantiating the inner class template’s deduction guide (at any optimization level, -O0 through -O3)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226693"
+    "report": "Waiting"
    }
   ],
   "Miscompilation": [
@@ -71,7 +71,7 @@
      "expected": "Correct behavior: the program simply returns (exit 0). This is what the -O0, -O2 and -O3 builds do, and the source is free of undefined behavior (UBSan-clean at -O0).",
      "observed": "Only the -O1 build is affected: the resulting binary dies with SIGSEGV right at start (exit 139)."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226694"
+    "report": "Waiting"
    },
    {
     "id": "llvm-miscompilation-2",
@@ -85,7 +85,7 @@
      "expected": "Every input a in 0..7 must yield f(a<<8) per the reference table {1,3,1,3,3,1,3,1} (the -O0 build prints \"RESULT: correct\").",
      "observed": "-O1/-O2 builds print \"RESULT: wrong\": inputs a=2 and a=5 return 3 instead of 1. The generated code compares X against rotl(X, 2) instead of evaluating (X << 2) == (X & -4) on the 3-bit value; the two forms differ whenever the shift amount does not divide the bit width. The same wrong fold is visible when test11.ll is compiled with llc for x86-64."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226695",
+    "report": "Waiting",
     "extra_programs": [
      "results/bug_programs_gapsmith/llvm/miscompilation/test11.ll",
      "results/bug_programs_gapsmith/llvm/miscompilation/test11_driver.c"
@@ -103,7 +103,7 @@
      "expected": "The program prints \"acc=9 (expected 9)\" (as the -O0 and -O1 builds do).",
      "observed": "The -O2/-O3 builds print \"acc=1 (expected 9)\". No crash — the value is silently wrong."
     },
-    "report": "https://github.com/llvm/llvm-project/issues/226696"
+    "report": "Waiting"
    }
   ]
  },
