@@ -1,13 +1,10 @@
-template <typename... Args>
-struct outer {
-    template <typename Type>
-    struct inner {
-        inner(Args...) { }
-    };
-
-    inner(Args...) -> inner<decltype(sizeof...(Args))>;
+template <class T>
+struct Tester {
+   struct Inner { using T2 = int; };
 };
-
-int main() {
-    outer();
-}
+template <class T>
+struct W { static Tester<T>::Inner::T2 m; };
+template <class T>
+Tester<T>::Inner::T2 W<T>::m = 0;
+template <class U> void use() { (void)W<U>::m; }
+template void use<int>();

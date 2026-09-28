@@ -1,7 +1,7 @@
-int a = 0, d = 0, f = 0;
+int a, d, f;
 long long c[7];
 int g(short h) {
-  long e = h & 1048575;
+  long e = h & 255;
   switch (e)
   case 0:
   case 3:

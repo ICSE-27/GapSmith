@@ -1,18 +1,9 @@
-template <auto V>
-struct ConstantWrapper {
-  static constexpr auto value = V;
-
-  template <class... Ts>
-  constexpr auto operator()(Ts... args) const -> ConstantWrapper<value(Ts::value...)> {
-    return {};
-  }
+template <class T>
+struct Tester {
+   struct Inner { using T2 = int; };
 };
-
-struct Times {
-  template <class T, class U>
-  constexpr auto operator()(T&& t, U&& u) const -> decltype(static_cast<T&&>(t) * static_cast<U&&>(u)) {
-    return static_cast<T&&>(t) * static_cast<U&&>(u);
-  }
-};
-
-constexpr auto cwv = ConstantWrapper<Times{}>{}(ConstantWrapper<42>{}, ConstantWrapper<17>{});
+template <class T>
+struct W { static Tester<T>::Inner::T2 m[2]; };
+template <class T>
+Tester<T>::Inner::T2 W<T>::m[2] = {1, 2};
+template struct W<int>;

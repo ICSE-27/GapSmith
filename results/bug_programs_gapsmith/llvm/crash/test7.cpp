@@ -1,16 +1,10 @@
-template<int& T>
-void FuncTemplate() { (void)T; }
-
-template<int i> class A {};
-template<int i> void g(A<i> &) {
-    []()
-    {
-        static int InternalVar = 43;
-        FuncTemplate<InternalVar>();
-    }();
-}
-
-int main() {
-  A<1> a;
-  g(a);
-}
+template <class T>
+struct Tester {
+   struct Inner { using T2 = int; };
+   static void test();
+};
+template <class T>
+struct W { static Tester<T>::Inner::T2 m; };
+template <class T>
+Tester<T>::Inner::T2 W<T>::m = 0;
+template struct W<int>;
