@@ -89,7 +89,7 @@
      "expected": "The file compiles successfully.",
      "observed": "The compiler crashes with a stack dump whose top frames are DenseMap<clang::Expr const*, llvm::Value*>::moveFromOldBuckets <- grow <- InsertIntoBucket <- CodeGenFunction::getVLASize (caught by the crash recovery handler)."
     },
-    "report": ""
+    "report": "https://github.com/llvm/llvm-project/issues/226883"
    },
    {
     "id": "llvm-crash-2",
@@ -103,7 +103,7 @@
      "expected": "A diagnostic error (missing typename), as g++ produces.",
      "observed": "The compiler crashes with a stack dump in CodeGenModule::HandleCXXStaticMemberVarInstantiation. Reproduces at every optimization level and language mode; also on clang 19.1.7."
     },
-    "report": ""
+    "report": "https://github.com/llvm/llvm-project/issues/226884"
    },
    {
     "id": "llvm-crash-3",
@@ -117,7 +117,7 @@
      "expected": "A diagnostic error (missing typename), as g++ produces.",
      "observed": "The compiler crashes with a stack dump in CodeGenTypes::ConvertTypeForMem. Reproduces at every optimization level; also on clang 19.1.7."
     },
-    "report": ""
+    "report": "https://github.com/llvm/llvm-project/issues/226885"
    },
    {
     "id": "llvm-crash-4",
@@ -131,7 +131,7 @@
      "expected": "A diagnostic error (missing typename), as g++ produces.",
      "observed": "The compiler crashes with a stack dump in EmitGlobalVarDeclLValue (CGExpr.cpp:2857). Reproduces at every optimization level; also on clang 19.1.7."
     },
-    "report": ""
+    "report": "https://github.com/llvm/llvm-project/issues/226886"
    }
   ],
   "Miscompilation": [
